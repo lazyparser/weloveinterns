@@ -1,7 +1,7 @@
 # weloveinterns
 中科院软件所XLab机器人组实习生培训及工作日常，以git仓库的形式呈现。
 
-**想要加入我们？给我发邮件吧！** mailto: wuwei2016♥︎iscas☻ac☻cn
+**想要加入我们？给我发邮件吧！** mailto: wuwei2016♥︎iscas☻ac☻cn s/☻/./g
 
 # 实习生看这里
 
