@@ -38,6 +38,23 @@
 
 - 在聊天窗口中使用 /todo help
 
+## reminder
+使用`/remind`功能提醒自己或他人不要忘记某些事项。
+
+slack help center：
+
+[ ] https://get.slack.help/hc/en-us/articles/208423427-Setting-reminders
+
+使用语法：
+
+在任意slack窗口输入：
+
+  `/remind [@someone or #channel] [what] [when]`
+example:
+  `/remind me every weekday at 2pm to take a coffee break`
+
+到时 slackbot会自动发送消息提醒。
+
 ## github
 
 - TBD
