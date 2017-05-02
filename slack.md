@@ -46,11 +46,10 @@ slack help center：
 [ ] https://get.slack.help/hc/en-us/articles/208423427-Setting-reminders
 
 使用语法：
-
-在任意slack窗口输入：
-
   `/remind [@someone or #channel] [what] [when]`
-example:
+
+例如(任意聊天窗口输入）：
+
   `/remind me every weekday at 2pm to take a coffee break`
 
 到时 slackbot会自动发送消息提醒。
