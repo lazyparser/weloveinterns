@@ -4,11 +4,11 @@
 
 [想要加入我们？给我发邮件吧:)](mailto:wuwei2016@iscas.ac.cn)
 
-更新wiki请fork本项目并提交PR，具体参见[wikihome]。
+更新wiki请fork本项目并提交PR，具体参见[wikihome](https://github.com/lazyparser/weloveinterns/wiki)。
 
 # 实习生看这里
 
-第一天加入？从[wikihome]这里开始：
+第一天加入？从[wikihome](https://github.com/lazyparser/weloveinterns/wiki)这里开始：
 
 内训技能树清单：[skills.md](skills.md)
 
@@ -18,5 +18,4 @@
 
 进度报告：[reports.md](reports.md)
 
-[wikihome](https://github.com/lazyparser/weloveinterns/wiki)
 
