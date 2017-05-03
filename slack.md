@@ -26,6 +26,10 @@
 
 - 在聊天频道中 @ 一个人
 
+### 一些日常操作习惯
+
+- slack在线的时候可以发送一句 `/away` 标记自己在线，下线了再敲一句 `/away` 改成下线， 这样同事我就可以避免在你下线的时候找你了。
+
 ## todolist
 
 基本的todolist操作能力 https://www.todobot.io/slack/
