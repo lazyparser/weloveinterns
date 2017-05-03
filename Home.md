@@ -21,7 +21,7 @@ git checkout -b update-1
 # editing...
 git add --all
 git commit -m "write-some-meanningful-comments"
-git push origin:update-1
+git push origin update-1
 
 # finally :)
 Request a PR on github!

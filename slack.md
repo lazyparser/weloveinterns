@@ -45,17 +45,15 @@
 ## reminder
 使用`/remind`功能提醒自己或他人不要忘记某些事项。
 
-slack help center：
-
-[ ] https://get.slack.help/hc/en-us/articles/208423427-Setting-reminders
+[slack help center](https://get.slack.help/hc/en-us/articles/208423427-Setting-reminders)
 
 使用语法：
-
-    `/remind [@someone or #channel] [what] [when]`
+　　
+　　`/remind [@someone or #channel] [what] [when]`
 
 例如(任意聊天窗口输入）：
 
-    `/remind me every weekday at 2pm to take a coffee break`
+　　`/remind me every weekday at 2pm to take a coffee break`
 
 到时 slackbot 会自动发送消息提醒。
 
