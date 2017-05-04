@@ -27,6 +27,4 @@ git push origin update-1
 Request a PR on github!
 ```
 
-### add a Image to MarkDown
 
-![fork](https://github.com/CnGuoYX/weloveinterns/blob/develop/resources/Image/fork.png)
