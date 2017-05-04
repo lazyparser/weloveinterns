@@ -8,19 +8,21 @@
 ***
 ### PR（pull request)流程
 
-1. 进行fork操作
+1. _进行fork操作_
+
 	进入需要fork的项目的github主页：
 	![fork](resources/Image/fork.png)
 	点击fork按钮，即会fork一份相同代码至自己的github主页。
 
-2. clone代码
+2. _clone代码_
+
 	fork代码后，即可在自己的开发环境下clone代码
 	clone有(https\ssh)两种方式，注意区别：
 	![clone](resources/Image/clone.png)
 
 　　`git clone [图片中的地址]`
 
-3. 建立分支-修改-提交到自己的代码
+3. _建立分支-修改-提交到自己的代码_
 
 	保持代码库干净整洁，养成良好习惯才能在大项目的时候减少出错。
 	
@@ -44,9 +46,9 @@
 　　git push
 ```
 
-4. github主页提交PR
+4. _github主页提交PR_
 	![NewPR](resources/Image/NewPR.png)
 	
 	![CreatePR](resources/Image/CreatePR.png)
 	
-5. 等待项目维护者审核Merge
+5. _等待项目维护者审核Merge_
