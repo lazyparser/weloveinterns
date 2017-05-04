@@ -47,8 +47,8 @@
 
 [slack help center](https://get.slack.help/hc/en-us/articles/208423427-Setting-reminders)
 
-使用语法：
-　　
+使用语法:
+
 　　`/remind [@someone or #channel] [what] [when]`
 
 例如(任意聊天窗口输入）：
