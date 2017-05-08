@@ -74,6 +74,26 @@
 
 输入栏按ctrl+shift+\，可打开表情库；
 
+## 从一句发言开始创建新的thread
+
+thread 在slack中并不是作为线程来用，而是用来针对某人发出的话语进行讨论，可以多人参与。（类似于朋友圈中的回复功能）
+
+使用方法：
+1.对于别人的发言，点击发言框右上角这个按钮：（我这里使用todobot进行演示）
+![thread1](https://github.com/lazyparser/weloveinterns/blob/master/resources/Image/thread1.png)
+2.然后就可以添加回复，比如我输入“test thread”：
+![thread2](https://github.com/lazyparser/weloveinterns/blob/master/resources/Image/thread2.png)
+点击send。回复成功
+3.点击slack左侧的All Thread，在
+
+这里就可以看到跟你相关的所有消息回复。
+![thread3](https://github.com/lazyparser/weloveinterns/blob/master/resources/Image/thread3.png)
+
+使用threads的好处：
+
+- 可以对某个话题进行小讨论，这样可以避免影响其他人的正常工作。（因为如果直接回复一条新消息的话，会使得channel里的所有人都收到消息通知）
+- 让大家参与到讨论的同时，又不至于使得聊天记录变得很混乱，这样方便了后期对聊天记录的查找。
+
 ## github
 
 - TBD
