@@ -67,6 +67,13 @@
 
 到时 slackbot 会自动发送消息提醒。
 
+## reaction
+[Emoji-reactions](https://get.slack.help/hc/en-us/articles/206870317-Emoji-reactions)
+
+聊天框里每句话的右上角，鼠标指向此位置出现add reaction和start a thread等框，点击可对该句给予回应；
+
+输入栏按ctrl+shift+\，可打开表情库；
+
 ## github
 
 - TBD
