@@ -6,7 +6,17 @@
 
 ## 基本slack操作能力
 
-[ ] https://get.slack.help/hc/en-us/categories/202622877-Slack-Guides
+[Slack-Guides](https://get.slack.help/hc/en-us/categories/202622877-Slack-Guides)
+
+[Get-around-faster](https://get.slack.help/hc/en-us/articles/217626598-Get-around-faster)
+
+[Setting-reminders](https://get.slack.help/hc/en-us/articles/208423427-Setting-reminders)
+
+[Slack-for-project-management](https://get.slack.help/hc/en-us/articles/218130338-Slack-for-project-management)
+
+[Format-better-messages](https://get.slack.help/hc/en-us/articles/218080247-Format-better-messages)
+
+[Slack-glossary](https://get.slack.help/hc/en-us/articles/213817348-Slack-glossary)
 
 - 正确注册和加入slack
 
@@ -47,8 +57,8 @@
 
 [slack help center](https://get.slack.help/hc/en-us/articles/208423427-Setting-reminders)
 
-使用语法：
-　　
+使用语法:
+
 　　`/remind [@someone or #channel] [what] [when]`
 
 例如(任意聊天窗口输入）：
