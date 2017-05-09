@@ -84,9 +84,8 @@ thread 在slack中并不是作为线程来用，而是用来针对某人发出�
 2.然后就可以添加回复，比如我输入“test thread”：
 ![thread2](https://github.com/lazyparser/weloveinterns/blob/master/resources/Image/thread2.PNG)
 点击send。回复成功
-3.点击slack左侧的All Thread，在
+3.点击slack左侧的All Thread，在这里就可以看到跟你相关的所有消息回复。
 
-这里就可以看到跟你相关的所有消息回复。
 ![thread3](https://github.com/lazyparser/weloveinterns/blob/master/resources/Image/thread3.PNG)
 
 使用threads的好处：
