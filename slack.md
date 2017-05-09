@@ -79,6 +79,7 @@
 thread 在slack中并不是作为线程来用，而是用来针对某人发出的话语进行讨论，可以多人参与。（类似于朋友圈中的回复功能）
 
 使用方法：
+
 1.对于别人的发言，点击发言框右上角这个按钮：（我这里使用todobot进行演示）
 
 ![thread1](https://github.com/lazyparser/weloveinterns/blob/master/resources/Image/thread1.PNG)
@@ -88,6 +89,7 @@ thread 在slack中并不是作为线程来用，而是用来针对某人发出�
 ![thread2](https://github.com/lazyparser/weloveinterns/blob/master/resources/Image/thread2.PNG)
 
 点击send。回复成功
+
 3.点击slack左侧的All Thread，在这里就可以看到跟你相关的所有消息回复。
 
 ![thread3](https://github.com/lazyparser/weloveinterns/blob/master/resources/Image/thread3.PNG)
