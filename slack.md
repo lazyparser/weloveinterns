@@ -72,7 +72,18 @@
 
 聊天框里每句话的右上角，鼠标指向此位置出现add reaction和start a thread等框，点击可对该句给予回应；
 
-输入栏按ctrl+shift+\，可打开表情库；
+输入栏按快捷键ctrl+shift+\，可打开表情库；
+
+## direct messages
+[Direct-messages-and-group-DMs](https://get.slack.help/hc/en-us/articles/212281468-Direct-messages-and-group-DMs)
+
+开启对话，与一人的单独对话或9人以下的组对话；
+
+点击左侧竖栏的Direct Messages后的“+”，打开direct messages界面，选择一个或多个成员，开启对话；
+
+任意输入栏输入/dm(或/msg) @ww，可打开与用户@ww的对话框发送单独消息；
+
+输入栏按快捷键ctrl+shift+K（window）或cmd+shift+K，打开direct messages界面；
 
 ## 从一句发言开始创建新的thread
 
