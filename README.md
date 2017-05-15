@@ -12,7 +12,7 @@
 
 内训技能树清单：[skills.md](skills.md)
 
-完整详细的内训结业测试清单： [capacity-checklist.md](capacity-checklist.md)
+完整详细的内训结业测试清单： [capability-checklist.md](capability-checklist.md)
 
 开放任务列表（可认领）： [tasklist.md](tasklist.md)
 

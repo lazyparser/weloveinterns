@@ -6,7 +6,7 @@ Welcome to the weloveinterns wiki! We❤️Interns!
 欢迎对机器人系统以及安卓开发感兴趣的同学[加入我们](mailto:wuwei2016@iscas.ac.cn)!
 
 [内训技能树清单](skills.md) |
-[完整详细的内训结业测试清单](capacity-checklist.md) |
+[完整详细的内训结业测试清单](capability-checklist.md) |
 [开放任务列表](tasklist.md) |
 [线上会议日程及纪要](meetings.md) |
 [线下活动目录](events.md) |
