@@ -1,4 +1,4 @@
-TODO: 添加实习生内训结束时需要掌握的技能点
+TODO:  Linux命令行  Pro git 
 
 TODO: 将该checklist的记录和PR流程加入到工作流中
 
