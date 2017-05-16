@@ -1,6 +1,8 @@
-TODO: Linux命令行
-文件处理相关：
-
+TODO:   
+Linux命令行  
+   文件处理相关：TLCL 前六章  
+Progit  
+   前三章
 
 
 TODO: 将该checklist的记录和PR流程加入到工作流中
