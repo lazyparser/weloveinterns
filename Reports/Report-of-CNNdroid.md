@@ -5,7 +5,7 @@ Github根目录里面有一个CNNdroid Complete Developers Guide and Installatio
 
 第一个大坑！Github上提供了一些Demo，但是这些Demo都是运行不了的。问题大概出在Android的调用上，并非框架本身的问题。我花了好几天调试这些Demo，蛋痛的很。后来自己写了一个，放在[Gtihub](https://github.com/nephashi/cnndroid_demo)上。在AVD里跑大概长这样。
 
-![image](resources/Image/CNNDroid/demo_appearance.png)
+![image](/nephashi/weloveinterns/raw/master/resources/Image/CNNDroid/demo_appearance.png)
 
 不要嫌我的UI丑TAT。这是用CIFAR10模型预测图片的示例。点一下Start加载参数，点一下compute从资源里加载一张静态图片并且预测，输出预测结果。运行这个demo之前，先把框架给出的Data_Cifar10文件夹放到sdcard根目录下，确保能读到这些文件。
 
