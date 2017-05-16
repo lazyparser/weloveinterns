@@ -18,6 +18,8 @@
 
 [Slack-glossary](https://get.slack.help/hc/en-us/articles/213817348-Slack-glossary)
 
+[Slack-Do Not Disturb and snooze Settings](https://get.slack.help/hc/en-us/articles/214908388-Do-Not-Disturb-and-snooze-settings)
+
 - 正确注册和加入slack
 
 - 在手机、iPad、Mac／Windows上正确安装和配置好slack
