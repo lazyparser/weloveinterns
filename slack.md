@@ -81,9 +81,13 @@
 
 **如何创建channel**：在Slack左侧列表上方有'+'号，可以创建channel；
 
+![创建channel](https://github.com/robin18532/weloveinterns/tree/slack-channels-tips/resources/Image/add-channel.PNG)
+
 **channel分类**：public channel和private channel. 在创建时会允许用户设置channel类型，默认为public,用户也
 
 可以修改为privae；然后添加channel名字和channel的用途描述；
+
+![创建界面](https://github.com/robin18532/weloveinterns/tree/slack-channels-tips/resources/Image/channel-create.PNG)
 
 **不同类型channel的作用**：public channel内的消息对于整个team的人可见，且组员可自己申请加入；而private channel中
 
@@ -91,7 +95,7 @@
 
 **如何识别channel类型**： private channel左端有一个小锁图案; public channel是没有的;
 
-
+![private-channel](https://github.com/robin18532/weloveinterns/tree/slack-channels-tips/resources/Image/privatechannel.PNG)
 
 ## direct messages
 [Direct-messages-and-group-DMs](https://get.slack.help/hc/en-us/articles/212281468-Direct-messages-and-group-DMs)
