@@ -17,7 +17,8 @@
 [Format-better-messages](https://get.slack.help/hc/en-us/articles/218080247-Format-better-messages)
 
 [Slack-glossary](https://get.slack.help/hc/en-us/articles/213817348-Slack-glossary)
-[Channels and Private Channels](https://get.slack.help/hc/en-us/articles/201925108-About-channels-and-direct-messages)
+
+[Channels](https://get.slack.help/hc/en-us/articles/201925108-About-channels-and-direct-messages)
 
 - 正确注册和加入slack
 
@@ -75,20 +76,20 @@
 
 输入栏按快捷键ctrl+shift+\，可打开表情库；
 
-## channels and private channels
-[channels and private channels](https://get.slack.help/hc/en-us/articles/201925108-About-channels-and-direct-messages)
+## channels
+[channels](https://get.slack.help/hc/en-us/articles/201925108-About-channels-and-direct-messages)
 
-首先是如何创建channel：在Slack左侧列表上方有'+'号，可以创建channel；
+**如何创建channel**：在Slack左侧列表上方有'+'号，可以创建channel；
 
-channel分类：public和private. 在创建时会允许用户设置channel类型，默认为public,用户也
+**channel分类**：public channel和private channel. 在创建时会允许用户设置channel类型，默认为public,用户也
 
 可以修改为privae；然后添加channel名字和channel的用途描述；
 
-不同类型channel的作用：公共channel内的消息对于整个team的人可见，且组员可自己申请加入；而private channel中
+**不同类型channel的作用**：public channel内的消息对于整个team的人可见，且组员可自己申请加入；而private channel中
 
 的消息仅对此channel内成员可见，且channel不可被搜索. team其它成员想要加入，必须以被邀请的形式加入。
 
-如何识别channel类型： private channel左端有一个小锁图案; public channel是没有的;
+**如何识别channel类型**： private channel左端有一个小锁图案; public channel是没有的;
 
 
 
