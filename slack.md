@@ -85,7 +85,7 @@
 
 **如何创建channel**：在Slack左侧列表上方有'+'号，可以创建channel；
 
-![add-channel](https://github.com/robin18532/weloveinterns/blob/slack-channels-tips/resources/Image/add-channel.PNG)
+![add-channel](resources/Image/add-channel.PNG)
 
 **channel分类**：public channel和private channel. 在创建时会允许用户设置channel类型，默认为public,用户也
 
