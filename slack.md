@@ -20,6 +20,7 @@
 
 [Slack-Do Not Disturb and snooze Settings](https://get.slack.help/hc/en-us/articles/214908388-Do-Not-Disturb-and-snooze-settings)
 
+
 - 正确注册和加入slack
 
 - 在手机、iPad、Mac／Windows上正确安装和配置好slack
@@ -78,6 +79,27 @@
 聊天框里每句话的右上角，鼠标指向此位置出现add reaction和start a thread等框，点击可对该句给予回应；
 
 输入栏按快捷键ctrl+shift+\，可打开表情库；
+
+## channels
+[channels](https://get.slack.help/hc/en-us/articles/201925108-About-channels-and-direct-messages)
+
+**如何创建channel**：在Slack左侧列表上方有'+'号，可以创建channel；
+
+![add-channel](https://github.com/robin18532/weloveinterns/blob/slack-channels-tips/resources/Image/add-channel.PNG)
+
+**channel分类**：public channel和private channel. 在创建时会允许用户设置channel类型，默认为public,用户也
+
+可以修改为privae；然后添加channel名字和channel的用途描述；
+
+![channel-create](https://github.com/robin18532/weloveinterns/blob/slack-channels-tips/resources/Image/channel-create.PNG)
+
+**不同类型channel的作用**：public channel内的消息对于整个team的人可见，且组员可自己申请加入；而private channel中
+
+的消息仅对此channel内成员可见，且channel不可被搜索. team其它成员想要加入，必须以被邀请的形式加入。
+
+**如何识别channel类型**： private channel左端有一个小锁图案; public channel是没有的;
+
+![privatechannel](https://github.com/robin18532/weloveinterns/blob/slack-channels-tips/resources/Image/privatechannel.PNG)
 
 ## direct messages
 [Direct-messages-and-group-DMs](https://get.slack.help/hc/en-us/articles/212281468-Direct-messages-and-group-DMs)
