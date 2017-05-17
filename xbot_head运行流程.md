@@ -1,4 +1,4 @@
-#xbot_head运行流程
+# xbot_head运行流程
 
 xbot_head安装到安卓移动端，ROS服务器运行于Ubuntu电脑，与优图服务器接入同一局域网，则可成功运行；
 
@@ -24,57 +24,65 @@ xbot_head安装到安卓移动端，ROS服务器运行于Ubuntu电脑，与优�
 
 ![IMG2](C:\Users\qy\Desktop\QQ图片20170517144548.png)
 
-之后设备上安装完成一个名为“优图人脸识别前段”的应用。
+之后设备上安装完成一个名为“优图人脸识别前端”的应用。
 
 -3.安装ubuntu系统
 
 给装此系统的电脑插上安装U盘，重启电脑；
 
-开机时按F2键（取决于机型，可顺次按F1~F10键尝试），弹出bios界面，选择用U盘启动；
+开机时按F2键（取决于机型，一般是 F12 F9 F2 F7,可顺次按F1~F10键尝试），弹出bios界面，选择用U盘启动；
 
 按照提示安装系统。
 
 -4.安装ROS
 
-[ROS_Kinetic](http://wiki.ros.org/kinetic/Installation/Ubuntu)安装Kinetic版本；
+[ROS_Kinetic](http://wiki.ros.org/kinetic/Installation/Ubuntu)
 
-在Ubuntu系统中打开命令行：ctrl+t;
+如果是ubuntu16.04，用kinetic；如果是14.04，用indigo；
+
+在Ubuntu系统中打开命令行：ctrl+alt+t;
 
 * 配置 Ubuntu 软件仓库
 
 * 添加 sources.list，配置你的电脑使其能够安装来自 packages.ros.org的软件包
 
-sudo sh -c 'echo "deb http://packages.ros.org/ros/ubuntu $(lsb_release -sc) main" > /etc/apt/sources.list.d/ros-latest.list'
+  sudo sh -c 'echo "deb http://packages.ros.org/ros/ubuntu $(lsb_release -sc) main" > /etc/apt/sources.list.d/ros-latest.list'
 
 * 添加Keys
 
-sudo apt-key adv --keyserver hkp://pool.sks-keyservers.net --recv-key 421C365BD9FF1F717815A3895523BAEEB01FA116
+  sudo apt-key adv --keyserver hkp://pool.sks-keyservers.net --recv-key 421C365BD9FF1F717815A3895523BAEEB01FA116
 
 * 确保安装包是最新的
 
-sudo apt-get update
+  sudo apt-get update
 
 *完整版安装
 
-sudo apt-get install ros-kinetic-desktop-full
+  sudo apt-get install ros-kinetic-desktop-full
 
 * 初始化rep
 
-sudo rosdep init
-rosdep update
+  sudo rosdep init
+  rosdep update
 
 * 环境配置，确保把 . /opt/ros/indigo/setup.sh 这行配置放在 ~/.bashrc 里；
 
-echo "source /opt/ros/kinetic/setup.bash" >> ~/.bashrc
-source ~/.bashrc
+  echo "source /opt/ros/kinetic/setup.bash" >> ~/.bashrc
+  source ~/.bashrc
 
 * 安装rosinstall
 
-sudo apt-get install python-rosinstall
+  sudo apt-get install python-rosinstall
 
 -5.启动ROSbrige服务
 
-在命令行运行roslaunch rosbridge_server rosbridge_websocket.launch；
+在命令行运行如下命令：
 
-另开一个命令行，运行netstat -tnlpu4，确认9090 端口和 11311 端口都开始监听。
+  roslaunch rosbridge_server rosbridge_websocket.launch
+
+另开一个命令行，运行：
+
+  netstat -tnlpu4
+  
+确认9090 端口和 11311 端口都开始监听。
 
