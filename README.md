@@ -12,10 +12,12 @@
 
 内训技能树清单：[skills.md](skills.md)
 
+完整详细的内训结业测试清单： [capability-checklist.md](capability-checklist.md)
+
+开放任务列表（可认领）： [tasklist.md](tasklist.md)
+
 线上会议日程及纪要：[meetings.md](meetings.md)
 
 线下活动目录：[events.md](events.md)
 
 进度报告：[reports.md](reports.md)
-
-
