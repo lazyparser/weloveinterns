@@ -20,6 +20,7 @@
 
 [Slack-Do Not Disturb and snooze Settings](https://get.slack.help/hc/en-us/articles/214908388-Do-Not-Disturb-and-snooze-settings)
 
+[Slack-Shortcuts](https://get.slack.help/hc/en-us/articles/201374536-Slack-keyboard-shortcuts#quick-list-of-shortcuts)
 
 - 正确注册和加入slack
 
