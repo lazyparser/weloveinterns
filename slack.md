@@ -92,7 +92,11 @@
 
 可以修改为privae；然后添加channel名字和channel的用途描述；
 
+<<<<<<< HEAD
 ![channel-create](resources/Image/channel-create.PNG)
+=======
+![channel-create](https://github.com/robin18532/weloveinterns/blob/slack-channels-tips/resources/Image/channel-create.PNG)
+>>>>>>> 8d8bcfba21995ff03d4bf37a10f3cbf1b90f557a
 
 **不同类型channel的作用**：public channel内的消息对于整个team的人可见，且组员可自己申请加入；而private channel中
 
@@ -100,7 +104,11 @@
 
 **如何识别channel类型**： private channel左端有一个小锁图案; public channel是没有的;
 
+<<<<<<< HEAD
 ![privatechannel](resources/Image/privatechannel.PNG)
+=======
+![privatechannel](https://github.com/robin18532/weloveinterns/blob/slack-channels-tips/resources/Image/privatechannel.PNG)
+>>>>>>> 8d8bcfba21995ff03d4bf37a10f3cbf1b90f557a
 
 ## direct messages
 [Direct-messages-and-group-DMs](https://get.slack.help/hc/en-us/articles/212281468-Direct-messages-and-group-DMs)
