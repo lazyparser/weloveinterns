@@ -62,7 +62,7 @@
 ## reminder
 使用`/remind`功能提醒自己或他人不要忘记某些事项。
 
-[slack help center](https://get.slack.help/hc/en-us/articles/208423427-Setting-reminders)
+[set reminders](https://get.slack.help/hc/en-us/articles/208423427-Setting-reminders)
 
 使用语法:
 
