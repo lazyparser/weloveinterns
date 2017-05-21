@@ -1,6 +1,4 @@
-[sidebar](_Sidebar.md)
-
-[slack](slack.md)
+[[slack tips|slack]]
 
 [git](git.md)
 
