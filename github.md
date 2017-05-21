@@ -51,3 +51,14 @@
 	![CreatePR](resources/Image/CreatePR.png)
 	
 5. **等待项目维护者审核Merge**
+
+
+6. **同步更新本地和github代码**
+    当代码通过review，项目维护者Merge了我们提交的代码之后，还需要将本地仓库与你的github仓库同步更新：
+
+```bash	
+	git fetch -v --all
+    git checkout master
+    git pull lazyparser master
+    git push origin master
+```

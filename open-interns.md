@@ -24,7 +24,7 @@
 
 **关于远程工作：** 除了ROS设备相关的实习工作需要来软件所xlab现场调试机器人之外，其它岗位默认都是远程办公（or work from home）。
 
-**协作方式：** 我们通过 [slack](slack.com) + [GitHub](github.com) 作为主要的协作工具。偶尔也用微信/QQ。
+**协作方式：** 我们通过 [slack](https://slack.com) + [GitHub](https://github.com) 作为主要的协作工具。偶尔也用微信/QQ。
 
 **实习工资：** 很少，基本上等于没有😂
 

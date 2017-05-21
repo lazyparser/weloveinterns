@@ -1,15 +1,13 @@
-sidebar
+[[slack tips|slack]]
 
-slack
+[git](git.md)
 
-git
+[GitHub](github.md)
 
-github
+[wiki/markdown](markdown-checklist.md )
 
-wiki/markdown
+[android](android-checklist.md)
 
-android
+[ROS](ros-checklist.md)
 
-ROS
-
-Linux
+[Linux](linux-checklist.md)
