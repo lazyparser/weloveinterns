@@ -4,7 +4,7 @@
 
 首先在科大讯飞的[开放平台](http://www.xfyun.cn/)注册账号，然后注册成为开发者，（要输入手机号还要绑定邮箱等等），并创建一个自己的应用。
 
-创建应用的界面如下：![tts1](../resources/Image/tts1.png)
+创建应用的界面如下：![tts1](../images/tts1.png)
 
 填写完信息后，点击提交就创建成功了。
 
@@ -14,7 +14,7 @@
 
 创建好应用后，进入**控制台**（在讯飞网站页面的右上角），就可以看到自己刚才创建好的应用。我创建的应用名字为Xbot：
 
-![tts2](../resources/Image/tts2.png)
+![tts2](../images/tts2.png)
 
 注意：这里有一个APPid，这个APPid在我们的Android代码中会用到。
 
@@ -26,7 +26,7 @@ SDK下载：
 
 在下载页面中（页面有点长就不上图了），在“选择服务”中选择**在线语音合成**，在“选择平台”中选择**Android**，在“选择应用”中点击**刚才创建的应用**。
 
-解压开之后，就会看到里面有如下的东西。![tts3](../resources/Image/tts3.png)
+解压开之后，就会看到里面有如下的东西。![tts3](../images/tts3.png)
 
 其中doc文件夹中是一些帮助文档和JavaDoc，sample文件夹中是一些App的代码，libs中是我们要用到的库。
 
@@ -34,7 +34,7 @@ SDK下载：
 
 在libs文件夹中有如下的文件：
 
-![tts4](../resources/Image/tts4.png)
+![tts4](../images/tts4.png)
 
 
 这些文件夹中的是.so文件，而最下面的两个是jar包。
@@ -49,7 +49,7 @@ SDK下载：
 
 如下图所示：
 
-![tts5](../resources/Image/tts5.png)
+![tts5](../images/tts5.png)
 
 将Msc.jar和Sunflower.jar放在**项目的libs文件夹**，然后在这两个jar包上，鼠标右键点击，然后再点击"Add as library"，应用到当前项目中。
 
@@ -228,7 +228,7 @@ public void onEvent(int arg0, int arg1, int arg2, Bundle arg3) {}
 
 从MSC目录中可以看到，还可以集成如下的许多功能：
 
-![tts6](../resources/Image/tts6.png)
+![tts6](../images/tts6.png)
 
 
 
