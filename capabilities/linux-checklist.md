@@ -232,8 +232,8 @@ mv 与 cp 一样，也可以附加一些选项，常见选项如下：
 
 ln命令既可以创建硬链接也可以创建符号链接，用法如下：
 
-ln item link		//创建硬链接
-ln -s item link		//创建符号链接
+    ln item link		//创建硬链接
+    ln -s item link		//创建符号链接
 
 **注意**
 > 硬链接无法关联其所在文件系统之外的文件,不与链接在同一分区，无法关联
@@ -244,17 +244,117 @@ ln -s item link		//创建符号链接
 
 相当于一个快捷方式
 
-ls -s fun fun-sym			//fun-sym 链接到 fun
-ls -s ../fun dir1/fun-sym		//dir1文件夹下的一个fun-sym链接到上一级目录中的fun文件
-ls -s ../fun dir2/fun-sym
+    ls -s fun fun-sym			//fun-sym 链接到 fun
+    ls -s ../fun dir1/fun-sym		//dir1文件夹下的一个fun-sym链接到上一级目录中的fun文件
+    ls -s ../fun dir2/fun-sym
 
 创建符号链接，既可以使用绝对路径，也可以使用相对路径。另外，符号链接也可以关联目录。
 
 当对链接进行操作时，我们实际上时对链接所指向的对象进行操作。但rm命令除外
 
-rm fun-sym
-rm fun-hard
+    rm fun-sym
+    rm fun-hard
 
 都是删除链接本身，而不会删除链接指向的对象
 
 当我们删除链接指向的对象后，与对象相关联的链接随之损坏
+
+## 5 命令
+
+常用命令以及意义如下：
+
+    命令			   	意义
+
+    type				 说明一个命令的属性
+    which			   显示会执行那个可执行程序
+    man			   	 显示命令手册
+    apropos		   显示一系列合适的命令
+    info				 显示命令info
+    whatis			 显示一个命令的简介描述
+    alias				 创建命令别名
+
+### 5.1 type 命令显示命令的类型
+
+    type command
+
+例如输入一些命令名测试如下：
+
+    type type
+    type ls
+
+### 5.2 which 命令显示一个可执行程序的位置
+
+    which ls
+
+注意，此命令只对可执行程序有效，不包括内部命令和命令别名
+
+例如 cd 命令，是一个shell内部命令，用 which 命令查找时得不到正确的回应
+
+要查看一个命令的属性，可以用上面的 type 命令，如果是内部命令，会提示
+
+built-in
+
+### 5.3 help 得到内部命令的帮助文档
+
+用法如下：
+
+    help command
+
+许多可执行程序也支持 --help 选项，用以显示命令的用法说明：
+
+    mkdir --help
+
+### 5.4 man 显示程序手册页
+
+用法：
+
+    man command
+
+此命令在 less 阅读程序中显示命令的参考手册，分为及部分，各部分对应如下：
+
+    章节				内容
+
+    1				   用户命令名
+    2				   程序接口的内核系统调用
+    3				   C库函数程序接口
+    4          特殊文件，比如设备节点和驱动程序
+    5          文件格式
+    6          游戏娱乐，如屏幕保护程序
+    7          其它方面
+    8          系统管理命令
+
+可以用man命令制定显示章节内容，例如
+
+    man 5 passwd
+
+### 5.5 apropos 显示适当的命令
+
+    apropos search_term
+
+用以搜寻含有search_term的参考文档
+
+man命令加上 “-k” 选项,也能完成此项工作
+
+### 5.6 whatis 显示命令的简要说明
+
+### 5.7 info 显示程序 info 信息
+
+### 5.8 alias 定义命令别名
+
+如果你觉得linux常用的命令行太长或者太难记，则可以用别名来替代，这样每次只需要输入别名
+
+即可启动命令. 别名定义方法：
+
+    alias newName='command1; command2; command3'
+
+注意 “newName” 和 “=” 之间是没有空格存在的.
+
+下次我们想运行 command1，comman2,command3 时，即可直接输入 newName
+
+若要删除别名，则只需输入如下命令：
+
+    unalias newName
+
+需要注意的是，直接在命令行中定义的别名只是暂时的，如果关闭了终端，再次打开终端时，
+
+别名就消失了，如要长期保持别名存在，需要在系统文件中定义.
