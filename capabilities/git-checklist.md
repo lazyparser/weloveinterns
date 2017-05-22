@@ -20,19 +20,14 @@
     git branch -a                        显示远程仓库分支（红色标出）
     git push origin --delete branch1     删除远程分支
     git fetch                            从远程对应分支上更新本地没有的内容
-    git pull                             从远程分支上拉取本地没有的内容（更新）
+    git pull url                         从url远程仓库上拉取本地没有的内容（更新）
     git merge branch1                    将branch1合并到当前分支
     git push origin master               将本地master分支推送到远程master分支
-    git push                             将当前分支推送到远程对应分支
+    git push                             将当前分支推送到远程对应分支（远程有对应分支）
+    git push origin thisBranch           将当前分支推送到远程thisBranch分支，如果没有，则创建
     git log                              查看本项目的修改日志
-    git
 
-
-
-
-
-
-
+TODO：Continue...
 
 ## PR提交方法以及常见的问题
 
