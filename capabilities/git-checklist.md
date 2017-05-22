@@ -1,3 +1,39 @@
+# git 常用操作学习
+
+## git 编辑操作
+
+    命令                                  意义
+
+    git add filename                     保存当前修改
+    git commit                           提交当前修改
+    git commit -m "description"          提交当前修改，并附加“description”说明
+
+## git分支操作
+
+    命令                                  意义
+
+    git status                           查看当前分支状态
+    git branch                           显示本地所有分支以及当前所在分支（以*号标出）
+    git checkout -b newBranch            创建并转移到新的分支
+    git checkout branch1                 转移到已经存在的branch1分支
+    git branch -d branch1                删除branch1分支（需要在master分之下）
+    git branch -a                        显示远程仓库分支（红色标出）
+    git push origin --delete branch1     删除远程分支
+    git fetch                            从远程对应分支上更新本地没有的内容
+    git pull                             从远程分支上拉取本地没有的内容（更新）
+    git merge branch1                    将branch1合并到当前分支
+    git push origin master               将本地master分支推送到远程master分支
+    git push                             将当前分支推送到远程对应分支
+    git log                              查看本项目的修改日志
+    git
+
+
+
+
+
+
+
+
 ## PR提交方法以及常见的问题
 
 这里讲述一般的情况，提交PR的流程。首先我们假定你想对别人的开源项目做一份贡献，提交自己的修改建议，而
