@@ -11,14 +11,14 @@
 1. **进行fork操作**
 
 	进入需要fork的项目的github主页：
-	![fork](resources/Image/fork.png)
+	![fork](images/fork.png)
 	点击fork按钮，即会fork一份相同代码至自己的github主页。
 
 2. **clone代码**
 
 	fork代码后，即可在自己的开发环境下clone代码
 	clone有(https\ssh)两种方式，注意区别：
-	![clone](resources/Image/clone.png)
+	![clone](images/clone.png)
 
 　　`git clone [图片中的地址]`
 
@@ -46,19 +46,20 @@
 ```
 
 4. **github主页提交PR**
-	![NewPR](resources/Image/NewPR.png)
+	![NewPR](images/NewPR.png)
 	
-	![CreatePR](resources/Image/CreatePR.png)
+	![CreatePR](images/CreatePR.png)
 	
 5. **等待项目维护者审核Merge**
 
 
 6. **同步更新本地和github代码**
-    当代码通过review，项目维护者Merge了我们提交的代码之后，还需要将本地仓库与你的github仓库同步更新：
+    
+	当代码通过review，项目维护者Merge了我们提交的代码之后，还需要将本地仓库与你的github仓库同步更新：
 
 ```bash	
-	git fetch -v --all
+    git fetch -v --all
     git checkout master
     git pull lazyparser master
-    git push origin master
+    git push origin master (optional)
 ```
