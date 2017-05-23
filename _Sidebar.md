@@ -1,13 +1,13 @@
 [[slack tips|slack]]
 
-[git](git.md)
+[[git|git]]
 
-[GitHub](github.md)
+[[GitHub|github]]
 
-[wiki/markdown](markdown-checklist.md )
+[[wiki/markdown|markdown-checklist]]
 
-[android](android-checklist.md)
+[[android|android-checklist]]
 
-[ROS](ros-checklist.md)
+[[ROS|ros-checklist]]
 
-[Linux](linux-checklist.md)
+[[Linux|linux-checklist]]
