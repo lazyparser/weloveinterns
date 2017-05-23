@@ -3,7 +3,9 @@
 ### ScanNet是什么
 
 	ScanNet是一个针对3D深度学习的基于（RGB-D)的视频数据集，包含有707个场景下的
-	2.5M个RGB-D图片，这些图片均带有3D相机位姿标注、外观重建、语义分割。[官方网站](http://www.scan-net.org/)
+	2.5M个RGB-D图片，这些图片均带有3D相机位姿标注、外观重建、语义分割。
+	
+	[官方网站](http://www.scan-net.org/)
 
 ### ScanNet应用场景
 
@@ -17,7 +19,9 @@
 ### ScanNet数据获取方式
 
 	数据集中的数据获取相对比较简单易行，过程如下述图片:
-	![ScanNetData](resources/Image/ScanNetData.png)
+
+![ScanNetData](resources/Image/ScanNetData.png)
+
 	- 首先使用ipad+一个RGB-D相机录取场景信息
 	- 然后上传至服务器，服务器上对视频中的场景进行重建及分割
 	- 最后通过亚马逊的“众包”平台分发任务，让工作者通过提示进行最后语义标记等任务。
