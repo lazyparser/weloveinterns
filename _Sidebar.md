@@ -4,10 +4,10 @@
 
 [[GitHub|github]]
 
-[[wiki/markdown|markdown-checklist]]
+[[wiki/markdown|capabilities/markdown-checklist]]
 
-[[android|android-checklist]]
+[[android|capabilities/android-checklist]]
 
-[[ROS|ros-checklist]]
+[[ROS|capabilities/ros-checklist]]
 
-[[Linux|linux-checklist]]
+[[Linux|capabilities/linux-checklist]]
