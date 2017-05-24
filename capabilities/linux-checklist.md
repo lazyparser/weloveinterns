@@ -803,4 +803,84 @@ Ctrl+c 中断一个程序，注意，后台程序是不能采用此方法中断�
 
 ## 10. Shell环境
 
+    printenv                打印部分或者所有的环境变量
+    set                     设置 shell 选项
+    export                  导出环境变量
+    alias                   设置命令别名
+
+    printenv | less         将环境变量输出到 less 程序中查看
+    printenv USER           打印变量名为 USER 的值
+
+    set | less              输出变量到 less 程序中，且变量按字母顺序排列
+
+    echo $HOME              查看 HOME 变量内容
+
+如果一个变量既不能用set命令来显示，也不能用printenv来显示，那么这个变量是别名, 可用
+
+不加参数的alias命令来查看
+
+    alias
+
+### 10.1 shell中常见的变量
+
+    变量                    内容
+
+    DISPLAY                显示器的名字，通常是“:0”,表示登陆的第一个显示器
+    EDITOR                 文本编辑器的名字
+    SHELL                  shell程序名字
+    HOME                   用户家目录
+    LANG                   定义了字符集和语言编码方式
+    OLD_PWD                先前的工作目录
+    PAGER                  页输出程序的名字,一般为less程序
+    PATH                   目录列表，由冒号分开，用以命令搜索
+    PS1                    定义shell提示符内容
+    PWD                    当前工作目录
+    TERM                   终端类型名
+    TZ                     指定所在时区
+    USER                   用户名
+
+### 10.2 常见的shell文件
+
+    文件                   内容
+
+    /etc/profile          应用于所有用户的全局配置脚本
+    ~/.bash_profile       用户私人的启动文件
+    ~/.bash_login         如果文件~/.bash_profile没有找到，则尝试读取此文件
+    ~/.profile            如果~/.bash_profile和~/.bash_login都没找到，尝试读取此文件
+
+    /etc/bash.bashrc      应用于所有用户的全局配置文件
+    ~/.bashrc             非登陆shell会话用户的私有启动文件
+
+### 10.3 修改shell环境
+
+例如，打开.bashrc文件，为保险起见，可创建.bashrc的文件副本.bashrc.bak.
+
+用自己喜欢的编辑器打开并添加以下内容：
+
+    #change umask to make directory sharing easier
+    umask 0002
+
+    #ignore duplicates in command history and increases
+    #history size to 1000 lines
+
+    export HISTCONTROL=ignoredups
+    export HISTCONTROL=1000
+
+    #add some helpful aliases
+    alias ll='ls -l --color=auto'
+
+shell环境修改之后，不会立即生效，还需关闭终端再打开，因为.bashrc文件只会在终端启动
+
+时被读取. 如果想要强制bash重新读取修改，可使用如下命令：
+
+    source .bashrc
+
+这样我们所做的修改就会体现在新的shell会话里，例如我们可以输入命令别名ll
+
+    ll
+
+*******************************************************************************
+
+## 11. vi 文本编辑器
+
 TODO
