@@ -133,7 +133,7 @@ TODO：Continue...
 
   选择希望合并的分支——>发起合并请求（pull-request）——>添加合并理由——>发送
 
-*无法自动合并 / can't automatically merge / 自动合并冲突* 的问题 **
+### 合并冲突问题
 
   经常的情况是，你向项目源作者提交分支合并请求时出现上述问题，无法自动合并. 这是因为你自己仓库中的修改
 
@@ -147,6 +147,38 @@ TODO：Continue...
 
   最为方便的是本地编辑方法：
 
-  首先从远程要合并的仓库(项目源仓库)拉取最新版本 *git pull url*
-
-可以看到自己更新了哪些文件. 拉取成功之后，再次推送本地仓库到自己的远程仓库, 然后再次发起合并请求即可
+  首先从远程要合并的仓库(项目源仓库)拉取最新版本：
+  
+      git pull url
+      
+  可以看到自己更新了哪些文件. 拉取成功之后，再次推送本地仓库到自己的远程仓库, 然后再次发起合并请求即可
+  
+1. 中断合并：
+  
+      git merge --abort
+      
+2. 解决由空白字符引起的合并冲突：
+  
+      git merge -Xignore-space-change whitespace
+  
+3. 手动合并：
+  
+  取出原版本，新版本，你修改的版本这3个文件：
+       
+      $ git show :1:hello.rb > hello.common.rb
+      $ git show :2:hello.rb > hello.ours.rb
+      $ git show :3:hello.rb > hello.theirs.rb
+  
+  手动修复如上文件
+   
+      git merge-file -p hello.ours.rb hello.common.rb hello.theirs.rb > hello.rb
+      
+  比较合并差异：
+  
+      git diff --ours
+      git diff --theirs
+      git diff --base
+  
+  清理合并中产生的三个额外文件：
+  
+      git clean -f
