@@ -1208,4 +1208,195 @@ find命令还有其他大量不同的测试条件，下面列出了一些常见�
 
 效果等同于上面的删除命令   
 
+*************************************************************
+
+## 归档和备份
+
+    gzip                压缩或者展开文件
+    bzip2               块排序文件压缩器
+
+    tar                 磁带打包工具
+    zip                 打包压缩文件
+
+    rsync               同步远端文件和目录
+
+### 压缩文件
+
+#### gzip & gunzip 压缩与解压缩命令
+
+执行gzip压缩命令时，压缩文件会替代原来的文件，并以.gz作为文件后缀
+
+    gzip filename
+
+可以在当前目录下得到filename.gz文件，而原来的文件则被替代.
+
+再次运行gunzip命令可以得到原始文件，而压缩文件则被替代.
+
+    gunzip filename.gz
+
+gzip命令有许多选项，常见选项如下：
+
+    选项                说明
+
+    -c                  把输出写入到标准输出，保留原始文件
+    -d                  解压缩，同gunzip
+    -f                  强制压缩，即使已经存在了压缩文件
+    -h                  显示用法信息，同--help
+    -l                  列出每个被压缩文件的压缩数据
+    -r                  递归压缩目录中的文件
+    -t                  测试压缩文件的完整性
+    -v                  显示压缩过程中的信息
+    -number             设置压缩指数，1(最快)到9(最慢)之间的整数
+
+#### bzip2 & bunzip2 块排序压缩与解压缩
+
+bzip程序用法与gzip基本相同，只是采用了不同的压缩算法，压缩后
+
+的文件后缀不同，为.bz2
+
+### 归档文件
+
+#### tar
+
+用法如下：
+
+    tar mode [options] pathname...
+
+这里mode常见的有以下操作模式：
+
+    c                   为文件或目录列表创建归档文件
+    x                   抽取归档文件
+    r                   追加具体的路径到归档文件末尾
+    t                   列出归档文件的内容
+
+例如：
+
+首先创建一些文件夹和文件：
+
+    han@han:~$ mkdir -p playground/dir-{00{1..9},0{10..99},100}
+    han@han:~$ touch playground/dir-{00{1..9},0{10..99},100}/file-{A-Z}
+
+如上即可创建dir-001到dir-100的整整100个文件夹，且每个文件夹内都有
+
+26个文件.
+    tar cf playground.tar playground
+
+此命令创建了名为playground.tar的tar包,其中包含整个playground
+
+的目录层次结果，模式c和选项f，用来指定tar包的名字，注意，
+
+必须首先指定模式，然后才能指定其它选项
+
+如果要查看归档内容，可以用以下命令：
+
+    tar tf playground.tar
+    tar tvf playground.tar
+
+后一条指令可以显示更加详细的列表信息
+
+**抽取tar包到新位置**
+
+    tar xf path/playground.tar
+
+抽取playground.tar中的文件到当前目录下
+
+需要注意的一点tar指令默认使用相对目录，如果在生成tar包时
+
+原文件使用了绝对路径，则生成的tar包内包含所有的文件路径
+
+例如：
+
+    tar cf playground2.tar ~/playground
+
+原文件使用了绝对路径，会展开成/home/han/playground,
+
+此时如果抽取文件playground2.tar, 如下：
+
+    tar xf playground2.tar
+    ls
+
+可发现ls输出的文件列表里多出了一个home文件夹，而并不是我们
+
+所期望的playground
+
+从归档文件中抽取内容时，可以制定抽取的内容，例如：
+
+    tar xf archive.tar pathname
+
+    tar xf playground2.tar --wildcards 'home/han/playground/dir-\*/file-A'
+
+上述第二条指令表示从playground2.tar中抽取file-A文件
+
+另外,tar命令经常与find命令同时使用,从而归档搜索到的文件
+
+    find playground -name 'file-A' -exec tar rf playground.tar '{}' '+'
+
+唤醒带有追加模式的tar命令
+
+    find playground -name 'file-A' | tar cf - --files-from=- | gzip > playground
+
+在上面这个例子里面，find产生匹配文件列表，管道进入tar命令,指定"-"为
+
+标准输入或输出,--files-from选项使得tar命令从一个文件而不是命令行来
+
+读取其路径名列表，这里指定了文件为"-"，也就是从标准输入输出来读取，
+
+最后，tar命令生成的tar包管道到gzip命令生成playground.tgz文件
+
+### 同步文件和目录
+
+    rsync options source destination
+
+source和destination为以下选项之一：
+
+> 本地文件或目录
+> 一个远端文件或目录，以[user@]host:path的形式存在
+> 一个远端服务器,由rsync://[user@]host[port]/path指定
+
+注意source和destination之一必须为本地文件,rsync不支持远端到远端的复制
+
+例如，同步playground目录和它在foo目录中相对应的副本
+
+    rsync -av playground foo
+
+-a选项是递归和保护文件属性，-v选项是冗余输出
+
+注意，rsync命令只会更新foo中没有的项目，如果两者已经相同，则不会有
+
+复制更新
+
+******************************************************************
+
+## 正则表达式
+正则表达式是一种符号表示法，用来识别文本模式，与shell
+
+匹配文件和路径的通配符比较相似
+
+### grep命令
+
+grep命令前面已经学过，用于匹配特定字符串，用法如下:
+
+    grep string
+    ls /usr/bin | grep zip
+
+表示列出位于目录/usr/bin中，文件名中包含zip的所有文件
+
+grep的完整形式为
+
+    grep [options] regex [file...]
+
+regex就是一个正则表达式，例如我们上面的zip，常见的option
+
+选项如下：
+
+    选项                描述
+
+    -i                  忽略大小写
+    -v                  打印不匹配的项，即取反
+    -c                  打印匹配数量，而不是文本行本身
+    -l                  打印包含匹配项的文本名
+    -L                  打印不包含匹配项的文本名
+    -n                  在每个匹配行之前打印出其位于文件中的相应行号
+    -h                  应用于多文件搜索，不输出文件名
+
 TODO
