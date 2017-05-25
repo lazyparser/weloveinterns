@@ -3,7 +3,7 @@ https://git-scm.com/book/zh/v2
 
 如何把这个仓库的内容更新到自己fork的远程仓库？
 
-'''
+```
 D:\git\weloveinterns>git remote -v
 nepha   https://github.com/nephashi/weloveinterns (fetch)
 nepha   https://github.com/nephashi/weloveinterns (push)
@@ -44,5 +44,5 @@ Total 127 (delta 60), reused 122 (delta 56)
 remote: Resolving deltas: 100% (60/60), completed with 8 local objects.
 To https://github.com/nephashi/weloveinterns
    4db8407..8ba0376  master -> master
-'''
+```
 
