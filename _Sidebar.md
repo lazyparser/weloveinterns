@@ -4,10 +4,10 @@
 
 [[GitHub|github]]
 
-[[wiki/markdown|capabilities/markdown-checklist]]
+[wiki/markdown](https://github.com/lazyparser/weloveinterns/blob/master/capabilities/markdown-checklist.md)
 
-[[android|capabilities/android-checklist]]
+[Android](https://github.com/lazyparser/weloveinterns/blob/master/capabilities/android-checklist.md)
 
-[[ROS|capabilities/ros-checklist]]
+[ROS](https://github.com/lazyparser/weloveinterns/blob/master/capabilities/ros-checklist.md)
 
-[[Linux|capabilities/linux-checklist]]
+[Linux](https://github.com/lazyparser/weloveinterns/blob/master/capabilities/linux-checklist.md)
