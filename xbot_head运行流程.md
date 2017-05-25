@@ -95,6 +95,6 @@ xbot_head安装到安卓移动端，ROS服务器运行于Ubuntu电脑，与优�
 
 * 安装ros后，在执行roslaunch rosbridge_server rosbridge_websocket.launch命令时，如果报错：[rosbridge_websocket.launch] is neither a launch file in package [rosbridge_server] nor is [rosbridge_server] a launch file name.此时说明rosbridge没有安装。解决方式：
 
-sudo apt-get install ros-[rosdistr]-rosbridge-server
+  sudo apt-get install ros-[rosdistr]-rosbridge-server
 
-[rosdistr]指你的ros版本，执行时把它替换为对应的字符串。我的是kinetic
+  [rosdistr]指你的ros版本，执行时把它替换为对应的字符串。我的是kinetic
