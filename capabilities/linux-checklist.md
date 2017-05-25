@@ -1032,4 +1032,174 @@ vi有三种模式，命令模式，插入模式，观察者模式，下面是一
 
 命令，将当前文件保存为名为filename的文件.
 
+********************************************************
+
+## 12. 软件包管理  
+
+    sudo apt-get install name                 从网上资源库安装名为name的软件
+    dpkg --install package_file               从软件包安装软件
+    sudo apt-get update;sudo apt-get upgrade  更新软件
+    sudo apt-get remove package_name          卸载软件
+    dpkg --install package_file               从软件包更新软件
+
+    dpkg --list                               列出安装的所有软件包
+    dpkg --status package_name                查看是否安装了某个软件
+    apt-cache show package_name               显示所安装软件包的信息
+    dpkg --search file_name                   查找安装了某个文件的软件包
+
+*******************************************************************
+
+## 13. 存储媒介
+
+    命令名                      作用
+
+    mount                       挂载一个文件系统
+    umount                      卸载一个文件系统
+    fsck                        检查和修复一个文件系统
+    fdisk                       分区表控制器
+    mkfs                        创建文件系统
+    fdformat                    格式化一张软盘
+    dd                          把面向块的数据直接写入设备
+    genisoimage(mkisofs)        创建一个ISO9660的镜像文件
+    wodim(cdrecord)             把数据写入光存储媒介
+    md5sum                      计算MD5检验码
+
+### 13.1 挂载和卸载存储设备
+
+执行不带参数的mount命令可查看当前挂载的文件系统
+
+
+***********************************************************
+
+## 查找文件
+
+    locate                  通过名字查找文件
+    find                    在目录层次结构中搜索文件
+    xargs                   从标准输入生成执行命令行
+    touch                   更改文件时间
+    stat                    显示文件或者文件系统状态
+
+### locate 查找文件
+
+    locate bin/zip          输出包含 bin/zip 字符串的所有路径或者文件
+    locate zip | grep bin   将搜索到的包含zip字符串的路径管道到grep，匹配含有bin的选项
+
+### find 更复杂的文件查找命令
+
+    find ~                  输出家目录列表（~代表家目录，常用）
+    find ~ | wc -l          输出家目录列表,并管道进wc统计列表行数
+    find ~ -type d | wc -l  限制只搜索目录
+    find ~ -type f | wc -l  限制只搜索文件
+
+    文件类型                代表含义
+
+    b                       块设备文件
+    c                       字符设备文件
+    d                       目录
+    f                       普通文件
+    l                       符号链接
+
+同时，我们也可以根据其他一些条件来限制搜索范围，例如下面的例子：
+
+    find ~ -type f -name "\*.JPG" -size +1M | wc -l
+
+即表示我们希望有文件名以.JPG结尾和文件大小大于1M的文件
+
+常被用来指定的测量单位有以下几种：
+
+    符号                    大小
+
+    b                       512字节块
+    c                       字节
+    w                       两个字节的字
+    k                       千字节（1024个字节单位）
+    M                       兆字节(1048576个字节单位)
+    G                       千兆字节(1073741824个字节单位)
+
+find命令还有其他大量不同的测试条件，下面列出了一些常见的测试条件
+
+    测试条件                描述
+
+    -cmin n                 匹配
+    -cnewer file            匹配文件和目录内容或属性最后修改时间早于file
+    -ctime n                匹配文件和目录最后修改时间在n小时之前
+    -empty                  匹配空文件和目录
+    -group name             匹配的文件和目录属于一个组,组可用组名或组ID表示
+    -iname pattern          类似于-name，但不区分大小写
+    -inum n                 匹配的文件的inode号是n
+    -mmin m                 匹配的文件被修改于n分钟之前
+    -mtime n                匹配的文件或目录的内容被修改于n小时之前
+    -name pattern           用指定的通配符模式匹配的文件和目录
+    -newer file             匹配的文件和目录的内容早于制定的文件
+    -nouser                 匹配的文件和目录不属于一个有效用户
+    -nogroup                匹配的文件和目录不属于一个有效组
+    -perm mode              匹配的文件和目录的全权限已经设置为指定的mode
+    -samefile name          类似于-inum测试条件
+    -size n                 匹配大小为n的文件
+    -type c                 匹配文件类型是c的文件
+    -user name              匹配的文件或目录属于某个用户
+
+更详细的列表可参见find命令手册
+
+### 操作符
+
+    操作符                  描述
+
+    -and                    两边同时满足
+    -or                     只满足一个即可
+    -not                    不满足此条件的选项
+    ()                      组合测试条件和操作符，控制逻辑优先级
+观察如下命令：
+
+    find ~ \( -type f -not -perm 0600 \) -or \( -type d -not -perm 0700 \)
+
+意即我们想查找权限不是0600的文件和权限不是0700的目录.
+
+带有操作符的find查找命令通用格式如下：
+
+    ( expression 1 ) -operator ( expression 2 )
+
+需要注意的是，圆括号需要用转义符进行转义. 另外，-and命令是find默认的操作符，
+
+通常情况下可以省略.
+
+### 预定义的操作
+
+    操作                描述
+
+    -delete             删除当前匹配的文件
+    -ls                 对匹配的文件执行等同的 ls-dils命令
+    -print              把匹配文件的全路径名输送到标准输出，为默认操作
+    -quit               一旦找到匹配，退出
+
+例如，如果要删除符合一定条件的文件，扩展名为“.BAK”，可使用如下命令：
+
+    find ~ -type f -name '*.BAK' -delete
+
+需要注意，在执行删除操作之前一定要了解自己所要删除的文件，尽量防止误删
+
+可用 -print命令代替-delete命令先查看所要删除的文件
+
+### 用户定义行为
+
+除了上述提到的预定义行为外，我们也可以在find后定制自己的命令，可通过
+
+    -exec command {} ;
+
+的方式来对find搜索到的结果进行处理，例如可以使用rm命令来达到上述-delete
+
+命令的效果:
+
+    find ~ -type f -name '*.BAK' -exec rm '{}' ';'
+
+效果等同于上面的删除命令
+
+
+
+
+
+
+
+   
+
 TODO
