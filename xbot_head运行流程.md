@@ -8,7 +8,7 @@ xbot_head安装到安卓移动端，ROS服务器运行于Ubuntu电脑，与优�
 
 选择合适机型安装包下载并安装；
 
-![IMG1](https://github.com/gyworthit/weloveinterns/blob/master/images/1.png)
+![IMG1](images/1.png)
 
 
 遇如上弹窗直接点击cancel；
@@ -23,7 +23,7 @@ xbot_head安装到安卓移动端，ROS服务器运行于Ubuntu电脑，与优�
 
 运行工程，点击run‘app’，选择该设备，从而完成在设备上的安装；
 
-![IMG2](https://github.com/gyworthit/weloveinterns/blob/master/images/2.png)
+![IMG2](images/2.png)
 
 之后设备上安装完成一个名为“优图人脸识别前端”的应用。
 
