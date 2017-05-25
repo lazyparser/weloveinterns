@@ -64,11 +64,13 @@ xbot_head安装到安卓移动端，ROS服务器运行于Ubuntu电脑，与优�
 * 初始化rep
 
   sudo rosdep init
+  
   rosdep update
 
 * 环境配置，确保把 . /opt/ros/indigo/setup.sh 这行配置放在 ~/.bashrc 里；
 
   echo "source /opt/ros/kinetic/setup.bash" >> ~/.bashrc
+  
   source ~/.bashrc
 
 * 安装rosinstall
@@ -87,3 +89,12 @@ xbot_head安装到安卓移动端，ROS服务器运行于Ubuntu电脑，与优�
   
 确认9090 端口和 11311 端口都开始监听。
 
+-6.Troubleshooting
+
+* 安装ros后，在执行roslaunch rosbridge_server rosbridge_websocket.launch命令时，如果报错：The program 'roslaunch' is currently not installed. 说明/opt/ros/kinetic/setup.bash没有被执行。此时source ~/.bashrc，或者重启计算机。
+
+* 安装ros后，在执行roslaunch rosbridge_server rosbridge_websocket.launch命令时，如果报错：[rosbridge_websocket.launch] is neither a launch file in package [rosbridge_server] nor is [rosbridge_server] a launch file name.此时说明rosbridge没有安装。解决方式：
+
+sudo apt-get install ros-[rosdistr]-rosbridge-server
+
+[rosdistr]指你的ros版本，执行时把它替换为对应的字符串。我的是kinetic
