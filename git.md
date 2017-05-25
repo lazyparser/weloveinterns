@@ -1,7 +1,7 @@
-must read:
+1.must read:
 https://git-scm.com/book/zh/v2
 
-如何把这个仓库的内容更新到自己fork的远程仓库？
+2.如何把这个仓库的内容更新到自己fork的远程仓库？
 
 ```
 D:\git\weloveinterns>git remote -v
