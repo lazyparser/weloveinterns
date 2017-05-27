@@ -20,7 +20,7 @@
 
 	数据集中的数据获取相对比较简单易行，过程如下述图片:
 
-![ScanNetData](images/ScanNetData.png)
+![ScanNetData](../images/ScanNetData.png)
 
 	- 首先使用ipad+一个RGB-D相机录取场景信息
 	- 然后上传至服务器，服务器上对视频中的场景进行重建及分割
