@@ -8,7 +8,7 @@ xbot_head安装到安卓移动端，ROS服务器运行于Ubuntu电脑，与优�
 
 选择合适机型安装包下载并安装；
 
-![IMG1](images/1.png)
+![IMG1](../images/1.png)
 
 
 遇如上弹窗直接点击cancel；
@@ -23,7 +23,7 @@ xbot_head安装到安卓移动端，ROS服务器运行于Ubuntu电脑，与优�
 
 运行工程，点击run‘app’，选择该设备，从而完成在设备上的安装；
 
-![IMG2](images/2.png)
+![IMG2](../images/2.png)
 
 之后设备上安装完成一个名为“优图人脸识别前端”的应用。
 
@@ -47,54 +47,103 @@ xbot_head安装到安卓移动端，ROS服务器运行于Ubuntu电脑，与优�
 
 * 添加 sources.list，配置你的电脑使其能够安装来自 packages.ros.org的软件包
 
+```bash
   sudo sh -c 'echo "deb http://packages.ros.org/ros/ubuntu $(lsb_release -sc) main" > /etc/apt/sources.list.d/ros-latest.list'
+```
 
 * 添加Keys
 
+```bash
   sudo apt-key adv --keyserver hkp://pool.sks-keyservers.net --recv-key 421C365BD9FF1F717815A3895523BAEEB01FA116
+```
 
 * 确保安装包是最新的
 
+```bash
   sudo apt-get update
+```
 
 *完整版安装
 
+```bash
   sudo apt-get install ros-kinetic-desktop-full
+```
 
 * 初始化rep
 
+```bash
   sudo rosdep init
   
   rosdep update
+```
 
 * 环境配置，确保把 . /opt/ros/indigo/setup.sh 这行配置放在 ~/.bashrc 里；
 
+```bash
   echo "source /opt/ros/kinetic/setup.bash" >> ~/.bashrc
-  
   source ~/.bashrc
+```
 
 * 安装rosinstall
 
+```bash
   sudo apt-get install python-rosinstall
+```
 
 -5.启动ROSbrige服务
 
 在命令行运行如下命令：
 
+```bash
   roslaunch rosbridge_server rosbridge_websocket.launch
+```
 
 另开一个命令行，运行：
 
+```bash
   netstat -tnlpu4
-  
+```
+
 确认9090 端口和 11311 端口都开始监听。
 
 -6.Troubleshooting
 
-* 安装ros后，在执行roslaunch rosbridge_server rosbridge_websocket.launch命令时，如果报错：The program 'roslaunch' is currently not installed. 说明/opt/ros/kinetic/setup.bash没有被执行。此时source ~/.bashrc，或者重启计算机。
+* 安装ros后，在执行
 
-* 安装ros后，在执行roslaunch rosbridge_server rosbridge_websocket.launch命令时，如果报错：[rosbridge_websocket.launch] is neither a launch file in package [rosbridge_server] nor is [rosbridge_server] a launch file name.此时说明rosbridge没有安装。解决方式：
+```bash
+roslaunch rosbridge_server rosbridge_websocket.launch
+```
 
+命令时，如果报错：
+
+```bash
+The program 'roslaunch' is currently not installed. 
+```
+
+说明/opt/ros/kinetic/setup.bash没有被执行。此时
+
+```bash
+source ~/.bashrc
+```
+
+或者重启计算机。
+
+* 安装ros后，在执行
+
+```bash
+roslaunch rosbridge_server rosbridge_websocket.launch
+```
+
+命令时，如果报错：
+
+```bash
+[rosbridge_websocket.launch] is neither a launch file in package [rosbridge_server] nor is [rosbridge_server] a launch file name.
+```
+
+此时说明rosbridge没有安装。解决方式：
+
+```bash
   sudo apt-get install ros-[rosdistr]-rosbridge-server
+```
 
   [rosdistr]指你的ros版本，执行时把它替换为对应的字符串。我的是kinetic
