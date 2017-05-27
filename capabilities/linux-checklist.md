@@ -1754,4 +1754,184 @@ cut程序被用来从文本行中抽取文本，并把其输出到标准输出�
 
 paste功能与cut功能相对应，可以认为是cut的反过程
 
+#### join 往文件中添加列
+
+其输入为多个具有一个或多个共同列元素的文件，输出为合并
+
+重复列的合并文件，例如：
+
+    han@han:~$ head foo.txt
+    aan root
+    cheng master
+    zheng junior
+    han@han:~$ head foo2.txt
+    aan 111
+    cheng 222
+    zheng 333
+    han@han:~$ join foo2.txt foo.txt | head
+    aan 111 root
+    cheng 222 master
+    zheng 333 junior
+
+这里需要注意的是，在实践过程中发现，如果共享数据域不在同一位置(开头)，
+
+则无法使用join进行合并
+
+### 比较文本
+
+#### comm 比较共同项
+
+使用方法如下：
+
+    han@han:~$ head alpha1.txt
+    a
+    b
+    c
+    d
+    han@han:~$ head alpha2.txt
+    b
+    c
+    d
+    e
+    han@han:~$ comm alpha1.txt alpha2.txt 
+    a
+            b
+            c
+            d
+       e
+
+上面输出结果中，第一列表示第一个文件独有的，第二列表示第二个文件独有的
+
+第三列表示两者共同有的元素
+
+需要注意的是，在实践过程中发现，只有当两个比较的内容都是单列时，comm才
+
+能发挥作用，否则如下例子：
+
+    han@han:~$ head foo.txt
+    aan
+    cheng
+    zheng
+    han@han:~$ head foo2.txt
+    aan 111
+    cheng 222
+    zheng 333
+    han@han:~$ comm foo.txt foo2.txt
+    aan
+            aan 111
+    cheng
+            cheng 222
+    zheng
+            zheng 333
+
+可以看出，第一个文件和第二个文件尽管有相同的内容，但是由于第二个文件
+
+不是单列，comm认为其两列就是一列，因此文件一和文件二的内容完全不同
+
+#### diff 比较文件差异
+
+    han@han:~$ diff alpha1.txt alpha2.txt
+    1d0
+    < a
+    4a4
+    > e
+
+diff程序使用上下文搜索模式时(-c),可以看到如下输出:
+
+    han@han:~$ diff -c alpha1.txt alpha2.txt
+    *** alpha1.txt  2017-05-27 09:46:37.752125763 +0800
+    --- alpha2.txt  2017-05-27 09:47:22.813567092 +0800
+    ***************
+    *** 1,4 ****
+    - a
+      b
+      c
+      d
+    --- 1,4 ----
+      b
+      c
+      d
+    + e
+
+可以看到上面结果中，多出来了很多信息，
+
+    ***1,4****          第一个文件1-4行
+    ---1,4----          第二个文件1-4行
+    
+此外还有其他的指示符 - + 等
+
+diff输出常见的指示符如下：
+
+    blank               上下文显示行，不代表差异
+    -                   删除行，只在第一个文件中
+    +                   添加行，只在第二个文件中
+    !                   更改行，显示某个文本行的两个版本
+
+同时，diff也有统一模式(-u)，类似于上下文模式，但更简洁
+
+    han@han:~$ diff -u alpha1.txt alpha2.txt
+    --- alpha1.txt  2017-05-27 09:46:37.752125763 +0800
+    +++ alpha2.txt  2017-05-27 09:47:22.813567092 +0800
+    @@ -1,4 +1,4 @@
+    -a
+     b
+     c
+     d
+    +e
+
+统一模式下的开头字符意义如下：
+
+    空格                两个文件都包含这一行，相同
+    -                   在第一个文件中删除此行
+    +                   添加这一行到第一个文件中
+
+#### patch 
+
+patch程序常和diff配合使用，用来合并修改，例如：
+
+    han@han:~$ diff -Naur alpha1.txt alpha2.txt > diff_file
+    han@han:~$ cat diff_file 
+    --- alpha1.txt  2017-05-27 09:46:37.752125763 +0800
+    +++ alpha2.txt  2017-05-27 09:47:22.813567092 +0800
+    @@ -1,4 +1,4 @@
+    -a
+     b
+     c
+     d
+    +e
+    han@han:~$ patch < diff_file 
+    patching file alpha1.txt
+    han@han:~$ cat alpha1.txt 
+    b
+    c
+    d
+    e
+
+从输出结果可以看出，我们在文件alpha2.txt中所做的修改应用到了
+
+alpha1.txt中，从而使得，alpha1.txt与新文件alpha2.txt相同
+
+#### tr 更改字符
+
+例如：
+
+    han@han:~$ echo "lowercase letters" | tr a-z A-Z
+    LOWERCASE LETTERS
+
+当然，也有可能这样转换：
+
+    han@han:~$ echo "lowercase letters" | tr [:lower:] A
+    AAAAAAAAA AAAAAAA
+
+tr命令可以跟选项-d表示删除特定字符进行转换，如下：
+
+    tr -d '\r' < old-file > new-file
+
+表示将old-file中的换行符\r删掉，将转换的内容保存到新文件new-file
+
+中去.
+
+#### sed 流编辑器
+
+
 TODO
