@@ -1655,7 +1655,7 @@ cat命令有两个经常用到的选项
     [1]+  Stopped                 cat > foo.txt
     han@han:~$ cat -ns foo.txt
          1  a
-         2 
+         2
          3  c
 
 可以看到，每行输出都有编号，且我们输入时多余的空白符在显示时被删除掉
@@ -1793,7 +1793,7 @@ paste功能与cut功能相对应，可以认为是cut的反过程
     c
     d
     e
-    han@han:~$ comm alpha1.txt alpha2.txt 
+    han@han:~$ comm alpha1.txt alpha2.txt
     a
             b
             c
@@ -1857,7 +1857,7 @@ diff程序使用上下文搜索模式时(-c),可以看到如下输出:
 
     ***1,4****          第一个文件1-4行
     ---1,4----          第二个文件1-4行
-    
+
 此外还有其他的指示符 - + 等
 
 diff输出常见的指示符如下：
@@ -1885,12 +1885,12 @@ diff输出常见的指示符如下：
     -                   在第一个文件中删除此行
     +                   添加这一行到第一个文件中
 
-#### patch 
+#### patch
 
 patch程序常和diff配合使用，用来合并修改，例如：
 
     han@han:~$ diff -Naur alpha1.txt alpha2.txt > diff_file
-    han@han:~$ cat diff_file 
+    han@han:~$ cat diff_file
     --- alpha1.txt  2017-05-27 09:46:37.752125763 +0800
     +++ alpha2.txt  2017-05-27 09:47:22.813567092 +0800
     @@ -1,4 +1,4 @@
@@ -1899,9 +1899,9 @@ patch程序常和diff配合使用，用来合并修改，例如：
      c
      d
     +e
-    han@han:~$ patch < diff_file 
+    han@han:~$ patch < diff_file
     patching file alpha1.txt
-    han@han:~$ cat alpha1.txt 
+    han@han:~$ cat alpha1.txt
     b
     c
     d
@@ -1933,5 +1933,76 @@ tr命令可以跟选项-d表示删除特定字符进行转换，如下：
 
 #### sed 流编辑器
 
+sed命令类似于查找替换，将输入文件中的字段替换为另一个字符段
+
+    han@han:~$ echo "front" | sed 's/front/back/'
+    back
+
+可以看到sed将front替换成了back并输出
+
+默认情况下，sed对文件中所有的文件行进行操作，我们也可以指定行号，对
+
+其中一行进行操作：
+
+    han@han:~$ echo "front" | sed '1s/front/back/'
+    back
+    han@han:~$ echo "front" | sed '2s/front/back/'
+    front
+
+在第一个命令中，我们在s前指定对第一行进行操作，实际上，我们的输入只有
+
+一行，因此可以看到操作的结果，将front替换成back输出
+
+在第二个命令中，我们制定操作第二行，然而我们的输入只有一行，故操作失败
+
+输出的仍然是front
+
+常见的指定文本行地址如下
+
+    地址                说明
+
+    n                  行号,n为整数
+    $                  最后一行
+    /regexp/           匹配基本正则表达式的行
+    addr1,addr2        从addr1到addr2范围内的文本行
+    first~step         匹配由数字first代表的文本行，然后间隔step处的文本行
+    addr1,+n           匹配地址addr1和随后的n个文本行
+    addr!              匹配除了addr外的所有文本行
+
+sed除了上面的s查找替换模式，还有打印模式p，还有其它的编辑命令：
+
+    命令                     说明
+
+    =                       输出当前号
+    a                       在当前行之后追加文本
+    d                       删除当前行
+    i                       在当前行之前插入文本
+    p                       打印当前行，默认只打印一行
+    q                       退出sed
+    s/regexp/replacement    
+    y/set1/set2             执行字符转写操作，需要两个字符有相同长度
+
+**注意**
+
+sed命令默认只能替换第一个匹配项，如果有两个或以上的匹配项，则后面的忽略
+
+使用-g选项可以使sed对文本行执行全范围查找替代，
+
+    han@han:~$ echo "front-front" | sed '1s/front/back/'
+    back-front
+    han@han:~$ echo "front-front" | sed '1s/front/back/g'
+    back-back
+
+#### aspell 拼写检查器
+
+基本用法如下：
+
+    aspell check textfile
+
+此命令会输出textfile文件中拼写可以的单词，并给出可能的替换选项
+
+---------------------------------------------------------------------------
+
+## 格式化输出
 
 TODO
