@@ -6,39 +6,55 @@
 
 在code中，使用超链接可以采用下面的方式：
 
-```bash
+```
 [fork](images/fork.png)
 ```
 
 在wiki中，使用超链接可以是以下形式：
 
-```bash
+```
 [[Markdown基本操作技能|markdown-checklist]]
 ```
 
 其中，“|”后面跟着的“markdown-checklist”就是需要跳转到的文件名。
 
-这里如果不是使用文件名，而是文件地址，
+其他不正确的使用方法：
 
-如“https://github.com/lazyparser/weloveinterns/blob/master/capabilities/markdown-checklist.md”，则会跳转到这个绝对地址，
+1.这里如果不是使用文件名，而是文件地址，
 
-但是显示的效果不是我们预期的wiki方式。
+如“https://github.com/lazyparser/weloveinterns/blob/master/capabilities/markdown-checklist.md”，
 
-也就是说，“https://github.com/lazyparser/weloveinterns/wiki/markdown-checklist”（wiki使用的方式）
+则会跳转到上面这个绝对地址，但是显示的效果不是我们预期的wiki方式。
+
+也就是说，wiki使用的方式：“https://github.com/lazyparser/weloveinterns/wiki/markdown-checklist”
 
 与“https://github.com/lazyparser/weloveinterns/blob/master/capabilities/markdown-checklist.md” 
 
 处理方式是完全不同的。
 
-如果我们在wiki中使用下面的超链接形式：
+2.如果我们在wiki中使用下面相对地址形式的超链接：
 
-```bash
+```
+[Markdown基本操作技能](../capabilities/markdown-checklist.md)
+```
+
+则实际会跳转到：
+
+https://raw.githubusercontent.com/wiki/lazyparser/weloveinterns/capabilities/markdown-checklist.md
+
+
+3.如果使用下面相对地址形式的超链接：
+
+```
 [[Markdown基本操作技能|capabilities/markdown-checklist]]
 ```
-则实际会跳转到一个新的地址：“https://github.com/lazyparser/weloveinterns/wiki/capabilities-markdown-checklist”
+
+则实际会跳转到一个新的地址：
+
+“https://github.com/lazyparser/weloveinterns/wiki/capabilities-markdown-checklist”
 
 
-我们可以理解github在两个方面做了修改和取舍:
+总结：我们可以理解github在两个方面做了修改和取舍:
 
 1. 像一般的wiki一样,将 '/' 和 ' ' 都作为 '-' 替换掉, 这样URL可以正确
 
