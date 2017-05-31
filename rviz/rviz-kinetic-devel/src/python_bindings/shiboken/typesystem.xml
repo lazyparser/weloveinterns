@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<typesystem package="librviz_shiboken">
+  <load-typesystem name="typesystem_core.xml" generate="no"/>
+  <load-typesystem name="typesystem_gui.xml" generate="no"/>
+  <namespace-type name="rviz"/>
+  <object-type name="rviz::VisualizationFrame"/>
+  <object-type name="rviz::VisualizationManager"/>
+  <object-type name="rviz::Display"/>
+  <object-type name="rviz::DisplayGroup"/>
+  <object-type name="rviz::OgreLogging"/>
+  <object-type name="rviz::Property"/>
+  <object-type name="rviz::BoolProperty"/>
+  <object-type name="rviz::PanelDockWidget"/>
+  <object-type name="rviz::ViewManager"/>
+  <object-type name="rviz::ViewController"/>
+  <object-type name="rviz::Tool"/>
+  <object-type name="rviz::ToolManager"/>
+  <object-type name="rviz::Config">
+    <enum-type name="Type"/>
+    <object-type name="MapIterator"/>
+  </object-type>
+  <object-type name="rviz::YamlConfigReader"/>
+  <object-type name="rviz::YamlConfigWriter"/>
+</typesystem>

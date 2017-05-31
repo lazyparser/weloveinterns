@@ -1,0 +1,278 @@
+<library path="librviz_default_plugin">
+  <class name="rviz/Axes" type="rviz::AxesDisplay" base_class_type="rviz::Display">
+    <description>
+      Displays an axis at the Target Frame's origin.  &lt;a href="http://www.ros.org/wiki/rviz/DisplayTypes/Axes"&gt;More Information&lt;/a&gt;.
+    </description>
+  </class>
+  <class name="rviz/DepthCloud" type="rviz::DepthCloudDisplay" base_class_type="rviz::Display">
+    <description>
+      Displays point clouds based on depth maps.  &lt;a href="http://www.ros.org/wiki/rviz/DisplayTypes/DepthCloud"&gt;More Information&lt;/a&gt;.
+    </description>
+    <message_type>sensor_msgs/Image</message_type>
+    <message_type>sensor_msgs/CompressedImage</message_type>
+    <message_type>theora_image_transport/Packet</message_type>
+  </class>
+  <class name="rviz/Effort" type="rviz::EffortDisplay" base_class_type="rviz::Display">
+    <description>
+      Displays from sensor_msgs/JointState/effort messages.
+    </description>
+    <message_type>sensor_msgs/JointState</message_type>
+  </class>
+  <class name="rviz/FluidPressure" type="rviz::FluidPressureDisplay" base_class_type="rviz::Display">
+    <description>
+      Displays from sensor_msgs/FluidPressure messages.
+    </description>
+    <message_type>sensor_msgs/FluidPressure</message_type>
+  </class>
+  <class name="rviz/Grid" type="rviz::GridDisplay" base_class_type="rviz::Display">
+    <description>
+      Displays a grid along the ground plane, centered at the origin of the target frame of reference.  &lt;a href="http://www.ros.org/wiki/rviz/DisplayTypes/Grid"&gt;More Information&lt;/a&gt;.
+    </description>
+  </class>
+  <class name="rviz/GridCells" type="rviz::GridCellsDisplay" base_class_type="rviz::Display">
+    <description>
+      Displays data from a nav_msgs::GridCells message as billboards.  &lt;a href="http://www.ros.org/wiki/rviz/DisplayTypes/GridCells"&gt;More Information&lt;/a&gt;.
+    </description>
+    <message_type>nav_msgs/GridCells</message_type>
+  </class>
+  <class name="rviz/Illuminance" type="rviz::IlluminanceDisplay" base_class_type="rviz::Display">
+    <description>
+      Displays illuminance values from a sensor_msgs/Illuminance topic.  &lt;a href="http://www.ros.org/wiki/rviz/DisplayTypes/Illuminance"&gt;More Information&lt;/a&gt;.
+    </description>
+    <message_type>sensor_msgs/Illuminance</message_type>
+  </class>
+  <class name="rviz/Image" type="rviz::ImageDisplay" base_class_type="rviz::Display">
+    <description>
+      Displays an image from a sensor_msgs/Image topic, similar to image_view.  &lt;a href="http://www.ros.org/wiki/rviz/DisplayTypes/Image"&gt;More Information&lt;/a&gt;.
+    </description>
+    <message_type>sensor_msgs/Image</message_type>
+    <message_type>sensor_msgs/CompressedImage</message_type>
+    <message_type>theora_image_transport/Packet</message_type>
+  </class>
+  <class name="rviz/InteractiveMarkers" type="rviz::InteractiveMarkerDisplay" base_class_type="rviz::Display">
+    <description>
+      Connects to one or more Interactive Marker servers, allowing you to interact with the provided 3D objects. &lt;a href="http://www.ros.org/wiki/rviz/DisplayTypes/InteractiveMarker"&gt;More Information&lt;/a&gt;.
+    </description>
+    <message_type>visualization_msgs/InteractiveMarkerUpdate</message_type>
+  </class>
+  <class name="rviz/LaserScan" type="rviz::LaserScanDisplay" base_class_type="rviz::Display">
+    <description>
+      Displays the data from a sensor_msgs::LaserScan message as points in the world, drawn as points, billboards, or cubes.  &lt;a href="http://www.ros.org/wiki/rviz/DisplayTypes/LaserScan"&gt;More Information&lt;/a&gt;.
+    </description>
+    <message_type>sensor_msgs/LaserScan</message_type>
+  </class>
+  <class name="rviz/Map" type="rviz::MapDisplay" base_class_type="rviz::Display">
+    <description>
+      Displays an occupancy grid on the ground plane from a nav_msgs::OccupancyGrid.  &lt;a href="http://www.ros.org/wiki/rviz/DisplayTypes/Map"&gt;More Information&lt;/a&gt;.
+    </description>
+    <message_type>nav_msgs/OccupancyGrid</message_type>
+  </class>
+  <class name="rviz/Marker" type="rviz::MarkerDisplay" base_class_type="rviz::Display">
+    <description>
+      Displays visualization_msgs::Marker messages.  &lt;a href="http://www.ros.org/wiki/rviz/DisplayTypes/Marker"&gt;More Information&lt;/a&gt;.
+    </description>
+    <message_type>visualization_msgs/Marker</message_type>
+  </class>
+  <class name="rviz/MarkerArray" type="rviz::MarkerArrayDisplay" base_class_type="rviz::Display">
+    <description>
+      Displays visualization_msgs::MarkerArray messages without presuming the topic name ends in "_array".  &lt;a href="http://www.ros.org/wiki/rviz/DisplayTypes/Marker"&gt;More Information&lt;/a&gt;.
+    </description>
+    <message_type>visualization_msgs/MarkerArray</message_type>
+  </class>
+  <class name="rviz/Odometry" type="rviz::OdometryDisplay" base_class_type="rviz::Display">
+    <description>
+      Accumulates and displays poses from a nav_msgs::Odometry message.  &lt;a href="http://www.ros.org/wiki/rviz/DisplayTypes/Odometry"&gt;More Information&lt;/a&gt;
+    </description>
+    <message_type>nav_msgs/Odometry</message_type>
+  </class>
+  <class name="rviz/Path" type="rviz::PathDisplay" base_class_type="rviz::Display">
+    <description>
+      Displays data from a nav_msgs::Path message as lines.  &lt;a href="http://www.ros.org/wiki/rviz/DisplayTypes/Path"&gt;More Information&lt;/a&gt;.
+    </description>
+    <message_type>nav_msgs/Path</message_type>
+  </class>
+  <class name="rviz/PointStamped" type="rviz::PointStampedDisplay" base_class_type="rviz::Display">
+    <description>
+      Displays from geometry_msgs/PointStamped message
+    </description>
+    <message_type>geometry_msgs/PointStamped</message_type>
+  </class>
+  <class name="rviz/PointCloud" type="rviz::PointCloudDisplay" base_class_type="rviz::Display">
+    <description>
+      Displays a point cloud from a sensor_msgs::PointCloud message as points in the world, drawn as points, billboards, or cubes.  &lt;a href="http://www.ros.org/wiki/rviz/DisplayTypes/PointCloud"&gt;More Information&lt;/a&gt;.
+    </description>
+    <message_type>sensor_msgs/PointCloud</message_type>
+  </class>
+  <class name="rviz/PointCloud2" type="rviz::PointCloud2Display" base_class_type="rviz::Display">
+    <description>
+      Displays a point cloud from a sensor_msgs::PointCloud2 message as points in the world, drawn as points, billboards, or cubes.  &lt;a href="http://www.ros.org/wiki/rviz/DisplayTypes/PointCloud2"&gt;More Information&lt;/a&gt;.
+    </description>
+    <message_type>sensor_msgs/PointCloud2</message_type>
+  </class>
+  <class name="rviz/Polygon" type="rviz::PolygonDisplay" base_class_type="rviz::Display">
+    <description>
+      Displays data from a geometry_msgs::PolygonStamped message as lines.  &lt;a href="http://www.ros.org/wiki/rviz/DisplayTypes/Polygon"&gt;More Information&lt;/a&gt;.
+    </description>
+    <message_type>geometry_msgs/PolygonStamped</message_type>
+  </class>
+  <class name="rviz/Pose" type="rviz::PoseDisplay" base_class_type="rviz::Display">
+    <description>
+      Displays a geometry_msgs::PoseStamped message.  &lt;a href="http://www.ros.org/wiki/rviz/DisplayTypes/Pose"&gt;More Information&lt;/a&gt;.
+    </description>
+    <message_type>geometry_msgs/PoseStamped</message_type>
+  </class>
+  <class name="rviz/PoseArray" type="rviz::PoseArrayDisplay" base_class_type="rviz::Display">
+    <description>
+      Displays the poses from a geometry_msgs::PoseArray message as a cloud of arrows on the ground plane.  &lt;a href="http://www.ros.org/wiki/rviz/DisplayTypes/PoseArray"&gt;More Information&lt;/a&gt;
+    </description>
+    <message_type>geometry_msgs/PoseArray</message_type>
+  </class>
+  <class name="rviz/PoseWithCovariance" type="rviz::PoseWithCovarianceDisplay" base_class_type="rviz::Display">
+    <description>
+      Displays a geometry_msgs::PoseWithCovarianceStamped message.  &lt;a href="http://www.ros.org/wiki/rviz/DisplayTypes/PoseWithCovariance"&gt;More Information&lt;/a&gt;.
+    </description>
+    <message_type>geometry_msgs/PoseWithCovarianceStamped</message_type>
+  </class>
+  <class name="rviz/Range" type="rviz::RangeDisplay" base_class_type="rviz::Display">
+    <description>
+      Displays the data from sensor_msgs::Range messages as cones. &lt;a href="http://www.ros.org/wiki/rviz/DisplayTypes/Range"&gt;More Information&lt;/a&gt;
+    </description>
+    <message_type>sensor_msgs/Range</message_type>
+  </class>
+  <class name="rviz/RelativeHumidity" type="rviz::RelativeHumidityDisplay" base_class_type="rviz::Display">
+    <description>
+      Displays the data from sensor_msgs::RelativeHumidity.
+    </description>
+    <message_type>sensor_msgs/RelativeHumidity</message_type>
+  </class>
+  <class name="rviz/RobotModel" type="rviz::RobotModelDisplay" base_class_type="rviz::Display">
+    <description>
+      Displays a visual representation of a robot in the correct pose (as defined by the current TF transforms).  &lt;a href="http://www.ros.org/wiki/rviz/DisplayTypes/RobotModel"&gt;More Information&lt;/a&gt;.
+    </description>
+  </class>
+  <class name="rviz/Camera" type="rviz::CameraDisplay" base_class_type="rviz::Display">
+    <description>
+      Displays an image from a camera, with the visualized world rendered behind it.  &lt;a href="http://www.ros.org/wiki/rviz/DisplayTypes/Camera"&gt;More Information&lt;/a&gt;.
+    </description>
+    <message_type>sensor_msgs/Image</message_type>
+    <message_type>sensor_msgs/CompressedImage</message_type>
+    <message_type>theora_image_transport/Packet</message_type>
+  </class>
+  <class name="rviz/XYZ" type="rviz::XYZPCTransformer" base_class_type="rviz::PointCloudTransformer">
+    <description>
+      Transforms the point cloud data into XYZ coordinates to position each point.
+    </description>
+  </class>
+  <class name="rviz/Intensity" type="rviz::IntensityPCTransformer" base_class_type="rviz::PointCloudTransformer">
+    <description>
+      Transforms the color of each point based on its "intensity" value.
+    </description>
+  </class>
+  <class name="rviz/RGB8" type="rviz::RGB8PCTransformer" base_class_type="rviz::PointCloudTransformer">
+    <description>
+      Sets the color of each point based on RGB8 data.
+    </description>
+  </class>
+  <class name="rviz/RGBF32" type="rviz::RGBF32PCTransformer" base_class_type="rviz::PointCloudTransformer">
+    <description>
+      Sets the color of each point based on RGBF32 data.
+    </description>
+  </class>
+  <class name="rviz/FlatColor" type="rviz::FlatColorPCTransformer" base_class_type="rviz::PointCloudTransformer">
+    <description>
+      Sets the color of each point to be a single flat color.
+    </description>
+  </class>
+  <class name="rviz/AxisColor" type="rviz::AxisColorPCTransformer" base_class_type="rviz::PointCloudTransformer">
+    <description>
+      Sets the color of each point based on its position along one of the X, Y, or Z axes.
+    </description>
+  </class>
+  <class name="rviz/Temperature" type="rviz::TemperatureDisplay" base_class_type="rviz::Display">
+    <description>
+      Displays from sensor_msgs/Temperature message
+    </description>
+    <message_type>sensor_msgs/Temperature</message_type>
+  </class>
+  <class name="rviz/TF" type="rviz::TFDisplay" base_class_type="rviz::Display">
+    <description>
+      Displays the TF transform hierarchy.  &lt;a href="http://www.ros.org/wiki/rviz/DisplayTypes/TF"&gt;More Information&lt;/a&gt;.
+    </description>
+  </class>
+  <class name="rviz/WrenchStamped" type="rviz::WrenchStampedDisplay" base_class_type="rviz::Display">
+    <description>
+      Displays from geometry_msgs/WrenchStamped message
+    </description>
+    <message_type>geometry_msgs/WrenchStamped</message_type>
+  </class>
+
+  <class name="rviz/PublishPoint" type="rviz::PointTool" base_class_type="rviz::Tool">
+    <description>
+      Allows you to click on a point and publish it as a PointStamped message.
+    </description>
+  </class>
+  <class name="rviz/FocusCamera" type="rviz::FocusTool" base_class_type="rviz::Tool">
+    <description>
+      Click onto any object to focus the camera there.
+    </description>
+  </class>
+  <class name="rviz/Measure" type="rviz::MeasureTool" base_class_type="rviz::Tool">
+    <description>
+      Click onto two locations to measure their distance.
+    </description>
+  </class>
+  <class name="rviz/MoveCamera" type="rviz::MoveTool" base_class_type="rviz::Tool">
+    <description>
+      Drag the mouse with left, middle, or right buttons to change your viewpoint.
+    </description>
+  </class>
+  <class name="rviz/Select" type="rviz::SelectionTool" base_class_type="rviz::Tool">
+    <description>
+      Drag with the left button to select objects in the 3D scene.
+      Hold the Alt key to change viewpoint as in the Move tool.
+    </description>
+  </class>
+  <class name="rviz/SetGoal" type="rviz::GoalTool" base_class_type="rviz::Tool">
+    <description>
+      Publish a goal pose for the robot.  After one use, reverts to default tool.
+    </description>
+  </class>
+  <class name="rviz/SetInitialPose" type="rviz::InitialPoseTool" base_class_type="rviz::Tool">
+    <description>
+      Publish an initial pose for the robot.  After one use, reverts to default tool.
+    </description>
+  </class>
+  <class name="rviz/Interact" type="rviz::InteractionTool" base_class_type="rviz::Tool">
+    <description>
+      Interact with interactive markers.  Mouse actions not on
+      interactive markers fall back to moving the camera.
+    </description>
+  </class>
+
+  <class name="rviz/Orbit" type="rviz::OrbitViewController" base_class_type="rviz::ViewController">
+    <description>
+      Makes it easy to move around a given point in space, looking at it from any angle.
+    </description>
+  </class>
+  <class name="rviz/XYOrbit" type="rviz::XYOrbitViewController" base_class_type="rviz::ViewController">
+    <description>
+      Makes it easy to move around a given point on the XY plane, looking at it from any angle.
+    </description>
+  </class>
+  <class name="rviz/ThirdPersonFollower" type="rviz::ThirdPersonFollowerViewController" base_class_type="rviz::ViewController">
+    <description>
+      Follow a target frame and turn the viewing direction with the yaw of the target frame.
+    </description>
+  </class>
+  <class name="rviz/FPS" type="rviz::FPSViewController" base_class_type="rviz::ViewController">
+    <description>
+      Control the camera like in a First Person Shooter game: drag left to look left, etc.
+    </description>
+  </class>
+  <class name="rviz/TopDownOrtho" type="rviz::FixedOrientationOrthoViewController" base_class_type="rviz::ViewController">
+    <description>
+      Orthographic projection, seen from the top.
+    </description>
+  </class>
+
+</library>

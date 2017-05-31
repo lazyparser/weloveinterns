@@ -1,0 +1,68 @@
+material rviz/DefaultPickAndDepth
+{
+  technique PickCull
+  {
+    pass
+    {
+      lighting off
+      scene_blend one zero
+      cull_hardware clockwise
+      fragment_program_ref rviz/glsl120/pickcolor.frag {}
+    }
+  }
+  
+  technique BlackCull
+  {
+    pass
+    {
+      lighting off
+      scene_blend one zero
+      cull_hardware clockwise
+      fragment_program_ref rviz/glsl120/black.frag {}
+    }
+  }
+
+  technique DepthCull
+  {
+    pass
+    {
+      scene_blend one zero
+      cull_hardware clockwise
+      vertex_program_ref rviz/glsl120/depth.vert {}
+      fragment_program_ref rviz/glsl120/depth.frag {}
+    }
+  }
+
+  technique Pick
+  {
+    pass
+    {
+      lighting off
+      scene_blend one zero
+      cull_hardware none
+      fragment_program_ref rviz/glsl120/pickcolor.frag {}
+    }
+  }
+  
+  technique Black
+  {
+    pass
+    {
+      lighting off
+      scene_blend one zero
+      cull_hardware none
+      fragment_program_ref rviz/glsl120/black.frag {}
+    }
+  }
+
+  technique Depth
+  {
+    pass
+    {
+      scene_blend one zero
+      cull_hardware none
+      vertex_program_ref rviz/glsl120/depth.vert {}
+      fragment_program_ref rviz/glsl120/depth.frag {}
+    }
+  }
+}
