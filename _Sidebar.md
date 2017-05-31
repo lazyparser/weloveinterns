@@ -1,13 +1,13 @@
 [[slack tips|slack]]
 
-[[git|git]]
+[[git基本操作技能|git]]
 
-[[GitHub|github]]
+[[GitHub代码提交流程|github]]
 
-[[wiki/markdown|markdown-checklist]]
+[[Markdown基本操作技能|markdown-checklist]]
 
-[[Android|android-checklist]]
+[[Android基本操作技能|android-checklist]]
 
-[[ROS|ros-checklist]]
+[[ROS基本操作技能|ros-checklist]]
 
-[[Linux|linux-checklist]]
+[[常用的Linux命令行|linux-checklist]]
