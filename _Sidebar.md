@@ -1,13 +1,13 @@
 [[slack tips|slack]]
 
-[[git|git]]
+[[git基本操作技能|git]]
 
-[[GitHub|github]]
+[[GitHub代码提交流程|github]]
 
-[wiki/markdown](https://github.com/lazyparser/weloveinterns/blob/master/capabilities/markdown-checklist.md)
+[[Markdown基本操作技能|markdown-checklist]]
 
-[Android](https://github.com/lazyparser/weloveinterns/blob/master/capabilities/android-checklist.md)
+[[Android基本操作技能|android-checklist]]
 
-[ROS](https://github.com/lazyparser/weloveinterns/blob/master/capabilities/ros-checklist.md)
+[[ROS基本操作技能|ros-checklist]]
 
-[Linux](https://github.com/lazyparser/weloveinterns/blob/master/capabilities/linux-checklist.md)
+[[常用的Linux命令行|linux-checklist]]
