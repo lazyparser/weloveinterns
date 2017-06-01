@@ -62,7 +62,13 @@ https://raw.githubusercontent.com/wiki/lazyparser/weloveinterns/capabilities/mar
 
 TODO：
 
-那么问题来了,如果 a/xxx.md 和 b/xxx.md 都同时存在, [[a-or-b|xxx]] 会如何链接呢?
+那么问题来了,如果 a/xxx.md 和 b/xxx.md 都同时存在, 
+
+```
+[[a-or-b|xxx]] 
+```
+
+会如何链接呢?
 
 
 关于wiki的更多介绍，可以参看：https://github.com/gollum/gollum/wiki
