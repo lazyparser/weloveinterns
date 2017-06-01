@@ -182,5 +182,34 @@ RGB图像:
 
 即可看到深度图像
 
+**rplidar驱动及测试**
+
+rplidar的驱动也能在ros程序包列表里找到，下面输入安装命令
+
+   sudo apt-get install ros-kinetic-rplidar-ros
+
+安装完成之后即可进行测试，如下：
+
+连接rplidar到电脑的USB接口，然后查看接口号:
+
+    ls -l /dev | grep ttyUSB
+
+一般来说，如果只有rplidar连接，都是ttyUSB0，但最好也检查一下
+
+然后改变ttyUSB0的权限，提供写权限:
+
+    sudo chmod 666 /dev/tty/USB0
+
+启动rplidar，并在rviz三维视窗内查看扫描结果
+
+    roslaunch rplidar_ros view_rplidar.launch
+
+查看rplidar节点
+
+    roslaunch rplidar_ros rplidar.launch
+
+最后理想的情况应该是rplidar终端不报错，显示出status=0，并且在rviz中能够看到
+
+细微的扫描图像，以红色线标出
 
 TODO
