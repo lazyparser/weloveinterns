@@ -106,4 +106,81 @@ ROS Kinetic, 如果你用的是Ubuntu 14，则需要适配Ros indigo，只需
 
 # ROS学习之路--第三篇TurtleBot硬件及软件配置
 
+我的ROS硬件设备主要有:Kobuki机器人移动底座,kinect1，rplidar激光雷达
+
+**首先介绍Kobuki的配置方法:**
+
+在安装好ROS之后，可以看到ROS所支持的机器人列表，搜索kobuki，如下:
+
+    apt-cache search ros-kinetic-kobuki | less
+
+可以看到一系列的关于Kobuki的软件包，可用apt-get方法安装
+
+    sudo apt-get install ros-kinetic-kobuki ros-kinetic-kobuki-core
+
+安装完成之后，即可用来驱动kobuki机器人，另外，ros可选包里也有turtlebot
+
+的相关包，可以直接安装上，刚开始怕出错，所以顺便也将这个包安装了,安装教程
+
+同样可以在ROS Wiki 官网找到[ROS-Wiki-Turtlebot](http://wiki.ros.org/turtlebot/Tutorials/indigo/Turtlebot%20Installation)
+
+    sudo apt-get install ros-kinetic-turtlebot ros-kinetic-turtlebot-apps ros-kinetic-turtlebot-interactions ros-kinetic-turtlebot-simulator ros-kinetic-kobuki-ftdi ros-kinetic-rocon-remocon ros-kinetic-rocon-qt-library ros-kinetic-ar-track-alvar-msgs
+
+现在驱动Kobuki底座的软件包已经安装好，下面就开始测试
+
+首先用USB线将Kobuki连接到电脑,将Kobuki电源打开，灯会亮，而且会有提示声音,
+
+然后的流程就跟小海龟的例子相似:
+
+打开终端，首先运行ros服务:
+    
+    roscore
+
+新打开一个终端，启动turtlebot:
+
+    roslaunch trutlebot_bringup minimal.launch
+
+再打开一个终端,启用电脑上的键盘控制
+
+    roslaunch turtlebot_teleop keyboard_teleop.launch
+
+根据提示，通过键盘使底座运动，i是前进
+
+**然后介绍Kinect的配置**
+
+Kinect分为1和2,我这里使用的是Kinect1,原理上应该是一样的，Kinect需要外接电源
+
+供电标准为12V,1.5A,在Kobuki底座上有相应的接口,kinect的USB端口需要连接到电脑
+
+上，以便电脑能够驱动而且能够将图像传输到电脑
+
+首先下载openni_kinect驱动,相应的方法在ROS官网也能找到[openni_kinect](http://wiki.ros.org/openni_kinect)
+
+    sudo apt-get install ros-kinetic-openni-camera ros-kinetic-openni-launch
+
+上面完成之后，可以对Kinect进行测试:
+
+RGB图像:
+
+运行Kinect节点:
+
+    roslaunch rbx1_vision openni_node_kinetic.launch
+
+新打开终端
+
+    rosrun image_view image_view image:=/camera/rgb/image_color
+
+深度图像:
+
+运行Kinect节点:
+
+    roslaunch openni_launch openni.launch
+
+新打开终端
+
+    rosrun image_view diparity_view image:=/camera/depth/disparity
+
+即可看到深度图像
+
+
 TODO
