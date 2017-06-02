@@ -182,3 +182,9 @@ TODO：Continue...
   清理合并中产生的三个额外文件：
   
       git clean -f
+
+强制本地仓库完全同步于远程仓库:
+
+    git reset --hard origin/master
+
+即可将根底仓库分支强制跟远程仓库master分支同步
