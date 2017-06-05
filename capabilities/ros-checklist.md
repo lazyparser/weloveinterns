@@ -86,7 +86,7 @@ ROS Kinetic, 如果你用的是Ubuntu 14，则需要适配Ros indigo，只需
 
     rosrun turtlesim turtlesim_node
 
-![小海龟](../images/ROS/turtle.png)
+![小海龟](../images/ROS/Turtle.png)
 
 3. **键盘控制小海龟运动**
 
