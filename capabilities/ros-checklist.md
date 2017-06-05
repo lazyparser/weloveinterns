@@ -293,4 +293,168 @@ ROS可用的支持包，用如下命令搜索所有带有上面字眼的可用�
 
 # ROS学习之路--第五篇 创建并管理工作空间
 
+工作空间其实就是文件夹，只不过为了方便管理和查看，将自己有关ROS的包全都放到这个
+
+文件夹下，工作空间的创建方法可以在ROS Wiki上面查看，这里不再详述，下面主要讲下
+
+我在学习rplidar时的过程，首先是进入工作空间下的src目录下，然后从github上将rplidar
+
+相关的源代码克隆到本地，这里用到了git版本管理工具:
+
+    git clone https://github.com/robopeak/rplidar_ros/tree/slam
+
+然后会看到本地有catkin建立工作空间后应有的一些文件，还有编译好的launch文件，
+
+    han@han:~/catkin_ws/src/rplidar_ros$ ls
+    CHANGELOG.rst   launch   package.xml  rplidar_A1.png  rviz     sdk
+    CMakeLists.txt  LICENSE  README.md    rplidar_A2.png  scripts  src
+
+其中launch文件夹下保存的就是可执行文件，进入其中可以看到文件列表如下：
+
+    han@han:~/catkin_ws/src/rplidar_ros/launch$ ls
+    gmapping.launch           rplidar.launch          view_karto.launch
+    hectormapping.launch      test_rplidar.launch     view_rplidar.launch
+    karto.launch              view_gmapping.launch    view_slam.launch
+    karto_mapper_params.yaml  view_hectorSlam.launch
+
+可以看到有许多关于rplidar和建立地图的可执行文件，每一个文件都可以按照ROS中launch文件
+
+的标准运行方式来运行:
+
+    roslaunch package_name launch_file_name
+
+这里，我们的package_name就是rplidar_ros，可执行的launch文件均在launch文件夹中列出
+
+例如我们运行建图程序时可以键入如下命令:
+
+    roslaunch rplidar_ros view_gmapping.launch
+
+ROS相关的支持包的结构大体如此，因此，将它们统一起来管理，会给以后的开发带来很大方便
+
+另外，我们是通过下载源码编译得到的可执行文件，虽然这里我们直接利用了别人的可执行文件
+
+但是我们要知道，我们是有源码的，可以按照自己的意愿修改源码重新编译生成自己的可执行
+
+文件，这无疑会给自己的程序带来很大的灵活性
+
+------------------------------------------------------------------------------------
+
+# ROS学习之路--第六篇:Kobuki底座的编程控制
+
+之前我们已经知道怎样用键盘控制Kobuki底座的运动，但是以这样的方式控制底座的运动，我们
+
+必须时刻拿着电脑跟着底座一起移动，给我们带来很大不便，因此我们希望能够通过编写脚本来
+
+控制底座的运动，当然，这里只是按照事先设置好的方式运动，途中不会有任何的避障判断，尽
+
+管如此，对于一个ROS新手来说，这已经很了不起了，因为要做到这一点，你需要事先理解好ROS
+
+中节点(node)、话题(topic)还有消息(message)的概念，也需要知道节点之间是如何通信的，这
+
+些我先不讲，先编写一个简单脚本使得我们能够控制底座前进或者后退，如果你愿意，也可以让
+
+底座旋转一下. kobuki底座的运动速度分为线性(linear)速度和角(angular)速度两种. 我们通
+
+过ros话题将控制消息发送给Kobuki，从而实现对其运动的控制，下面先回顾一下我们在之前
+
+是如何用键盘控制Kobuki的:
+
+    roscore
+    roslaunch turtlebot_bringup minimal.launch
+    roslaunch turtlebot_teleop keyboard_teleop.launch
+
+当然，以上三个指令分别在新的终端执行，最后我们就可以用键盘控制Kobuki底座.但是现在，我们
+
+要摆脱键盘的束缚，实现其自动行走，该如何做呢? 我们需要将速度控制指令传输给Kobuki，有一条
+
+指令可以完成这项工作:
+
+    rostopic pub -1 /mobile_base/commands/velocity geometry_msgs/Twist -- "[0.05,0.0,0.0]" "[0.0,0.0,0.0]"
+
+上面这条指令可以给Kobuki一个向x方向以0.05m/s的速度前进的指令,下面稍微解释下指令的各部分
+
+是什么意思:
+
+    rostopic pub
+
+这部分与ros话题的概念有关，其作用就是将一个消息发送给指定的话题
+
+    -1
+
+表示发送后立即退出，即为脉冲式的控制指令
+
+    /mobile_base/commands/velocity
+
+这个是我电脑上和Kobuki连接的ROS话题,在不同的程序或者不同的通信线路中，这个是不同的，具体
+
+可见ROS Wiki教程里关于[ROS话题](http://wiki.ros.org/cn/ROS/Tutorials/UnderstandingTopics)的讨论.
+
+    geometry_msgs/Twist
+
+所发送消息的类型，关于这个请参见上面关于ROS话题的讨论
+
+    -- "[0.05,0.0,0.0]" "[0.0,0.0,0.0]"
+
+速度大小指令，第一部分为linear线性速度，第二部分为angular角速度，大小可以根据需要自己设置
+
+于是我们可以初步写成如下shell程序kobuki-control
+
+    #!/bin/bash
+    # kobuki-control is a script to control automatically the movement of kobuki-base
+
+    roscore
+    roslaunch turtlebot_bringup minimal.launch
+    rostopic pub -1 /mobile_base/commands/velocity geometry_msgs/Twist -- "[0.05,0.0,0.0]" "[0.0,0.0,0.0]"
+    rostopic pub -1 /mobile_base/commands/velocity geometry_msgs/Twist -- "[0.05,0.0,0.0]" "[0.0,0.0,0.0]"
+    rostopic pub -1 /mobile_base/commands/velocity geometry_msgs/Twist -- "[0.05,0.0,0.0]" "[0.0,0.0,0.0]"
+
+上面重复控制指令是因为那一条指令只是脉冲式控制，底座运动一下就不再运动了，因此我们多次执行
+
+来看效果，这个问题先不考虑，到了这里似乎我们已经大功告成了，但是当我们运行此脚本时才会发现
+
+还有许多问题出现，首先是roscore之后的指令都没有被执行，这是因为roscore之后的指令只有等到
+
+roscore结束之后才会执行,但是我们知道roscore运行之后会一直处于运行状态，不会结束，因此后面
+
+的程序永远得不到执行，除非我们用Ctrl+c将其结束，后面的指令才能执行，但此时roscore停止
+
+服务，后面的指令也就没有用了,因此，我们必须想办法解决这一问题，现在我们有两种思路
+
+第一种: 能在shell中打开多个终端，不同的终端中运行不同的程序，这是个很自然的想法
+
+但是，无奈，我不知道怎么操作,因此我采用了另一种思路
+
+第二种: 也就是我采用的思路，将进程放到后台执行. 回忆之前学过的进程的知识，当我们将一个
+
+进程放到后台执行时，我们可以在终端前台做其他事情，比如输入其它指令，执行其它脚本等等
+
+在后台运行程序的方法有多种，我们这里采用最直接的办法:
+
+    roscore&
+    roslaunch turtlebot_bringup minimal.launch&
+    rostopic pub -1 /mobile_base/commands/velocity geometry_msgs/Twist -- "[0.05,0.0,0.0]" "[0.0,0.0,0.0]"
+    rostopic pub -1 /mobile_base/commands/velocity geometry_msgs/Twist -- "[0.05,0.0,0.0]" "[0.0,0.0,0.0]"
+    rostopic pub -1 /mobile_base/commands/velocity geometry_msgs/Twist -- "[0.05,0.0,0.0]" "[0.0,0.0,0.0]"
+
+这时候我们几乎要达到我们期望的结果了，但是，很不幸我在运行脚本的时候还是出了点问题，
+
+下面三条控制消息根本传不过去，应该是指令执行太快，第二条指令执行之后，电脑与Kobuki
+
+还未来得及建立好连接，第三条控制指令就发送过了，造成指令无法正确执行，因此，我在
+
+第二条控制指令之后又加了一条延时指令，以便电脑和Kobuki建立连接之后再执行后面的指令,
+
+最后的控制脚本如下:
+
+    #!/bin/bash
+    # kobuki-control is a script to control automatically the movement of kobuki-base
+    roscore&
+    roslaunch turtlebot_bringup minimal.launch&
+    sleep 1s
+    rostopic pub -1 /mobile_base/commands/velocity geometry_msgs/Twist -- "[0.05,0.0,0.0]" "[0.0,0.0,0.0]"
+    rostopic pub -1 /mobile_base/commands/velocity geometry_msgs/Twist -- "[0.05,0.0,0.0]" "[0.0,0.0,0.0]"
+    rostopic pub -1 /mobile_base/commands/velocity geometry_msgs/Twist -- "[0.05,0.0,0.0]" "[0.0,0.0,0.0]"
+
+最终，我们实现了利用shell控制底座运动的目标，这离我要实现Kobuki自动绕场一周的目标又进了一步!
+
 TODO
