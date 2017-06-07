@@ -64,6 +64,24 @@ ROS Kinetic, 如果你用的是Ubuntu 14，则需要适配Ros indigo，只需
 
     sudo apt-get install python-rosinstall
 
+**Ubuntu 14.04 LTS 安装ROS出现依赖无法安装的解决办法:**
+
+我是因为之后换用ROS indigo 版本，安装时遇到这个问题，搜遍网上所说，这个才解决了
+
+我的问题. 先给出原文[链接](https://my.oschina.net/lvzht/blog/645873)https://my.oschina.net/lvzht/blog/645873
+
+如果你不想看原文，那就看下面我总结的步骤：
+
+	sudo dpkg --clear-avail
+	sudo dpkg --configure -a
+	sudo apt-get install -f
+	sudo apt-get update
+	sudo apt-get upgrade
+
+	sudo apt-get install ros-indigo-desktop-full
+
+上面指令一条条执行，应该就能解决ROS indigo版本安装时的依赖问题
+
 --------------------------------------------------------------------
 
 # ROS学习之路--第二篇: 运行小海龟
@@ -126,7 +144,9 @@ ROS Kinetic, 如果你用的是Ubuntu 14，则需要适配Ros indigo，只需
 
     sudo apt-get install ros-kinetic-turtlebot ros-kinetic-turtlebot-apps ros-kinetic-turtlebot-interactions ros-kinetic-turtlebot-simulator ros-kinetic-kobuki-ftdi ros-kinetic-rocon-remocon ros-kinetic-rocon-qt-library ros-kinetic-ar-track-alvar-msgs
 
-现在驱动Kobuki底座的软件包已经安装好，下面就开始测试
+注意由于kinetic可能缺少上面列表中的某些支持包，所以如果出现这种情况，暂且略过
+
+即可，现在驱动Kobuki底座的软件包已经安装好，下面就开始测试
 
 首先用USB线将Kobuki连接到电脑,将Kobuki电源打开，灯会亮，而且会有提示声音,
 
@@ -158,13 +178,19 @@ Kinect分为1和2,我这里使用的是Kinect1,原理上应该是一样的，Kin
 
     sudo apt-get install ros-kinetic-openni-camera ros-kinetic-openni-launch
 
+，另外也可以用freenect驱动，openni_kinect经常会出现无法连接设备的情况，具体
+
+如下:
+
+	sudo apt-get install freenect
+
 上面完成之后，可以对Kinect进行测试:
 
 RGB图像:
 
 运行Kinect节点:
 
-    roslaunch rbx1_vision openni_node_kinetic.launch
+    roslaunch freenect_launch freenect.launch
 
 新打开终端
 
@@ -174,7 +200,7 @@ RGB图像:
 
 运行Kinect节点(经过试验,此步骤必须):
 
-    roslaunch openni_launch openni.launch
+    roslaunch freenect_launch freenect.launch
 
 新打开终端
 
