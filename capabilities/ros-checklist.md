@@ -459,4 +459,89 @@ roscore结束之后才会执行,但是我们知道roscore运行之后会一直�
 
 ---------------------------------------------------------------------------
 
+# 自主导航的仿真实现
+
+在学习本节之前，大家一定要学好ROS Wiki上的新手教程，不然bug真的不要太多，我是
+
+参考古月大神的博客[链接](http://www.guyuehome.com/267)，一步步操作的，尽管如此，还是bug不断，
+
+而且都不知道是什么原因，但不得不说，古月的博客写得是最清楚明白的，运行成功率也最高.
+
+现在总算是把自主导航的仿真算例运行通了，虽然也只是运行别人写好的launch文件. 先贴
+
+图：
+
+![2DNav](../images/ROS/2DNav.png)
+
+![navigation_simulation](../images/ROS/navigation_simu.png)
+
+![navigation-with-obstacles](../images/ROS/obstacles.png)
+
+![auto-navigation](..images/ROS/auto-navigation.png)
+
+首先是不用地图导航，相当于用空白地图导航，然后是用简单障碍物阻挡进行导航，最后
+
+是用已有的地图进行导航. 下面分别进行讲解:
+
+首先，对于这几种导航方式，我们需要从网上下载rbx1软件包[github Addr](https://github.com/pirobot/rbx1)，
+
+然后放到catkin工作空间中的src文件夹下，编译一下即可，步骤如下:
+
+	cd catkin_ws/src
+	git clone -b indigo-devel https://github.com/pirobot/rbx1.git
+	cd ..
+	catkin_make
+
+注意，在下载到本地的时候可以选择分支，我这里换用了indigo版本的ros，所以下载了indigo-devel分支
+
+可以改成自己需要的分支，当然，前提是远程仓库中得有才行
+
+经过上面的步骤，我们的软件包就可以使用了，可以用如下命令检验一下:
+
+	roscd rbx1_nav
+
+如果能够跳转到catkin_ws/src/rbx1/rbx1_nav目录下，则表明正常，否则就要考虑
+
+是不是$ROS_PACKAGE_PATH没有设置正确，或者说没有包含此路径，检查方法:
+
+	han@linux:~$ echo $ROS_PACKAGE_PATH
+	/home/han/catkin_ws/src:/opt/ros/indigo/share:/opt/ros/indigo/stacks
+
+如上，如果能够输出catkin工作空间下src目录，则表明正确，否则不正常
+
+现在我们假设你的$ROS_PACKAGE_PATH是正常的，roscd显示也正常，那我们
+
+就很容易来运行导航仿真程序了:
+
+首先启动方针机器人
+
+	roslaunch rbx1_bringup fake_turtlebot.launch
+
+然后加载空白地图
+
+	roslaunch rbx1_nav fake_move_base_blank_map.launch
+
+然后机器人就能正常运行，但是我们还需要调用可视化工具rviz来查看
+
+	rosrun rviz rviz -d `rospack find rbx1_nav`/nav.rviz
+
+注意最后的nav.rviz文件，我用的是indigo版本，跟古月博客里面的是不同的，
+
+其博客里面用的文件还是vcg格式,现在一般都是rviz格式的了要查看好自己
+
+rbx1_nav文件夹下都有哪些rviz文件,选择一个就行，然后我们应该就能看到如下：
+
+![initial-state](../images/ROS/initialState.png)
+
+现在我们可以按照之前说的给机器人发送指令使其运动起来:
+
+	rostopic pub /move_base_simple/goal geometry_msgs/PoseStamped '{header:{frame_id:"base_link"},pose:{position:{x:1.0,y:0,z:0},orientation:{x:0,y:0,z:0,w:1}}}'
+
+然后让机器人回到原来位置:
+
+	rostopic pub /move_base_simple/goal geometry_msgs/PoseStamped '{header:{frame_id:"map"},pose:{position:{x:0,y:0,z:0},orientation:{x:0,y:0,z:0,w:1}}}'
+
+然后就可以看到效果啦
+	
+
 TODO
