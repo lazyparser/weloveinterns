@@ -471,13 +471,13 @@ roscore结束之后才会执行,但是我们知道roscore运行之后会一直�
 
 图：
 
-![2DNav](../images/ROS/2DNav.png)
+![2DNav](../../images/ROS/2DNav.png)
 
-![navigation_simulation](../images/ROS/navigation_simu.png)
+![navigation_simulation](../../images/ROS/navigation_simu.png)
 
-![navigation-with-obstacles](../images/ROS/obstacles.png)
+![navigation-with-obstacles](../../images/ROS/obstacles.png)
 
-![auto-navigation](..images/ROS/auto-navigation.png)
+![auto-navigation](../../images/ROS/auto-navigation.png)
 
 首先是不用地图导航，相当于用空白地图导航，然后是用简单障碍物阻挡进行导航，最后
 
@@ -531,7 +531,7 @@ roscore结束之后才会执行,但是我们知道roscore运行之后会一直�
 
 rbx1_nav文件夹下都有哪些rviz文件,选择一个就行，然后我们应该就能看到如下：
 
-![initial-state](../images/ROS/initialState.png)
+![initial-state](../../images/ROS/initialState.png)
 
 现在我们可以按照之前说的给机器人发送指令使其运动起来:
 
