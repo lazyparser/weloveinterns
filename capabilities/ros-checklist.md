@@ -569,5 +569,10 @@ rbx1_nav文件夹下都有哪些rviz文件,选择一个就行，然后我们应�
 
 然后就可以看到效果啦
 	
+# ROS学习之路--第七篇：利用Kobuki底座和Kinect摄像头实现实景导航
+
+本节使用的工具包有 turtlebot, freenect驱动
+
+	sudo apt-get install ros-indigo-turtlebot
 
 TODO
