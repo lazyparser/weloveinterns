@@ -1,39 +1,39 @@
 实习生的招募标准和开放岗位需求
 =========================
 
-## 开放岗位
+以下是我们当前的实习生岗位需求，每个岗位的名额随时间可能会变，请直接[发邮件询问](mailto:wuwei2016@iscas.ac.cn)。
 
-以下是我们当前的实习生岗位需求，每个岗位的名额随时间可能会变，感兴趣请直接[发邮件询问](mailto:wuwei2016@iscas.ac.cn)。
-
-
-### 安卓开发实习生（Android Dev）
+**安卓开发（Android Dev）**
 
 参与XBot机器人UI交互程序的开发、调试、测试和集成。
 
-### ROS开发实习生（ROS Dev）
+**ROS开发（ROS Dev）**
 
 参与机器人操作系统相关的软件开发、测试、调试、部署。
 
-### 社区经理（Community Manager）
 
-参与XBot机器人社区的日常维护活动，组织线上及线下的爱好者交流活动。
-
-（注意该岗位跟ROS岗位一样会有ROS培训，内训结束后具备ROS基础知识。）
-
-### 机器人测试开发实习生（Robot Testing Dev）
+**机器人测试开发（Robot Testing Dev）**
 
 参与机器人测试过程的脚本开发及测试自动化。
 
-### 深度学习／机器学习实习生（Deep Learning Engineering）
+
+**深度学习／机器学习（Deep Learning Engineering）**
 
 尝试将现有已发表的深度学习开源研究成果跑起来，在算力和功耗都有局限的嵌入式设备（or 机器人）中运行起来。通过降低计算精度、网络稀疏化等方式优化神经网络在树莓派、TK1、TX1等设备上的执行速度。
 
 目前我们对图像识别、语音识别、语音合成等领域有尝试，欢迎你的加入。
 
-### 全栈网页开发实习生（Full Stack Web Dev）
+**社区经理（Community Manager）**
+
+参与XBot机器人社区的日常维护活动，组织线上及线下的爱好者交流活动。
+
+该岗位跟ROS岗位一样会有ROS培训，内训结束后具备ROS基础知识。
+
+
+**全栈网页开发（Full Stack Web Dev）**
 
 为XBot开发基于Web的呈现和控制系统。
 
-### XBot／ROS机器人培训师（XBot／ROS Instructor）
+**XBot／ROS机器人培训师（XBot／ROS Instructor）**
 
 在完成我们的XBot／ROS培训师培训之后，能够在线下组织进行XBot／ROS的技术交流。
