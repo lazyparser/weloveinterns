@@ -736,4 +736,66 @@ Estimate 按钮在地图上选择起始点和朝向作为机器人的初始状�
 
 # ROS学习之路--第九篇：Turtlebot跟随实验与语音控制
 
+**自动跟随**
+
+下面我们可以利用turtlebot制作一些比较有趣的实验，让turtlebot像小跟班一样
+
+跟着你走，听起来是不是很酷呢？下面我们就来进行此实验：
+
+首先确保你已经安装好freenect包和turtlebot_follower包，然后命令如下：
+
+	roslaunch turtlebot_bringup minimal.launch
+
+新开客户端:
+	
+	roslaunch turtlebot_follower follower.launch
+
+如果刚开始站在Kinect前面，则如果距离比较近，kobuki会自动向后退，如果比较远,
+
+则kobuki会自动跟进，现在可以前后移动试试，同样能看到kobuki会跟自己保持跟随状态
+
+注意，如果在移动过程中Kinect发现其他障碍物，则有可能会跟错目标，所以，最好在
+
+比较开阔的地方进行这个实验
+
+**语音控制**
+
+现代智能机器人一般都会有这种交互方式，包括与人对话的功能，这里，我们用离线语音识别
+
+来控制turtlebot的运动，需要的支持包有: pocketsphinx
+
+在终端输入如下命令进行安装(或者更新)
+
+	sudo apt-get install gstreamer0.10-pocketsphinx
+	sudo apt-get install ros-indigo-pocketsphinx
+	sudo apt-get install ros-indigo-audio-common
+	sudo apt-get install libasound2
+	sudo apt-get install gstreamer0.10-gconf
+
+然后启动仿真测试:
+
+	roslaunch rbx1_bringup fake_turtlebot.launch
+
+rviz中显示：
+
+	rosrun rviz rviz -d `rospack find rbx1_nav`/sim.rviz
+
+打开语音识别节点：
+
+	roslaunch rbx1_speech voice_nav_commands.launch
+
+打开机器人的控制程序:
+
+	roslaunch rbx1_speech turtlebot_voice_nav.launch
+
+打开消息回显程序：
+
+	rostopic echo /recognizer/output
+
+对着麦克风说些简单的英语，例如backward,forward,stop,turn left,turn right等
+
+可以看到如下：
+
+![voice-control](../images/ROS/audio-control.png)
+
 TODO
