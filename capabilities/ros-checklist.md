@@ -695,4 +695,43 @@ kinect_gmapping.launch.xml，如何才能做到这一点，看下程序中<!-- G
 
 # ROS学习之路--第九篇:完成kobuki的自主行走
 
+建立自己的地图之后，我们就可以利用此地图进行导航，实现kobuki+Kinect的自主
+
+行走，方法如下:
+
+首先启动kobuki：
+
+	roslaunch turtlebot_bringup minimal.launch
+
+然后运行自主导航程序，并加载自己的地图:
+
+	roslaunch turtlebot_navigation amcl_demo.launch map_file:=~/my_map.yaml
+
+然后在rviz中显示导航状态:
+
+	rosrun turtlebot_rviz_launchers view_navigation.launch --screen
+
+在上面的过程中，可能会出现的问题是，开始导航时机器人的初始点不对，导致机器人
+
+运行结果与预期有差，因此可打开地图文件进行初始点的修改，例如地图文件如下：
+
+	  1 image: willow-2010-02-18-0.10.pgm
+	  2 resolution: 0.100000
+	  3 origin: [0.000000, 0.000000, 0.000000]
+	  4 negate: 0
+	  5 occupied_thresh: 0.65
+	  6 free_thresh: 0.196
+
+在上面程序第三行表示的即是初始位置，但是有可能在导航时移动了机器人，导致
+
+初始位置不正确，可以修改第三句位置信息
+
+最后贴上利用Kinect导航的结果：
+
+![navigation-in-lab](../images/ROS/navigation_in_lab.png)
+
+-----------------------------------------------------------------------
+
+# ROS学习之路--第九篇：Turtlebot跟随实验与语音控制
+
 TODO
