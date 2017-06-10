@@ -695,4 +695,109 @@ kinect_gmapping.launch.xml，如何才能做到这一点，看下程序中<!-- G
 
 # ROS学习之路--第九篇:完成kobuki的自主行走
 
+建立自己的地图之后，我们就可以利用此地图进行导航，实现kobuki+Kinect的自主
+
+行走，方法如下:
+
+首先启动kobuki：
+
+	roslaunch turtlebot_bringup minimal.launch
+
+然后运行自主导航程序，并加载自己的地图:
+
+	roslaunch turtlebot_navigation amcl_demo.launch map_file:=~/my_map.yaml
+
+然后在rviz中显示导航状态:
+
+	rosrun turtlebot_rviz_launchers view_navigation.launch --screen
+
+在上面的过程中，可能会出现的问题是，开始导航时机器人的初始点不对，导致机器人
+
+运行结果与预期有差，因此可打开地图文件进行初始点的修改，例如地图文件如下：
+
+	  1 image: willow-2010-02-18-0.10.pgm
+	  2 resolution: 0.100000
+	  3 origin: [0.000000, 0.000000, 0.000000]
+	  4 negate: 0
+	  5 occupied_thresh: 0.65
+	  6 free_thresh: 0.196
+
+在上面程序第三行表示的即是初始位置，但是有可能在导航时移动了机器人，导致
+
+初始位置不正确，可以修改第三句位置信息,另外，也可以通过rviz界面上的2D Pose
+
+Estimate 按钮在地图上选择起始点和朝向作为机器人的初始状态
+
+最后贴上利用Kinect导航的结果：
+
+![navigation-in-lab](../images/ROS/navigation_in_lab.png)
+
+-----------------------------------------------------------------------
+
+# ROS学习之路--第九篇：Turtlebot跟随实验与语音控制
+
+**自动跟随**
+
+下面我们可以利用turtlebot制作一些比较有趣的实验，让turtlebot像小跟班一样
+
+跟着你走，听起来是不是很酷呢？下面我们就来进行此实验：
+
+首先确保你已经安装好freenect包和turtlebot_follower包，然后命令如下：
+
+	roslaunch turtlebot_bringup minimal.launch
+
+新开客户端:
+	
+	roslaunch turtlebot_follower follower.launch
+
+如果刚开始站在Kinect前面，则如果距离比较近，kobuki会自动向后退，如果比较远,
+
+则kobuki会自动跟进，现在可以前后移动试试，同样能看到kobuki会跟自己保持跟随状态
+
+注意，如果在移动过程中Kinect发现其他障碍物，则有可能会跟错目标，所以，最好在
+
+比较开阔的地方进行这个实验
+
+**语音控制**
+
+现代智能机器人一般都会有这种交互方式，包括与人对话的功能，这里，我们用离线语音识别
+
+来控制turtlebot的运动，需要的支持包有:rbx1, pocketsphinx
+
+在终端输入如下命令进行安装(或者更新)
+
+	sudo apt-get install gstreamer0.10-pocketsphinx
+	sudo apt-get install ros-indigo-pocketsphinx
+	sudo apt-get install ros-indigo-audio-common
+	sudo apt-get install libasound2
+	sudo apt-get install gstreamer0.10-gconf
+
+另外在github上下载rbx1程序包，放到工作空间下编译好
+
+然后启动仿真测试:
+
+	roslaunch rbx1_bringup fake_turtlebot.launch
+
+rviz中显示：
+
+	rosrun rviz rviz -d `rospack find rbx1_nav`/sim.rviz
+
+打开语音识别节点：
+
+	roslaunch rbx1_speech voice_nav_commands.launch
+
+打开机器人的控制程序:
+
+	roslaunch rbx1_speech turtlebot_voice_nav.launch
+
+打开消息回显程序：
+
+	rostopic echo /recognizer/output
+
+对着麦克风说些简单的英语，例如backward,forward,stop,turn left,turn right等
+
+可以看到如下：
+
+![voice-control](../images/ROS/audio-control.png)
+
 TODO
