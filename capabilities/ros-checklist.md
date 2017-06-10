@@ -762,7 +762,7 @@ Estimate 按钮在地图上选择起始点和朝向作为机器人的初始状�
 
 现代智能机器人一般都会有这种交互方式，包括与人对话的功能，这里，我们用离线语音识别
 
-来控制turtlebot的运动，需要的支持包有: pocketsphinx
+来控制turtlebot的运动，需要的支持包有:rbx1, pocketsphinx
 
 在终端输入如下命令进行安装(或者更新)
 
@@ -771,6 +771,8 @@ Estimate 按钮在地图上选择起始点和朝向作为机器人的初始状�
 	sudo apt-get install ros-indigo-audio-common
 	sudo apt-get install libasound2
 	sudo apt-get install gstreamer0.10-gconf
+
+另外在github上下载rbx1程序包，放到工作空间下编译好
 
 然后启动仿真测试:
 
