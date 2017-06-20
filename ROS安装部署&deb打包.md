@@ -74,13 +74,13 @@
 
    日志及处理：
 
-   [generate-log](images/generatelog.PNG)
+   ![generate-log](images/generatelog.PNG)
 
    右边是依赖项，依次下载，否则下一步报错。
 
     fakeroot debian/rules binary
 
-   [fakeroot-failed](images/fakerootfailed.PNG)
+   ![fakeroot-failed](images/fakerootfailed.PNG)
 
    如出现上述报错，请确定bloom-generate步骤中的依赖项装载完全并重新执行
 
