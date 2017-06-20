@@ -24,7 +24,7 @@
     rosinstall_generator desktop --rosdistro kinetic --deps --wet-only --tar > kinetic-desktop-wet.rosinstall
     wstool init -j8 src kinetic-desktop-wet.rosinstall
 
-   ![ROS安装完毕](images/ROSfinished.PNG)
+   ![ROS安装完毕](images/ROSfinished.png)
 
 5. 解决依赖关系：
 
@@ -40,7 +40,7 @@
 
    编译命令运行报错的处理：
 
-   ![报错](images/ROScatkinmakefailed.PNG)
+   ![报错](images/ROScatkinmakefailed.png)
 
    多数情况下是依赖包未找到，如 poco not found，查找此包并安装：
 
@@ -74,13 +74,13 @@
 
    日志及处理：
 
-   ![generate-log](images/generatelog.PNG)
+   ![generate-log](images/generatelog.png)
 
    右边是依赖项，依次下载，否则下一步报错。
 
     fakeroot debian/rules binary
 
-   ![fakeroot-failed](images/fakerootfailed.PNG)
+   ![fakeroot-failed](images/fakerootfailed.png)
 
    如出现上述报错，请确定bloom-generate步骤中的依赖项装载完全并重新执行
 
