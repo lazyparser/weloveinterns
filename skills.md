@@ -3,7 +3,7 @@
 实习生第一个月一般用来进行内部培训，在内部培训结束之后实习生会（必须）掌握以下技能或知识：
 
 ## git
-基本掌握git仓库克隆、同步更新、修改、推送、新建分支、分支合并等基本操作。
+学习《Git Pro》 https://git-scm.com/book/en/v2 ，基本掌握git仓库克隆、同步更新、修改、推送、新建分支、分支合并等基本操作。
 - ```git init```:初始化仓库
 - ```git add file_name``` :跟踪一个文件
 - ```git rm file_name``` :移除一个文件
@@ -20,8 +20,6 @@
 - ```git branch``` :列出本地分支，```-a```列出所有分支，包括远程分支，```-v```分支最后一次提交
 
 ## github
-
-TODO 技能掌握程度的描述
 - 掌握 Fork-Clone-Push， pull request
 - 保持与fork源同步，即更新: 
 >> ```git remote add upstream URL``` 添加upstream
@@ -35,7 +33,6 @@ TODO 技能掌握程度的描述
 >> ```git push origin``` 推送
 
 ## slack
-
 基本掌握聊天操作、查看任务接受任务、分享、@等操作。
 
 ## kanban
@@ -47,7 +44,7 @@ TODO 技能掌握程度的描述
 TODO 技能掌握程度的描述
 
 ## linux command line
-掌握Linux基本命令
+学习《The Linux Command Line》 掌握Linux基本命令
 - `$date`:查看时间
 - `$cal`:查看日历
 - `$df`:查看磁盘
@@ -93,8 +90,8 @@ TODO 技能掌握程度的描述
 
 ## ROS (Optional)
 
-- 学习并掌握ROS-wiki教程
-- 了解核心组件RVIZ框架结构，并修改修改订阅信息
+- 学习并掌握ROS-wiki教程 http://wiki.ros.org/ROS/Tutorials 
+- 了解核心组件RVIZ框架结构，并修改修改订阅信息 https://github.com/Keyinme/rviz 
 
 ## Android (Optional)
 
