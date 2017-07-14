@@ -70,7 +70,7 @@ Please visit [[https://github.com/XbotGroup]] for more details.
 
 又乖乖地把[编写教程的教程](http://wiki.ros.org/WritingTutorials) 看了一遍，发现底部有一个新手视频，视频也进去看看吧，进去之后，（我把眼镜擦了两遍才看的）忍不住吐槽：不是我眼镜的锅，这确实是AV画质，我连字都看不清。
 
-既然这条路走不通，那就看看原有的教程是怎么写的吧，随便进入indigo条目中的一个页面：http://wiki.ros.org/xbot/tutorials/indigo/SLAM%20Map%20Building%20with%20xbot。看看其他大神是怎么写的。
+既然这条路走不通，那就看看原有的教程是怎么写的吧，随便进入indigo条目中的一个页面：[http://wiki.ros.org/xbot/tutorials/indigo/SLAM%20Map%20Building%20with%20xbot]([http://wiki.ros.org/xbot/tutorials/indigo/SLAM%20Map%20Building%20with%20xbot) . 看看其他大神是怎么写的。
 
 点击编辑之后，终于看到原码了：
 
@@ -104,7 +104,7 @@ Please visit [[https://github.com/XbotGroup]] for more details.
 
 按照这种方法，想要进入xbot的indigo页面，就可以按照url拼接：`http://wiki.ros.org/` 拼上`xbot/tutorials/` 拼上` indigo` .
 
-得到http://wiki.ros.org/xbot/tutorials/indigo.进入后，应该就可以编辑了吧。
+得到[http://wiki.ros.org/xbot/tutorials/indigo](http://wiki.ros.org/xbot/tutorials/indigo) .进入后，应该就可以编辑了吧。
 
 点击`编辑(文本形式)` ,进入文本编辑模式：
 
