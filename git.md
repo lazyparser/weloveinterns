@@ -31,8 +31,8 @@ D:\git\weloveinterns>git merge origin/master
 Updating 4db8407..8ba0376
 Fast-forward
  ...220\210\346\210\220\346\234\215\345\212\241.md" |  236 +++++
- Reports/Report-of-CNNdroid.md                      |    2 +-
- Reports/Report-of-ScanNet.md                       |   29 +
+ reports/Report-of-CNNdroid.md                      |    2 +-
+ reports/Report-of-ScanNet.md                       |   29 +
  ....
  
 D:\git\weloveinterns>git push nepha
