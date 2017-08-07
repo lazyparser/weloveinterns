@@ -47,6 +47,8 @@ flib：生成FunctionLib程序，此项目生成为一个MoRo Function动态库�
 4) -v 显示emake版本号  
 5) -h 显示emake帮助信息  
 6) -u 升级emake  
+
 **2. Qt打开工程**  
 1） 生成的工程文件结构  
-![Alt text](/home/keyin000/Pictures/Screenshot from 2017-08-07 21-02-48.png)
+
+![](images/文件结构.png)
