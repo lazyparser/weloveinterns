@@ -1,6 +1,6 @@
 # EWayBot MoRo 测试报告
 - 安装SDK
-## FunSDK说明
+## 一、FunSDK说明
 Function分为两个功能层：HighLevelAI获取机器人检测消息；LowLevelAI获得机器人运动控制，主要由以下实现机制：  
 **1. Message机制**  
 所有消息（包含HighLevelAI检测到的周边数据，LowLevelAI发送的运动数据以及Function内部的Timer数据、自定义消息数据）均按到达时间及优先级加入一个消息队列，每个Function内部均存在在一个消息处理线程，该线程读取此消息列表，串行处理各消息。  
@@ -35,7 +35,7 @@ Function可编译成lib和app,当编译为lib库时，该Function可作为子Fun
 **6. Timer机制**  
 ms定时，ProcTimer处理。
 
-## 实例测试
+## 二、实例测试
 **1. 新建工程**  
 安装完SDK之后，使用命令：emake [参数1] [参数2] [参数3] [参数4]  //我这里生成fapp ip 192.168.8.100
 **参数列表**  
@@ -50,5 +50,43 @@ flib：生成FunctionLib程序，此项目生成为一个MoRo Function动态库�
 
 **2. Qt打开工程**  
 1） 生成的工程文件结构  
+新建工程后，在Function框架下自动生成用户类,文件结构包括main.cpp,用户实现.cpp，头文件.h  
+  
+![文件结构](../images/文件结构.png)    
 
-![qt](images/文件结构.png)
+2） main.cpp  
+调用SDK框架，连接至MoRo  
+  
+![main](../images/main.png)    
+  
+3） 生成的用户接口  
+自动生成全部用户编程接口，待用户实现 
+  
+![userclass](../images/userclass.png)  
+
+**3. 编程接口实例实现**   
+1） 先进Initialize注册要用的Feature和Limbs （这里只实现运动控制，Feature可以不注册）  
+  
+![ini](../images/ini.png)  
+  
+2） Initialize之后进入Jobstart实现具体功能：  
+- 发出语音“Hello”；  
+- 头部摆动；  
+- 手抓握紧；  
+- 前进 0.5（相对距离）；  
+- 手臂单个运动；  
+- 手臂轨迹跟踪；  
+上面各项运动既可以直接在Jobstart内直接实现，也可以写成成员函数，调用。  
+  
+![job](../images/job.png)    
+  
+成员函数实现跟踪  
+
+![job](../images/traj.png)  
+   
+3） 运动指令实现步骤（前四个均正常实现， 手臂单个关节、跟踪运动未实现， ）：  
+- 定义运动类  
+- 复制类对象；  
+- Send***系列命令发送指令；  
+
+
