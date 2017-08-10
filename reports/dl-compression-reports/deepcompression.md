@@ -4,6 +4,7 @@
 ## 相关资源
 github上有一个作者提供的压缩AlexNet的[model](https://github.com/songhan/Deep-Compression-AlexNet) ，用的caffe。
 [这里](https://youtu.be/vouEMwDNopQ) 有作者在会议上的presentation。
+[这里](https://github.com/garion9013/impl-pruning-TF)有一个对[Han2015A]的tensorflow实现，似乎可以先研究一下这个。
 [这里](https://github.com/hiteshvaidya/Model-Compression)和[这里](https://github.com/gstaff/tfzip)是两个tensorflow版本的实现，好像都没完成，不知道效果怎么样。
 [这篇文章](http://www.jianshu.com/p/46a645c0e56c)的最后给了关于剪枝的简单实现。
 
