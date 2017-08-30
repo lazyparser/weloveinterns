@@ -1,9 +1,9 @@
 # Tensorflow-YOLO in Android 调研报告 
 
-by -- [paperfish](#https://www.github.com/lisongting)
+by -- [paperfish](https://www.github.com/lisongting)
 
-YOLO是一个用于物体识别的模型，它的源码是位于这里：[YOLO_tensorflow](#https://github.com/gliese581gg/YOLO_tensorflow) 。
-[android-yolo](#https://github.com/natanielruiz/android-yolo)  是一个使用了tensorflow框架+yolo模型的App。
+YOLO是一个用于物体识别的模型，它的源码是位于这里：[YOLO_tensorflow](https://github.com/gliese581gg/YOLO_tensorflow) 。
+[android-yolo](https://github.com/natanielruiz/android-yolo)  是一个使用了tensorflow框架+yolo模型的App。
 
 作者在android-yolo的README中是这样说的：
 >android-yolo is the first implementation of YOLO for TensorFlow on an Android device. It is compatible with Android Studio and usable out of the box. It can detect the 20 classes of objects in the Pascal VOC dataset: aeroplane, bicycle, bird, boat, bottle, bus, car, cat, chair, cow, dining table, dog, horse, motorbike, person, potted plant, sheep, sofa, train and tv/monitor.
@@ -15,7 +15,7 @@ YOLO是一个用于物体识别的模型，它的源码是位于这里：[YOLO_t
 
 尽管作者说只能支持20个物体，然而看到视频中的效果，感觉识别得还不错，于是打算先尝试在一个测试app中试一试能否移植过来，如果能移植成功并且效果不错的话，然后再集成到xbot_head中。(只要能移植成功，后续的集成就很方便。)
 
-由于tensorflow底层是用C++实现的，因此我在Android端就得借助[JNI(Java Native Interface)](#https://developer.android.com/training/articles/perf-jni.html?hl=zh-cn) 和[NDK(Native Development Kit)](#https://developer.android.google.cn/ndk/index.html) 。
+由于tensorflow底层是用C++实现的，因此我在Android端就得借助[JNI(Java Native Interface)](https://developer.android.com/training/articles/perf-jni.html?hl=zh-cn) 和[NDK(Native Development Kit)](https://developer.android.google.cn/ndk/index.html) 。
 
 然后我的探索之路 ~~入坑之路~~ 就开始了-----
 
@@ -70,7 +70,7 @@ native方法并不在Java中进行实现，而是在C/C++中进行实现（这�
 
 不知道android-yolo的作者natanielruiz是用了怎样的方式编译通过的，为此我还在android-yolo上面提了一个issue。
 
-后来经过各种探索，发现tensorflow官方的一个独立demo：[miyosuda/TensorFlowAndroidDemo](#https://github.com/miyosuda/TensorFlowAndroidDemo) ，仔细看了看之后发现，原来这个TensorFlowAndroidDemo和natanielruiz的android-yolo中用的是几乎一样的C++代码，文件名和文件结构都是一样的。于是我把TensorFlowAndroidDemo中的库编译了一遍，这个却又可以编译通过。
+后来经过各种探索，发现tensorflow官方的一个独立demo：[miyosuda/TensorFlowAndroidDemo](https://github.com/miyosuda/TensorFlowAndroidDemo) ，仔细看了看之后发现，原来这个TensorFlowAndroidDemo和natanielruiz的android-yolo中用的是几乎一样的C++代码，文件名和文件结构都是一样的。于是我把TensorFlowAndroidDemo中的库编译了一遍，这个却又可以编译通过。
 
 我就猜想一定有哪些地方被改过了，否则android-yolo中的C++代码怎么可能编译不通过。
 
