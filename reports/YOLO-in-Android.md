@@ -1,8 +1,9 @@
 # Tensorflow-YOLO in Android 调研报告 
 
-by -- [paperfish](#https://github.com/lisngting)
+by -- [paperfish](#https://www.github.com/lisongting)
 
-YOLO是一个用于物体识别的模型，它的源码是位于这里：[https://github.com/gliese581gg/YOLO_tensorflow](#https://github.com/gliese581gg/YOLO_tensorflow) ，[android-yolo](#https://github.com/natanielruiz/android-yolo) 是一个使用了tensorflow框架+yolo模型的App。
+YOLO是一个用于物体识别的模型，它的源码是位于这里：[YOLO_tensorflow](#https://github.com/gliese581gg/YOLO_tensorflow) 。
+[android-yolo](#https://github.com/natanielruiz/android-yolo)  是一个使用了tensorflow框架+yolo模型的App。
 
 作者在android-yolo的README中是这样说的：
 >android-yolo is the first implementation of YOLO for TensorFlow on an Android device. It is compatible with Android Studio and usable out of the box. It can detect the 20 classes of objects in the Pascal VOC dataset: aeroplane, bicycle, bird, boat, bottle, bus, car, cat, chair, cow, dining table, dog, horse, motorbike, person, potted plant, sheep, sofa, train and tv/monitor.
@@ -119,7 +120,7 @@ native方法并不在Java中进行实现，而是在C/C++中进行实现（这�
 
 替换完成后，编译。
 
-编译通过！！！。
+编译通过！！！
 
 （我还以为：走完这几个坑，后面都平坦了，然而。。。。）
 
@@ -169,9 +170,9 @@ aaptOptions {
 
 ![yolo11](../images/yolo/yolo11.png)
 
-当在Java代码中调用`classifyImageBmp(Bitmap bitmap)` 这个native方法时，会返回一长串String，这个String由很多个数字组成，这个可能是跟深度学习的一些计算有关，看不懂。然后又会根据这些返回的数字，计算出物体的位置。比如根据这上面的这些数字，最后计算出的物体的位置为：**Location:[179.05542,509.24637,877.1847,1073.7937] ** ，四个元素分别为矩形的左、上、右、下坐标，这是一个正常的矩形。
+当在Java代码中调用`classifyImageBmp(Bitmap bitmap)` 这个native方法时，会返回一长串String，这个String由很多个数字组成，这个可能是跟深度学习的一些计算有关，看不懂。然后又会根据这些返回的数字，计算出物体的位置。比如根据这上面的这些数字，最后计算出的物体的位置为：**Location:[179.05542,509.24637,877.1847,1073.7937]**  ，四个元素分别为矩形的左、上、右、下坐标，这是一个正常的矩形。
 
-左上右下坐标的说明：
+左,上,右,下,坐标的说明：
 
 ```
 * @param left   The X coordinate of the left side of the rectangle
@@ -186,7 +187,7 @@ aaptOptions {
 
 ![yolo12](../images/yolo/yolo12.png)
 
-在最后面打印出的一个Location为：Location:[3.5899267,541.8473,5.603404,542.11884] 。这显然是一个不正常的矩形。非常小。
+在最后面打印出的一个Location为：**Location:[3.5899267,541.8473,5.603404,542.11884]** 。这显然是一个不正常的矩形。非常小。
 
 
 
@@ -256,6 +257,8 @@ static void GetTopN(
 ![yolo15](../images/yolo/yolo15.jpg)
 
 尽管识别的位置还有一些差距，但是整体矩形框还是画出来了，说明我自己的测试项目中已经可以成功移植并运行tensorflow-yolo。至于识别精度和位置差别，这是开源框架算法和模型的要做的事了。
+
+
 
 漫长的探索旅程终于Over.
 
