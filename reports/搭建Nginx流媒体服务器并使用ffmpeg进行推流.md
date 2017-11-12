@@ -152,7 +152,7 @@ sudo /usr/local/nginx/sbin/nginx
 
 ![1](../images/rtmp_nginx/2.png)
 
-这是重复启动导致的。运行`sudo /usr/local/nginx/sbin/nginx` -s stop  可以先停止运行之前启动的，然后再次运行
+这是重复启动导致的。运行`sudo /usr/local/nginx/sbin/nginx -s stop`  可以先停止运行之前启动的，然后再次运行
 
 `sudo /usr/local/nginx/sbin/nginx` 就没有问题了。
 
@@ -160,7 +160,7 @@ sudo /usr/local/nginx/sbin/nginx
 
 ## 4.配置Nginx流媒体服务器
 
-nginx服务器有一个配置文件叫做**nginx.conf** ，这个文件默认是位于**/usr/local/nginx/conf** 目录下。
+nginx服务器有一个配置文件叫做**nginx.conf** ，这个文件默认是位于**/usr/local/nginx/conf **  目录下。
 
 我将这个文件改成这样：
 
@@ -269,3 +269,7 @@ ffmpeg -re -i /home/lee/video.mp4 -vcodec copy -acodec copy -b:v 800k -b:a 32k -
 表示使用`ffplay ` 来播放指定流媒体文件。ffplay 是ffmpeg 中自带的媒体播放程序。然后就可以看到下面的视频了
 
 ![1](../images/rtmp_nginx/5.png)
+
+
+
+后记：ffmpeg真是博大精深啊，不仅提供了强大的命令行工具`ffmpeg` ,  `ffprobe`  , `ffplay`,   `ffserver` 方便我们对音视频进行处理（其实使用ffserver也可以搭建流媒体服务器）。ffmpeg还提供了底层丰富的[API](http://ffmpeg.org/doxygen/trunk/index.html) ，这一方面内容我还需要深入学习。
