@@ -228,7 +228,7 @@ sudo /usr/local/nginx/sbin/nginx
 
 ## 7.配置Nginx流媒体服务器
 
-nginx服务器有一个配置文件叫做**nginx.conf** ，这个文件默认是位于**/usr/local/nginx/conf **  目录下。
+nginx服务器有一个配置文件叫做**nginx.conf** ，这个文件默认是位于**/usr/local/nginx/conf**  目录下。
 
 执行`sudo vi /usr/local/nginx/conf/nginx.conf`
 
@@ -276,7 +276,7 @@ http {
 }
 ```
 
-其中rtmp就是rtmp服务器模块，端口是1935，application我理解为一个路径。可以通过访问`rtmp://localhost/videotest` 来访问videotest这个资源。`live on ` 表示这是实时的传输，这不同于点播，点播就好比我在某视频网站上想看一个视频，无论我什么时候去点击，它会从头开始播放。而实时传输（直播），就是好比看电视，我在19:20去打开电视（打开直播路），视频不会从头开始播放，而是从当前(19:20)的视频数据开始播放。
+其中rtmp就是rtmp服务器模块，端口是1935，application我理解为一个路径。可以通过访问`rtmp://localhost/videotest` 来访问videotest这个资源。`live on ` 表示这是实时的传输，这不同于点播，点播就好比我在某视频网站上想看一个视频，无论我什么时候去点击，它会从头开始播放。而实时传输（直播），就是好比看电视，我在19:20去打开电视（打开直播流），视频不会从头开始播放，而是从当前(19:20)的视频数据开始播放。
 
 除了配置rtmp服务器，还可以配置HTTP和HTTPS服务器。关于nginx服务器和其配置方式，请阅读[nginx官网](http://nginx.org/en/docs/) 。
 
@@ -365,3 +365,8 @@ Warning: USB events thread - failed to set priority. This might cause loss of da
 #............
 ```
 接下来可以使用任何支持RTMP的媒体播放器进行播放。
+
+如果服务器的IP地址是192.168.0.1，则：
+
+* RGB图像直播流地址：`rtmp://192.168.0.1/rgb`
+* 深度图像直播流地址：`rtmp://192.168.0.1/depth`
