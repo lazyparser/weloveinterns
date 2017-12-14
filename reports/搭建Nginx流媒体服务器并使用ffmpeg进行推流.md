@@ -272,4 +272,8 @@ ffmpeg -re -i /home/lee/video.mp4 -vcodec copy -acodec copy -b:v 800k -b:a 32k -
 
 
 
+推流成功后，在任何支持rtmp流媒体协议的播放器都可以播放。我在安卓中使用了七牛云的开源播放器[PLDroidPlayer](https://link.jianshu.com/?t=https://github.com/pili-engineering/PLDroidPlayer) ，播放了刚刚推流到服务器上的视频，下面是运行的截图。
+
+![7](../images/rtmp_nginx/7.png)
+
 后记：ffmpeg真是博大精深啊，不仅提供了强大的命令行工具`ffmpeg` ,  `ffprobe`  , `ffplay`,   `ffserver` 方便我们对音视频进行处理（其实使用ffserver也可以搭建流媒体服务器）。ffmpeg还提供了底层丰富的[API](http://ffmpeg.org/doxygen/trunk/index.html) ，这一方面内容我还需要深入学习。
