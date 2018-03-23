@@ -8,19 +8,19 @@
 - 与XBot机器人UI交互程序的开发、调试、测试和集成。
 - 目前主要是 [XBot_Head](https://github.com/lazyparser/xbot_head/) 项目的开发。
 
-**（5人）ROS开发（ROS Dev）**
+**（0人）ROS开发（ROS Dev）**
 
 - 参与机器人操作系统相关的软件开发、测试、调试、部署。
 - 在第一个月内训中提供ROS基础培训。
 - 目前我们在做的项目有：底盘驱动、导航、避障、骨骼检测等。
 
-**（1人）机器人测试开发（Robot Test Automation）**
+**（0人）机器人测试开发（Robot Test Automation）**
 
 - 参与机器人测试过程的脚本开发及测试自动化。
 - 需要会写 Bash 和 Python 脚本。
 - 内训后需要会 ROSBag ／ Gazebo 等的知识。
 
-**（3人）深度学习／机器学习（Deep Learning Engineering）**
+**（0人）深度学习／机器学习（Deep Learning Engineering）**
 
 - 尝试将现有已发表的深度学习开源研究成果跑起来，在算力和功耗都有局限的嵌入式设备（or 机器人）中运行起来。通过降低计算精度、网络稀疏化等方式优化神经网络在树莓派、TK1、TX1等设备上的执行速度。
 - 需要一名实习生将AlexNet为代表的一系列ImageNet识别模型，裁剪并移植到嵌入式设备上。
