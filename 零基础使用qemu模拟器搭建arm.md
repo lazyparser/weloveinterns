@@ -9,7 +9,7 @@
 ### 开发环境
 Ubuntu16.04 模拟arm vexpress A9开发板。
 ### 搭建步骤
-####下载Linux内核
+#### 下载Linux内核
 1. 方法一：git下载
 
 		git clone git://git.kernel.org/pub/scm/linux/kernel/git/torvalds/linux.git
