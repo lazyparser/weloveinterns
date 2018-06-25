@@ -42,7 +42,7 @@
 
 ### 一些日常操作习惯
 
-- slack在线的时候可以发送一句 `/away` 标记自己在线，下线了再敲一句 `/away` 改成下线， 这样同事我就可以避免在你下线的时候找你了。
+- slack在线的时候可以发送一句 `/away` 标记自己在线，下线了再敲一句 `/away` 改成下线， 这样同事就可以避免在你下线的时候找你了。
 - slack在线时可以使用'/dnd for 15 minutes'
 - 或者'/dnd until tomorrow morning'、'/dnd until 2:15'、'/dnd until tonight'等来设定免打扰时段
 - 如果想要取消免打扰, 则只需再次发送 /dnd 即可取消
