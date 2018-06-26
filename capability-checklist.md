@@ -56,6 +56,77 @@ Linux 命令行操作
 - 自动补全 理解自动补全原理。
 - script tools（optional）能够使用script工具录制和回放命令行工作。
 - chmod VIP 理解文件系统权限模型，能够修改。
+- umask 知道umask的用途和原理。
+- sudo/su 会使用。
+- chwon 会使用，会批量/递归的修改子目录。
+- chgrp 会使用。
+- passwd 会修改自己的密码。
+- usermod 会修改。
+- adduser 会添加用户。
+- id 知道显示出来的每个字段是什么意思。
+- `>` 知道这个在命令行中的意思，会使用。
+- `&>` 理解并会使用。
+- `2>&1` 理解并会使用。
+- `rwxrwxrwx` 理解权限模型并能通过 `a+x` or `755` 两种方式修改权限。
+- ps 会看全局的进程并结合grep寻找自己想要的进程
+- top 会使用，理解显示的内容，知道快捷键用法。知道批量模式搭配grep使用。
+- jobs/bg/fg 知道是什么概念并会使用即可（我们主要使用tmux/screen）。
+- kill 会使用，知道SIGTERM和SIGKILL。
+- shutdown/reboot 会使用。
+- cat /proc/cpuinfo 会使用这个命令查看CPU信息。
+- nano 会使用nano编辑文本文件。
+- od 会使用od查看文件，搭配 -c -x 等参数，搭配head等命令使用。
+- vim 会用vim打开文件和退出vim。
+- vim 会进入编辑模式，修改文件内容，并保存。
+- vim 能够理解 normal ex 和 insert 以及 visual 模式。
+- vim 熟练使用搜索功能。
+- vim 熟练使用 `:s` 替换命令。
+- vim 知道如何跟系统剪贴板交互 `"+y`
+- PS1 能够将自己的命令行提示符改成笑脸。
+- color 能够理解和查询用 `\\033[0;30m` 这样的命令改变颜色。
+- apt-get install 能够安装工具包。
+- apt-cache search 能够搜索需要的工具包。
+- dpkg -i 能够安装离线下载的deb包。
+- mount 能够在指定挂载点挂载常见格式（FAT、NTFS、EXT2、ISO）的分区/镜像。
+- mount -ro 能够用readonly模式挂载分区/镜像。
+- umount 知道如何卸载分区/镜像。
+- md5sum/sha1sum/sha512sum 能够计算和检验文件的校验和。
+- /dev/sd* 能够理解 /dev 目录下都是什么东西。
+- ping 能够检查网络是否联通。
+- netstat 能够查看本机开了哪些端口。
+- curl 能够用curl下载文件/发送HTTP请求。
+- wget 能够使用wget下载文件/镜像整个站点。
+- ssh 熟练登陆远程主机。
+- ssh/pubkey 理解并能够使用公钥登陆远程主机。
+- ifconfig/route/resolv.conf 有能力在命令行修改自己机器的IP地址和路由器、DNS服务器。
+- ssh/MITM 理解MITM攻击的原理，并能够正确判别主机RSA指纹冲突是否误报。
+- scp 会使用scp在两台机器间通过网络拷贝文件/目录。
+- rsync 能够在两台机器间通过网络拷贝文件/目录。
+- locate 能够使用locate命令寻找文件。
+- find VIP 要求熟练使用find寻找各种约束条件的文件，包括文件名、大小、访问/修改时间等。
+- xargs VIP 熟练xargs跟各种命令的搭配使用。
+- touch 熟练使用。
+- gzip/gunzip 能够命令行解压缩文件。
+- bzip2/bunzip2 能够命令行解压缩文件。
+- tar 能够命令行压缩文件和解压缩文件。
+- grep -E VIP 要求熟练掌握grep中的正则表达式。
+- cut 熟练使用。
+- sed 熟练使用替换命令。
+- diff/vimdiff 理解diff文件的概念和原理，能够使用diff对比两个文件的差异。
+- source 理解source命令和 bash subshell 的差别。
+- bash 能够编写if-then-else命令。
+- bash 能够编写for循环。
+- bash 能够比较两个字符串是否一直，是否是空字符串。
+- bash 能够比较两个整数的大小。
+- bash 能够使用 `(())` 计算数值表达式。
+- `&&`/`||` 能够灵活使用控制操作符（前提是理解程序/命令的返回值的概念）。
+- bash 能够使用 read 命令读取用户输入并给出提示符/提示信息。
+- `$*` 理解并能够使用。
+- `$@` 理解并能够使用。
+- `$?` 理解并能够使用。
+- `${abc##a}` 理解并能够使用。
+- `${abc%%b}` 理解并能够使用。
+- `bash -x` 能够打印bash的执行记录调试错误。
 
 
 Git 常用操作和规范
