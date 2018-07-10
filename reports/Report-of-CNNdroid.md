@@ -1,4 +1,4 @@
-# CNNDroid尝试报告
+# CNNDroid测试报告
 CNNDroid是一个开源的，把神经网络移植到Android上的框架。它把在性能良好的机器上训练好的模型转换成为自己的格式，并且在移动设备上使用。[这里是它的Github地址。](https://github.com/ENCP/CNNdroid)
 
 Github根目录里面有一个CNNdroid Complete Developers Guide and Installation Instruction.pdf，详细的说明了框架的用法。首先你要用项目提供的python脚本把原来的CNN模型（支持caffe，Theano，Torch，没有TensorFlow）转换成框架需要的格式。之后调用框架的API去加载模型做出预测。Github上提供了几个训练并且转换好的模型，我就没有做第一步。框架封装的很好，调用非常简单。但是我还是踩了几个坑，在这里说一说。

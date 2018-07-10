@@ -1,6 +1,6 @@
 环境：ubuntu 16.04
 
-# ROS安装部署(源码安装）
+# ROS安装部署(源码安装)
 
 [ROS install from source](http://wiki.ros.org/kinetic/Installation/Source)
 
@@ -56,7 +56,7 @@
     bloom可自动化debian过程
 
 1. 安装bloom：
-   
+
    [bloom](http://bloom.readthedocs.io/en/0.5.10/)
 
     sudo apt-get install python-bloom
@@ -66,10 +66,10 @@
    [bllom-generate](http://answers.ros.org/question/173804/generate-deb-from-ros-package/)
 
    进入需要打包的工程文件夹，含package.xml
- 
+
     cd path/to/your/catkin/package
     bloom-generate rosdebian --os-name ubuntu --os-version xenial --ros-distro kinetic
-   
+
    --os-version: 运行 `lsb_release -a` ，codename 下得到，ubuntu16.04 对应 xenial。
 
    日志及处理：
@@ -85,5 +85,5 @@
    如出现上述报错，请确定bloom-generate步骤中的依赖项装载完全并重新执行
 
 3. 打包成功：
-   
+
    日志提示打包成功，当前文件夹下出现.deb文件，安装命令dpkg -i <package.deb>，勿在本机安装，或造成系统崩溃等不良后果。   
