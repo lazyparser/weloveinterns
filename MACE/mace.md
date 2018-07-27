@@ -179,4 +179,10 @@ unzip android-studio-ide-171.4408382-linux.zip
 	./build.sh
 
 我本来打算将mace的apk也demo出来，但是可惜运行后得到的apk文件安装后闪退，尚未解决。
+####3.
+将mace库全部还原，在电脑上连接自己的android，我的是华为荣耀八，打开开发者模式，usb调试。运行上节内容，可以得到手机上的app。运行时可能下载模型时速度过慢乃至进程不动，建议按照之前yaml文件的内容将模型路径改为本地。这个android的yaml文件是`mace/example/android`中的`mobilenet.yml`。
+将其中的`model_file_path`的网址中的模型手动下载，在将网址改为本地地址即可。
+![](imgs/20180727-223114.png)
+手机app界面
+![](imgs/20180727-222649.png)
 曹宁宁
