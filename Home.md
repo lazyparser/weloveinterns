@@ -1,16 +1,13 @@
 # We♥︎Interns
 Welcome to the weloveinterns wiki! We❤️Interns!
 
-中科院软件所XLab机器人组实习生培训及日常工作日常。
+重德智能（原中科院软件所XLab机器人组）实习生培训及日常工作日常。
 
-欢迎对机器人系统以及安卓开发感兴趣的同学[加入我们](mailto:wuwei2016@iscas.ac.cn)!
+欢迎对机器人系统以及安卓开发感兴趣的同学[加入我们](mailto:w@droid.ac.cn)!
 
 [内训技能树清单](skills.md) |
 [完整详细的内训结业测试清单](capability-checklist.md) |
-[开放任务列表](tasklist.md) |
-[线上会议日程及纪要](meetings.md) |
-[线下活动目录](events.md) |
-[进度报告](reports.md)
+[已经完成的各类报告](reports.md)
 
 ## 如何更新本wiki
 
