@@ -1,6 +1,18 @@
 实习生能力检查清单
 =======================================
 
+请还没有看过一下三个链接的同学，仔细阅读并学习。我们后续按照stackoverflow的标准来要求问题提交，培养起来专业的习惯。
+
+How do I ask a good question?
+https://stackoverflow.com/help/how-to-ask
+
+How to create a Minimal, Complete, and Verifiable example
+https://stackoverflow.com/help/mcve
+
+What types of questions should I avoid asking?
+https://stackoverflow.com/help/dont-ask
+
+
 这个清单的目的是为了在实习生内训结束时，检测实习生对于接下来的开发工作需要掌握的各项基础能力。
 其中，git 操作能力、 Linux Commands / Bash Scripting、 Python Programming、ROS
 是所有开发类实习生都需要掌握的基础能力。前端类（Web、Android、iOS）开发需要掌握 git 操作能力、
