@@ -32,10 +32,16 @@
 
 
 工作地址：北京市海淀区中关村街道紫金数码园3号楼807（距离知春路地铁站A口400米）
+
 简历投递：13051581575@163.com（4月30号截止）
+
 联系人：王晓云
+
 微信号：wangxiaoyun0011
+
 Xbot机器人链接：
+
 https://github.com/DroidAITech/
+
 http://wiki.ros.org/Robots/Xbot/cn
 
