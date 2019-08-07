@@ -32,7 +32,7 @@ TODO 需要有一个 first work day 的详细说明.
 
 [创建程序仓库的README编写规范](https://yt.droid.ac.cn/beijing/weloveinterns/wikis/%E5%88%9B%E5%BB%BA%E7%A8%8B%E5%BA%8F%E4%BB%93%E5%BA%93%E7%9A%84README%E7%BC%96%E5%86%99%E8%A7%84%E8%8C%83)
 
-[使用qt creator自动加入license文件头](https://yt.droid.ac.cn/beijing/weloveinterns/wikis/%E5%A6%82%E4%BD%95%E5%9C%A8Sublime-Text%E5%92%8Cqt-creator%E4%B8%AD%E8%87%AA%E5%8A%A8%E5%8A%A0%E5%85%A5%E6%96%87%E4%BB%B6%E5%A4%B4)
+[如何在Sublime Text和qt creator中自动加入文件头](https://yt.droid.ac.cn/beijing/weloveinterns/wikis/%E5%A6%82%E4%BD%95%E5%9C%A8Sublime-Text%E5%92%8Cqt-creator%E4%B8%AD%E8%87%AA%E5%8A%A8%E5%8A%A0%E5%85%A5%E6%96%87%E4%BB%B6%E5%A4%B4)
 
 
 
