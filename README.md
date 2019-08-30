@@ -26,13 +26,13 @@ TODO 需要有一个 first work day 的详细说明.
 
 # 重德智能程序代码规范。新入职的软件工程师和软件实习生看过来～
 
-[ROS程序包编码规范](https://yt.droid.ac.cn/beijing/weloveinterns/wikis/ROS%E7%A8%8B%E5%BA%8F%E5%8C%85%E7%BC%96%E7%A0%81%E8%A7%84%E8%8C%83)
+ROS程序包编码规范:[ROS-package-coding-specification.md](ROS-package-coding-specification.md)
 
-[关于公司代码开源准则与LICENSE规范](https://yt.droid.ac.cn/beijing/weloveinterns/wikis/%E5%85%B3%E4%BA%8E%E5%85%AC%E5%8F%B8%E4%BB%A3%E7%A0%81%E5%BC%80%E6%BA%90%E5%87%86%E5%88%99%E4%B8%8ELICENSE%E8%A7%84%E8%8C%83)
+关于公司代码开源准则与LICENSE规范:[company-code-open-source-guidelines.md](company-code-open-source-guidelines.md)
 
-[创建程序仓库的README编写规范](https://yt.droid.ac.cn/beijing/weloveinterns/wikis/%E5%88%9B%E5%BB%BA%E7%A8%8B%E5%BA%8F%E4%BB%93%E5%BA%93%E7%9A%84README%E7%BC%96%E5%86%99%E8%A7%84%E8%8C%83)
+创建程序仓库的README编写规范:[how-to-write-a-README-for-project.md](how-to-write-a-README-for-project.md)
 
-[如何在Sublime Text和qt creator中自动加入文件头](https://yt.droid.ac.cn/beijing/weloveinterns/wikis/%E5%A6%82%E4%BD%95%E5%9C%A8Sublime-Text%E5%92%8Cqt-creator%E4%B8%AD%E8%87%AA%E5%8A%A8%E5%8A%A0%E5%85%A5%E6%96%87%E4%BB%B6%E5%A4%B4)
+如何在Sublime Text和qt creator中自动加入文件头:[how-to-write-a-README-for-project.md](how-to-write-a-README-for-project.md)
 
 
 
