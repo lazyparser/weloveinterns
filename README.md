@@ -12,7 +12,7 @@
 
 ## 实习生看这里
 
-[实验室简介](https://github.com/lazyparser/weloveinterns/blob/master/so-you-want-to-join-us.md))
+[实验室简介](https://github.com/lazyparser/weloveinterns/blob/master/so-you-want-to-join-us.md)
 
 [我们如何进行实习生招聘](https://github.com/lazyparser/weloveinterns/blob/master/how-do-we-interview-interns.md)
 
