@@ -1,4 +1,5 @@
-TODO
+
+TODO 20190929 需要重新组织和更新
 
 # Python 学习
 
@@ -39,7 +40,7 @@ python支持字符串的两种记法，用双引号和单引号做标记，如�
 "I'm so happy that you can come to my home and participate in my birthday party \
 
 Thank you \
-		 
+
 so much"
 
 多行字符串表示：
@@ -180,5 +181,3 @@ Python是一种面向对象的语言，我们可以定义自己的类，定义�
 义函数大致相同，只是函数的第一个参数也是self，如果没有其它参数，则函数
 
 只有一个self参数。
-
-

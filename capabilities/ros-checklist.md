@@ -1,5 +1,7 @@
 # ROS学习之路 —— 第一篇:硬件与软件配置
 
+TODO 20190929 需要重新组织和更新
+
 ## ROS安装
 
 本文档的示例均在Ubuntu 16.04 LTS环境下，此版本的Linux系统适配
@@ -153,7 +155,7 @@ ROS Kinetic, 如果你用的是Ubuntu 14，则需要适配Ros indigo，只需
 然后的流程就跟小海龟的例子相似:
 
 打开终端，首先运行ros服务:
-    
+
     roscore
 
 新打开一个终端，启动turtlebot:
@@ -568,7 +570,7 @@ rbx1_nav文件夹下都有哪些rviz文件,选择一个就行，然后我们应�
 	rostopic pub /move_base_simple/goal geometry_msgs/PoseStamped '{header:{frame_id:"map"},pose:{position:{x:0,y:0,z:0},orientation:{x:0,y:0,z:0,w:1}}}'
 
 然后就可以看到效果啦
-	
+
 # ROS学习之路--第八篇：利用Kinect摄像头构建地图
 
 本节使用的工具包有 turtlebot, freenect驱动
@@ -583,7 +585,7 @@ rbx1_nav文件夹下都有哪些rviz文件,选择一个就行，然后我们应�
 	roscd turtlebot_navigation
 	roscd turtlebot_rviz_launchers
 	roscd freenect_launch
-	
+
 如果上面命令都能正确进入相应的包路径，则证明已经安装成功，可以继续
 
 导航分为两个过程，构建地图和自主运行，下面先讲怎样用Kinect构建地图
@@ -601,18 +603,18 @@ rbx1_nav文件夹下都有哪些rviz文件,选择一个就行，然后我们应�
 	  	<arg name="rgb_processing" value="false" />
 	  	<arg name="depth_registration" value="false" />
 	  	<arg name="depth_processing" value="false" />
-	  
+
 	  	<!-- We must specify an absolute topic name because if not it will be prefixed by "$(arg camera)".
 	  	Probably is a bug in the nodelet manager: https://github.com/ros/nodelet_core/issues/7 -->
-	  
+
 	  	<arg name="scan_topic" value="/scan" />
-	  
+
 	  </include>
-	  
+
 	  <!-- Gmapping -->
 	  <arg name="custom_gmapping_launch_file" default="$(find turtlebot_navigation)/launch/includes/gmapping/$(arg 3d_sensor)_gmapping.launch.xml"/>
 	  <include file="$(arg custom_gmapping_launch_file)"/>
-	  
+
 	  <!-- Move base -->
 	  <include file="$(find turtlebot_navigation)/launch/includes/move_base.launch.xml"/>
 
@@ -623,11 +625,11 @@ rbx1_nav文件夹下都有哪些rviz文件,选择一个就行，然后我们应�
 
 xml文件，因此，我们可以先看下这个目录中都有那些文件，发现文件列表如下:
 
-	astra_gmapping.launch.xml   
-	asus_xtion_pro_offset_gmapping.launch.xml  
-	kinect_gmapping.launch.xml  
-	asus_xtion_pro_gmapping.launch.xml  
-	gmapping.launch.xml 
+	astra_gmapping.launch.xml
+	asus_xtion_pro_offset_gmapping.launch.xml
+	kinect_gmapping.launch.xml
+	asus_xtion_pro_gmapping.launch.xml
+	gmapping.launch.xml
 	r200_gmapping.launch.xml
 
 可以看到有许多3d传感器的驱动文件,我们要用的是kinect驱动文件，因此这里需要启动
@@ -651,7 +653,7 @@ kinect_gmapping.launch.xml，如何才能做到这一点，看下程序中<!-- G
 然后关闭所有并重启终端，或者在主目录下重新source一下.bashrc：
 
 	source .bashrc
-	
+
 这时我们的准备工作就做好了.
 
 下面开始用Kinect构建地图:
@@ -747,7 +749,7 @@ Estimate 按钮在地图上选择起始点和朝向作为机器人的初始状�
 	roslaunch turtlebot_bringup minimal.launch
 
 新开客户端:
-	
+
 	roslaunch turtlebot_follower follower.launch
 
 如果刚开始站在Kinect前面，则如果距离比较近，kobuki会自动向后退，如果比较远,

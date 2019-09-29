@@ -1,5 +1,7 @@
 # Markdown基本操作技能
 
+TODO 20190929 需要重新组织和更新
+
 ## 1.超链接的使用
 
 在github中，我们使用了markdown文法来书写说明文档。不同于其他项目，weloveinterns仓库中，wiki 和 code 的代码我们人工合并在一起了。
@@ -28,7 +30,7 @@
 
 也就是说，wiki使用的方式：“https://github.com/lazyparser/weloveinterns/wiki/markdown-checklist”
 
-与“https://github.com/lazyparser/weloveinterns/blob/master/capabilities/markdown-checklist.md” 
+与“https://github.com/lazyparser/weloveinterns/blob/master/capabilities/markdown-checklist.md”
 
 处理方式是完全不同的。
 
@@ -62,10 +64,10 @@ https://raw.githubusercontent.com/wiki/lazyparser/weloveinterns/capabilities/mar
 
 TODO：
 
-那么问题来了,如果 a/xxx.md 和 b/xxx.md 都同时存在, 
+那么问题来了,如果 a/xxx.md 和 b/xxx.md 都同时存在,
 
 ```
-[[a-or-b|xxx]] 
+[[a-or-b|xxx]]
 ```
 
 会如何链接呢?
@@ -76,4 +78,3 @@ TODO：
 以及下图的介绍：
 
 ![wiki-page](../images/Link-internal-pages.png)
-

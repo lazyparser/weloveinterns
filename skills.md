@@ -1,5 +1,7 @@
 # 实习生技能列表
 
+TODO 20190929 需要更新。欢迎提交PR
+
 实习生第一个月一般用来进行内部培训，在内部培训结束之后实习生会（必须）掌握以下技能或知识：
 
 ## git
@@ -21,7 +23,7 @@
 
 ## github
 - 掌握 Fork-Clone-Push， pull request
-- 保持与fork源同步，即更新: 
+- 保持与fork源同步，即更新:
 >> ```git remote add upstream URL``` 添加upstream
 >> ```git fetch upstream``` 更新本地
 >> ```git merge upstream/master``` 合并
@@ -90,8 +92,8 @@ TODO 技能掌握程度的描述
 
 ## ROS (Optional)
 
-- 学习并掌握ROS-wiki教程 http://wiki.ros.org/ROS/Tutorials 
-- 了解核心组件RVIZ框架结构，并修改修改订阅信息 https://github.com/Keyinme/rviz 
+- 学习并掌握ROS-wiki教程 http://wiki.ros.org/ROS/Tutorials
+- 了解核心组件RVIZ框架结构，并修改修改订阅信息 https://github.com/Keyinme/rviz
 
 ## Android (Optional)
 
@@ -108,5 +110,3 @@ TODO 技能掌握程度的描述
 ## Testing Automation (Optional)
 
 TODO 技能掌握程度的描述
-
-
