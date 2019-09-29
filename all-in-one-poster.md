@@ -237,4 +237,4 @@
 
 ## 进一步了解和联系
 
-TODO 这里插入 weloveinterns 的二维码链接
+![open-interns.md](images/qrcode-open-interns.png
