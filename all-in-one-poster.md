@@ -237,4 +237,4 @@
 
 ## 进一步了解和联系
 
-![open-interns.md](images/qrcode-open-interns.png
+![open-interns.md](images/qrcode-open-interns.png)
