@@ -237,4 +237,18 @@
 
 ## 进一步了解和联系
 
+详细的职位链接（该仓库就是我们的工作仓库，包含大量信息）
+
 ![open-interns.md](images/qrcode-open-interns.png)
+
+我们如何招聘和面试
+
+![how-do-we-interview-interns.md](images/qrcode-how-do-we-interview-interns.png)
+
+我们如何进行实习生能力等级评定
+
+![how-do-we-rank-interns.md](images/qrcode-how-do-we-rank-interns.png)
+
+**如何报名？**
+
+欢迎加入，可以发邮件给 [吴伟 wuwei@droid.ac.cn](mailto:wuwei@droid.ac.cn)。
