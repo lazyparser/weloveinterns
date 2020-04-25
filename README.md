@@ -2,11 +2,9 @@
 
 2020春招进行时！ 欢迎加入我们！具体看
 
-[jobs-2020Spring](jobs-2020Spring.md)
-
-[PLCT 2020年春季招聘](https://github.com/isrc-cas/PLCT-Weekly/blob/master/Jobs-2020-03.md)
-
-[操作系统团队招聘](JD-EulixOS-20200408.md)
+- [jobs-2020Spring](jobs-2020Spring.md)
+- [PLCT 2020年春季招聘](https://github.com/isrc-cas/PLCT-Weekly/blob/master/Jobs-2020-03.md)
+- [ISRC操作系统团队招聘](JD-EulixOS-20200408.md)
 
 ## 我们是谁
 
