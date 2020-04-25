@@ -1,9 +1,8 @@
 # We♥︎Interns
 Welcome to the weloveinterns wiki! We❤️Interns!
 
-重德智能（原中科院软件所XLab机器人组）实习生培训及日常工作日常。
-
-欢迎对机器人系统以及安卓开发感兴趣的同学[加入我们](mailto:w@droid.ac.cn)!
+智能软件研究中行实习生培训及日常工作日常。
+欢迎[加入我们](so-you-want-to-join-us.md)!
 
 [内训技能树清单](skills.md) |
 [完整详细的内训结业测试清单](capability-checklist.md) |
