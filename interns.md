@@ -52,6 +52,14 @@ PLCT全称是程序语言与编译技术实验室，隶属于中科院软件所�
 
 ## 开放实习生岗位
 
+在投递简历之前最好对我们有更多一点了解。以下是阅读材料：
+
+- [极简项目管理](https://github.com/lazyparser/minimalist-team-leader) 是目前PLCT实验室的管理方式，实习生也在管理范围内。请先阅读。
+- [我们如何进行实习生招聘](https://github.com/lazyparser/weloveinterns/blob/master/how-do-we-interview-interns.md)
+- [我们如何对实习生进行能力评定和培养](https://github.com/lazyparser/weloveinterns/blob/master/how-do-we-rank-interns.md)
+- [实习生生存手册](https://github.com/lazyparser/survivial-manual-for-interns) 目前还在断断续续的撰写中，欢迎围观和贡献PR (Pull Requests)
+
+
 ### BJ38 LuaJIT 开发实习生（1名）
 
 目标：将 LuaJIT 移植到 RV64G 平台。

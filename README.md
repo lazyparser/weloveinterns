@@ -18,9 +18,11 @@
 
 PLCT实验室将在2021年7月1日之前，对家庭居住地是湖北省武汉市及其周边、或就读学校位于湖北省武汉市的同学，不设置LV能力等级门槛。只要对我们在做的编译器、模拟器、虚拟机等基础软件感兴趣，就可以加入。欢迎感兴趣的同学加入，可以发邮件给我 [wuwei2016@iscas.ac.cn](mailto:wuwei2016@iscas.ac.cn)。
 
+- [极简项目管理](https://github.com/lazyparser/minimalist-team-leader) 是目前PLCT实验室的管理方式，实习生也在管理范围内。请先阅读。
 - [我们如何进行实习生招聘](https://github.com/lazyparser/weloveinterns/blob/master/how-do-we-interview-interns.md)
 - [我们如何对实习生进行能力评定和培养](https://github.com/lazyparser/weloveinterns/blob/master/how-do-we-rank-interns.md)
-- [实习生岗位](nterns.md)
+- [实习生岗位](https://github.com/lazyparser/weloveinterns/blob/master/interns.md)
+- [实习生生存手册](https://github.com/lazyparser/survivial-manual-for-interns) 目前还在断断续续的撰写中，欢迎围观和贡献PR (Pull Requests)
 
 ## 机器人联合实验室（重德智能）
 
