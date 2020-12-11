@@ -61,7 +61,7 @@ PLCT全称是程序语言与编译技术实验室，隶属于中科院软件所�
 LV3+，能进行英语交流，对编译技术有基本了解。如果事先了解过ELF格式、RISC-V或其他指令集、相关ABI文档，那么都算是加分项。
 远程实习，不需要坐班。
 
-### BJ37 GCC/Binutils/glibc/linker 开发实习生 （10名）
+### BJ37 GNU Toolchain 开发实习生 （10名）
 
 最近PLCT实验室在参与RISC-V国际基金会的相关新指令扩展的工作，具体内容是为 unratified extensions （就是还在制定中的扩展指令集）进行 GNU Toolchain 的实现，用于验证草案本身在设计上是否存在遗漏缺失、是否在功能或性能上有改进的空间。目前面向大学生及研究生招募开发者，以PLCT实验室实习生的身份，直接参与到RISC-V基金会管理下的GCC工具链开发中，并有可能后续直接将代码（patch）提交到上游（upstream）。最近开始有业界一线的大佬指导和review实习生的代码，是非常难得的学习机会。
 
@@ -97,7 +97,7 @@ PLCT实验室是RISC-V过基金会的 Training Partner，提供面向RISC-V的�
 LV2+ 级别，不要求编程技能，保留沟通和团队协作的要求。对自己选择的工作内容有一些经验。有比较多的时间可以投入。
 远程实习，不需要坐班。
 
-### BJ17 V8 for RISC-V 开发实习生（名额：9名）
+### BJ17 V8 开发实习生（名额：9名）
 
 工作内容：
 参与PLCT实验室 V8 for RISC-V 相关项目的开发。
@@ -106,7 +106,7 @@ LV2+ 级别，不要求编程技能，保留沟通和团队协作的要求。对
 LV2+，能进行英语交流，对编译技术有基本了解。对 V8 for RISC-V 项目感兴趣。 https://github.com/v8-riscv/v8
 远程实习，不需要坐班。
 
-### BJ34 OpenJDK/OpenJ9 for RISC-V 开发实习生（名额：5名）
+### BJ34 OpenJDK 开发实习生（名额：5名）
 
 工作内容：
 参与PLCT实验室 OpenJDK/OpenJ9 for RISC-V 相关项目的开发。帮助 RISC-V 社区将 Java 执行速度提高 100x 以上。
@@ -124,7 +124,7 @@ LV3+，能进行英语交流，对编译技术有基本了解。对 Java 虚拟�
 LV3+，能进行英语交流，对编译技术有基本了解。
 远程实习，不需要坐班。
 
-### BJ33 Firefox/Spidermonkey 开发实习生（名额：2名）
+### BJ33 Spidermonkey 开发实习生（名额：2名）
 
 工作内容：
 就像将 V8 移植到 RISC-V 平台一样，将 Spidermonkey 移植到 RISC-V 平台。跟 mentor 一起将工作提交到 Mozilla upstream。
@@ -133,7 +133,7 @@ LV3+，能进行英语交流，对编译技术有基本了解。
 LV3+ 级别。能够进行英文的交流。
 远程实习，不需要坐班。
 
-### BJ32 Dart for RISC-V 开发实习生（名额：2名）
+### BJ32 Dart VM 开发实习生（名额：2名）
 
 工作内容：
 就像将 V8 移植到 RISC-V 平台一样，将 Dart 移植到 RISC-V 平台。负责跟 Dart 上游交流，将移植工作 upstream。
@@ -142,7 +142,7 @@ LV3+ 级别。能够进行英文的交流。
 LV3+，能进行英语交流，对编译技术有基本了解。写过 Dart 程序。
 远程实习，不需要坐班。
 
-### BJ15 QEMU/Spike 开源模拟器开发实习生（名额：2名）
+### BJ15 QEMU/Spike 开发实习生（名额：2名）
 
 工作内容：
 参与PLCT实验室在QEMU、Spike等相关开源项目的开发。
