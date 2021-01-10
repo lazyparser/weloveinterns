@@ -44,6 +44,68 @@ PLCT全称是程序语言与编译技术实验室，隶属于中科院软件所�
 等软件基础设施的技术革新，具备主导开发和维护重要基础设施的技术及管理能力。与此同时，努力成为编译领域培养尖端人才的黄埔军校，推动先进编译技术在国
 内的普及和发展。
 
+### BJ43 Chisel实习生： Chisel 的安全的 AsyncQueue 库（1名）
+
+#### 工作内容
+1. 设计
+2. 验证
+3. Chisel API
+4. 单元测试
+
+#### 要求
+- 掌握Scala语法
+- 了解跨时钟域设计
+- 了解FPGA Flow，可以进行简单的FPGA设计（跑马灯等）
+- 了解ASIC Flow，可以进行简单的ASIC设计（简单的模块后端Flow）
+- (Optional) 了解SMT验证，可以通过z3进行简单的Model Checking
+
+此项工作将由 Sequencer 等社区活跃开发者指导。
+
+
+### BJ42 Chisel实习生：Chisel 的 Decode API 设计与测试（1名）
+#### 工作内容
+1. 理解现有QMC代码
+2. 标准Decode API
+3. 单元测试
+
+#### 要求
+- 掌握Scala语法
+- 会解卡罗图
+- 有算法基础
+- (Optional)了解JNI编程
+
+此项工作将由 Sequencer 等社区活跃开发者指导。
+
+### BJ41 Chisel实习生： Verification API（1名）
+
+#### 工作内容
+1. Chisel3 Verification API 设计
+2. FIRRTL Verification IR Transform（Verilator as backend）
+3. SystemVerilog emitting（SVA as backend）
+4. FPGA synthesis(Verilog as backend)
+5. 单元测试
+
+#### 要求
+- 了解FIRRTL基于Transform的设计模式
+- 了解SVA（SystemVerilog Assertion）
+- (Optional) 了解SMT验证，可以通过z3进行简单的Model Checking
+
+此项工作将由 Sequencer 等社区活跃开发者指导。
+
+### BJ40 Diploamcy SoC framework 开发实习生（1名）
+
+#### 工作内容
+1. Diplomacy Framework 单元测试
+2. TileLink/AMBA 总线文档和单元测试
+3. Wishbone 总线设计
+
+#### 要求
+- 熟练掌握Scala
+- 了解基础的diplomacy的构建原理
+- 熟悉RocketChip，可以自己写简单外设
+
+此项工作将由 Sequencer 等社区活跃开发者指导。
+
 ### BJ39 Web 前端开发实习生（1名）
 
 目标：开发和维护包括 [RISC-V 软件生态状态跟踪数据库](https://github.com/isrc-cas/riscv-ecosystem-tracking) 在内的 PLCT Lab 开发维护的各类 Web 页面。包括 HTML/CSS/JS。推荐和鼓励使用最新的前端框架。
