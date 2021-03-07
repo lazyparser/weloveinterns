@@ -23,6 +23,18 @@
 
 对后辈实习生的寄语：【可选】
 
+## 陆旭凡
+
+TOOD
+
+## 陶立强
+
+TODO
+
+## 韩博阳
+
+TODO
+
 ## 安传旭（anchuanxu）
 
 【GitHub ID:`anchuanxu` / 个人邮箱：`anchuanxu@126.com` 】
