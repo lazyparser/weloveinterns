@@ -19,15 +19,15 @@ See [README](README.md)
 
 ## 你需要满足的条件（技术岗位）
 
-- 请先参考 [how-to-we-rank-interns](how-to-we-rank-interns.md) 给自己的能力进行评估。如果达到了LV2以上，那么可以来试一试。
+- 请先参考 [how-do-we-rank-interns](how-do-we-rank-interns.md) 给自己的能力进行评估。如果达到了LV2以上，那么可以来试一试。
 - 即使基础不好也没关系，我们提供四周的内部培训期，你可以在入职后的四周内证明自己的能力和动机。
 - 希望你能够有至少三个月的实习时间，并能够保证每周有一些连续的时间可以用来实习。
 - 有强烈地上进心，希望能够有更强的技术能力。
 - 并且能够积极而谦卑地与他人一起共事，及时的响应团队成员的消息。
 - 能够用Google进行检索。对的，Google。这个世界的技术竞争很现实的，不会因为你使用百度，而对你更加宽容。无法访问 Google 搜索引擎的同学不太可能赶得上团队要求的开发进度。
-- 用Linux，用过Bash脚本，会。如果没有，可以看看我们的 [linux技能表](capabilities/linux-checklist.md) 和 [Bash技能表](capabilities/bash-checklist.md)。
-- 能看懂简单的Python程序。如果还不会python，没有关系，可以看看我们的[python技能表](capabilities/python-checklist.md)。
-- 使用过git，知道 [git技能列表](capabilities/git-checklist.md) 中的 `git merge` , `git rebase` 等概念。
+- 用Linux，用过Bash脚本，会。如果没有，可以看看我们的 [linux技能表](archives/capabilities/linux-checklist.md) 和 [Bash技能表](capabilities/bash-checklist.md)。
+- 能看懂简单的Python程序。如果还不会python，没有关系，可以看看我们的[python技能表](archives/capabilities/python-checklist.md)。
+- 使用过git，知道 [git技能列表](archives/capabilities/git-checklist.md) 中的 `git merge` , `git rebase` 等概念。
 - （可选）最好是有GitHub账号，知道如何开新分支，提交PR。这个如果不知道可以看看GitHub官网的帮助，很详细。
 - （可选）具备网站制作、社区运营、公众号运营、社团组织、活动策划、美工设计等技能可以加分。
 

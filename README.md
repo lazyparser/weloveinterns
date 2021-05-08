@@ -26,7 +26,7 @@ PLCT实验室将在2021年7月1日之前，对家庭居住地是湖北省武汉�
 
 ## PLCT Lab
 
-- PLCT Lab 维护了着自己的半月刊物：[PLCT开源进展](https://github.com/isrc-cas/PLCT-Weekly)。如果向来PLCT实验室，请务必提前阅读。
+- PLCT Lab 维护了着自己的半月刊物：[PLCT开源进展](https://github.com/isrc-cas/PLCT-Weekly)。如果想来PLCT实验室，请务必提前阅读。
 
 ## 机器人联合实验室（重德智能）
 

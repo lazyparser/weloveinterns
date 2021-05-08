@@ -1,6 +1,6 @@
 # tools/slack
 
-** 20190901 跟新：由于Slack在国内不稳定，目前机器人分支的实习生团队已经基本切换到微信群进行通信。编译技术分支依然使用Slack。**
+**20190901 更新：由于Slack在国内不稳定，目前机器人分支的实习生团队已经基本切换到微信群进行通信。编译技术分支依然使用Slack**
 
 我们使用slack作为团队的交流和协作平台。
 
@@ -88,21 +88,21 @@
 
 **如何创建channel**：在Slack左侧列表上方有'+'号，可以创建channel；
 
-![add-channel](images/add-channel.PNG)
+![add-channel](../images/add-channel.PNG)
 
-**channel分类**：public channel和private channel. 在创建时会允许用户设置channel类型，默认为public,用户也
+**channel分类**：public channel和private channel。 在创建时会允许用户设置channel类型，默认为public，用户也
 
 可以修改为privae；然后添加channel名字和channel的用途描述；
 
-![channel-create](images/channel-create.PNG)
+![channel-create](../images/channel-create.PNG)
 
 **不同类型channel的作用**：public channel内的消息对于整个team的人可见，且组员可自己申请加入；而private channel中
 
-的消息仅对此channel内成员可见，且channel不可被搜索. team其它成员想要加入，必须以被邀请的形式加入。
+的消息仅对此channel内成员可见，且channel不可被搜索。 team其它成员想要加入，必须以被邀请的形式加入。
 
 **如何识别channel类型**： private channel左端有一个小锁图案; public channel是没有的;
 
-![privatechannel](images/privatechannel.PNG)
+![privatechannel](../images/privatechannel.PNG)
 
 ## direct messages
 [Direct-messages-and-group-DMs](https://get.slack.help/hc/en-us/articles/212281468-Direct-messages-and-group-DMs)

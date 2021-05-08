@@ -12,39 +12,39 @@ Ubuntu16.04 模拟arm vexpress A9开发板。
 #### 下载Linux内核
 1. 方法一：git下载
 
-		git clone git://git.kernel.org/pub/scm/linux/kernel/git/torvalds/linux.git
+        git clone git://git.kernel.org/pub/scm/linux/kernel/git/torvalds/linux.git
 
 2. 方法二：下载linux3.16源代码包
 
-		wget https://www.kernel.org/pub/linux/kernel/v3.x/linux-3.16.tar.xz
-		
+        wget https://www.kernel.org/pub/linux/kernel/v3.x/linux-3.16.tar.xz
+        
 ##### 编译Linux内核
 1. 生成vexpress开发板的config文件
 
-		make CROSS_COMPILE=arm-linux-gnueabi- ARCH=arm vexpress_defconfig
-		
+        make CROSS_COMPILE=arm-linux-gnueabi- ARCH=arm vexpress_defconfig
+        
 2. 编译，生成内核镜像zImage
 
-		make CROSS_COMPILE=arm-linux-gnueabi- ARCH=arm
-		
+        make CROSS_COMPILE=arm-linux-gnueabi- ARCH=arm
+        
 ##### 下载和安装qemu模拟器
 * 高版本qemu源码下载：
 
-		wget http://wiki.qemu-project.org/download/qemu-2.0.2.tar.bz2
-		
+        wget http://wiki.qemu-project.org/download/qemu-2.0.2.tar.bz2
+        
 * 安装依赖
-	* `sudo apt-get install zlib1g-dev`
-	* `sudo apt-get install libglib2.0-0`
-	* `sudo apt-get install libglib2.0-dev`
-	
+    * `sudo apt-get install zlib1g-dev`
+    * `sudo apt-get install libglib2.0-0`
+    * `sudo apt-get install libglib2.0-dev`
+    
 * 配置qemu
 
-		./configure --target-list=arm-softmmu --audio-drv-list=
-		
+        ./configure --target-list=arm-softmmu --audio-drv-list=
+        
 * 编译和安装
-	* `make`
-	* `sudo make install`
-	
+    * `make`
+    * `sudo make install`
+    
 #### 测试内核能否执行成功
 测试指令：（注意路径是镜像所在路径）
 
@@ -60,34 +60,34 @@ Ubuntu16.04 模拟arm vexpress A9开发板。
 
 2. 编译安装
 
-	* `make defconfig`
-	* `make CROSS_COMPILE=arm-linux-gnueabi-`
-	* `make install CROSS_COMPILE=arm-linux-gnueabi-`
-	
+    * `make defconfig`
+    * `make CROSS_COMPILE=arm-linux-gnueabi-`
+    * `make install CROSS_COMPILE=arm-linux-gnueabi-`
+    
 安装完毕后。会在busybox文件夹下生成_install文件夹。该文件夹下的程序就是单板执行所须要的命令。
 ##### 形成根文件夹结构
 1.   创建rootfs文件夹（根文件夹）
 
-	* sudo mkdir rootfs
-	* cd rootfs
-	* sudo mkdir dev
-	* sudo mkdir lib
-	
+    * sudo mkdir rootfs
+    * cd rootfs
+    * sudo mkdir dev
+    * sudo mkdir lib
+    
 2.  拷贝busybox命令到根文件夹下
 
-	* sudo cp busybox-1.20.2/_install/* -r rootfs/
-	
+    * sudo cp busybox-1.20.2/_install/* -r rootfs/
+    
 3. 从工具链中拷贝执行库到lib文件夹下
 
-	* sudo cp -P /usr/arm-linux-gnueabi/lib/* rootfs/lib/
-	
+    * sudo cp -P /usr/arm-linux-gnueabi/lib/* rootfs/lib/
+    
 4. 创建4个tty端终设备
 
-	* sudo mknod rootfs/dev/tty1 c 4 1
-	* sudo mknod rootfs/dev/tty2 c 4 2
-	* sudo mknod rootfs/dev/tty3 c 4 3
-	* sudo mknod rootfs/dev/tty4 c 4 4
-	
+    * sudo mknod rootfs/dev/tty1 c 4 1
+    * sudo mknod rootfs/dev/tty2 c 4 2
+    * sudo mknod rootfs/dev/tty3 c 4 3
+    * sudo mknod rootfs/dev/tty4 c 4 4
+    
 ##### 制作根文件系统镜像
 1. 生成32M大小的镜像
 `dd if=/dev/zero of=a9rootfs.ext3 bs=1M count=32`
@@ -95,11 +95,11 @@ Ubuntu16.04 模拟arm vexpress A9开发板。
 `mkfs.ext3 a9rootfs.ext3`
 3. 将文件复制到镜像中
 
-	* `sudo mkdir tmpfs`
-	* `sudo mount -t ext3 a9rootfs.ext3 tmpfs/ -o loop`
-	* ` cp -r rootfs/*  tmpfs/`
-	* `sudo umount tmpfs`
-	
+    * `sudo mkdir tmpfs`
+    * `sudo mount -t ext3 a9rootfs.ext3 tmpfs/ -o loop`
+    * ` cp -r rootfs/*  tmpfs/`
+    * `sudo umount tmpfs`
+    
 ##### 系统启动执行
 启动qemu来模拟vexpress开发板:
 
@@ -113,4 +113,4 @@ Ubuntu16.04 模拟arm vexpress A9开发板。
 3. [QEMU blog](https://abiaog.github.io/blog/2017/01/18/QEMU.html)
 
 ###### The author：anchuanxu 2018/6/22
-	
+    
