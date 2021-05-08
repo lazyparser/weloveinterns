@@ -190,29 +190,29 @@ import rospy
 from  beginner_tutorials.msg import RobotStatus
 
 def sender():
-	pub = rospy.Publisher('/museum_position',RobotStatus,queue_size=10)
-	rospy.init_node('rosPublisher',anonymous=True)
-	rate = rospy.Rate(5)
-	a = 1
-	while not rospy.is_shutdown():
-		status = RobotStatus()
-		s = raw_input("Input id:")
-		try:
-			status.id = int(s)
-		except:
-			break
-		 
-		status.ismoving = False
+    pub = rospy.Publisher('/museum_position',RobotStatus,queue_size=10)
+    rospy.init_node('rosPublisher',anonymous=True)
+    rate = rospy.Rate(5)
+    a = 1
+    while not rospy.is_shutdown():
+        status = RobotStatus()
+        s = raw_input("Input id:")
+        try:
+            status.id = int(s)
+        except:
+            break
+         
+        status.ismoving = False
 
-		print('sending: ',status.id ,status.ismoving)		
+        print('sending: ',status.id ,status.ismoving)		
 
-		pub.publish(status)
-		rate.sleep()
-			
+        pub.publish(status)
+        rate.sleep()
+            
 if __name__ == '__main__':
-	try:
-	    sender()
-	except rospy.ROSInterruptException:
+    try:
+        sender()
+    except rospy.ROSInterruptException:
             pass
 ```
 
@@ -224,16 +224,16 @@ import rospy
 from  beginner_tutorials.msg import TtsStatus
 
 def callback(data):
-	print('Received TtsStatus:',data.id,data.isplaying)
+    print('Received TtsStatus:',data.id,data.isplaying)
 
 def getter():
-	print("RosReceiver is running...")
-	rospy.init_node('rosreceiver', anonymous=True)
-   	rospy.Subscriber('tts_status', TtsStatus, callback)
-	rospy.spin()
+    print("RosReceiver is running...")
+    rospy.init_node('rosreceiver', anonymous=True)
+       rospy.Subscriber('tts_status', TtsStatus, callback)
+    rospy.spin()
 
 if __name__ == '__main__':
-	getter()
+    getter()
 
 ```
 

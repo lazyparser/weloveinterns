@@ -1,61 +1,61 @@
-## github PR²Ù×÷Á÷³Ì
+## github PRæ“ä½œæµç¨‹
 
-- ×éÀïµÄ´úÂë¶¼ÊÇÊ¹ÓÃgit½øĞĞ°æ±¾¹ÜÀí£¬ËùÓĞ´úÂë¶¼ÍĞ¹ÜÔÚ
-	githubÉÏ£¬Òò´ËÃ¿Î»Í¬Ñ§Ê×ÏÈ¶¼Òª×¢²áÒ»¸ögithubÕËºÅ²¢Íê³ÉHelloÏîÄ¿ÊìÏ¤git²Ù×÷
+- ç»„é‡Œçš„ä»£ç éƒ½æ˜¯ä½¿ç”¨gitè¿›è¡Œç‰ˆæœ¬ç®¡ç†ï¼Œæ‰€æœ‰ä»£ç éƒ½æ‰˜ç®¡åœ¨
+    githubä¸Šï¼Œå› æ­¤æ¯ä½åŒå­¦é¦–å…ˆéƒ½è¦æ³¨å†Œä¸€ä¸ªgithubè´¦å·å¹¶å®ŒæˆHelloé¡¹ç›®ç†Ÿæ‚‰gitæ“ä½œ
 
-- ÊìÏ¤³£ÓÃgitÃüÁîºÍ²Ù×÷£¬ÔÄ¶Á[gitbook](https://git-scm.com/book/zh/v2)
+- ç†Ÿæ‚‰å¸¸ç”¨gitå‘½ä»¤å’Œæ“ä½œï¼Œé˜…è¯»[gitbook](https://git-scm.com/book/zh/v2)
 
 ***
-### PR£¨pull request)Á÷³Ì
+### PRï¼ˆpull request)æµç¨‹
 
-1. **½øĞĞfork²Ù×÷**
+1. **è¿›è¡Œforkæ“ä½œ**
 
-	½øÈëĞèÒªforkµÄÏîÄ¿µÄgithubÖ÷Ò³£º
-	![fork](images/fork.png)
-	µã»÷fork°´Å¥£¬¼´»áforkÒ»·İÏàÍ¬´úÂëÖÁ×Ô¼ºµÄgithubÖ÷Ò³¡£
+    è¿›å…¥éœ€è¦forkçš„é¡¹ç›®çš„githubä¸»é¡µï¼š
+    ![fork](../images/fork.png)
+    ç‚¹å‡»forkæŒ‰é’®ï¼Œå³ä¼šforkä¸€ä»½ç›¸åŒä»£ç è‡³è‡ªå·±çš„githubä¸»é¡µã€‚
 
-2. **clone´úÂë**
+2. **cloneä»£ç **
 
-	fork´úÂëºó£¬¼´¿ÉÔÚ×Ô¼ºµÄ¿ª·¢»·¾³ÏÂclone´úÂë
-	cloneÓĞ(https\ssh)Á½ÖÖ·½Ê½£¬×¢ÒâÇø±ğ£º
-	![clone](images/clone.png)
+    forkä»£ç åï¼Œå³å¯åœ¨è‡ªå·±çš„å¼€å‘ç¯å¢ƒä¸‹cloneä»£ç 
+    cloneæœ‰(https\ssh)ä¸¤ç§æ–¹å¼ï¼Œæ³¨æ„åŒºåˆ«ï¼š
+    ![clone](../images/clone.png)
 
-¡¡¡¡`git clone [Í¼Æ¬ÖĞµÄµØÖ·]`
+ã€€ã€€`git clone [å›¾ç‰‡ä¸­çš„åœ°å€]`
 
-3. **½¨Á¢·ÖÖ§-ĞŞ¸Ä-Ìá½»µ½×Ô¼ºµÄ´úÂë**
+3. **å»ºç«‹åˆ†æ”¯-ä¿®æ”¹-æäº¤åˆ°è‡ªå·±çš„ä»£ç **
 
-	±£³Ö´úÂë¿â¸É¾»Õû½à£¬Ñø³ÉÁ¼ºÃÏ°¹ß²ÅÄÜÔÚ´óÏîÄ¿µÄÊ±ºò¼õÉÙ³ö´í¡£
-	
-	½¨ÒéÉèÖÃÈı¼¶·ÖÖ§½øĞĞÒ»¸öÏîÄ¿¿ª·¢¡£
-	
-	- master·ÖÖ§£ºÒ»¸öËäÈ»ÔÚÄãµÄ¿Õ¼äµ«ÊÇ²»ÒªÔÚÆäÉÏ½øĞĞĞŞ¸Ä¡¢¿ª·¢µÄ·ÖÖ§£¬Ö»ÓÃÀ´pull,push,PR´úÂë¡£
-	- develop·ÖÖ§£ºÒ»¸öÓÃÓÚ×Ô¼º¿ª·¢µÄ·ÖÖ§£¬¿ÉÒÔÔÚÉÏ½øĞĞ²âÊÔ¡¢ÑéÖ¤´úÂë¡£
-	- topic·ÖÖ§£º½â¾öÎÊÌâµÄÁÙÊ±·ÖÖ§£¬Íê³ÉºÏ²¢µ½develop·ÖÖ§½øĞĞ²âÊÔÑéÖ¤¡£
+    ä¿æŒä»£ç åº“å¹²å‡€æ•´æ´ï¼Œå…»æˆè‰¯å¥½ä¹ æƒ¯æ‰èƒ½åœ¨å¤§é¡¹ç›®çš„æ—¶å€™å‡å°‘å‡ºé”™ã€‚
+    
+    å»ºè®®è®¾ç½®ä¸‰çº§åˆ†æ”¯è¿›è¡Œä¸€ä¸ªé¡¹ç›®å¼€å‘ã€‚
+    
+    - masteråˆ†æ”¯ï¼šä¸€ä¸ªè™½ç„¶åœ¨ä½ çš„ç©ºé—´ä½†æ˜¯ä¸è¦åœ¨å…¶ä¸Šè¿›è¡Œä¿®æ”¹ã€å¼€å‘çš„åˆ†æ”¯ï¼Œåªç”¨æ¥pull,push,PRä»£ç ã€‚
+    - developåˆ†æ”¯ï¼šä¸€ä¸ªç”¨äºè‡ªå·±å¼€å‘çš„åˆ†æ”¯ï¼Œå¯ä»¥åœ¨ä¸Šè¿›è¡Œæµ‹è¯•ã€éªŒè¯ä»£ç ã€‚
+    - topicåˆ†æ”¯ï¼šè§£å†³é—®é¢˜çš„ä¸´æ—¶åˆ†æ”¯ï¼Œå®Œæˆåˆå¹¶åˆ°developåˆ†æ”¯è¿›è¡Œæµ‹è¯•éªŒè¯ã€‚
 ```bash
-¡¡¡¡git checkout -b develop master
-¡¡¡¡git checkout -b topic develop
-¡¡¡¡#edit file in topic branch
-¡¡¡¡#vim file.c
-¡¡¡¡#add && commit
-¡¡¡¡git commit -a -m "what u fixed"
-¡¡¡¡#merge to develop|master ready to PR
-¡¡¡¡git checkout develop
-¡¡¡¡git merge topic
-¡¡¡¡#push to your repo
-¡¡¡¡git push
+ã€€ã€€git checkout -b develop master
+ã€€ã€€git checkout -b topic develop
+ã€€ã€€#edit file in topic branch
+ã€€ã€€#vim file.c
+ã€€ã€€#add && commit
+ã€€ã€€git commit -a -m "what u fixed"
+ã€€ã€€#merge to develop|master ready to PR
+ã€€ã€€git checkout develop
+ã€€ã€€git merge topic
+ã€€ã€€#push to your repo
+ã€€ã€€git push
 ```
 
-4. **githubÖ÷Ò³Ìá½»PR**
-	![NewPR](images/NewPR.png)
-	
-	![CreatePR](images/CreatePR.png)
-	
-5. **µÈ´ıÏîÄ¿Î¬»¤ÕßÉóºËMerge**
-
-
-6. **Í¬²½¸üĞÂ±¾µØºÍgithub´úÂë**
+4. **githubä¸»é¡µæäº¤PR**
+    ![NewPR](../images/NewPR.png)
     
-	µ±´úÂëÍ¨¹ıreview£¬ÏîÄ¿Î¬»¤ÕßMergeÁËÎÒÃÇÌá½»µÄ´úÂëÖ®ºó£¬»¹ĞèÒª½«±¾µØ²Ö¿âÓëÄãµÄgithub²Ö¿âÍ¬²½¸üĞÂ£º
+    ![CreatePR](../images/CreatePR.png)
+    
+5. **ç­‰å¾…é¡¹ç›®ç»´æŠ¤è€…å®¡æ ¸Merge**
+
+
+6. **åŒæ­¥æ›´æ–°æœ¬åœ°å’Œgithubä»£ç **
+    
+    å½“ä»£ç é€šè¿‡reviewï¼Œé¡¹ç›®ç»´æŠ¤è€…Mergeäº†æˆ‘ä»¬æäº¤çš„ä»£ç ä¹‹åï¼Œè¿˜éœ€è¦å°†æœ¬åœ°ä»“åº“ä¸ä½ çš„githubä»“åº“åŒæ­¥æ›´æ–°ï¼š
 
 ```bash	
     git fetch -v --all

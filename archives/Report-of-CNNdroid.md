@@ -12,7 +12,7 @@ Github根目录里面有一个CNNdroid Complete Developers Guide and Installatio
 配套我这个Demo，稍微讲解一下调用好了。首先是Start的按钮的Listener。据说把加载模型的代码直接放里面会炸，我就放在asyncTask里跑。这个类是Android的类，在这里是主活动的内部类。提供异步的执行功能，防止耗时的运算阻塞UI线程。具体调用百度一下就知道啦。大概理解就是开个线程，加载参数，完成。嗯。
 
 
-```
+```java
 startAsyButton.setOnClickListener(new View.OnClickListener() {
     @Override
     public void onClick(View v) {
@@ -23,7 +23,7 @@ startAsyButton.setOnClickListener(new View.OnClickListener() {
 ```
 
 
-```
+```java
 private class prepareModel extends AsyncTask<RenderScript, Void, CNNdroid> {
 
     @Override
@@ -54,7 +54,7 @@ private class prepareModel extends AsyncTask<RenderScript, Void, CNNdroid> {
 接下来是预测的代码。这段代码是我从框架自带的Demo里抄的。大概就是读图片，搞成三通道的形式，然后预测。
 
 
-```
+```java
 computeButton.setOnClickListener(new View.OnClickListener() {
     @Override
     public void onClick(View v) {
@@ -83,11 +83,11 @@ computeButton.setOnClickListener(new View.OnClickListener() {
 
 首先要在Android Studio AVD管理器里配置好sdcard。其次Android Studio没有提供管理文件系统的功能。需要在虚拟手机上下一个se文件管理器。从虚拟手机导出和导入文件也需要使用adb工具。另外关于路径引用的问题，Android sdcard引用路径千奇百怪的，但一般可以用两种方法拿到sdcard文件：
 
-```
+```java
 File file = new File("/sdcard/Data_Cifar10/labels.txt");
 ```
 
-```
+```java
 File file = new File(Environment.getExternalStorageDirectory(),"Data_Cifar10/labels.txt");
 ```
 如果你对得到的对象调用getAbsolutePath()，得到的可能和你的输入参数不一样。

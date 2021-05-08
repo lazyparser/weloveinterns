@@ -12,7 +12,7 @@ by -- [lisongting ](https://www.github.com/lisongting)
 
 首先安装h264 视频编解码库：
 
-```
+```sh
 sudo apt-get update
 sudo apt-get install libx264-dev
 ```
@@ -21,7 +21,7 @@ sudo apt-get install libx264-dev
 
 安装ffmpeg ，依次输入以下命令：
 
-```
+```sh
 wget http://ffmpeg.org/releases/ffmpeg-3.0.9.tar.bz2
 sudo tar jxvf ffmpeg-3.0.9.tar.bz2 
 cd ffmpeg-3.0.9/
@@ -33,7 +33,7 @@ sudo make install
 
 安装完ffmpeg之后，在命令行中输入`ffmpeg` 就可以看到类似下面的输出信息：
 
-```
+```sh
 lee@ubuntu:~$ ffmpeg
 ffmpeg version 3.0.9 Copyright (c) 2000-2017 the FFmpeg developers
   built with gcc 4.8 (Ubuntu 4.8.4-2ubuntu1~14.04.3)
@@ -60,14 +60,14 @@ Use -h to get full help or, even better, run 'man ffmpeg'
 
 我是在根目录下安装的依赖。首先在根目录下创建一个叫做nginx-dependence的文件夹
 
-```
+```sh
 cd ../../
 sudo mkdir nginx-dependence
 ```
 
 然后在nginx-dependence中安装依赖，按行依次运行以下命令。这些依赖一定不要使用`apt-get` 安装 ，因为后面在配置Nginx的时候，要提供这些依赖的源码路径。（我一开始是使用`apt-get` 安装 依赖的，结果在nginx 的`configure` 步骤出现问题，所以我就重新安装了）
 
-```
+```sh
 cd nginx-dependence
 sudo wget ftp://ftp.csx.cam.ac.uk/pub/software/programming/pcre/pcre-8.40.tar.gz 
 sudo tar -zxvf pcre-8.40.tar.gz 
@@ -93,7 +93,7 @@ sudo make install
 
 在nginx-dependence目录中，先下载nginx-rtmp-module
 
-```
+```sh
 git clone https://github.com/arut/nginx-rtmp-module.git
 ```
 
@@ -103,7 +103,7 @@ git clone https://github.com/arut/nginx-rtmp-module.git
 
 首先运行:
 
-```
+```sh
 apt-get install build-essential
 apt-get install libtool
 ```
@@ -112,7 +112,7 @@ apt-get install libtool
 
 依次运行下面的指令。
 
-```
+```sh
 cd ../../
 
 sudo wget http://nginx.org/download/nginx-1.12.0.tar.gz
@@ -136,7 +136,7 @@ sudo make install
 
 在命令行中输入这个命令启动nginx服务器：
 
-```
+```sh
 sudo /usr/local/nginx/sbin/nginx
 ```
 
@@ -164,7 +164,7 @@ nginx服务器有一个配置文件叫做**nginx.conf** ，这个文件默认是
 
 我将这个文件改成这样：
 
-```
+```sh
 worker_processes  1;
 error_log  logs/error.log debug;
 
@@ -216,7 +216,7 @@ http {
 
 把配置文件改成第4步中的形式，然后启动nginx。
 
-```
+```sh
 sudo /usr/local/nginx/sbin/nginx
 ```
 
@@ -226,7 +226,7 @@ sudo /usr/local/nginx/sbin/nginx
 
 然后在命令行中使用 ffmpeg 进行推流：
 
-```
+```sh
 ffmpeg -re -i /home/lee/video.mp4 -vcodec copy -acodec copy -b:v 800k -b:a 32k -f flv rtmp://localhost/videotest
 ```
 

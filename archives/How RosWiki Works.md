@@ -1,6 +1,6 @@
 #  RosWiki编后感——How RosWiki Works
 
-​								                                                   by  -- [PaperFish](https://www.github.com/lisongting)
+ by  -- [PaperFish](https://www.github.com/lisongting)
 
 昨天编写了RosWiki中[indigo栏目](http://wiki.ros.org/xbot/tutorials/indigo)下的两个条目，写下这篇报告，记录我在编写RosWiki过程中遇到的困惑，以及我对RosWiki条目结构的理解。
 
