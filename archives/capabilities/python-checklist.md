@@ -69,32 +69,32 @@ python中提供空值None，同样注意大小写，None不同于0，None是空�
 
 list列表是有序集合，可添加和删除其中元素。定义如下：
 
-		classmates = ['Robin','Vini','Bob']
+        classmates = ['Robin','Vini','Bob']
 
 访问列表元素：
 
-		classmates[0]
-		classmates[1]
-		classmates[2]
+        classmates[0]
+        classmates[1]
+        classmates[2]
 
 **向list中添加和删除元素**
 
 添加元素使用list中的append方法，删除使用pop方法，示例如下：
 
-		classmates.append("Luc")	#追加元素到末尾
-		classmates.append(i,"Luc")	#追加元素到下表为i的位置
-		classmates.pop(i)			#删除下标为i的元素
+        classmates.append("Luc")	#追加元素到末尾
+        classmates.append(i,"Luc")	#追加元素到下表为i的位置
+        classmates.pop(i)			#删除下标为i的元素
 
 tuple跟list类似，只是定义之后无法修改，其定义方式为:
 
-		classmates = ('Robin','Vini','Bob')
+        classmates = ('Robin','Vini','Bob')
 
 需要注意的是，这里的无法修改是指在tuple层面无法修改，如果tuple中含有list，
 
 那么list本身是可以修改的，举例如下：
 
-		list1 = ['abc','123']
-		classmates = ('Robin','Vini','Bob',list1)
+        list1 = ['abc','123']
+        classmates = ('Robin','Vini','Bob',list1)
 
 上面classmates是一个tuple，但是其中的一个元素list1是一个list，我们可以随意修改
 
@@ -106,13 +106,13 @@ tuple就被认为是不变的。
 
 python字典为dict，存储方式为key-value模式，与java中的map类似，定义方式如下：
 
-		d = {'Robin':90,'Bob':89,'Vini':100}
-		d['Bob']			#查看Bob对应的值
+        d = {'Robin':90,'Bob':89,'Vini':100}
+        d['Bob']			#查看Bob对应的值
 
 dict支持增加和删除操作，其方式如下：
 
-		d['Luc'] = 98			#增加Luc和其对应的值
-		d.pop('Bob')			#删除Bob和其对应的值
+        d['Luc'] = 98			#增加Luc和其对应的值
+        d.pop('Bob')			#删除Bob和其对应的值
 
 ## Python循环
 
@@ -122,8 +122,8 @@ for循环常用的是 for x in array，表示一次对于array中的每个元素
 
 例如，打印classmates中的每个元素：
 
-		for name in classmates:
-			print(name)
+        for name in classmates:
+            print(name)
 
 另外，为了书写简便，python为for循环提供了一种特殊的记法，for i in range(n)，其中
 
@@ -131,18 +131,18 @@ n表示一个整数，range(n)表示从0到n-1的整数序列。
 
 while循环与主流语言相同，示例如下：
 
-		i=0
-		sum=0
-		while i<100:
-			sum=sum+i
-			i=i+1
+        i=0
+        sum=0
+        while i<100:
+            sum=sum+i
+            i=i+1
 
 ## Python函数
 
 Python函数定义方式与主流语言类似，示例如下：
 
-		def add_two_ints(a,b):
-			return a+b
+        def add_two_ints(a,b):
+            return a+b
 
 上面定义了一个求两个数之和的函数，需要注意的有几点:
 
@@ -154,19 +154,19 @@ Python函数定义方式与主流语言类似，示例如下：
 
 调用函数时直接调用函数名即可，例如上面的求和函数，调用方式如下：
 
-		sum = add_two_ints(3,2)
+        sum = add_two_ints(3,2)
 
 ## Python类
 
 Python是一种面向对象的语言，我们可以定义自己的类，定义方式如下：
 
-		class Example(parent_class):
-			def __init__(self,name,score):
-				self.name = name
-				self.score = score
+        class Example(parent_class):
+            def __init__(self,name,score):
+                self.name = name
+                self.score = score
 
-			def display_socre(self):
-				print('%s: %s'%(self.name,self.score))
+            def display_socre(self):
+                print('%s: %s'%(self.name,self.score))
 
 需要注意的是，定义类用class关键字，圆括号内指明所继承的父类，如果没有
 

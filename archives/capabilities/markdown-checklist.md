@@ -77,4 +77,4 @@ TODO：
 
 以及下图的介绍：
 
-![wiki-page](../images/Link-internal-pages.png)
+![wiki-page](../../images/Link-internal-pages.png)
