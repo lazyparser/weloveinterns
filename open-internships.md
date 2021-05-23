@@ -44,6 +44,36 @@ PLCT全称是程序语言与编译技术实验室，隶属于中科院软件所�
 等软件基础设施的技术革新，具备主导开发和维护重要基础设施的技术及管理能力。与此同时，努力成为编译领域培养尖端人才的黄埔军校，推动先进编译技术在国
 内的普及和发展。
 
+### BJ47 Gentoo RISC-V 开发实习生
+
+要求：LV2或以上。
+
+```
+Requirement:
+
+0) have interest in open source
+1) self-motivated, self-learning
+2) have *time* to contribute
+3) good english communication skill at least capable of writing
+4) familiar with Linux Distro
+have experience with Gentoo would be great++
+
+Note:
+ sophisticated programming skill is not a must,
+ but do prefer computer science (or related) background
+
+works:
+testing packages for ARCH=riscv in Gentoo Linux
+ a) if fail
+   *) file bugs (https://bugs.gentoo.org)
+   *) report to upstream
+   +) help to fix (not a must)
+ b) or success
+   *) keywording packages and send PR
+
+Testing Xfce4, KDE, Gnome, your choice!?
+```
+
 ### BJ46 Rust 工具链开发实习生
 
 主要就是做 Rust for RISC-V 的工作，这是 Firefox on RISC-V 的一部分。确保 Rust 工具链和软件在 RV64GC 平台和 RV32GC 上可以跑起来，并进行功能的完善和性能的提升。
