@@ -18,7 +18,7 @@ ROS Kinetic, 如果你用的是Ubuntu 14，则需要适配Ros indigo，只需
 
 一般来说，Ubuntu默认是配置好的，但是最好检查一下,正常配置好如下:
 
-![Software&Updates](../images/ROS/SoftwareUpdates.png)
+![Software&Updates](../../images/ROS/SoftwareUpdates.png)
 
 2. **添加source.list**
 
@@ -74,13 +74,13 @@ ROS Kinetic, 如果你用的是Ubuntu 14，则需要适配Ros indigo，只需
 
 如果你不想看原文，那就看下面我总结的步骤：
 
-	sudo dpkg --clear-avail
-	sudo dpkg --configure -a
-	sudo apt-get install -f
-	sudo apt-get update
-	sudo apt-get upgrade
+    sudo dpkg --clear-avail
+    sudo dpkg --configure -a
+    sudo apt-get install -f
+    sudo apt-get update
+    sudo apt-get upgrade
 
-	sudo apt-get install ros-indigo-desktop-full
+    sudo apt-get install ros-indigo-desktop-full
 
 上面指令一条条执行，应该就能解决ROS indigo版本安装时的依赖问题
 
@@ -98,7 +98,7 @@ ROS Kinetic, 如果你用的是Ubuntu 14，则需要适配Ros indigo，只需
 
 最终会提示已经启动，如果失败，则需检查ROS安装是否正确
 
-![roscore](../images/ROS/roscore.png)
+![roscore](../../images/ROS/roscore.png)
 
 2. **显示小海龟界面**
 
@@ -106,7 +106,7 @@ ROS Kinetic, 如果你用的是Ubuntu 14，则需要适配Ros indigo，只需
 
     rosrun turtlesim turtlesim_node
 
-![小海龟](../images/ROS/Turtle.png)
+![小海龟](../../images/ROS/Turtle.png)
 
 3. **键盘控制小海龟运动**
 
@@ -116,9 +116,9 @@ ROS Kinetic, 如果你用的是Ubuntu 14，则需要适配Ros indigo，只需
 
 运行示例如下：
 
-![turtle-key](../images/ROS/turtle-run.png)
+![turtle-key](../../images/ROS/turtle-run.png)
 
-![Turtle-Moving](../images/ROS/turtle-moving.png)
+![Turtle-Moving](../../images/ROS/turtle-moving.png)
 
 至此，我们就已经进入ROS的神奇世界，让我们继续我们的ROS之旅
 
@@ -184,7 +184,7 @@ Kinect分为1和2,我这里使用的是Kinect1,原理上应该是一样的，Kin
 
 如下:
 
-	sudo apt-get install freenect
+    sudo apt-get install freenect
 
 上面完成之后，可以对Kinect进行测试:
 
@@ -307,7 +307,7 @@ ROS可用的支持包，用如下命令搜索所有带有上面字眼的可用�
 
 最后得到如下扫描图:
 
-![HectorSlam](../images/hector-slam.png)
+![HectorSlam](../../images/hector-slam.png)
 
 上面中间那个黑色边界就是我啦，现在终于有了能看到成果的东西，开心开心！
 
@@ -499,13 +499,13 @@ roscore结束之后才会执行,但是我们知道roscore运行之后会一直�
 
 图：
 
-![2DNav](../images/ROS/2DNav.png)
+![2DNav](../../images/ROS/2DNav.png)
 
-![navigation_simulation](../images/ROS/navigation_simu.png)
+![navigation_simulation](../../images/ROS/navigation_simu.png)
 
-![navigation-with-obstacles](../images/ROS/obstacles.png)
+![navigation-with-obstacles](../../images/ROS/obstacles.png)
 
-![auto-navigation](../images/ROS/auto-navigation.png)
+![auto-navigation](../../images/ROS/auto-navigation.png)
 
 首先是不用地图导航，相当于用空白地图导航，然后是用简单障碍物阻挡进行导航，最后
 
@@ -515,10 +515,10 @@ roscore结束之后才会执行,但是我们知道roscore运行之后会一直�
 
 然后放到catkin工作空间中的src文件夹下，编译一下即可，步骤如下:
 
-	cd catkin_ws/src
-	git clone -b indigo-devel https://github.com/pirobot/rbx1.git
-	cd ..
-	catkin_make
+    cd catkin_ws/src
+    git clone -b indigo-devel https://github.com/pirobot/rbx1.git
+    cd ..
+    catkin_make
 
 注意，在下载到本地的时候可以选择分支，我这里换用了indigo版本的ros，所以下载了indigo-devel分支
 
@@ -526,14 +526,14 @@ roscore结束之后才会执行,但是我们知道roscore运行之后会一直�
 
 经过上面的步骤，我们的软件包就可以使用了，可以用如下命令检验一下:
 
-	roscd rbx1_nav
+    roscd rbx1_nav
 
 如果能够跳转到catkin_ws/src/rbx1/rbx1_nav目录下，则表明正常，否则就要考虑
 
 是不是$ROS_PACKAGE_PATH没有设置正确，或者说没有包含此路径，检查方法:
 
-	han@linux:~$ echo $ROS_PACKAGE_PATH
-	/home/han/catkin_ws/src:/opt/ros/indigo/share:/opt/ros/indigo/stacks
+    han@linux:~$ echo $ROS_PACKAGE_PATH
+    /home/han/catkin_ws/src:/opt/ros/indigo/share:/opt/ros/indigo/stacks
 
 如上，如果能够输出catkin工作空间下src目录，则表明正确，否则不正常
 
@@ -543,15 +543,15 @@ roscore结束之后才会执行,但是我们知道roscore运行之后会一直�
 
 首先启动方针机器人
 
-	roslaunch rbx1_bringup fake_turtlebot.launch
+    roslaunch rbx1_bringup fake_turtlebot.launch
 
 然后加载空白地图
 
-	roslaunch rbx1_nav fake_move_base_blank_map.launch
+    roslaunch rbx1_nav fake_move_base_blank_map.launch
 
 然后机器人就能正常运行，但是我们还需要调用可视化工具rviz来查看
 
-	rosrun rviz rviz -d `rospack find rbx1_nav`/nav.rviz
+    rosrun rviz rviz -d `rospack find rbx1_nav`/nav.rviz
 
 注意最后的nav.rviz文件，我用的是indigo版本，跟古月博客里面的是不同的，
 
@@ -559,15 +559,15 @@ roscore结束之后才会执行,但是我们知道roscore运行之后会一直�
 
 rbx1_nav文件夹下都有哪些rviz文件,选择一个就行，然后我们应该就能看到如下：
 
-![initial-state](../images/ROS/initialState.png)
+![initial-state](../../images/ROS/initialState.png)
 
 现在我们可以按照之前说的给机器人发送指令使其运动起来:
 
-	rostopic pub /move_base_simple/goal geometry_msgs/PoseStamped '{header:{frame_id:"base_link"},pose:{position:{x:1.0,y:0,z:0},orientation:{x:0,y:0,z:0,w:1}}}'
+    rostopic pub /move_base_simple/goal geometry_msgs/PoseStamped '{header:{frame_id:"base_link"},pose:{position:{x:1.0,y:0,z:0},orientation:{x:0,y:0,z:0,w:1}}}'
 
 然后让机器人回到原来位置:
 
-	rostopic pub /move_base_simple/goal geometry_msgs/PoseStamped '{header:{frame_id:"map"},pose:{position:{x:0,y:0,z:0},orientation:{x:0,y:0,z:0,w:1}}}'
+    rostopic pub /move_base_simple/goal geometry_msgs/PoseStamped '{header:{frame_id:"map"},pose:{position:{x:0,y:0,z:0},orientation:{x:0,y:0,z:0,w:1}}}'
 
 然后就可以看到效果啦
 
@@ -575,16 +575,16 @@ rbx1_nav文件夹下都有哪些rviz文件,选择一个就行，然后我们应�
 
 本节使用的工具包有 turtlebot, freenect驱动
 
-	sudo apt-get install ros-indigo-turtlebot*
-	sudo apt-get install freenect
+    sudo apt-get install ros-indigo-turtlebot*
+    sudo apt-get install freenect
 
 首先确认你已经正确安装这两个设备的驱动文件，可用roscd命令进行测试:
 
-	roscd turtlebot_launch
-	roscd turtlebot_teleop
-	roscd turtlebot_navigation
-	roscd turtlebot_rviz_launchers
-	roscd freenect_launch
+    roscd turtlebot_launch
+    roscd turtlebot_teleop
+    roscd turtlebot_navigation
+    roscd turtlebot_rviz_launchers
+    roscd freenect_launch
 
 如果上面命令都能正确进入相应的包路径，则证明已经安装成功，可以继续
 
@@ -596,41 +596,41 @@ rbx1_nav文件夹下都有哪些rviz文件,选择一个就行，然后我们应�
 
 先看turtlebot_navigation/launch/文件夹下的gmapping_demo.launch文件
 
-	<launch>
-	  <!-- 3D sensor -->
-	  <arg name="3d_sensor" default="$(env TURTLEBOT_3D_SENSOR)"/>  <!-- r200, kinect, asus_xtion_pro -->
-	  <include file="$(find turtlebot_bringup)/launch/3dsensor.launch">
-	  	<arg name="rgb_processing" value="false" />
-	  	<arg name="depth_registration" value="false" />
-	  	<arg name="depth_processing" value="false" />
+    <launch>
+      <!-- 3D sensor -->
+      <arg name="3d_sensor" default="$(env TURTLEBOT_3D_SENSOR)"/>  <!-- r200, kinect, asus_xtion_pro -->
+      <include file="$(find turtlebot_bringup)/launch/3dsensor.launch">
+          <arg name="rgb_processing" value="false" />
+          <arg name="depth_registration" value="false" />
+          <arg name="depth_processing" value="false" />
 
-	  	<!-- We must specify an absolute topic name because if not it will be prefixed by "$(arg camera)".
-	  	Probably is a bug in the nodelet manager: https://github.com/ros/nodelet_core/issues/7 -->
+          <!-- We must specify an absolute topic name because if not it will be prefixed by "$(arg camera)".
+          Probably is a bug in the nodelet manager: https://github.com/ros/nodelet_core/issues/7 -->
 
-	  	<arg name="scan_topic" value="/scan" />
+          <arg name="scan_topic" value="/scan" />
 
-	  </include>
+      </include>
 
-	  <!-- Gmapping -->
-	  <arg name="custom_gmapping_launch_file" default="$(find turtlebot_navigation)/launch/includes/gmapping/$(arg 3d_sensor)_gmapping.launch.xml"/>
-	  <include file="$(arg custom_gmapping_launch_file)"/>
+      <!-- Gmapping -->
+      <arg name="custom_gmapping_launch_file" default="$(find turtlebot_navigation)/launch/includes/gmapping/$(arg 3d_sensor)_gmapping.launch.xml"/>
+      <include file="$(arg custom_gmapping_launch_file)"/>
 
-	  <!-- Move base -->
-	  <include file="$(find turtlebot_navigation)/launch/includes/move_base.launch.xml"/>
+      <!-- Move base -->
+      <include file="$(find turtlebot_navigation)/launch/includes/move_base.launch.xml"/>
 
-	</launch>
+    </launch>
 
 
 从上面可以看出由于我们最后要加载/turtlebot_navigation/launch/includes/gmapping/下对应的
 
 xml文件，因此，我们可以先看下这个目录中都有那些文件，发现文件列表如下:
 
-	astra_gmapping.launch.xml
-	asus_xtion_pro_offset_gmapping.launch.xml
-	kinect_gmapping.launch.xml
-	asus_xtion_pro_gmapping.launch.xml
-	gmapping.launch.xml
-	r200_gmapping.launch.xml
+    astra_gmapping.launch.xml
+    asus_xtion_pro_offset_gmapping.launch.xml
+    kinect_gmapping.launch.xml
+    asus_xtion_pro_gmapping.launch.xml
+    gmapping.launch.xml
+    r200_gmapping.launch.xml
 
 可以看到有许多3d传感器的驱动文件,我们要用的是kinect驱动文件，因此这里需要启动
 
@@ -642,17 +642,17 @@ kinect_gmapping.launch.xml，如何才能做到这一点，看下程序中<!-- G
 
 因此，在终端返回这个值查看其值:
 
-	echo $TURTLEBOT_3D_SENSOR
+    echo $TURTLEBOT_3D_SENSOR
 
 默认情况下，其使用的值是asus_xtion_pro,这里我们需要将其改为kinect
 
 更改环境变量应该不陌生了,在主目录下打开.bashrc文件，添加一句:
 
-	export TURTLEBOT_3D_SENSOR="kinect"
+    export TURTLEBOT_3D_SENSOR="kinect"
 
 然后关闭所有并重启终端，或者在主目录下重新source一下.bashrc：
 
-	source .bashrc
+    source .bashrc
 
 这时我们的准备工作就做好了.
 
@@ -662,34 +662,34 @@ kinect_gmapping.launch.xml，如何才能做到这一点，看下程序中<!-- G
 
 然后与之前一样，启动kobuki并用键盘控制运动以构建地图:
 
-	roslaunch turtlebot_bringup minimal.launch
-	roslaunch turtlebot_teleop keyboard_teleop.launch
+    roslaunch turtlebot_bringup minimal.launch
+    roslaunch turtlebot_teleop keyboard_teleop.launch
 
 启动构建地图程序，注意这个时候就不要再用freenect驱动了，因为源码显示，地图
 
 构建程序里面已经包含此启动步骤,如果重复启动，会两边都报错：
 
-	roslaunch turtlebot_navigation gmapping_demo.launch
+    roslaunch turtlebot_navigation gmapping_demo.launch
 
 然后可以在rviz中查看建图结果:
 
-	roslaunch turtlebot_rviz_launchers view_navigation.launch
+    roslaunch turtlebot_rviz_launchers view_navigation.launch
 
 然后切换到键盘控制kobuki的终端，让kobuki和Kinect运动起来，即可看到地图一点点
 
 扩大,直到完成.
 
-![map-constructing](../images/ROS/kinect-map.png)
+![map-constructing](../../images/ROS/kinect-map.png)
 
 建完之后，保存地图:
 
-	rosrun map_server map_saver -f ~/my_map
+    rosrun map_server map_saver -f ~/my_map
 
 这里我保存到了主目录下，命名为my_map,当然也可以保存到其它目录
 
 在主目录下查看可以看到两个地图文件
 
-	my_map.yaml, my_map.pgm
+    my_map.yaml, my_map.pgm
 
 这就是我们随后导航需要的地图，到此，利用Kinect建立地图已经完成了.
 
@@ -703,26 +703,26 @@ kinect_gmapping.launch.xml，如何才能做到这一点，看下程序中<!-- G
 
 首先启动kobuki：
 
-	roslaunch turtlebot_bringup minimal.launch
+    roslaunch turtlebot_bringup minimal.launch
 
 然后运行自主导航程序，并加载自己的地图:
 
-	roslaunch turtlebot_navigation amcl_demo.launch map_file:=~/my_map.yaml
+    roslaunch turtlebot_navigation amcl_demo.launch map_file:=~/my_map.yaml
 
 然后在rviz中显示导航状态:
 
-	rosrun turtlebot_rviz_launchers view_navigation.launch --screen
+    rosrun turtlebot_rviz_launchers view_navigation.launch --screen
 
 在上面的过程中，可能会出现的问题是，开始导航时机器人的初始点不对，导致机器人
 
 运行结果与预期有差，因此可打开地图文件进行初始点的修改，例如地图文件如下：
 
-	  1 image: willow-2010-02-18-0.10.pgm
-	  2 resolution: 0.100000
-	  3 origin: [0.000000, 0.000000, 0.000000]
-	  4 negate: 0
-	  5 occupied_thresh: 0.65
-	  6 free_thresh: 0.196
+      1 image: willow-2010-02-18-0.10.pgm
+      2 resolution: 0.100000
+      3 origin: [0.000000, 0.000000, 0.000000]
+      4 negate: 0
+      5 occupied_thresh: 0.65
+      6 free_thresh: 0.196
 
 在上面程序第三行表示的即是初始位置，但是有可能在导航时移动了机器人，导致
 
@@ -732,7 +732,7 @@ Estimate 按钮在地图上选择起始点和朝向作为机器人的初始状�
 
 最后贴上利用Kinect导航的结果：
 
-![navigation-in-lab](../images/ROS/navigation_in_lab.png)
+![navigation-in-lab](../../images/ROS/navigation_in_lab.png)
 
 -----------------------------------------------------------------------
 
@@ -746,11 +746,11 @@ Estimate 按钮在地图上选择起始点和朝向作为机器人的初始状�
 
 首先确保你已经安装好freenect包和turtlebot_follower包，然后命令如下：
 
-	roslaunch turtlebot_bringup minimal.launch
+    roslaunch turtlebot_bringup minimal.launch
 
 新开客户端:
 
-	roslaunch turtlebot_follower follower.launch
+    roslaunch turtlebot_follower follower.launch
 
 如果刚开始站在Kinect前面，则如果距离比较近，kobuki会自动向后退，如果比较远,
 
@@ -768,39 +768,39 @@ Estimate 按钮在地图上选择起始点和朝向作为机器人的初始状�
 
 在终端输入如下命令进行安装(或者更新)
 
-	sudo apt-get install gstreamer0.10-pocketsphinx
-	sudo apt-get install ros-indigo-pocketsphinx
-	sudo apt-get install ros-indigo-audio-common
-	sudo apt-get install libasound2
-	sudo apt-get install gstreamer0.10-gconf
+    sudo apt-get install gstreamer0.10-pocketsphinx
+    sudo apt-get install ros-indigo-pocketsphinx
+    sudo apt-get install ros-indigo-audio-common
+    sudo apt-get install libasound2
+    sudo apt-get install gstreamer0.10-gconf
 
 另外在github上下载rbx1程序包，放到工作空间下编译好
 
 然后启动仿真测试:
 
-	roslaunch rbx1_bringup fake_turtlebot.launch
+    roslaunch rbx1_bringup fake_turtlebot.launch
 
 rviz中显示：
 
-	rosrun rviz rviz -d `rospack find rbx1_nav`/sim.rviz
+    rosrun rviz rviz -d `rospack find rbx1_nav`/sim.rviz
 
 打开语音识别节点：
 
-	roslaunch rbx1_speech voice_nav_commands.launch
+    roslaunch rbx1_speech voice_nav_commands.launch
 
 打开机器人的控制程序:
 
-	roslaunch rbx1_speech turtlebot_voice_nav.launch
+    roslaunch rbx1_speech turtlebot_voice_nav.launch
 
 打开消息回显程序：
 
-	rostopic echo /recognizer/output
+    rostopic echo /recognizer/output
 
 对着麦克风说些简单的英语，例如backward,forward,stop,turn left,turn right等
 
 可以看到如下：
 
-![voice-control](../images/ROS/audio-control.png)
+![voice-control](../../images/ROS/audio-control.png)
 
 ## ROS学习之路--第十篇：如何编写一个完整的package
 

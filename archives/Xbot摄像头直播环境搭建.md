@@ -244,14 +244,14 @@ events {
 rtmp {
     server {
         listen 1935;
-		application rgb{
-			live on;
-			allow all;
-		}
-		application depth{
-			live on;
-			allow all;
-		}
+        application rgb{
+            live on;
+            allow all;
+        }
+        application depth{
+            live on;
+            allow all;
+        }
     }
 }
 

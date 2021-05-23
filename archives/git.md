@@ -3,7 +3,7 @@ https://git-scm.com/book/zh/v2
 
 2.如何把这个仓库的内容更新到自己fork的远程仓库？
 
-```
+```sh
 D:\git\weloveinterns>git remote -v
 nepha   https://github.com/nephashi/weloveinterns (fetch)
 nepha   https://github.com/nephashi/weloveinterns (push)
