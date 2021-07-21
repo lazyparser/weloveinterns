@@ -107,7 +107,7 @@ openEuler 是国内的又一个 Linux 发行版社区。起初由 华为 发起�
 4. （加分）具备基本的 git 操作基础，会使用 git clone，知道有 submodule 的概念。
 5. （加分）能够有比较好的英语的阅读和书写能力。英语的口头表达能力不要求。
 
-### NJ51 ArchLinux RISC-V 发行版构建 实习生
+### NJ51 Arch Linux RISC-V 发行版构建 实习生
 
 工作内容：
 从事 Linux 发行版的软件包构建、测试、分析工作。
