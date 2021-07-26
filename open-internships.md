@@ -115,7 +115,7 @@ openEuler 是国内的又一个 Linux 发行版社区。起初由 华为 发起�
 要求：
 LV2+；喜欢从事开源软件开发工作。
 
-### NJ50 Debian/Ubuntu RISC-V 发行版构建 实习生
+### NJ50 Debian/Ubuntu RISC-V 发行版构建 实习生 （暂停，寻mentor中）
 
 工作内容：
 从事 Linux 发行版的软件包构建、测试、分析工作。
@@ -123,7 +123,7 @@ LV2+；喜欢从事开源软件开发工作。
 要求：
 LV2+；喜欢从事开源软件开发工作。
 
-### NJ49 Fedora RISC-V 发行版构建 实习生
+### NJ49 Fedora RISC-V 发行版构建 实习生（暂停，寻mentor中）
 
 工作内容：
 从事 Linux 发行版的软件包构建、测试、分析工作。
