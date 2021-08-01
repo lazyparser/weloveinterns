@@ -45,7 +45,37 @@ PLCT全称是程序语言与编译技术实验室，隶属于中科院软件所�
 等软件基础设施的技术革新，具备主导开发和维护重要基础设施的技术及管理能力。与此同时，努力成为编译领域培养尖端人才的黄埔军校，推动先进编译技术在国
 内的普及和发展。
 
-(ID max: 55)
+(ID max: 56)
+
+### NJ55 开源EDA实习生
+
+**工作内容：**
+
+- （暂缓）LV2 Chisel-DSP调研学习报告（1个月）->LV3 基于RoCC的RISC-V DSP-Extension开发
+  - 前置课程：数字电路/信号处理/体系结构
+  - 收获：学会高性能使用Chisel开发DSP，并理解协处理器工作流程
+- （暂缓）LV2 RISCV Debug调研学习报告（1个月）->LV4 RocketChip Debug v0.13调研学习报告（2个月）->LV4 基于Diplomacy的Debug Spec v1.0开发设计
+  - 前置课程：体系结构/数字电路
+  - 收获：掌握软硬RISCV Debug流程，掌握SoC中Debug/Trace模块的开发
+- （暂缓）LV3 Rocket/Boom微架构调研学习报告（3个月）-> 基于Rocket的硬件算法设计（1个月）
+  - 前置课程：体系结构
+  - 收获：学会Chisel 熟悉Rocket
+- （暂缓）LV3 Formal Verification调研学习报告 -> LV4 FIRRTL SMT backend的调研->LV4基于SMTLib的Formal框架的调研学习报告->被Formal验证的高性能硬件算法设计
+  - 前置课程：Chisel/Model Checking
+  - 收获：进阶Chisel验证方法学/Paper
+- LV3 Verilator学习报告（1个月） -> LV4 EmitC/Scheduler源码分析（2个月） -> LV5 Verilator 在 CIRCT 的重实现（3个月）
+  - 前置课程：C++ LLVM
+  - 收获：下一代高性能仿真器的设计/Paper
+- LV3+ Berkeley-ABC 学习报告（3个月）
+  - 前置课程： C 数理逻辑 Model Checking
+  - 收获：深刻理解电路综合最难的部分
+
+**共享基本要求：**
+
+- 熟练Git，了解GitHub协作流程
+- 熟练Linux系统
+- 已经解决好了自己的网络问题，速度很快的下载配置环境和访问Google
+- 先学再问
 
 ### NJ54 OpenROAD 及集成电路后端算法 实习生助教
 
