@@ -78,4 +78,4 @@
 
 如果你认为你想要加入本社，请联系 qlbf（ice1000kotlin@foxmail.com），并尽可能按照[官方规定](https://github.com/lazyparser/weloveinterns/blob/master/open-internships.md#%E5%A6%82%E4%BD%95%E6%AD%A3%E7%A1%AE%E7%9A%84%E6%8A%95%E9%80%92%E7%AE%80%E5%8E%86)撰写邮件。我们会先行对你的能力进行考察，然后你会被推荐给 PLCT。理论上符合本社要求的能力者都是符合 PLCT 入职要求的。
 
-我们的 GitHub 组织是 https://github.com/aya-prover。
+我们的 GitHub 组织是 [https://github.com/aya-prover](https://github.com/aya-prover)。
