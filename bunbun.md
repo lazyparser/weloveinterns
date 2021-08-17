@@ -21,7 +21,7 @@
 
 在这些思考下，Aya 这个项目诞生了。此处我们提供一些历史资料：初始的项目提案是一个[腾讯文档](https://docs.qq.com/doc/DZGNTcnViekRJTmp3)（包含技术选型、愿景、时间安排计划等内容），在进行了 8 个月的开发后存在一次[开发总结](https://docs.google.com/document/d/1P4UnVW3C4n_vIyYfozSXBYs9SOzwGrnJD7QmmWcITp8/edit)（包含被诅咒的传说、永远的勿忘草、神明的造物、罪与罚），部分计划也被放进了一次演讲的 [slides](https://docs.google.com/presentation/d/1FIZnRzFUJK1AwMGMAil1wt7k1bbDRIdNeMb62FiB4QE/edit) 里。
 
-为什么这个语言叫 Aya 呢？背后的原因令人暖心，如果你能通过考研加入社团，那么你将获得相关历史资料的访问权。这里就不公开了。
+为什么这个语言叫 Aya 呢？背后的原因令人暖心，如果你能通过考验加入社团，那么你将获得相关历史资料的访问权。这里就不公开了。
 
 ### 近况和技术栈
 
