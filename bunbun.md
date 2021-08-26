@@ -29,7 +29,7 @@
 
 [这里](https://cha.fan/articles/3d9u3PXL2BMURmST2y8Q)有一篇文章介绍 Aya 编程语言截止 2021 年 8 月已经实现的一些比较有特色的功能。我们希望进一步吸取欧系编程语言理论研究中的成果。
 
-我们始终使用最新版本的 Java 工具链（包含接近最新版本的 Gradle、ANTLR4、IntelliJ IDEA）、VSCode（用于开发编辑器插件）和 Git/GitHub 进行开发。截止本文发布，最新的版本是 Java 16。选择 Java 的原因在愿景中和上面的项目提案里有描述，这里不再赘述。
+我们始终使用最新版本的 Java 工具链（包含接近最新版本的 Gradle、ANTLR4、IntelliJ IDEA）、VSCode（用于开发编辑器插件）和 Git/GitHub 进行开发。截止本文发布，最新的版本是 Java 16。选择 Java 的原因已经[写在这里](https://cha.fan/articles/4RFySaAW8b7hEHXBknkz)了，这里不再赘述。
 
 + 我们广泛地使用新版本的 Java 语言特性（对于 C# 等竞争对手而言都是很古老的特性了），包括但不限于密封类、局部类型推导、结构体（record）、模式匹配等功能。
 + 由于 Java 标准库对于集合的抽象缺乏对可变性的控制，我们采用了第三方的集合框架 [kala](https://github.com/Glavo/kala-common)，也是一位社团成员的个人项目。
@@ -73,9 +73,9 @@
 ## 不能给你带来的好处
 
 + 我们都是活跃科研工作者或者尚未成为科研工作者的人（而不是高校里的导师），所以你不会像读博一样免费得到 idea。
-+ 我们不会教你过于基础的知识，请自行学习。
++ 我们不会教你过于基础的知识（比如上面列出的），请自行学习。
 + 我们不会为你未来的就业负责，入行科研请[谨慎考虑](https://www.zhihu.com/question/307580157)。
 
 如果你认为你想要加入本社，请联系 qlbf（ice1000kotlin@foxmail.com），并尽可能按照[官方规定](https://github.com/lazyparser/weloveinterns/blob/master/open-internships.md#%E5%A6%82%E4%BD%95%E6%AD%A3%E7%A1%AE%E7%9A%84%E6%8A%95%E9%80%92%E7%AE%80%E5%8E%86)撰写邮件。我们会先行对你的能力进行考察，然后你会被推荐给 PLCT。理论上符合本社要求的能力者都是符合 PLCT 入职要求的。
 
-我们的 GitHub 组织是 [https://github.com/aya-prover](https://github.com/aya-prover)。
+我们的 GitHub 组织是 <https://github.com/aya-prover>。
