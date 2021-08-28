@@ -23,13 +23,23 @@
 
 对后辈实习生的寄语：【可选】
 
+## 林思南
+
+GNU GCC 小队成员
+
+TODO 添加个人介绍和GitHub
+
 ## 陆旭凡
 
-TOOD
+LLVM 小队成员
+
+TODO 添加个人介绍和GitHub
 
 ## 陶立强
 
-TODO
+V8 小队成员
+
+TODO 添加个人介绍和GitHub
 
 ## 韩博阳
 
