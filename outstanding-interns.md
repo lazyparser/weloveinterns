@@ -31,29 +31,29 @@ Gentoo Linux
 
 TODO Feel free to add your personal info here
 
-## 林思南
+## 林思南 (LV4+)
 
 GNU GCC 小队成员
 
 TODO 添加个人介绍和GitHub
 
-## 陆旭凡
+## 陆旭凡 (LV5)
 
 LLVM 小队成员
 
 TODO 添加个人介绍和GitHub
 
-## 陶立强
+## 陶立强 (LV4)
 
 V8 小队成员
 
 TODO 添加个人介绍和GitHub
 
-## 韩博阳
+## 韩博阳 (LV4)
 
 TODO
 
-## 安传旭（anchuanxu）
+## 安传旭（anchuanxu） (LV5+)
 
 【GitHub ID:`anchuanxu` / 个人邮箱：`anchuanxu@126.com` 】
 
@@ -69,7 +69,7 @@ TODO
 
 对后辈实习生的寄语：【同学们，读万卷书也要行万里路，一起来实习吧，这里有不一样的风景。】
 
-## 王晓云（jiuyewxy）
+## 王晓云（jiuyewxy） (LV4)
 
 【GitHub ID:`jiuyewxy` / 个人邮箱：`wangxiaoyun@iscas.ac.cn` 】
 
