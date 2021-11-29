@@ -17,7 +17,8 @@
   - 我们可能会在论文中犯错，实现是很好的测试手段。实现出这些东西之后，我们才能真实可靠地进行测试和实验。如果我们有新的发现，这些发现都可以写成论文，比如[这种](https://arxiv.org/abs/1911.08174)。
 - 实现编程语言本身（「将智性活动进行物质化的实践」——克劳德）就是一件很浪漫的事情（知乎用户 vczh 钦点的计算机三大浪漫之一）。
 - 我们有 [@lazyparser](https://github.com/lazyparser) 和 PLCT 实验室的支持，所以我们把 PL（编程语言理论）知识给 CT（编译器技术）化很符合公司的主题。
-- 数量不菲的理论工作者并没有较好的编程基础和足够的软件工程功底（不是所有人都有魔理沙或者胡渊鸣那种理论实践双修的素质）来开发用户友好的学术研究型编程语言（看看 Agda 有多难安装，就可以知道）。我们希望自己试一试，能不能在这方面做的更好。
+- 数量不菲的理论工作者并没有较好的编程基础和足够的软件工程功底（不是所有人都有魔理沙或者胡渊鸣那种理论实践双修的素质）来开发用户友好的学术研究型编程语言（看看 Agda 有多难安装，就可以知道）。我们希望自己试一试，能不能在这方面做的更好。Lean 在这方面做了一些榜样。
+- 高维类型论目前没有特别好用的实现。由于 Cubical Agda 使用了奇怪的约束系统编码「boundary condition」导致目前 cooltt 成了全村的希望。但是 cooltt 的基础类型论 CCTT 过于复杂。
 
 在这些思考下，Aya 这个项目诞生了。此处我们提供一些历史资料：初始的项目提案是一个[腾讯文档](https://docs.qq.com/doc/DZGNTcnViekRJTmp3)（包含技术选型、愿景、时间安排计划等内容），在进行了 8 个月的开发后存在一次[开发总结](https://docs.google.com/document/d/1P4UnVW3C4n_vIyYfozSXBYs9SOzwGrnJD7QmmWcITp8/edit)（包含被诅咒的传说、永远的勿忘草、神明的造物、罪与罚），部分计划也被放进了一次演讲的 [slides](https://docs.google.com/presentation/d/1FIZnRzFUJK1AwMGMAil1wt7k1bbDRIdNeMb62FiB4QE/edit) 里。
 
@@ -25,11 +26,17 @@
 
 ### 近况和技术栈
 
-我们已经实现了一个至少能定义自然数和整数以及这两个类型的加法交换律和结合律的的定理证明器，并且为它搭载了一个文学编程模式和一个简易的语言服务器（language server）和配套的 [VSCode 插件](https://github.com/aya-prover/aya-vscode)。下一步的计划是实现包管理工具、模块系统等工具链方面的功能，然后开始标准库、元编程模式和 JIT 编译器的开发。
+我们已经实现了一个有如下证明能力的定理证明器：
+
++ 定义内涵等号类型
++ 定义自然数和整数以及这两个类型的一些交换律、结合律、分配律等基本性质
++ 定义带索引的红黑树，使用类型确保子节点黑高相同
+
+并且为它搭载了一个文学编程模式和一个简易的语言服务器（language server）和配套的 [VSCode 插件](https://github.com/aya-prover/aya-vscode)。下一步的计划是实现包管理等工具链方面的功能，然后开始标准库（初具雏形）、元编程模式和 JIT 编译器的开发。
 
 [这里](https://cha.fan/articles/3d9u3PXL2BMURmST2y8Q)有一篇文章介绍 Aya 编程语言截止 2021 年 8 月已经实现的一些比较有特色的功能。我们希望进一步吸取欧系编程语言理论研究中的成果。
 
-我们始终使用最新版本的 Java 工具链（包含接近最新版本的 Gradle、ANTLR4、IntelliJ IDEA）、VSCode（用于开发编辑器插件）和 Git/GitHub 进行开发。截止本文发布，最新的版本是 Java 16。选择 Java 的原因已经[写在这里](https://cha.fan/articles/4RFySaAW8b7hEHXBknkz)了，这里不再赘述。
+我们始终使用最新版本的 Java 工具链（包含接近最新版本的 Gradle、ANTLR4、IntelliJ IDEA）、VSCode（用于开发编辑器插件）和 Git/GitHub 进行开发。截止本文发布，最新的版本是 Java 17。选择 Java 的原因已经[写在这里](https://cha.fan/articles/4RFySaAW8b7hEHXBknkz)了，这里不再赘述。
 
 + 我们广泛地使用新版本的 Java 语言特性（对于 C# 等竞争对手而言都是很古老的特性了），包括但不限于密封类、局部类型推导、结构体（record）、模式匹配等功能。
 + 由于 Java 标准库对于集合的抽象缺乏对可变性的控制，我们采用了第三方的集合框架 [kala](https://github.com/Glavo/kala-common)，也是一位社团成员的个人项目。
