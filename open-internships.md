@@ -56,6 +56,75 @@ PLCT全称是程序语言与编译技术实验室，隶属于中科院软件所�
 
 (ID max: 58)
 
+### NJ53 软件测试实习生（这是测试岗位）【50人】
+
+（这是目前唯一只需要LV1+的岗位）
+
+工作内容：
+- 为 PLCT 正在开发或维护的开源软件提供QA服务，包括最新的软件的构建、测试、分析、报告和技术交流分享。
+- 能够理解测试组长的需求，阅读分析现有测试用例/测试集/测试过程的不足，按照一些通用的测试评价指标（覆盖率等）进行测试用例的补充和设计。
+
+要求：
+1. LV1+ 即可，不需要通过上机编程考试。
+2. 具有一定的软件测试的理论基础（上过软件测试或者软件工程的课）。
+3. 具备基本的 Linux 操作的基础，例如会在命令行使用 cd/ps/mkdir/make 等。
+4. （加分）具备基本的 git 操作基础，会使用 git clone，知道有 submodule 的概念。
+5. （加分）能够有比较好的英语的阅读和书写能力。英语的口头表达能力不要求。
+
+### NJ52 测试开发实习生（这是开发岗位）【6人】
+
+工作内容：
+- 通过测试流程设计、自动化脚本编写、框架或系统开发等方式，为 RISC-V Linux 发行版的测试工作的生产力提高提供帮助。
+- 能够理解测试组长的需求，阅读分析现有测试用例/测试集/测试过程的不足，按照一些通用的测试评价指标（覆盖率等）进行测试用例的补充和设计，并通过程序或脚本的形式来批量的实现。
+- 为 PLCT 正在开发或维护的开源软件提供QA服务，包括最新的软件的构建、测试、分析、报告和技术交流分享。
+- 跟 Jenkins、GitHub Actions、Gitlab Runners、Ansible Playbooks 等打交道，还有可能写 Web UI，写 expect/lit 自动化回归测试脚本。
+
+要求：
+1. LV2+；需要通过上机考试。
+2. 熟练使用至少两种脚本语言，包括但不限于 python、bash、perl、PHP 等。
+3. 具备基本的软件测试的流程和思想，具备基本的调试代码的能力。
+
+### BJ15 QEMU/Spike 开源模拟器开发实习生【4名】
+
+工作内容：
+- 参与PLCT实验室在QEMU、Spike等相关开源项目的开发。在开源社区直接提交代码。
+
+入职要求：
+- LV3+，对模拟器的内部实现有兴趣。
+- 远程实习，不需要坐班。
+
+### NJ53 openEuler RISC-V 操作系统构建实习生【长期开放，不限名额】
+
+工作内容：
+从事 Linux 发行版 openEuler 在 RISC-V 上的软件包构建、测试、升级、分析工作。
+
+openEuler 是国内的又一个 Linux 发行版社区。起初由华为发起，中科院软件所是最早一批和可能目前最活跃的社区贡献单位。去年主要是软件所的OS团队在进行贡献。2021年7月开始，PLCT实验室开始与华为的工程师一起负责 RISC-V 平台上的 oE 的构建和维护工作。目前老板已经到位，项目经理已经就绪，测试团队已经组建，CI基础设施订单已下。软硬件环境都已经准备好，就差你来干活了。
+
+要求：
+- LV2及以上；喜欢倒腾新技术、喜欢编译尝试开源软件的同学们优先。
+- 需要先去 gitee 上逛逛 oE RISC-V 的有关信息，看看会议纪要，构建的状态等。
+- **需要在提交简历之前，在 oE/RV 社区提交一个 MR 修复一个包。**
+- 不管是否决定来实习，都欢迎加老板微信 fangzhang1024 先拉你到 oE RISC-V SIG 的群里。每两周开会，各种讨论事项都很公开。来感受下业界的脉搏，说不定以后毕业未来的面试官/老板就在群里😄
+
+### BJ32 Dart for RISC-V 开发实习生【1名】
+
+工作内容：
+- 就像将 V8 移植到 RISC-V 平台一样，将 Dart 移植到 RISC-V 平台。负责跟 Dart 上游交流，将移植工作 upstream。
+
+入职要求：
+- 这份工作没有员工在做，需要一位LV4/LV5大佬，独立solo完成。
+- 熟悉 Dart 语言，熟悉 DartVM 的内部实现。
+
+### BJ37 GCC 开发实习生 【2名】
+
+工作内容
+- 最近PLCT实验室在参与RISC-V国际基金会的相关新指令扩展的工作，具体内容是为 unratified extensions （就是还在制定中的扩展指令集）进行 GNU Toolchain 的实现，用于验证草案本身在设计上是否存在遗漏缺失、是否在功能或性能上有改进的空间。目前面向大学生及研究生招募开发者，以PLCT实验室实习生的身份，直接参与到RISC-V基金会管理下的GCC工具链开发中，并有可能后续直接将代码（patch）提交到上游（upstream）。最近开始有业界一线的大佬指导和review实习生的代码，是非常难得的学习机会。
+- 与此同时，实习生岗位 BJ18 Clang/LLVM 开发实习生以及 BJ15 QEMU/Spike 开发实习生同样持续招聘。一个完整扩展指令参考实验和验证包括编译器、二进制工具、模拟器，都是需要的。
+
+入职要求：
+- LV3+，能进行英语交流，对编译技术有基本了解。如果事先了解过ELF格式、RISC-V或其他指令集、相关ABI文档，那么都算是加分项。
+- 远程实习，不需要坐班。
+
 ### NJ57 Android(AOSP) RISC-V 移植开发实习生【每个子项目3人】
 
 **工作内容**
@@ -72,78 +141,35 @@ PLCT Lab 是最早开始公开进行 AOSP RISC-V 移植的团队， 并在平头
 
 远程实习，支持全球实习工资支付（中国学生必须是国内银行卡，国际学生可以用境外卡支付）。实习随时可以开始随时可以暂停随时可以结束。
 
-### NJ55 开源EDA实习生【2名】
+### BJ47 Gentoo RISC-V 操作系统构建实习生【6人】
 
-**岗位特别说明**
+要求：LV2或以上。
 
-需要提醒同学们注意的是，PLCT实验室目前并没有员工（mentor）在为开源EDA项目贡献代码，目前PLCT实验室也没有承接有关EDA的工程项目。本实习岗位是纯粹的开源社区培育岗位，隶属于PLCT实验室内部的兴趣培养计划，目的是提供一个相互鼓励和支持的学习环境，为已经对开源EDA工具感兴趣的同学提供支持。所以，这要求应聘的同学本身已经有兴趣并且开始看相关的知识，并直接在相关的开源社区中进行交流和提问。
+```
+Requirement:
 
-**工作内容：**
+0) have interest in open source
+1) self-motivated, self-learning
+2) have *time* to contribute
+3) good english communication skill at least capable of writing
+4) familiar with Linux Distro
+have experience with Gentoo would be great++
 
-- （暂缓）LV2 Chisel-DSP调研学习报告（1个月）->LV3 基于RoCC的RISC-V DSP-Extension开发
-  - 前置课程：数字电路/信号处理/体系结构
-  - 收获：学会高性能使用Chisel开发DSP，并理解协处理器工作流程
-- （暂缓）LV2 RISCV Debug调研学习报告（1个月）->LV4 RocketChip Debug v0.13调研学习报告（2个月）->LV4 基于Diplomacy的Debug Spec v1.0开发设计
-  - 前置课程：体系结构/数字电路
-  - 收获：掌握软硬RISCV Debug流程，掌握SoC中Debug/Trace模块的开发
-- （暂缓）LV3 Rocket/Boom微架构调研学习报告（3个月）-> 基于Rocket的硬件算法设计（1个月）
-  - 前置课程：体系结构
-  - 收获：学会Chisel 熟悉Rocket
-- （暂缓）LV3 Formal Verification调研学习报告 -> LV4 FIRRTL SMT backend的调研->LV4基于SMTLib的Formal框架的调研学习报告->被Formal验证的高性能硬件算法设计
-  - 前置课程：Chisel/Model Checking
-  - 收获：进阶Chisel验证方法学/Paper
-- LV3 Verilator学习报告（1个月） -> LV4 EmitC/Scheduler源码分析（2个月） -> LV5 Verilator 在 CIRCT 的重实现（3个月）
-  - 前置课程：C++ LLVM
-  - 收获：下一代高性能仿真器的设计/Paper
-- LV3+ Berkeley-ABC 学习报告（3个月）
-  - 前置课程： C 数理逻辑 Model Checking
-  - 收获：深刻理解电路综合最难的部分
+Note:
+ sophisticated programming skill is not a must,
+ but do prefer computer science (or related) background
 
-**共享基本要求：**
+works:
+testing packages for ARCH=riscv in Gentoo Linux
+ a) if fail
+   *) file bugs (https://bugs.gentoo.org)
+   *) report to upstream
+   +) help to fix (not a must)
+ b) or success
+   *) keywording packages and send PR
 
-- 熟练Git，了解GitHub协作流程
-- 熟练Linux系统
-- 已经解决好了自己的网络问题，速度很快的下载配置环境和访问Google
-- 先学再问
-
-### NJ53 openEuler RISC-V 操作系统构建实习生【长期开放，不限名额】
-
-工作内容：
-从事 Linux 发行版 openEuler 在 RISC-V 上的软件包构建、测试、升级、分析工作。
-
-openEuler 是国内的又一个 Linux 发行版社区。起初由华为发起，中科院软件所是最早一批和可能目前最活跃的社区贡献单位。去年主要是软件所的OS团队在进行贡献。2021年7月开始，PLCT实验室开始与华为的工程师一起负责 RISC-V 平台上的 oE 的构建和维护工作。目前老板已经到位，项目经理已经就绪，测试团队已经组建，CI基础设施订单已下。软硬件环境都已经准备好，就差你来干活了。
-
-要求：
-- LV2及以上；喜欢倒腾新技术、喜欢编译尝试开源软件的同学们优先。
-- 需要先去 gitee 上逛逛 oE RISC-V 的有关信息，看看会议纪要，构建的状态等。
-- **需要在提交简历之前，在 oE/RV 社区提交一个 MR 修复一个包。**
-- 不管是否决定来实习，都欢迎加老板微信 fangzhang1024 先拉你到 oE RISC-V SIG 的群里。每两周开会，各种讨论事项都很公开。来感受下业界的脉搏，说不定以后毕业未来的面试官/老板就在群里😄
-
-### NJ52 测试开发实习生（这是开发岗位）【6人】
-
-工作内容：
-- 通过测试流程设计、自动化脚本编写、框架或系统开发等方式，为 RISC-V Linux 发行版的测试工作的生产力提高提供帮助。
-- 能够理解测试组长的需求，阅读分析现有测试用例/测试集/测试过程的不足，按照一些通用的测试评价指标（覆盖率等）进行测试用例的补充和设计，并通过程序或脚本的形式来批量的实现。
-- 为 PLCT 正在开发或维护的开源软件提供QA服务，包括最新的软件的构建、测试、分析、报告和技术交流分享。
-- 跟 Jenkins、GitHub Actions、Gitlab Runners、Ansible Playbooks 等打交道，还有可能写 Web UI，写 expect/lit 自动化回归测试脚本。
-
-要求：
-1. LV2+；需要通过上机考试。
-2. 熟练使用至少两种脚本语言，包括但不限于 python、bash、perl、PHP 等。
-3. 具备基本的软件测试的流程和思想，具备基本的调试代码的能力。
-
-### NJ53 软件测试实习生（这是测试岗位）【20人】
-
-工作内容：
-- 为 PLCT 正在开发或维护的开源软件提供QA服务，包括最新的软件的构建、测试、分析、报告和技术交流分享。
-- 能够理解测试组长的需求，阅读分析现有测试用例/测试集/测试过程的不足，按照一些通用的测试评价指标（覆盖率等）进行测试用例的补充和设计。
-
-要求：
-1. LV1+ 即可，不需要通过上机编程考试。
-2. 具有一定的软件测试的理论基础（上过软件测试或者软件工程的课）。
-3. 具备基本的 Linux 操作的基础，例如会在命令行使用 cd/ps/mkdir/make 等。
-4. （加分）具备基本的 git 操作基础，会使用 git clone，知道有 submodule 的概念。
-5. （加分）能够有比较好的英语的阅读和书写能力。英语的口头表达能力不要求。
+Testing Xfce4, KDE, Gnome, your choice!?
+```
 
 ### NJ51 Arch Linux RISC-V 操作系统构建实习生【4人】
 
@@ -181,43 +207,16 @@ openEuler 是国内的又一个 Linux 发行版社区。起初由华为发起，
 - LV2+
 - 已经自学了 Chisel。
 
-### BJ47 Gentoo RISC-V 操作系统构建实习生【6人】
+### BJ17 V8 开发实习生【2名】
 
-要求：LV2或以上。
-
-```
-Requirement:
-
-0) have interest in open source
-1) self-motivated, self-learning
-2) have *time* to contribute
-3) good english communication skill at least capable of writing
-4) familiar with Linux Distro
-have experience with Gentoo would be great++
-
-Note:
- sophisticated programming skill is not a must,
- but do prefer computer science (or related) background
-
-works:
-testing packages for ARCH=riscv in Gentoo Linux
- a) if fail
-   *) file bugs (https://bugs.gentoo.org)
-   *) report to upstream
-   +) help to fix (not a must)
- b) or success
-   *) keywording packages and send PR
-
-Testing Xfce4, KDE, Gnome, your choice!?
-```
-
-### BJ46 Rust 工具链开发实习生【已满】
-
-工作职责：
-- 主要就是做 Rust for RISC-V 的工作，这是 Firefox on RISC-V 的一部分。确保 Rust 工具链和软件在 RV64GC 平台和 RV32GC 上可以跑起来，并进行功能的完善和性能的提升。
+工作内容：
+- 参与PLCT实验室 V8 for RISC-V 相关项目的开发。在开源社区直接提交代码。
 
 入职要求：
-- LV3+，能进行英语交流，对编译技术有很好的了解。对LLVM工具链和Rust有浓厚的兴趣。
+- LV3+，熟练的英语交流。
+- C++ 要熟练。新特性了然于胸。
+- 需要已经看过 V8 的源代码，自行构建 riscv64 后端成功。
+- 需要熟悉 JavaScript 语言。如果看过 WebAssembly 加分。
 - 远程实习，不需要坐班。
 
 ### BJ45 MLIR 开源开发实习生【1人】
@@ -243,37 +242,6 @@ Testing Xfce4, KDE, Gnome, your choice!?
 - （加分）懂一点 nodejs/php/perl/ruby/go。
 
 远程实习，不需要坐班。遵循每个月1号和16号的外部可见交付物报告制度。
-
-### BJ38 LuaJIT 开发实习生【已满】
-
-目标：将 LuaJIT 移植到 RV64G 平台。
-背景参考：https://github.com/plctlab/plctlab.github.io/issues/9
-
-入职要求：
-LV4+，能进行英语交流，对编译技术有基本了解。如果事先了解过ELF格式、RISC-V或其他指令集、相关ABI文档，那么都算是加分项。
-远程实习，不需要坐班。
-
-### BJ37 GCC 开发实习生 【2名】
-
-工作内容
-- 最近PLCT实验室在参与RISC-V国际基金会的相关新指令扩展的工作，具体内容是为 unratified extensions （就是还在制定中的扩展指令集）进行 GNU Toolchain 的实现，用于验证草案本身在设计上是否存在遗漏缺失、是否在功能或性能上有改进的空间。目前面向大学生及研究生招募开发者，以PLCT实验室实习生的身份，直接参与到RISC-V基金会管理下的GCC工具链开发中，并有可能后续直接将代码（patch）提交到上游（upstream）。最近开始有业界一线的大佬指导和review实习生的代码，是非常难得的学习机会。
-- 与此同时，实习生岗位 BJ18 Clang/LLVM 开发实习生以及 BJ15 QEMU/Spike 开发实习生同样持续招聘。一个完整扩展指令参考实验和验证包括编译器、二进制工具、模拟器，都是需要的。
-
-入职要求：
-- LV3+，能进行英语交流，对编译技术有基本了解。如果事先了解过ELF格式、RISC-V或其他指令集、相关ABI文档，那么都算是加分项。
-- 远程实习，不需要坐班。
-
-### BJ17 V8 开发实习生【2名】
-
-工作内容：
-- 参与PLCT实验室 V8 for RISC-V 相关项目的开发。在开源社区直接提交代码。
-
-入职要求：
-- LV3+，熟练的英语交流。
-- C++ 要熟练。新特性了然于胸。
-- 需要已经看过 V8 的源代码，自行构建 riscv64 后端成功。
-- 需要熟悉 JavaScript 语言。如果看过 WebAssembly 加分。
-- 远程实习，不需要坐班。
 
 ### BJ34 OpenJDK 开发实习生【4名】
 
@@ -303,22 +271,56 @@ LV3+，能进行英语交流，对编译技术有基本了解。
 - 提交简历时已经看过 Spidermonkey 源代码，自己尝试构建过 Spidermonkey 或 Firefox。
 - 远程实习，不需要坐班。
 
-### BJ32 Dart for RISC-V 开发实习生【1名】
+### NJ55 开源EDA实习生【2名】
 
-工作内容：
-- 就像将 V8 移植到 RISC-V 平台一样，将 Dart 移植到 RISC-V 平台。负责跟 Dart 上游交流，将移植工作 upstream。
+**岗位特别说明**
+
+需要提醒同学们注意的是，PLCT实验室目前并没有员工（mentor）在为开源EDA项目贡献代码，目前PLCT实验室也没有承接有关EDA的工程项目。本实习岗位是纯粹的开源社区培育岗位，隶属于PLCT实验室内部的兴趣培养计划，目的是提供一个相互鼓励和支持的学习环境，为已经对开源EDA工具感兴趣的同学提供支持。所以，这要求应聘的同学本身已经有兴趣并且开始看相关的知识，并直接在相关的开源社区中进行交流和提问。
+
+**工作内容：**
+
+- （暂缓）LV2 Chisel-DSP调研学习报告（1个月）->LV3 基于RoCC的RISC-V DSP-Extension开发
+  - 前置课程：数字电路/信号处理/体系结构
+  - 收获：学会高性能使用Chisel开发DSP，并理解协处理器工作流程
+- （暂缓）LV2 RISCV Debug调研学习报告（1个月）->LV4 RocketChip Debug v0.13调研学习报告（2个月）->LV4 基于Diplomacy的Debug Spec v1.0开发设计
+  - 前置课程：体系结构/数字电路
+  - 收获：掌握软硬RISCV Debug流程，掌握SoC中Debug/Trace模块的开发
+- （暂缓）LV3 Rocket/Boom微架构调研学习报告（3个月）-> 基于Rocket的硬件算法设计（1个月）
+  - 前置课程：体系结构
+  - 收获：学会Chisel 熟悉Rocket
+- （暂缓）LV3 Formal Verification调研学习报告 -> LV4 FIRRTL SMT backend的调研->LV4基于SMTLib的Formal框架的调研学习报告->被Formal验证的高性能硬件算法设计
+  - 前置课程：Chisel/Model Checking
+  - 收获：进阶Chisel验证方法学/Paper
+- LV3 Verilator学习报告（1个月） -> LV4 EmitC/Scheduler源码分析（2个月） -> LV5 Verilator 在 CIRCT 的重实现（3个月）
+  - 前置课程：C++ LLVM
+  - 收获：下一代高性能仿真器的设计/Paper
+- LV3+ Berkeley-ABC 学习报告（3个月）
+  - 前置课程： C 数理逻辑 Model Checking
+  - 收获：深刻理解电路综合最难的部分
+
+**共享基本要求：**
+
+- 熟练Git，了解GitHub协作流程
+- 熟练Linux系统
+- 已经解决好了自己的网络问题，速度很快的下载配置环境和访问Google
+- 先学再问
+
+### BJ38 LuaJIT 开发实习生【已满】
+
+目标：将 LuaJIT 移植到 RV64G 平台。
+背景参考：https://github.com/plctlab/plctlab.github.io/issues/9
 
 入职要求：
-- 这份工作没有员工在做，需要一位LV4/LV5大佬，独立solo完成。
-- 熟悉 Dart 语言，熟悉 DartVM 的内部实现。
+LV4+，能进行英语交流，对编译技术有基本了解。如果事先了解过ELF格式、RISC-V或其他指令集、相关ABI文档，那么都算是加分项。
+远程实习，不需要坐班。
 
-### BJ15 QEMU/Spike 开源模拟器开发实习生【4名】
+### BJ46 Rust 工具链开发实习生【已满】
 
-工作内容：
-- 参与PLCT实验室在QEMU、Spike等相关开源项目的开发。在开源社区直接提交代码。
+工作职责：
+- 主要就是做 Rust for RISC-V 的工作，这是 Firefox on RISC-V 的一部分。确保 Rust 工具链和软件在 RV64GC 平台和 RV32GC 上可以跑起来，并进行功能的完善和性能的提升。
 
 入职要求：
-- LV3+，对模拟器的内部实现有兴趣。
+- LV3+，能进行英语交流，对编译技术有很好的了解。对LLVM工具链和Rust有浓厚的兴趣。
 - 远程实习，不需要坐班。
 
 ## 机器人团队的实习生岗位
