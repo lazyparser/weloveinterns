@@ -27,6 +27,8 @@
 邮件标题请注明：
 **岗位编号 - 姓名 - 手机号码 - 学校**
 
+（兼职实习的伙伴可以用【兼职】取代【学校】）
+
 邮件正文请:
 **进行跟应聘职位相关的自我介绍**，不超过300字。
 
@@ -41,7 +43,7 @@
 3. 能力值评定一般要求达到LV2级别及以上。参见：[我们如何面试实习生](https://github.com/lazyparser/weloveinterns/blob/master/how-do-we-interview-interns.md)，[我们如何给实习生评级](https://github.com/lazyparser/weloveinterns/blob/master/how-do-we-rank-interns.md)。
 4. 热爱编程，经常写代码。C/C++/Java/JavaScript 任何一种常见语言都可以。
 5. 熟练使用 Linux 命令行；会一点 Python/Bash 脚本进行自动化。
-6. 熟练使用 Google 搜索引擎。
+6. 熟练使用 Google 搜索引擎、流畅高清看油管。
 7. 熟练使用 Git，能够自己 rebase 解决 conflicts。
 8. （加分）自学了 RISC-V 指令集，包括 RV32GC 和 RV64GC。在自己的电脑上部署运行起来QEMU-RISCV64以及Spike模拟器。
 9. （加分）对于网络知识有基本了解并熟练使用，例如SSH任意端口登陆、Port Forwarding、反向链接、ProxyCommand 等配置自行掌握。
