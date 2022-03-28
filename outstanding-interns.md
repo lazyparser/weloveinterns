@@ -27,7 +27,7 @@ Senior interns 的设立目标，是对PLCT实验室目前「外部可见交付�
 | 樊其轩 | Gentoo小队、LLVM小队 | 捞回 rm -rf 的LV4 |
 | 喵喵 | CAAT小队 |  |
 | dram | CAAT小队 |  ([GitHub @dramforever](https://github.com/dramforever), <https://dram.page>) |
-| 罗云千 | CAAT小队 |  |
+| [Sharzy](https://github.com/SharzyL) | CAAT小队 |  |
 | [Kiva](https://github.com/imkiva) | Aya小队 |  |
 | Glavo | Aya小队 |  |
 | [zxs-un](https://github.com/zxs-un) | oerv小队 |  |
