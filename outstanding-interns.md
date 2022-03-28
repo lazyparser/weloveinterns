@@ -1,37 +1,49 @@
-# 做过贡献的优秀实习生
+# 优秀实习生
 
-我们创建和维护了在团队中实习过并做出贡献的实习生的介绍。
-本页面是吴伟及相关团队（PLCT实验室、机器人联合实验室、工业仿真组）对实习生的能力和贡献的证明（背书）。
+本页面是吴伟及相关团队（PLCT实验室、RISC-V操作系统测试团队/TARSIER、机器人联合实验室、工业仿真组）对于能力突出或做出可观贡献的实习生的介绍和证明（背书）。是在我们团队中有效实习周期超过3个月的同学，都有机会将自己实习期间的工作内容、贡献、LV等级通过本页面进行展示。需要注意这个页面的创建时间要远远迟于我们开始招募和培养实习生的时间，所以有很多已经毕业工作的实习生可能并未加入到这个列表中。同时，只有获得实习生本人同意或本人PR，实习经历才会在本页面公开。
 
-凡是在我们团队中有效实习周期超过3个月的同学，都可以将自己实习期间的工作内容、贡献、LV等级通过本页面进行展示。
-
-需要注意这个页面的创建时间要远远迟于我们开始招募和培养实习生的时间，所以有很多已经毕业工作的实习生可能并未加入到这个列表中。同时，只有获得实习生本人同意或本人PR，实习经历才会在本页面公开。
-
+目前公开的门类有两种： senior interns 和 LV4+ Interns。
 
 ## Senior Interns (高级实习生)
 
-变更：2022-03-27 开始公开新增了 senior interns 的分类。
+Senior interns 的设立目标，是对PLCT实验室目前「外部可见交付月度观测制度」的补充完善。已经证明自己的技术能力和自治能力的同学将进入准员工的精英自治模式，每个月的实习费不会低于设定的基准值，只会上浮，确保 senior interns 可以做一些更加困难、更加有技术挑战的开源贡献。
 
-Hi all，
+设定的理由：
+1. 让荣光落于刀锋之上。
+2. 目前的外部可见交付观测制度并不能观测团队内隐形产出，包括同辈指导、跨组互助、人际关系维持等。而 senior intern 隐含的被期待积极的帮助指导团队（新）同学。
+3. 需要将 senior 实习生从简单工作上转入比较难、不太容易一个月出结果的工作上。
 
-关于 senior/honored intern 的 FYI
+成为 senior 的入门条件：
+1. 实习3个月以上，续签了新的实习合同。
+2. 在实习期间外部可见产出稳定，技术能力达到LV3及以上（部分岗位仅要求LV2+）。
+2. 在小队中承担起部分决策、培养新同学、计划外事件处理等责任。
 
-who
-1. 实习6个月以上的、产出稳定的实习生，且
-2. 在小队中承担起部分决策、培养新同学、计划外事件处理等责任
+（变更：2022-03-27 开始公开新增了 senior interns 的分类。）
 
-why
-1. 让荣光落于刀锋之上
-2. 目前的外部可见交付观测制度并不能观测团队内隐形产出，包括同辈指导、跨组互助、人际关系维持等。
-3. 需要将 senior 实习生从简单工作上转入比较难、不太容易一个月出结果的工作上
+### List of senior interns
 
-List:
+| 姓名 | 所属小队 | 介绍、链接 |
+| ---- | ---- | ---- |
+| 樊其轩 | Gentoo小队、LLVM小队 | 捞回 rm -rf 的LV4 |
+| 喵喵 | CAAT小队 |  |
+| dram | CAAT小队 |  ([GitHub @dramforever](https://github.com/dramforever), <https://dram.page>) |
+| 罗云千 | CAAT小队 |  |
+| [Kiva](https://github.com/imkiva) | Aya小队 |  |
+| Glavo | Aya小队 |  |
+| [zxs-un](https://github.com/zxs-un) | oerv小队 |  |
+| （我就不贴了，菜得一批） | oerv小队 |  |
+| 乌鑫龙 | LLVM小队 |  |
+| dingiso | 模拟器小队 |  |
+| [XieJiSS](https://github.com/XieJiSS) | arch小队 | [Blog](https://blog.jiejiss.com) |
+| xeonacid | arch小队 |  |
+| [rvalue](https://github.com/r-value) | arch小队 |  |
+| [Zenithal](https://github.com/ZenithalHourlyRate) | Arch小队、CAAT小队 |  |
 
-暂未公开
+# LV4+ Interns
 
-# 高能力等级的优秀实习生（含已经完成实习的同学）
+高能力等级的优秀实习生（含已经完成实习的同学）
 
-## Alex Fan，樊其轩 (LV4)
+### Alex Fan，樊其轩 (LV4)
 
 LV4 since 2021-12-01
 
@@ -39,29 +51,29 @@ Gentoo Linux
 
 TODO Feel free to add your personal info here
 
-## 林思南 (LV4+)
+### 林思南 (LV4+)
 
 GNU GCC 小队成员
 
 TODO 添加个人介绍和GitHub
 
-## 陆旭凡 (LV5)
+### 陆旭凡 (LV5)
 
-LLVM 小队成员
+LLVM 小队实习生。现已毕业，进入PLCT实验室。
 
 TODO 添加个人介绍和GitHub
 
-## 陶立强 (LV4)
+### 陶立强 (LV4)
 
 V8 小队成员
 
 TODO 添加个人介绍和GitHub
 
-## 韩博阳 (LV4)
+### 韩博阳 (LV4)
 
-TODO
+PLCT实验室CAAT小队著名摸鱼大佬。
 
-## 安传旭（anchuanxu） (LV5+)
+### 安传旭（anchuanxu） (LV5+)
 
 【GitHub ID:`anchuanxu` / 个人邮箱：`anchuanxu@126.com` 】
 
@@ -77,7 +89,7 @@ TODO
 
 对后辈实习生的寄语：【同学们，读万卷书也要行万里路，一起来实习吧，这里有不一样的风景。】
 
-## 王晓云（jiuyewxy） (LV4)
+### 王晓云（jiuyewxy） (LV4)
 
 【GitHub ID:`jiuyewxy` / 个人邮箱：`wangxiaoyun@iscas.ac.cn` 】
 
@@ -93,7 +105,7 @@ TODO
 
 对后辈实习生的寄语：【笨鸟先飞，菜鸟晚归，好好学习，不懂就问】
 
-## 姓名（昵称）提交PR请从下方追加
+### 姓名（昵称）提交PR请从下方追加
 
 【GitHub ID / 知乎ID / 个人邮箱 等联系信息】
 
@@ -108,4 +120,3 @@ TODO
 实习的心得感受：【可选】
 
 对后辈实习生的寄语：【可选】
-
