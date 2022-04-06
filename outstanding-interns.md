@@ -39,15 +39,25 @@ Senior interns 的设立目标，是对PLCT实验室目前「外部可见交付�
 | [rvalue](https://github.com/r-value) | Arch小队 |  |
 | [Zenithal](https://github.com/ZenithalHourlyRate) | Arch小队、CAAT小队 |  |
 
-# LV4+ Interns
+## LV4+ Interns （大能力者和超能力者）
 
 高能力等级的优秀实习生（含已经完成实习的同学）
 
-### Alex Fan，樊其轩 (LV4)
+### LV5 潘瑞哲
+
+[XieJiSS](https://github.com/XieJiSS) | Arch小队 | [Blog](https://blog.jiejiss.com)
+
+2022年4月成为LV5。杰出的跟各路上游社区对线（非暴力沟通）的能力，并且能够在解决缠绕很深的bug之后，条理清晰的进行阐释和修复。
+
+### LV4 张世骐
+
+2022年4月成为LV4。具备高度主动性，在组内互助和指导、问题汇总讨论、上游社区沟通等都有均衡稳定的输出。
+
+### LV4 樊其轩
 
 LV4 since 2021-12-01。隶属于 Gentoo Linux 小队。现在同时也在 LLVM 小队贡献代码。
 
-### 林思南 (LV4+)
+### LV4+ 林思南
 
 GNU GCC 小队成员，贡献了多个 RISC-V 新扩展的 GCC 和 Binutils 实现。
 
