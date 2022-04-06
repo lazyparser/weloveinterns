@@ -61,19 +61,19 @@ LV4 since 2021-12-01。隶属于 Gentoo Linux 小队。现在同时也在 LLVM �
 
 GNU GCC 小队成员，贡献了多个 RISC-V 新扩展的 GCC 和 Binutils 实现。
 
-### 陆旭凡 (LV5)
+### LV5 陆旭凡
 
 曾经是 LLVM 小队实习生。现已毕业，进入PLCT实验室。
 
-### 陶立强 (LV4)
+### LV4 陶立强
 
 曾经是 V8 小队成员，已经从PLCT毕业。最近（2022年4月）又从东京大学（大概）毕业了！
 
-### 韩博阳 (LV4)
+### LV4 韩博阳
 
 PLCT实验室CAAT小队著名摸鱼大佬。
 
-### 安传旭（anchuanxu） (LV5+)
+### LV5+ 安传旭
 
 GitHub ID: `anchuanxu` / 个人邮箱：`anchuanxu@126.com`
 
@@ -85,7 +85,7 @@ GitHub ID: `anchuanxu` / 个人邮箱：`anchuanxu@126.com`
 
 对后辈实习生的寄语：同学们，读万卷书也要行万里路，一起来实习吧，这里有不一样的风景。
 
-### 王晓云（jiuyewxy） (LV4)
+### LV4 王晓云（jiuyewxy）
 
 GitHub ID: `jiuyewxy` / 个人邮箱：`wangxiaoyun@iscas.ac.cn`
 
@@ -101,16 +101,8 @@ GitHub ID: `jiuyewxy` / 个人邮箱：`wangxiaoyun@iscas.ac.cn`
 
 ### 姓名（昵称）提交PR请从下方追加
 
-【GitHub ID / 知乎ID / 个人邮箱 等联系信息】
+GitHub ID / 知乎ID / 个人邮箱 等联系信息（可选）
 
-实习时间：从【开始日期】到【结束日期】
+何时成为LVx
 
-隶属项目/团队：【填入】
-
-实习期间的成果和收获：【填入，需要 mentor 确认】
-
-目前的状态：【在校、校招、在具体公司等。可选】
-
-实习的心得感受：【可选】
-
-对后辈实习生的寄语：【可选】
+想要放在这里的内容。
