@@ -43,6 +43,11 @@ Senior interns 的设立目标，是对PLCT实验室目前「外部可见交付�
 
 高能力等级的优秀实习生（含已经完成实习的同学）
 
+### LV4 胡轩
+
+模拟器小队，参与 Gem5 RVV 开发。
+2022年4月成为LV4。
+
 ### LV5 潘瑞哲
 
 [XieJiSS](https://github.com/XieJiSS) | Arch小队 | [Blog](https://blog.jiejiss.com)
