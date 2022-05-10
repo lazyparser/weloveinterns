@@ -34,7 +34,7 @@ Senior interns 的设立目标，是对PLCT实验室目前「外部可见交付�
 | （我就不贴了，菜得一批） | oerv小队 |  |
 | 乌鑫龙 | LLVM小队 |  |
 | dingiso | 模拟器小队 |  |
-| [XieJiSS](https://github.com/XieJiSS) | Arch小队 | [Blog](https://blog.jiejiss.com) |
+| 潘瑞哲 [XieJiSS](https://github.com/XieJiSS) | Arch小队 | [Blog](https://blog.jiejiss.com) |
 | [Xeonacid](https://github.com/Xeonacid) | Arch小队 |  |
 | [rvalue](https://github.com/r-value) | Arch小队 |  |
 | [Zenithal](https://github.com/ZenithalHourlyRate) | Arch小队、CAAT小队 |  |
