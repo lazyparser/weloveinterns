@@ -37,6 +37,7 @@ Senior interns 的设立目标，是对PLCT实验室目前「外部可见交付�
 | 潘瑞哲 [XieJiSS](https://github.com/XieJiSS) | Arch小队 | [Blog](https://blog.jiejiss.com) |
 | [Xeonacid](https://github.com/Xeonacid) | Arch小队 |  |
 | [rvalue](https://github.com/r-value) | Arch小队 |  |
+| [Ast-x64](https://github.com/Ast-x64) | Arch小队| TBA |
 | [Zenithal](https://github.com/ZenithalHourlyRate) | Arch小队、CAAT小队 |  |
 
 ## LV4+ Interns （大能力者和超能力者）
