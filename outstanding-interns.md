@@ -107,9 +107,11 @@ GitHub ID: `jiuyewxy` / 个人邮箱：`wangxiaoyun@iscas.ac.cn`
 对后辈实习生的寄语：【笨鸟先飞，菜鸟晚归，好好学习，不懂就问】
 
 ### 姓名（昵称）提交PR请从下方追加
+Lance
+GitHub ID:Lancelof2019 / 知乎ID: / 个人邮箱:dimo.fu@gmail.com
 
-GitHub ID / 知乎ID / 个人邮箱 等联系信息（可选）
 
-何时成为LVx
+希望能在6个月的时间晋级L4,
+同时也希望能有机会和大家共事，不断成长，积累经验，为社区贡献自己的绵薄之力。
 
-想要放在这里的内容。
+
