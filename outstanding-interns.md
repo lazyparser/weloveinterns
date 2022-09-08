@@ -14,7 +14,7 @@ Senior interns 的设立目标，是对PLCT实验室目前「外部可见交付�
 3. 需要将 senior 实习生从简单工作上转入比较难、不太容易一个月出结果的工作上。
 
 成为 senior 的入门条件：
-1. 实习3个月以上，续签了新的实习合同。
+1. 实习3个月以上，续签了新的实习合同，且处于实习存续期间。
 2. 在实习期间外部可见产出稳定，技术能力达到LV3及以上（部分岗位仅要求LV2+）。
 2. 在小队中承担起部分决策、培养新同学、计划外事件处理等责任。
 
@@ -32,7 +32,6 @@ Senior interns 的设立目标，是对PLCT实验室目前「外部可见交付�
 | [Kiva](https://github.com/imkiva) | Aya小队 |  |
 | Glavo | Aya小队 |  |
 | [zxs-un](https://github.com/zxs-un) | oerv小队 |  |
-| （我就不贴了，菜得一批） | oerv小队 |  |
 | 乌鑫龙 | LLVM小队 |  |
 | dingiso | 模拟器小队 |  |
 | 潘瑞哲 [XieJiSS](https://github.com/XieJiSS) | Arch小队 | [Blog](https://blog.jiejiss.com) |
