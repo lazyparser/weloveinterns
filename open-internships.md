@@ -198,19 +198,6 @@ https://github.com/DynamoRIO/dynamorio/issues/3544
 - LV3+，对模拟器的内部实现有兴趣。
 - 远程实习，不需要坐班。
 
-### NJ53a openEuler RISC-V 操作系统构建实习生
-
-工作内容：
-从事 Linux 发行版 openEuler 在 RISC-V 上的软件包构建、测试、升级、分析工作。
-
-openEuler 是国内的又一个 Linux 发行版社区。起初由华为发起，中科院软件所是最早一批和可能目前最活跃的社区贡献单位。去年主要是软件所的OS团队在进行贡献。2021年7月开始，PLCT实验室开始与华为的工程师一起负责 RISC-V 平台上的 oE 的构建和维护工作。目前老板已经到位，项目经理已经就绪，测试团队已经组建，CI基础设施订单已下。软硬件环境都已经准备好，就差你来干活了。
-
-要求：
-- LV2及以上；喜欢倒腾新技术、喜欢编译尝试开源软件的同学们优先。
-- 需要先去 gitee 上逛逛 oE RISC-V 的有关信息，看看会议纪要，构建的状态等。
-- **需要在提交简历之前，在 oE/RV 社区提交一个 MR 修复一个包。**
-- 不管是否决定来实习，都欢迎加老板微信 fangzhang1024 先拉你到 oE RISC-V SIG 的群里。每两周开会，各种讨论事项都很公开。来感受下业界的脉搏，说不定以后毕业未来的面试官/老板就在群里😄
-
 ### BJ32 Dart for RISC-V 开发实习生
 
 PLCT实验室2022年路线图中包含了移植DartVM到RISC-V架构，但是一直没有招募到合适的勇者（非常稀缺的LV4+实习生），所以一直在咕。但～是～！前不久，Google Dart Team 最新的版本中已经包含了初步的RISC-V支持！于是乎我们从躺平中惊坐起，觉得**难度大幅度降低，LV3+的实习生也可以开始参与了**！
@@ -346,18 +333,6 @@ Testing Xfce4, KDE, Gnome, your choice!?
 - LV3+，能进行英语交流，对编译技术有很好的了解。对 MLIR 项目有浓厚的兴趣。
 - 远程实习，不需要坐班。
 
-### BJ39 Web 前端开发实习生
-
-目标：
-- 改进PLCT各类web页面。
-- 开发和维护包括 [RISC-V 软件生态状态跟踪数据库](https://github.com/isrc-cas/riscv-ecosystem-tracking) 在内的 PLCT Lab 开发维护的各类 Web 页面。包括 HTML/CSS/JS。推荐和鼓励使用最新的前端框架。
-
-入职要求：
-- LV2+
-- 熟练 Web 前端开发，熟悉这两年最新的开发框架
-- （加分）懂一点 nodejs/php/perl/ruby/go。
-
-远程实习，不需要坐班。遵循每个月1号和16号的外部可见交付物报告制度。
 
 ### BJ34 OpenJDK 开发实习生
 
@@ -376,50 +351,6 @@ Testing Xfce4, KDE, Gnome, your choice!?
 入职要求：
 LV3+，能进行英语交流，对编译技术有基本了解。
 远程实习，不需要坐班。
-
-### BJ33 Spidermonkey 开发实习生
-
-工作内容：
-- 就像将 V8 移植到 RISC-V 平台一样，将 Spidermonkey 移植到 RISC-V 平台。跟 mentor 一起将工作提交到 Mozilla upstream。
-
-入职要求：
-- LV3+ 级别。能够进行英文的交流。
-- 提交简历时已经看过 Spidermonkey 源代码，自己尝试构建过 Spidermonkey 或 Firefox。
-- 远程实习，不需要坐班。
-
-### NJ55 开源EDA实习生
-
-**岗位特别说明**
-
-需要提醒同学们注意的是，PLCT实验室目前并没有员工（mentor）在为开源EDA项目贡献代码，目前PLCT实验室也没有承接有关EDA的工程项目。本实习岗位是纯粹的开源社区培育岗位，隶属于PLCT实验室内部的兴趣培养计划，目的是提供一个相互鼓励和支持的学习环境，为已经对开源EDA工具感兴趣的同学提供支持。所以，这要求应聘的同学本身已经有兴趣并且开始看相关的知识，并直接在相关的开源社区中进行交流和提问。
-
-**工作内容：**
-
-- （暂缓）LV2 Chisel-DSP调研学习报告（1个月）->LV3 基于RoCC的RISC-V DSP-Extension开发
-  - 前置课程：数字电路/信号处理/体系结构
-  - 收获：学会高性能使用Chisel开发DSP，并理解协处理器工作流程
-- （暂缓）LV2 RISCV Debug调研学习报告（1个月）->LV4 RocketChip Debug v0.13调研学习报告（2个月）->LV4 基于Diplomacy的Debug Spec v1.0开发设计
-  - 前置课程：体系结构/数字电路
-  - 收获：掌握软硬RISCV Debug流程，掌握SoC中Debug/Trace模块的开发
-- （暂缓）LV3 Rocket/Boom微架构调研学习报告（3个月）-> 基于Rocket的硬件算法设计（1个月）
-  - 前置课程：体系结构
-  - 收获：学会Chisel 熟悉Rocket
-- （暂缓）LV3 Formal Verification调研学习报告 -> LV4 FIRRTL SMT backend的调研->LV4基于SMTLib的Formal框架的调研学习报告->被Formal验证的高性能硬件算法设计
-  - 前置课程：Chisel/Model Checking
-  - 收获：进阶Chisel验证方法学/Paper
-- LV3 Verilator学习报告（1个月） -> LV4 EmitC/Scheduler源码分析（2个月） -> LV5 Verilator 在 CIRCT 的重实现（3个月）
-  - 前置课程：C++ LLVM
-  - 收获：下一代高性能仿真器的设计/Paper
-- LV3+ Berkeley-ABC 学习报告（3个月）
-  - 前置课程： C 数理逻辑 Model Checking
-  - 收获：深刻理解电路综合最难的部分
-
-**共享基本要求：**
-
-- 熟练Git，了解GitHub协作流程
-- 熟练Linux系统
-- 已经解决好了自己的网络问题，速度很快的下载配置环境和访问Google
-- 先学再问
 
 ### BJ38 LuaJIT 开发实习生
 
@@ -440,3 +371,11 @@ LV4+，能进行英语交流，对编译技术有基本了解。如果事先了�
 ### BJ60 开源技术社区运营经理实习生（1-2名）【已满】
 
 ### BJ59 开源软件项目经理实习生（1-2名）【已满】
+
+### BJ33 Spidermonkey 开发实习生【取消】
+
+### NJ55 开源EDA实习生【取消】
+
+### BJ39 Web 前端开发实习生【已满】
+
+### NJ53a openEuler RISC-V 操作系统构建实习生【已满】
