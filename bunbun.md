@@ -63,6 +63,8 @@
 
 ## 社团招新
 
+[实习岗位 JD](https://github.com/lazyparser/weloveinterns/blob/master/open-internships.md)
+
 重点来了。本社秉持「更多的人不一定带来更高的生产力」的观点，实行**高门槛招募**。如果你想要加入我们，我们期望你拥有如下素质，不过如果你在某一个特定的方面**特别优秀**的话，可以无视这个标准。事实上，目前的成员其实基本全都不满足所有的标准，但是这些人都「在特定的方面特别优秀」。如果你能加入这个团队，你将和这样的一群人共事！
 
 + 满足 PLCT 评级标准中的「[LV4 - 大能力者](https://github.com/lazyparser/weloveinterns/blob/master/how-do-we-rank-interns.md#lv4-大能力者)」的大部分要求，以及 PLCT 的[入职要求](https://github.com/lazyparser/weloveinterns/blob/master/so-you-want-to-join-us.md#%E4%BD%A0%E9%9C%80%E8%A6%81%E6%BB%A1%E8%B6%B3%E7%9A%84%E6%9D%A1%E4%BB%B6%E6%8A%80%E6%9C%AF%E5%B2%97%E4%BD%8D)。我们不要求掌握对于 LLVM 那种规模的怪兽级项目的拿捏能力，但是我们要求对于十万行 Java 代码这个规模的项目的掌控能力。编程语言方面，我们仅要求掌握 Java，但是熟悉 Haskell 或任意一个定理证明器（Agda, Coq, Lean, Idris, Nuprl, Isabelle, HOL, Andromeda, Arend, Beluga, Epigram, Dedukti, Cedille, Twelf, [Matita](http://matita.cs.unibo.it/) 等）或者逻辑编程语言（Prolog, Datalog）将会是一个很大的加分点。
