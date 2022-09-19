@@ -30,7 +30,7 @@ Senior interns 的设立目标，是对PLCT实验室目前「外部可见交付�
 | [Sharzy](https://github.com/SharzyL) | CAAT小队 |  |
 | 人形自走WA机 | CAAT小队 | ([GitHub @OceanS2000](https://github.com/OceanS2000), 个人主页在建了在建了) |
 | [Kiva](https://github.com/imkiva) | Aya小队 |  |
-| Glavo | Aya小队 |  |
+| [Glavo](https://github.com/Glavo) | Aya小队 | [知乎专栏·JVM 新闻速递](https://www.zhihu.com/column/c_1359548809383686144) |
 | [zxs-un](https://github.com/zxs-un) | oerv小队 |  |
 | 乌鑫龙 | LLVM小队 |  |
 | dingiso | 模拟器小队 |  |

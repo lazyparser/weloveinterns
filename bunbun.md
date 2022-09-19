@@ -7,34 +7,42 @@
 
 ### 动机
 
-这个社团主要开发的项目是一个叫做 Aya 的编程语言和定理证明器（目前有一个[空洞的官网](https://www.aya-prover.org)）。我们认为，近年编程语言的学术界的前沿研究已经达到了一个理论半饱和、需要和实践结合的状态（即，有很多存在于理论里的事物缺乏实际的实现）。其次，如果一个编程语言方面的工作仅存在于理论中，我们是很难发现它潜在的问题和全部的潜力的。如果我们能把一些功能实现出来，或许能从中发现更多的美妙的事实。我们并不是唯一持有这样观点的人，[这个幻灯片](https://www.jonmsterling.com/slides/sterling:2022:wits.pdf)的第 17 页也表达了这样的观点。
+这个社团主要开发的项目是一个叫做 Aya 的编程语言和定理证明器（目前有一个[简单的官网](https://www.aya-prover.org)）。我们认为，近年编程语言的学术界的前沿研究已经达到了一个理论半饱和、需要和实践结合的状态（即，有很多存在于理论里的事物缺乏实际的实现）。其次，如果一个编程语言方面的工作仅存在于理论中，我们是很难发现它潜在的问题和全部的潜力的。如果我们能把一些功能实现出来，或许能从中发现更多的美妙的事实。我们并不是唯一持有这样观点的人，[这个幻灯片](https://www.jonmsterling.com/slides/sterling:2022:wits.pdf)的第 17 页也表达了这样的观点。
 
 ~~于是，我们以「为将来从事编程语言的研究做准备」为动机、「实现学术型（即能进行定理证明的）编程语言」为载体，社团成员的编程语言愿景为抓手、「类型论的范畴模型」引导方法论，打出一套定理证明的组合拳。~~
 
 把学术研究实现在实际的编程语言里有以下好处：
 
-- 实现出一个特性并且自己去用它写代码，我们才能对这个东西『有冇用』建立直观感受。
+- 实现出一个特性并且自己去用它写代码，我们才能对这个东西「有冇用」建立直观感受。
   - 我们可能会在论文中犯错，实现是很好的测试手段。实现出这些东西之后，我们才能真实可靠地进行测试和实验。如果我们有新的发现，这些发现都可以写成论文，比如[这种](https://arxiv.org/abs/1911.08174)。
-- 实现编程语言本身（「将智性活动进行物质化的实践」——克劳德）就是一件很浪漫的事情（知乎用户 vczh 钦点的计算机三大浪漫之一）。
+- 实现编程语言本身就是一件很浪漫的事情（知乎用户 vczh 钦点的计算机三大浪漫之一）。
 - 我们有 [@lazyparser](https://github.com/lazyparser) 和 PLCT 实验室的支持，所以我们把 PL（编程语言理论）知识给 CT（编译器技术）化很符合公司的主题。
 - 数量不菲的理论工作者并没有较好的编程基础和足够的软件工程功底（不是所有人都有魔理沙或者胡渊鸣那种理论实践双修的素质）来开发用户友好的学术研究型编程语言（看看 Agda 有多难安装，就可以知道）。我们希望自己试一试，能不能在这方面做的更好。Lean 在这方面做了一些榜样。
-- 高维类型论目前没有特别好用的实现。由于 Cubical Agda 使用了奇怪的约束系统编码立方类型论的「边界条件」导致目前 cooltt 成了全村的希望。但是 cooltt 的基础类型论 CCTT 过于复杂（这个理论需要的 cofibration 语法太复杂了，等价于外延相等类型）。
+- 高维类型论目前没有特别好用的实现。由于 Cubical Agda 使用了奇怪的约束系统编码立方类型论的「边界条件」导致目前 cooltt 成了全村的希望。但是 cooltt 的基础类型论 CCTT 过于复杂（这个理论需要的限制面语法太复杂了，等价于外延相等类型）。
+- 类型论社区有严重的「准入门槛」（accessibility barrier）（例如立方类型论中把限制面称为「上纤维化」，但实际上在编程语言的角度理解这个概念完全不需要理解模型范畴），我们希望能为广大编程爱好者提供友好的学习资源。
 
-在这些思考下，Aya 这个项目诞生了。此处我们提供一些历史资料：初始的项目提案是一个[腾讯文档](https://docs.qq.com/doc/DZGNTcnViekRJTmp3)（包含技术选型、愿景、时间安排计划等内容），在进行了 8 个月的开发后存在一次[开发总结](https://docs.google.com/document/d/1P4UnVW3C4n_vIyYfozSXBYs9SOzwGrnJD7QmmWcITp8/edit)（包含被诅咒的传说、永远的勿忘草、神明的造物、罪与罚），部分计划也被放进了一次演讲的 [slides](https://docs.google.com/presentation/d/1FIZnRzFUJK1AwMGMAil1wt7k1bbDRIdNeMb62FiB4QE/edit) 里。
+在这些思考下，Aya 这个项目诞生了。此处我们提供一些历史资料：
+
+1. 初始的项目提案是一个[腾讯文档](https://docs.qq.com/doc/DZGNTcnViekRJTmp3)（包含技术选型、愿景、时间安排计划等内容）
+2. 在进行了 8 个月的开发后存在一次[开发总结](https://docs.google.com/document/d/1P4UnVW3C4n_vIyYfozSXBYs9SOzwGrnJD7QmmWcITp8/edit)（包含被诅咒的传说、永远的勿忘草、神明的造物、罪与罚）
+3. 部分计划也被放进了一次演讲的 [slides](https://docs.google.com/presentation/d/1FIZnRzFUJK1AwMGMAil1wt7k1bbDRIdNeMb62FiB4QE/edit) 里
+4. 后来在 Idris Developer's Meeting 上进行过一次分享，这里是 [slides](https://docs.google.com/presentation/d/1OnxX2WE3CV_EuBmHOKJwiKRxKytZ6Z7hNTKGiXq2h9E/edit)
+5. 红黑树 [showcase](https://docs.google.com/presentation/d/1st0TeiIIe_voZ1mx52N4BqnPuxYALaEMHMjCg6Y40vY/edit)
+6. TyDe workshop 上关于索引类型族的分享 [slides](https://docs.google.com/presentation/d/1Gv-2CymnE_9DLuMYbEtyfoNOPpggyMhm3feN1qR2LeU/edit)
 
 ### 近况和技术栈
 
 我们已经实现了一个有如下证明能力的定理证明器：
 
-+ 定义内涵等号类型
++ 定义立方类型论里的内涵等号类型，背后是「扩展类型」（命名来自于[这篇论文](https://arxiv.org/abs/1705.07442)）
 + 定义自然数和整数以及这两个类型的一些交换律、结合律、分配律等基本性质
 + 定义带索引的红黑树，使用类型确保子节点黑高相同
 
 并且为它搭载了一个文学编程模式和一个简易的语言服务器（language server）和配套的 [VSCode 插件](https://github.com/aya-prover/aya-vscode)。下一步的计划是实现包管理等工具链方面的功能，然后开始标准库（初具雏形）、元编程模式和 JIT 编译器的开发。
 
-[这里](https://cha.fan/articles/3d9u3PXL2BMURmST2y8Q)有一篇文章介绍 Aya 编程语言截止 2021 年 8 月已经实现的一些比较有特色的功能。我们希望进一步吸取欧系编程语言理论研究中的成果。
+[这里](https://cha.fan/articles/3d9u3PXL2BMURmST2y8Q)有一篇文章介绍 Aya 编程语言截止 2021 年 8 月已经实现的一些比较有特色的功能。我们希望进一步吸取欧系编程语言理论研究中的成果。我们在 2022 年决定抛弃原本的类型论、转而实现完整的立方类型论，这次迁移花费了巨量的时间，截止 2022 年 9 月也没有完成。
 
-我们始终使用最新版本的 Java 工具链（包含接近最新版本的 Gradle、ANTLR4、IntelliJ IDEA）、VSCode（用于开发编辑器插件）和 Git/GitHub 进行开发。截止本文发布，最新的版本是 Java 17。选择 Java 的原因已经[写在这里](https://cha.fan/articles/4RFySaAW8b7hEHXBknkz)了，这里不再赘述。
+我们始终使用最新版本的 Java 工具链（包含接近最新版本的 Gradle、ANTLR4、IntelliJ IDEA）、VSCode（用于开发编辑器插件）和 Git/GitHub 进行开发。截止本文发布，最新的版本是 Java 18。选择 Java 的原因已经[写在这里](https://cha.fan/articles/4RFySaAW8b7hEHXBknkz)了，这里不再赘述。
 
 + 我们广泛地使用新版本的 Java 语言特性（对于 C# 等竞争对手而言都是很古老的特性了），包括但不限于密封类、局部类型推导、结构体（record）、模式匹配等功能。
 + 由于 Java 标准库对于集合的抽象缺乏对可变性的控制，我们采用了第三方的集合框架 [kala](https://github.com/Glavo/kala-common)，也是一位社团成员的个人项目。
@@ -54,6 +62,8 @@
 - 我们希望社员身心都健康，从社团活动中获得足够的知识和乐趣。
 
 ## 社团招新
+
+[实习岗位 JD](https://github.com/lazyparser/weloveinterns/blob/master/open-internships.md)
 
 重点来了。本社秉持「更多的人不一定带来更高的生产力」的观点，实行**高门槛招募**。如果你想要加入我们，我们期望你拥有如下素质，不过如果你在某一个特定的方面**特别优秀**的话，可以无视这个标准。事实上，目前的成员其实基本全都不满足所有的标准，但是这些人都「在特定的方面特别优秀」。如果你能加入这个团队，你将和这样的一群人共事！
 
