@@ -58,7 +58,39 @@ PLCT全称是程序语言与编译技术实验室，隶属于中科院软件所�
 等软件基础设施的技术革新，具备主导开发和维护重要基础设施的技术及管理能力。与此同时，努力成为编译领域培养尖端人才的黄埔军校，推动先进编译技术在国
 内的普及和发展。
 
-(Next Job ID: 71)
+(Next Job ID: 72)
+
+### BJ71 RT-Thread 社区实习生
+RT-Thread诞生于2006年，是一款以开源、中立、社区化发展起来的物联网操作系统。 RT-Thread主要采用 C 语言编写，浅显易懂，且具有方便移植的特性（可快速移植到多种主流 MCU 及模组芯片上）。RT-Thread社区是一个开放、开源的社区。RT-Thread拥有非常丰富的软件包，基于这些软件包可以快速构建产品原型。并且拥有较好的POSIX接口支持，可方便的移植Linux应用。为了更好的服务蓬勃发展的RISC-V生态，我们期望可以将RT-Thread已有的软件生态都很好的对接到RISC-V平台上。同时，RT-Thread Smart微内核系统支持用户态应用程序，rootfs等的构建程序，后面也会积极推进Smart for riscv 版本,也欢迎大家积极参与进来！
+
+RT-Thread相关的工作可以分为三类：A类（MCU）、B类(Smart)、C类(libc)
+
+#### A类（MCU）-工作内容：
+- 维护RT-Thread的代码；
+- 开发或完善RISC-V架构相关的BSP及驱动；
+- 开发或完善测试用例，提升RT-Thread的可维护性；
+- 在RISC-V平台上构建良好的POSIX生态，测试并完善POSIX接口支持；
+- 在RISC-V平台上构建良好的软件包生态，测试并完善软件包对RISC-V平台上的支持；
+- 在RISC-V上搭建基于RT-Thread的Arduino生态；
+- 编写文档来介绍RT-Thread&&RISC-V相关的知识，当前的文档在：https://www.rt-thread.org/document/site/#/
+
+#### B类(Smart)-工作内容：
+- 参与并推进 RT-Thread Smart for riscv;
+- 开发或完善RISC-V架构相关的BSP及驱动；
+- 完善应用支持，迁移更多的GNU应用到 RT-Thread Smart for riscv 平台上；
+- 完善 Smart for riscv 的 GUI 生态，移植LVGL、Wayland及终端Terminal软件；
+- 编写文档来介绍RT-Thread Smart&&RISC-V相关的知识，当前的文档在：https://www.rt-thread.org/document/site/#/
+
+#### C类(libc)-工作内容：
+- 一个国际的开源项目：开发维护一套 riscv mcu 下的 mlibc 库;
+- 小型化的 libc 库，针对体积做特殊优化;
+- 使用这个 mlibc 出一份 riscv 工具链；
+
+#### 岗位要求：
+- 电子、计算机、通信、自动控制等专业；
+- c语言基础扎实，熟悉计算机体系结构；
+- 熟悉一种或数种嵌入式CPU软硬件平台，例如STM32，RISC-V等；
+- 有强烈的学习能力和学习新知识的欲望；
 
 ### BJ70 Aya 全套生态开发实习生
 
