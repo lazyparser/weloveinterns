@@ -62,6 +62,8 @@ PLCT全称是程序语言与编译技术实验室，隶属于中科院软件所�
 
 ### BJ72 eunomia-bpf intern
 
+(本岗位为外部社区联合贡献岗位，mentor来自 eunomia-bpf 社区。)
+
 [eunomia-bpf](https://github.com/eunomia-bpf/eunomia-bpf) 是一个开源的 eBPF 动态加载运行时和开发工具链，是为了简化 eBPF 程序的开发、构建、分发、运行而设计的基于 libbpf 的轻量级开发框架。使用 eunomia-bpf ，可以在编写 eBPF 程序或工具时只编写内核态代码，自动获取内核态导出信息，或使用 WASM 进行用户态交互程序的开发，在 WASM 虚拟机内部控制整个 eBPF 程序的加载和执行。eunomia-bpf 可以将预编译的 eBPF 程序打包为通用的 JSON 或 WASM 模块，跨架构和内核版本进行分发，无需重新编译即可动态加载运行。
 
 我们已经测试了在 x86、ARM 等不同架构、不同内核版本的 Linux 系统上，对于一个基于 eBPF 的工具或模块，eunomia-bpf 框架都可以使用同一个预编译 eBPF 程序二进制，从云端一行命令获取到本地之后直接运行，不需要类似 BCC 一样再使用 LLVM/Clang 进行本地编译，也能嵌入其他应用中作为插件运行且具有良好的隔离性。我们希望能尝试在 RISC-V 系统上完成移植和测试，实现架构无关的 eBPF 工具的移植和运行。
