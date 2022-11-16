@@ -25,20 +25,20 @@ Senior interns 的设立目标，是对PLCT实验室目前「外部可见交付�
 | 姓名 | 所属小队 | 介绍、链接 |
 | ---- | ---- | ---- |
 | 樊其轩 | Gentoo小队、LLVM小队 | 捞回 rm -rf 的LV4 |
-| 喵喵 | CAAT小队 |  |
-| dram | CAAT小队 |  ([GitHub @dramforever](https://github.com/dramforever), <https://dram.page>) |
-| [Sharzy](https://github.com/SharzyL) | CAAT小队 |  |
+| dram | ITEM |  ([GitHub @dramforever](https://github.com/dramforever), <https://dram.page>) |
+| 喵喵 | CAAT小队 | TBA |
+| [Sharzy](https://github.com/SharzyL) | CAAT小队 | TBA |
 | 人形自走WA机 | CAAT小队 | ([GitHub @OceanS2000](https://github.com/OceanS2000), 个人主页在建了在建了) |
-| [Kiva](https://github.com/imkiva) | Aya小队 |  |
+| [Kiva](https://github.com/imkiva) | Aya小队 | TBA |
 | [Glavo](https://github.com/Glavo) | Aya小队 | [知乎专栏·JVM 新闻速递](https://www.zhihu.com/column/c_1359548809383686144) |
-| [zxs-un](https://github.com/zxs-un) | oerv小队 |  |
-| 乌鑫龙 | LLVM小队 |  |
-| dingiso | 模拟器小队 |  |
+| [zxs-un](https://github.com/zxs-un) | oerv小队 | TBA |
+| 乌鑫龙 | LLVM小队 | TBA |
+| dingiso | 模拟器小队 | TBA |
 | 潘瑞哲 [XieJiSS](https://github.com/XieJiSS) | Arch小队 | [Blog](https://blog.jiejiss.com) |
-| [Xeonacid](https://github.com/Xeonacid) | Arch小队 |  |
-| [rvalue](https://github.com/r-value) | Arch小队 |  |
+| [Xeonacid](https://github.com/Xeonacid) | Arch小队 | TBA |
+| [rvalue](https://github.com/r-value) | Arch小队 | TBA |
 | [Ast-x64](https://github.com/Ast-x64) | Arch小队| TBA |
-| [Zenithal](https://github.com/ZenithalHourlyRate) | Arch小队、CAAT小队 |  |
+| [Zenithal](https://github.com/ZenithalHourlyRate) | Arch小队、CAAT小队 | TBA |
 
 ## LV4+ Interns （大能力者和超能力者）
 
