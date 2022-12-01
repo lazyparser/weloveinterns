@@ -148,12 +148,17 @@ PLCT Aya 小队致力于研发划时代的类型论实现，包括如何更好�
 
 **要求**
 
-- LV2+；喜欢从事开源软件开发工作。
+- LV3+；喜欢从事开源软件开发工作。
 
 需要在提交简历之前，请完成以下工作：
 
-- 在 amd64 或其他架构操作系统架构使用 qemu-user 启动 Ubuntu/Debian riscv 发行版 并输出 `neofetch` 截图
-- 在此基础上，使用 `apt source neofetch` 下载对应源码并完成升级版本号 并打包安装上 然后输出 `apt policy neofetch` 截图
+- 在 amd64 或其他架构操作系统架构使用 qemu-user 启动 deepin riscv 发行版 并输出 `neofetch` `bash --version` 截图
+- 在此基础上，使用 `apt source bash` 下载对应源码并完成升级版本号 打包并安装 然后输出 `apt policy bash` 与 `bash --version` 截图
+  - Tips:
+    - 请使用 dpkg-buildpackage 的方式从源码编译 并且需要做到 `可重复构建` 即输出的 `dsc` 也可以再次构建
+    - 打包源码 `dsc` 的命令为 `dpkg-source` / 升级deb包版本 `changelog` 的命令为 `dch`
+    - 可以参考 [Debian New Maintainers' Guide](https://www.debian.org/doc/manuals/maint-guide/)
+- 展示更新 `bash` 的 patch 并输出截图
 
 ### BJ65 DynamoRIO 开发实习生（负责 RISC-V 移植及优化）
 
