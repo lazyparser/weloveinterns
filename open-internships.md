@@ -58,7 +58,37 @@ PLCT全称是程序语言与编译技术实验室，隶属于中科院软件所�
 等软件基础设施的技术革新，具备主导开发和维护重要基础设施的技术及管理能力。与此同时，努力成为编译领域培养尖端人才的黄埔军校，推动先进编译技术在国
 内的普及和发展。
 
-(Next Job ID: 73)
+(Next Job ID: 74)
+
+### BJ73 SystemVerilog编译器工程师(slang to mlir), 3人
+
+(NOTE: 这是由兆松科技提供外部mentor支持的联合培养实习岗位）
+
+注意：申请者至少需要保证每周投入到项目的时间不少于20小时，不少于半年的连续投入。
+
+职位描述：
+
+- 评估CIRCT框架当中Moore dialect等方言的设计，以及对SystemVerilog的支持情况。
+- 基于开源SystemVerilog编译器slang的前端，设计可以生成CIRCT项目当中Moore dialect(或者自定义dialect)的编译器前端。
+- 参考CIRCT Moore编译器(rust)的实现，在slang编译器当中实现Moore dialect(或者自定义dialect)的代码生成。
+
+
+任职要求：
+
+- 扎实的数据结构基础知识，熟练掌握C++，熟练使用C++ STL，最好了解STL实现原理。
+- 熟练使用Linux，会编写shell脚本。
+- 学习过数字电路，以及最好有编译原理基础知识。
+- 足够自信的英语阅读和书写能力，需要和上游无障碍沟通。
+- 有LLVM/CIRCT/MLIR开发经验者优先考虑。
+- LV3+ 及以上能力等级。
+
+参考信息：
+
+- slang仓库: https://github.com/MikePopoloski/slang
+- Moore仓库: https://github.com/fabianschuiki/moore
+- CIRCT: https://circt.llvm.org/
+
+
 
 ### BJ72 eunomia-bpf intern
 
