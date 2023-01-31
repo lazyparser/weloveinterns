@@ -58,7 +58,34 @@ PLCT全称是程序语言与编译技术实验室，隶属于中科院软件所�
 等软件基础设施的技术革新，具备主导开发和维护重要基础设施的技术及管理能力。与此同时，努力成为编译领域培养尖端人才的黄埔军校，推动先进编译技术在国
 内的普及和发展。
 
-(Next Job ID: 74)
+(Next Job ID: 75)
+
+### BJ74 编译器性能评测实习生（3人）
+
+岗位名称：
+编译器性能评测实习生
+
+mentor：
+廖春玉 等。
+
+工作内容：
+搜集开源 benchmarks，用 GCC 和 LLVM 分别编译 benchmark，对比 benchmark 的性能数据。具体：
+
+- 需要使用 GCC 和 Clang 编译 benchmark，对比 benchmark 的指令数和 codesize 等指标。
+- 每日用 Clang 编译 benchmark，完善CI；分析自动化脚本的输出，如果指令数和 codesize 比前一天的有所增加提示具体 benchmark 的信息，并保留 log 和 Clang 的 commit IDs.
+- 根据需要配置不同版本和配置的本地工具链，随时手动复现结果并进行汇编或 trace 级别的分析。
+
+报名要求：
+1. LV3及以上；熟练使用脚本语言，shell/python 等。
+2. 熟悉 GCC 和 LLVM 编译器。 能够成功编译并读懂测试集输出的数据。（例如 git@github.com:llvm/llvm-test-suite.git ）
+3. 了解 benchmark 的方法学，熟悉创建测试集，比如 spec cpu 2006, coremark 等。
+4. 熟练使用 llvm-test-suite，对其实现过外部 benchmark 扩展功能支持的优先。
+
+说明事项：
+1. 远程实习，全球可报名。
+2. 所有工作均需要开源并回馈上游社区。
+3. 关于劳务费：根据每个月产出发放实习生劳务费，根据2022年统计，所有LV区段统计中，多数人的范围在 2k-3k 范围，多数在 0.5k - 5k 之间。 LV3+ 的中位数在 4k - 8k 区间。
+
 
 ### BJ73 SystemVerilog编译器工程师(slang to mlir), 3人
 
