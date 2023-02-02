@@ -58,7 +58,33 @@ PLCT全称是程序语言与编译技术实验室，隶属于中科院软件所�
 等软件基础设施的技术革新，具备主导开发和维护重要基础设施的技术及管理能力。与此同时，努力成为编译领域培养尖端人才的黄埔军校，推动先进编译技术在国
 内的普及和发展。
 
-(Next Job ID: 75)
+(Next Job ID: 76)
+
+### BJ75 OpenJDK 实习生（Lilliput、RISC-V）【1-2人】
+
+ISCAS Intern Job Description
+
+Add support for Openjdk Lilliput on 64-bit RISC-V
+
+Openjdk Lilliput Project: https://openjdk.org/projects/lilliput/
+
+The goal of this Project is to explore techniques to downsize Java object headers in
+the Hotspot JVM from 128 bits to 64 bits or less, reducing Java's memory footprint.
+Improved performance across most, if not all, workloads is also expected.
+
+Currently only supports x64 and aarch64 platforms.
+
+Target:
+- Port this feature to Linux RISC-V 64-bit platform.
+- Pass jtreg tier1-4 regression tests on Linux RISC-V 64-bit HiFive Unmatched board.
+- Demonstrate effect on CPU and/or memory usage for Java benchmarks like SPECjvm2008, SPECjbb2015, etc.
+
+报名要求：
+1. LV3+
+2. 熟练构建 OpenJDK，看过 OpenJDK 内部实现，调研 Lilliput。
+
+说明事项：
+- 远程实习，全球可报名。所有工作均需要开源并回馈上游社区。
 
 ### BJ74 编译器性能评测实习生（3人）
 
