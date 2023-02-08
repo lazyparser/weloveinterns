@@ -58,9 +58,36 @@ PLCT全称是程序语言与编译技术实验室，隶属于中科院软件所�
 等软件基础设施的技术革新，具备主导开发和维护重要基础设施的技术及管理能力。与此同时，努力成为编译领域培养尖端人才的黄埔军校，推动先进编译技术在国
 内的普及和发展。
 
-(Next Job ID: 77)
+(Next Job ID: 81)
 
-## BJ76 OpenCV RISC-V P 扩展移植实习生
+### Android(AOSP) RISC-V 移植开发实习生 BJ77~BJ80
+
+基本要求：
+- 熟悉 C/C++，熟悉 Shell/Python。
+- 对 RISC-V 指令集以及汇编编程有一定了解。
+- 对安卓系统基本架构有所了解，了解安卓 build system 和镜像制作等
+- 自我能力评定是 [LV3+](https://github.com/plctlab/weloveinterns/blob/master/how-do-we-rank-interns.md)
+
+以下按方向分
+
+- BJ77 LLVM/Clang 方向
+  - 对编译链接技术感兴趣。
+  - 了解 LLVM / Clang 相关技术。
+  - 在 LLVM 上开发过 Clang 和相关组件或者调试过相关问题。
+
+- BJ78 嵌入式开发方向
+  - 对 Linux / U-boot / 模拟器 VirtIO 技术等感兴趣。
+  - 有过一定的嵌入式开发基础，譬如编译过内核和 U-boot 等。
+
+- BJ79 虚拟机方向
+  - 熟悉 Java 语言，对 Java 虚拟机实现原理感兴趣。
+  - 了解 OpenJDK 或者 Android ART 内部实现者优先。
+
+- BJ80 底层库性能优化
+  - 对性能优化感兴趣，譬如多媒体加速、数据格式压缩、数学浮点运算加速等。
+  - 有过 X86(SSEx)/ARM(NEON) 架构相关指令级别优化经验优先。
+
+### BJ76 OpenCV RISC-V P 扩展移植实习生
 
 工作内容：
 
@@ -422,7 +449,7 @@ PLCT实验室2022年路线图中包含了移植DartVM到RISC-V架构，但是一
 - LV3+，能进行英语交流，对编译技术有基本了解。如果事先了解过ELF格式、RISC-V或其他指令集、相关ABI文档，那么都算是加分项。
 - 远程实习，不需要坐班。
 
-### NJ57 Android(AOSP) RISC-V 移植开发实习生
+### (被BJ78-BJ80替代) NJ57 Android(AOSP) RISC-V 移植开发实习生
 
 **工作内容**
 
