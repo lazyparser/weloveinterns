@@ -44,6 +44,14 @@ Senior interns 的设立目标，是对PLCT实验室目前「外部可见交付�
 
 高能力等级的优秀实习生（含已经完成实习的同学）
 
+### dram
+
+在RISC-V方面有着超过PLCT员工级别平均值的能力和专业知识积累。作为RISC-V方面的专家顾问，进入 PLCT ITEM 部门。
+
+### 红人
+
+在 RISC-V 的软件和硬件方面都有着深入的贡献，在 Chisel/RocketChip、RISC-V Linux Distros 等多个技术领域都独立进行过领域展开。
+
 ### LV4 王弈桥
 
 他独立创建并维护了 openEuler RISC-V 的衍生发行版 Eulaceura。
