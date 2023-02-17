@@ -131,6 +131,10 @@ GitHub ID: `jiuyewxy` / 个人邮箱：`wangxiaoyun@iscas.ac.cn`
 
 对后辈实习生的寄语：【笨鸟先飞，菜鸟晚归，好好学习，不懂就问】
 
+### LV4 郑昱笙（云微/yunwei37）
+
+2023年1月成为LV4。目前主要在维护 [eunomia-bpf](https://github.com/eunomia-bpf) 社区的一些相关项目，并持续向 eBPF/Wasm 相关上游社区反馈和贡献代码；和 eBPF 小队一同创建和维护了第一个在 Wasm 上构建、发布和运行通用 eBPF 程序的运行时与工具链，并且通过重构 bcc 运行时，推动 bcc 生态向 libbpf 相关生态转化。
+
 ### 姓名（昵称）提交PR请从下方追加
 
 GitHub ID / 知乎ID / 个人邮箱 等联系信息（可选）
