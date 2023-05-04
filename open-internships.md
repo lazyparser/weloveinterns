@@ -372,7 +372,7 @@ https://github.com/DynamoRIO/dynamorio/issues/3544
 
 [1] https://gitee.com/openarkcompiler/OpenArkCompiler
 
-### BJ61 蝉语实习生
+### BJ61 蝉语实习生 (暂停招聘)
 
 (本岗位为外部社区联合贡献岗位，mentor来自蝉语社区。岗位信息来自 [cicada-internships](https://github.com/cicada-lang/cicada-internships))
 
