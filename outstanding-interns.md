@@ -39,7 +39,8 @@ Senior interns 的设立目标，是对PLCT实验室目前「外部可见交付�
 | [rvalue](https://github.com/r-value) | Arch小队 | TBA |
 | [Ast-x64](https://github.com/Ast-x64) | Arch小队| TBA |
 | [Zenithal](https://github.com/ZenithalHourlyRate) | Arch小队、CAAT小队 | TBA |
-| [Coelacanthus](github.com/CoelacanthusHex) | Arch 小队 | TBA |
+| [Coelacanthus](https://github.com/CoelacanthusHex) | Arch 小队 | TBA |
+| 任鹏飞 [kxxt](https://github.com/kxxt) | Arch 小队 | https://kxxt.dev |
 
 ## LV4+ Interns （大能力者和超能力者）
 
