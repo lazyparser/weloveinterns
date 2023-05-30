@@ -60,7 +60,7 @@ PLCT全称是程序语言与编译技术实验室，隶属于中科院软件所�
 
 (Next Job ID: 85)
 
-### BJ84 RVWhl Python Package 开发实习生
+### BJ84 RVWhl Python Package 开发实习生 （进行中，名额 2）
 
 【工作内容】
 1. 编译以及构建 Python Wheel Package, 目前主要集中在 Linux 平台
@@ -89,7 +89,7 @@ PLCT全称是程序语言与编译技术实验室，隶属于中科院软件所�
 4. 了解RISC-V架构
 5. 实习期三个月以上
 
-### BJ82 实现基于 LoongArch 架构的 RISC-V 模拟器 LARVa
+### BJ82 实现基于 LoongArch 架构的 RISC-V 模拟器 LARVa （进行中，名额 1）
 
 (本岗位为外部社区联合贡献岗位，mentor来自 loongson 社区。)
 
@@ -113,7 +113,7 @@ PLCT全称是程序语言与编译技术实验室，隶属于中科院软件所�
 - 读过 LoongArch 手册、相关文档。
 - 了解 QEMU、Box64 等类似项目做事情的方式。
 
-### BJ81 RISC-V科研实习生：P扩展在 Linux Kernel 中对解压缩算法等模块的加速可能性研究及原型实现
+### BJ81 RISC-V科研实习生：P扩展在 Linux Kernel 中对解压缩算法等模块的加速可能性研究及原型实现 （进行中，名额 1）
 
 工作内容：
 - 在 Linux Kernel 内核中寻找可以用 P 扩展进行加速的模块（第一步是解压缩模块）
@@ -130,7 +130,7 @@ PLCT全称是程序语言与编译技术实验室，隶属于中科院软件所�
 - 通讯作者需要是负责研究思路确定、审稿把关的软件所研究人员（员工）。
 - 论文发表前需要软件所作为第一单位审核并确认基金号支持。
 
-### Android(AOSP) RISC-V 移植开发实习生 BJ77~BJ80
+### Android(AOSP) RISC-V 移植开发实习生 BJ77~BJ80 （进行中，名额 10+）
 
 基本要求：
 - 熟悉 C/C++，熟悉 Shell/Python。
@@ -157,7 +157,7 @@ PLCT全称是程序语言与编译技术实验室，隶属于中科院软件所�
   - 对性能优化感兴趣，譬如多媒体加速、数据格式压缩、数学浮点运算加速等。
   - 有过 X86(SSEx)/ARM(NEON) 架构相关指令级别优化经验优先。
 
-### BJ76 OpenCV RISC-V P 扩展移植实习生
+### BJ76 OpenCV RISC-V P 扩展移植实习生（进行中，名额 1）
 
 工作内容：
 
@@ -176,7 +176,7 @@ PLCT全称是程序语言与编译技术实验室，隶属于中科院软件所�
 2. 所有工作均需要开源并回馈上游社区。
 3. 关于劳务费：根据每个月产出发放实习生劳务费，根据2022年统计，所有LV区段统计中，多数人的范围在 2k-3k 范围，多数在 0.5k - 5k 之间。 LV3+ 的中位数在 4k - 8k 区间。
 
-### BJ75 OpenJDK 实习生（Lilliput、RISC-V）【1-2人】
+### BJ75 OpenJDK 实习生（Lilliput、RISC-V）（进行中，名额 1）
 
 ISCAS Intern Job Description
 
@@ -202,7 +202,7 @@ Target:
 说明事项：
 - 远程实习，全球可报名。所有工作均需要开源并回馈上游社区。
 
-### BJ74 编译器性能评测实习生（3人）
+### BJ74 编译器性能评测实习生（进行中，名额 1）
 
 岗位名称：
 编译器性能评测实习生
@@ -229,7 +229,7 @@ mentor：
 3. 关于劳务费：根据每个月产出发放实习生劳务费，根据2022年统计，所有LV区段统计中，多数人的范围在 2k-3k 范围，多数在 0.5k - 5k 之间。 LV3+ 的中位数在 4k - 8k 区间。
 
 
-### BJ73 SystemVerilog编译器工程师(slang to mlir), 3人
+### BJ73 SystemVerilog编译器工程师(slang to mlir), （进行中，名额 2）
 
 (NOTE: 这是由兆松科技提供外部mentor支持的联合培养实习岗位）
 
@@ -259,7 +259,7 @@ mentor：
 
 
 
-### BJ72 eunomia-bpf intern
+### BJ72 eunomia-bpf intern （进行中，名额 1）
 
 (本岗位为外部社区联合贡献岗位，mentor来自 eunomia-bpf 社区。)
 
@@ -312,7 +312,7 @@ RT-Thread相关的工作可以分为三类：A类（MCU）、B类(Smart)、C类(
 - 熟悉一种或数种嵌入式CPU软硬件平台，例如STM32，RISC-V等；
 - 有强烈的学习能力和学习新知识的欲望；
 
-### BJ70 Aya 全套生态开发实习生
+### BJ70 Aya 全套生态开发实习生（进行中，名额 1）
 
 **工作内容**
 
@@ -339,7 +339,7 @@ PLCT Aya 小队致力于研发划时代的类型论实现，包括如何更好�
 3. 对文学编程有自己的理解。
 4. 对代码质量要求高，对重构持乐观态度。
 
-### BJ69 Deepin RISC-V 操作系统构建实习生（8 个名额）
+### BJ69 Deepin RISC-V 操作系统构建实习生（进行中，名额 2）
 
 **工作内容**
 
@@ -359,7 +359,7 @@ PLCT Aya 小队致力于研发划时代的类型论实现，包括如何更好�
     - 可以参考 [Debian New Maintainers' Guide](https://www.debian.org/doc/manuals/maint-guide/)
 - 展示更新 `bash` 的 patch 并输出截图
 
-### BJ65 DynamoRIO 开发实习生（负责 RISC-V 移植及优化）
+### BJ65 DynamoRIO 开发实习生（负责 RISC-V 移植及优化）（进行中，名额 2）
 
 **工作内容**
 
@@ -375,7 +375,7 @@ https://github.com/DynamoRIO/dynamorio/issues/3544
 
 在投递简历之前，我们希望你已经看过 DynamoRIO 这个项目，下载了代码，在自己的机器上构建了一次。
 
-### BJ64 Mono 系统开发实习生（负责 RISC-V 移植及优化）
+### BJ64 Mono 系统开发实习生（负责 RISC-V 移植及优化）（进行中，名额 1）
 
 **工作内容**
 
@@ -389,7 +389,7 @@ https://github.com/DynamoRIO/dynamorio/issues/3544
 
 [1] https://github.com/mono/mono/blob/main/docs/riscv.md
 
-### BJ63 Maple-C 编译器 Linux 构建验证及 RISC-V 移植实习生
+### BJ63 Maple-C 编译器 Linux 构建验证及 RISC-V 移植实习生（进行中，名额 5）
 
 2019年下半年开源的方舟编译器（Maple）系列，在移动端的Java虚拟机领域进展并不顺利。 Maple-C 是 Maple 编译架构面向C语言的编译系统。源代码保存在[1]中。
 
@@ -401,7 +401,7 @@ https://github.com/DynamoRIO/dynamorio/issues/3544
 
 [1] https://gitee.com/openarkcompiler/OpenArkCompiler
 
-### BJ61 蝉语实习生 (暂停招聘)
+### BJ61 蝉语实习生 (暂停招聘，名额 0)
 
 (本岗位为外部社区联合贡献岗位，mentor来自蝉语社区。岗位信息来自 [cicada-internships](https://github.com/cicada-lang/cicada-internships))
 
@@ -445,7 +445,7 @@ https://github.com/DynamoRIO/dynamorio/issues/3544
   也许通过讲解与讨论实现方式，
   我们能获得清晰的理解与更好的代码结构。
 
-### BJ58 libcxx-simd 项目实习生招聘
+### BJ58 libcxx-simd 项目实习生招聘（进行中，名额 1）
 
 工作内容：
  参与 libcxx-simd 项目开发与测试相关工作。 experimental/simd 是一个为 C++ 显式数据并行编程提供零开销 C++ 类型的库，该库已经被包含进GCC官方的 libstdc++ 库。PLCT正尝试将其移植到 Clang/LLVM 官方的 libcxx 库中。
@@ -458,7 +458,7 @@ https://github.com/DynamoRIO/dynamorio/issues/3544
 
 远程实习。要求LV3及以上能力。
 
-### NJ53 软件测试实习生（这是测试岗位）
+### NJ53 软件测试实习生（这是测试岗位）（进行中，名额 100+）
 
 （这是目前唯一只需要LV1+的岗位）
 
@@ -473,7 +473,7 @@ https://github.com/DynamoRIO/dynamorio/issues/3544
 4. （加分）具备基本的 git 操作基础，会使用 git clone，知道有 submodule 的概念。
 5. （加分）能够有比较好的英语的阅读和书写能力。英语的口头表达能力不要求。
 
-### NJ52 测试开发实习生（这是开发岗位）
+### NJ52 测试开发实习生（这是开发岗位）（进行中，名额 2）
 
 工作内容：
 - 通过测试流程设计、自动化脚本编写、框架或系统开发等方式，为 RISC-V Linux 发行版的测试工作的生产力提高提供帮助。
@@ -486,7 +486,7 @@ https://github.com/DynamoRIO/dynamorio/issues/3544
 2. 熟练使用至少两种脚本语言，包括但不限于 python、bash、perl、PHP 等。
 3. 具备基本的软件测试的流程和思想，具备基本的调试代码的能力。
 
-### BJ15 QEMU/Spike 开源模拟器开发实习生
+### BJ15 QEMU/Spike 开源模拟器开发实习生（进行中，名额 2）
 
 工作内容：
 - 参与PLCT实验室在QEMU、Spike等相关开源项目的开发。在开源社区直接提交代码。
@@ -495,7 +495,7 @@ https://github.com/DynamoRIO/dynamorio/issues/3544
 - LV3+，对模拟器的内部实现有兴趣。
 - 远程实习，不需要坐班。
 
-### BJ32 Dart for RISC-V 开发实习生
+### BJ32 Dart for RISC-V 开发实习生（进行中，名额 1）
 
 PLCT实验室2022年路线图中包含了移植DartVM到RISC-V架构，但是一直没有招募到合适的勇者（非常稀缺的LV4+实习生），所以一直在咕。但～是～！前不久，Google Dart Team 最新的版本中已经包含了初步的RISC-V支持！于是乎我们从躺平中惊坐起，觉得**难度大幅度降低，LV3+的实习生也可以开始参与了**！
 
@@ -509,7 +509,7 @@ PLCT实验室2022年路线图中包含了移植DartVM到RISC-V架构，但是一
 - 熟悉语言虚拟机的内部实现（看过书，知道解释器、字节码、JIT、GC、锁、线程等等）
 - 脸皮厚。能跟外国人直接英语对线。
 
-### BJ37 GCC 开发实习生
+### BJ37 GCC 开发实习生（进行中，名额 10）
 
 工作内容
 - 最近PLCT实验室在参与RISC-V国际基金会的相关新指令扩展的工作，具体内容是为 unratified extensions （就是还在制定中的扩展指令集）进行 GNU Toolchain 的实现，用于验证草案本身在设计上是否存在遗漏缺失、是否在功能或性能上有改进的空间。目前面向大学生及研究生招募开发者，以PLCT实验室实习生的身份，直接参与到RISC-V基金会管理下的GCC工具链开发中，并有可能后续直接将代码（patch）提交到上游（upstream）。最近开始有业界一线的大佬指导和review实习生的代码，是非常难得的学习机会。
@@ -519,7 +519,7 @@ PLCT实验室2022年路线图中包含了移植DartVM到RISC-V架构，但是一
 - LV3+，能进行英语交流，对编译技术有基本了解。如果事先了解过ELF格式、RISC-V或其他指令集、相关ABI文档，那么都算是加分项。
 - 远程实习，不需要坐班。
 
-### (被BJ78-BJ80替代) NJ57 Android(AOSP) RISC-V 移植开发实习生
+### (被BJ78-BJ80替代) NJ57 Android(AOSP) RISC-V 移植开发实习生（过时，名额 0）
 
 **工作内容**
 
@@ -541,9 +541,9 @@ PLCT Lab 是最早开始公开进行 AOSP RISC-V 移植的团队， 并在平头
 
 远程实习，支持全球实习工资支付（中国学生必须是国内银行卡，国际学生可以用境外卡支付）。实习随时可以开始随时可以暂停随时可以结束。
 
-### BJ47 Gentoo RISC-V 操作系统构建实习生
+### BJ47 Gentoo RISC-V 操作系统构建实习生（进行中，名额 2）
 
-要求：LV2或以上。
+要求：LV2或以上。日常使用 Gentoo。【没有用过Gentoo的同学请勿投递。】
 
 ```
 Requirement:
@@ -571,7 +571,7 @@ testing packages for ARCH=riscv in Gentoo Linux
 Testing Xfce4, KDE, Gnome, your choice!?
 ```
 
-### NJ51 Arch Linux RISC-V 操作系统构建实习生
+### NJ51 Arch Linux RISC-V 操作系统构建实习生（满员，名额 0）
 
 工作内容：
 从事 Linux 发行版的软件包构建、测试、分析工作。
@@ -580,7 +580,7 @@ Testing Xfce4, KDE, Gnome, your choice!?
 - LV2+；喜欢从事开源软件开发工作。
 - **需要在提交简历之前，在社区提交一个PR，为 RISC-V 修复一个包。**
 
-### NJ50 Debian/Ubuntu RISC-V 操作系统构建实习生
+### NJ50 Debian/Ubuntu RISC-V 操作系统构建实习生（进行中，名额 2）
 
 工作内容：
 从事 Linux 发行版的软件包构建、测试、分析工作。
@@ -589,7 +589,7 @@ Testing Xfce4, KDE, Gnome, your choice!?
 - LV2+；喜欢从事开源软件开发工作。
 - **需要在提交简历之前，在社区提交一个PR，为 RISC-V 修复一个包。**
 
-### NJ49 Fedora RISC-V 操作系统构建实习生
+### NJ49 Fedora RISC-V 操作系统构建实习生（进行中，名额 1）
 
 工作内容：
 从事 Linux 发行版的软件包构建、测试、分析工作。
@@ -598,7 +598,7 @@ Testing Xfce4, KDE, Gnome, your choice!?
 - LV2+；喜欢从事开源软件开发工作。
 - **需要在提交简历之前，在社区提交一个PR，为 RISC-V 修复一个包。**
 
-### HZ48 Chisel 开发实习生
+### HZ48 Chisel 开发实习生 （满员，名额 0）
 
 工作内容：
 加入 Chisel 小队，从事 Chisel 的开发工作。
@@ -607,19 +607,19 @@ Testing Xfce4, KDE, Gnome, your choice!?
 - LV2+
 - 已经自学了 Chisel。
 
-### BJ17 V8 开发实习生
+### BJ17 V8 开发实习生（进行中，名额 1）
 
 工作内容：
 - 参与PLCT实验室 V8 for RISC-V 相关项目的开发。在开源社区直接提交代码。
 
 入职要求：
-- LV3+，熟练的英语交流。
+- LV4及以上，熟练的英语交流。
 - C++ 要熟练。新特性了然于胸。
 - 需要已经看过 V8 的源代码，自行构建 riscv64 后端成功。
 - 需要熟悉 JavaScript 语言。如果看过 WebAssembly 加分。
 - 远程实习，不需要坐班。
 
-### BJ45 MLIR 开源开发实习生
+### BJ45 MLIR 开源开发实习生（进行中，名额 2）
 
 我们相信MLIR将会成为未来编译器框架的实施标准。因此从2021年开始，PLCT实验室将 MLIR 列入了「关键开源基础设施」名单，已经跟 LLVM、GCC 一样成为PLCT实验室的长期管理对象。
 
@@ -631,7 +631,7 @@ Testing Xfce4, KDE, Gnome, your choice!?
 - 远程实习，不需要坐班。
 
 
-### BJ34 OpenJDK 开发实习生
+### BJ34 OpenJDK 开发实习生（进行中，名额 2）
 
 工作内容：
 - 参与PLCT实验室 OpenJDK for RISC-V 相关项目的开发。帮助 RISC-V 社区将 Java 执行速度提高 100x 以上。
@@ -640,7 +640,7 @@ Testing Xfce4, KDE, Gnome, your choice!?
 - LV3+，能进行英语交流，对编译技术有基本了解。对 Java 虚拟机感兴趣。
 - 远程实习，不需要坐班。
 
-### BJ18 Clang/LLVM 开发实习生
+### BJ18 Clang/LLVM 开发实习生（进行中，名额 2）
 
 工作内容：
 参与PLCT实验室 Clang/LLVM 相关项目的开发、技术分析、报告撰写。在开源社区直接提交代码。
@@ -649,7 +649,7 @@ Testing Xfce4, KDE, Gnome, your choice!?
 LV3+，能进行英语交流，对编译技术有基本了解。
 远程实习，不需要坐班。
 
-### BJ38 LuaJIT 开发实习生
+### BJ38 LuaJIT 开发实习生（已完成，名额 0）
 
 目标：将 LuaJIT 移植到 RV64G 平台。
 背景参考：https://github.com/plctlab/plctlab.github.io/issues/9
