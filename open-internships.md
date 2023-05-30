@@ -58,7 +58,61 @@ PLCT全称是程序语言与编译技术实验室，隶属于中科院软件所�
 等软件基础设施的技术革新，具备主导开发和维护重要基础设施的技术及管理能力。与此同时，努力成为编译领域培养尖端人才的黄埔军校，推动先进编译技术在国
 内的普及和发展。
 
-(Next Job ID: 85)
+(Next Job ID: 87)
+
+### HZ86 CXL开源硬件IP开发（实习，进行中， 名额 1）
+
+(NOTE: 这是由 DatenLord 提供外部 mentor 支持的联合培养实习岗位）
+
+岗位职责
+参与CXL协议开源硬件IP开发：
+1. 负责CXL.io、CXL.cache、CXL.mem协议的RTL实现；
+2. 负责开源IP的综合与原型验证；
+3. 撰写相关设计和接口文档（英文）。
+
+岗位要求：
+基本要求：
+1. 熟悉数字IC的开发工具链；
+2. 熟悉Bluespec、SpinalHDL、Chisel或Clash等新一代HDL语言；
+3. 熟练掌握Verilog、SystemVerilog或VHDL语言；
+4. 熟悉SystemVerilog Assertion的使用；
+5. 熟练掌握TCL脚本语言；
+6. 具有很强的学习能力，自我驱动以及团队合作意识。
+
+加分项：
+1. 熟悉CXL、PCIe、AXI、ACE、CHI、NVMe等协议接口开发优先；
+2. 熟悉基于Python的仿真测试工具Cocotb优先；
+3. 有形式化验证相关经验优先；
+4. 有硬件敏捷开发和验证相关经验优先；
+5. 能长期实习优先。
+
+简历投递：pwang@datenlord.com cc wuwei2016@iscas.ac.cn
+
+
+### HZ85 CXL软硬件联合开发（实习，进行中， 名额 1）
+
+(NOTE: 这是由 DatenLord 提供外部 mentor 支持的联合培养实习岗位）
+
+岗位职责
+参与CXL软硬件联合开发与仿真测试：
+1. 负责CXL协议接口的硬件仿真实现；
+2. 负责CXL协议的相关Linux驱动开发；
+3. 负责实现CXL相关软硬件联合调试与自动化测试。
+
+岗位要求
+基本要求：
+1. 熟悉SystemC等高层次系统建模语言；
+2. 熟悉Linux内核模块、驱动的开发；
+3. 熟悉基于QEMU的软硬件联合调试工具链；
+4. 具有很强的学习能力，自我驱动以及团队合作意识。
+
+加分项：
+1. 有RTL开发经验优先；
+2. 熟悉CXL、PCIe、AXI、ACE、CHI、NVMe等协议接口开发优先；
+3. 熟悉Rust for Linux开发内核模块、驱动；
+4. 能长期实习优先。
+
+简历投递：pwang@datenlord.com cc wuwei2016@iscas.ac.cn
 
 ### BJ84 RVWhl Python Package 开发实习生 （进行中，名额 2）
 
