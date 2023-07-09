@@ -189,7 +189,7 @@ PLCT全称是程序语言与编译技术实验室，隶属于中科院软件所�
 4. 了解RISC-V架构
 5. 实习期三个月以上
 
-### BJ82 实现基于 LoongArch 架构的 RISC-V 模拟器 LARVa （进行中，名额 1）
+### BJ82 实现基于 LoongArch 架构的 RISC-V 模拟器 LARVa （招聘暂停）
 
 (本岗位为外部社区联合贡献岗位，mentor来自 loongson 社区。)
 
