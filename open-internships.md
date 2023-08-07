@@ -710,7 +710,7 @@ testing packages for ARCH=riscv in Gentoo Linux
 Testing Xfce4, KDE, Gnome, your choice!?
 ```
 
-### NJ51 Arch Linux RISC-V 操作系统构建实习生（20230801 有3个名额）
+### NJ51 Arch Linux RISC-V 操作系统构建实习生【暂停招聘】
 
 工作内容：
 从事 Linux 发行版的软件包构建、测试、分析工作。
