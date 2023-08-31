@@ -66,6 +66,7 @@ PLCT全称是程序语言与编译技术实验室，隶属于中科院软件所�
 ### BJ100 RISC-V nettle 开发实习生 (20230901 开放 3 名)
 
 工作内容：
+- 建立性能测评环境并进行持续跟踪（后续合并进入 PLCT RISC-V PTS）。
 - 给 nettle 补充 RISC-V 支持，使用 Crypto Scalar 和 Vector 等扩展指令进行加速，并且尝试进行 upstream。
 - 搭建 for RISC-V 的回归测试环境。
 - 根据自己的兴趣参与本地或同城高校的 RISC-V 技术交流推广活动。（LV2）
@@ -77,6 +78,7 @@ PLCT全称是程序语言与编译技术实验室，隶属于中科院软件所�
 ### BJ99 RISC-V OpenSSL 开发实习生 (20230901 开放 2 名)
 
 工作内容：
+- 建立性能测评环境并进行持续跟踪（后续合并进入 PLCT RISC-V PTS）。
 - 基于openssl算法库，对加解密算法 aes、rsa、sm2、 sm3、 sm4、 md5、 sha、 des、 使用 crypto vector 扩展指令进行加速，并且尝试进行 upstream。
 - 根据自己的兴趣参与本地或同城高校的 RISC-V 技术交流推广活动。（LV2）
 
