@@ -61,7 +61,29 @@ PLCT全称是程序语言与编译技术实验室，隶属于中科院软件所�
 等软件基础设施的技术革新，具备主导开发和维护重要基础设施的技术及管理能力。与此同时，努力成为编译领域培养尖端人才的黄埔军校，推动先进编译技术在国
 内的普及和发展。
 
-(Next Job ID: 101)
+(Next Job ID: 102)
+
+### BJ101 FORCE-RISCV 开发实习生（20230909 开放 3 名）
+
+**工作内容描述**
+
+基于 FORCE-RISCV 动态指令发生器的 litmus 用例编译工具链。
+
+FORCE-RISCV 是 RISC-V 领域重要的动态指令集发生器，提供大型 server 级别 cpu 的完整验证交付能力。Litmus 是 memory model 架构探索的重要工具，是多核 memory model 方面的核心工具。本任务基于 FORCE-RISCV 前端 Python API，建立编译工具链，将 litmus test 转译到 FORCE-RISCV 平台上。
+
+**岗位职责**
+
+基于FORCE-RISCV前端Python API，建立编译工具链，将litmus test转译到FORCE-RISCV平台上：
+1. 负责编译python编译工具链，将litmus用例转译为FORCE-RISCV的templates
+2. 负责相关regression管理工具的开发
+
+**岗位要求**
+
+0. 基础能力 LV3 级以上
+1. 对编译原理有基本了解
+2. 熟悉python编程
+3. 熟悉CPU验证基本流程
+4. 对CPU验证工具、指令发生器有经验者优先
 
 ### BJ100 RISC-V nettle 开发实习生 (20230901 开放 3 名)
 
