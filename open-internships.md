@@ -1,6 +1,5 @@
 # 实习生岗位
 
-包含三个团队的岗位。请注意编号。
 全职员工的招聘可以 从 [PLCT-Weekly 仓库找到](https://github.com/plctlab/PLCT-Weekly/blob/master/Jobs.md)。
 
 如果你是即将毕业的应届生，欢迎按照下属方式投递简历，应届生也可以走实习生的招聘通道。
