@@ -864,34 +864,29 @@ PLCT Lab 是最早开始公开进行 AOSP RISC-V 移植的团队， 并在平头
 
 远程实习，支持全球实习工资支付（中国学生必须是国内银行卡，国际学生可以用境外卡支付）。实习随时可以开始随时可以暂停随时可以结束。
 
-### BJ47 Gentoo RISC-V 操作系统构建实习生【暂停招聘】
+### BJ47 Gentoo RISC-V 操作系统构建实习生（进行中，名额 2）
 
 要求：LV2或以上。日常使用 Gentoo。【没有用过Gentoo的同学请勿投递。】
 
 ```
 Requirement:
 
-0) have interest in open source
+0) eager to contribute to open source
 1) self-motivated, self-learning
-2) have *time* to contribute
-3) good english communication skill at least capable of writing
+2) enough *time* to contribute
+3) good english communication skills
+     at least able to do good online comunication
 4) familiar with Linux Distro
-have experience with Gentoo would be great++
+     have experience with Gentoo would be great++
 
 Note:
  sophisticated programming skill is not a must,
- but do prefer computer science (or related) background
+ but do prefer computer/science (or related) background
 
 works:
-testing packages for ARCH=riscv in Gentoo Linux
- a) if fail
-   *) file bugs (https://bugs.gentoo.org)
-   *) report to upstream
-   +) help to fix (not a must)
- b) or success
-   *) keywording packages and send PR
+ help ARCH=riscv in Gentoo Linux - (test, maintain, fix, improve)
+ work on Gentoo based binary distro/binhost project
 
-Testing Xfce4, KDE, Gnome, your choice!?
 ```
 
 ### NJ51 Arch Linux RISC-V 操作系统构建实习生【暂停招聘】
