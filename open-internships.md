@@ -51,7 +51,37 @@
 
 PLCT全称是程序语言与编译技术实验室，隶属于中科院软件所智能软件研究中心（ISRC），致力于成为编译技术领域的开源领导者，推进工具链及运行时系统等软件基础设施的技术革新， 具备主导开发和维护重要基础设施的技术及管理能力。与此同时，致力于培养一万名编译领域尖端人才，推动先进编译技术在国内的普及和发展。
 
-(Next Job ID: 109)
+(Next Job ID: 110)
+
+### OC109 QtRVSim 开发实习生（远程，2-3名）
+
+岗位介绍：
+
+为 https://github.com/cvut/qtrvsim 添砖加瓦。PLCT实验室与该开源项目作者建立了初步的合作联系。
+
+实习内容：
+
+注意部分内容有可能已经完成了，请务必在开始之前联系PLCT实验室进行沟通。
+
+- https://github.com/cvut/qtrvsim/issues/1
+- https://github.com/cvut/qtrvsim/issues/2
+
+TL;DR of the topics (in random order):
+
+- finish porting more complex unit tests and extend them
+- compressed ISA support
+- 64bit ISA support in gui (it is hard to fit it there)
+- DWARF location display (when C code is simulated)
+- declarative specification of (at least simple) pseudoinstructions (for both encoding and decoding). Right now, it is a special case for compilation only.
+- detail view of instruction encoding
+- recording of pipeline utilization with visualization like this (https://image.slidesharecdn.com/chapter4theprocessor-100520050519-phpapp01/95/chapter-4-the-processor-55-728.jpg?cb=1274344463)
+- time travel debugging ("step back" ability, probably for basic components only, not memory, peripherals...)
+
+岗位要求：
+
+1. LV3及以上。
+2. 熟练英文文字交流。
+3. 懂得礼貌友好的进行英文社区沟通。
 
 ### BJ08 RISC-V 测试实习生（北京坐班，名额5人）
 
