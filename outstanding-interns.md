@@ -137,6 +137,10 @@ GitHub ID: `jiuyewxy` / 个人邮箱：`wangxiaoyun@iscas.ac.cn`
 
 2023年1月成为LV4。目前主要在维护 [eunomia-bpf](https://github.com/eunomia-bpf) 社区的一些相关项目，并持续向 eBPF/Wasm 相关上游社区反馈和贡献代码；和 eBPF 小队一同创建和维护了第一个在 Wasm 上构建、发布和运行通用 eBPF 程序的运行时与工具链，并且通过重构 bcc 运行时，推动 bcc 生态向 libbpf 相关生态转化。
 
+### LV4 郑英炜 (dtcxzyw)
+
+2023年11月成为LV4。目前主要在LLVM中端与RISC-V后端贡献代码。
+
 ### 姓名（昵称）提交PR请从下方追加
 
 GitHub ID / 知乎ID / 个人邮箱 等联系信息（可选）
