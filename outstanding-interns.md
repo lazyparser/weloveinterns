@@ -3,45 +3,6 @@
 本页面是吴伟及相关团队（PLCT实验室、RISC-V操作系统测试团队/TARSIER、机器人联合实验室、工业仿真组）对于能力突出或做出可观贡献的实习生的介绍和证明（背书）。是在我们团队中有效实习周期超过3个月的同学，都有机会将自己实习期间的工作内容、贡献、LV等级通过本页面进行展示。需要注意这个页面的创建时间要远远迟于我们开始招募和培养实习生的时间，所以有很多已经毕业工作的实习生可能并未加入到这个列表中。同时，只有获得实习生本人同意或本人PR，实习经历才会在本页面公开。
 
 目前公开的门类有两种： senior interns 和 LV4+ Interns。
-
-## Senior Interns (高级实习生)
-
-Senior interns 的设立目标，是对PLCT实验室目前「外部可见交付月度观测制度」的补充完善。已经证明自己的技术能力和自治能力的同学将进入准员工的精英自治模式，每个月的实习费不会低于设定的基准值，只会上浮，确保 senior interns 可以做一些更加困难、更加有技术挑战的开源贡献。
-
-设定的理由：
-1. 让荣光落于刀锋之上。
-2. 目前的外部可见交付观测制度并不能观测团队内隐形产出，包括同辈指导、跨组互助、人际关系维持等。而 senior intern 隐含的被期待积极的帮助指导团队（新）同学。
-3. 需要将 senior 实习生从简单工作上转入比较难、不太容易一个月出结果的工作上。
-
-成为 senior 的入门条件：
-1. 实习3个月以上，续签了新的实习合同，且处于实习存续期间。
-2. 在实习期间外部可见产出稳定，技术能力达到LV3及以上（部分岗位仅要求LV2+）。
-2. 在小队中承担起部分决策、培养新同学、计划外事件处理等责任。
-
-（变更：2022-03-27 开始公开新增了 senior interns 的分类。）
-
-### List of senior interns
-
-| 姓名 | 所属小队 | 介绍、链接 |
-| ---- | ---- | ---- |
-| 樊其轩 | Gentoo小队、LLVM小队 | 捞回 rm -rf 的LV4 |
-| dram | ITEM |  ([GitHub @dramforever](https://github.com/dramforever), <https://dram.page>) |
-| 喵喵 | CAAT小队 | TBA |
-| [Sharzy](https://github.com/SharzyL) | CAAT小队 | TBA |
-| 人形自走WA机 | CAAT小队 | ([GitHub @OceanS2000](https://github.com/OceanS2000), 个人主页在建了在建了) |
-| [Kiva](https://github.com/imkiva) | Aya小队 | TBA |
-| [Glavo](https://github.com/Glavo) | Aya小队 | [知乎专栏·JVM 新闻速递](https://www.zhihu.com/column/c_1359548809383686144) |
-| [zxs-un](https://github.com/zxs-un) | oerv小队 | TBA |
-| 乌鑫龙 | LLVM小队 | TBA |
-| dingiso | 模拟器小队 | TBA |
-| 潘瑞哲 [XieJiSS](https://github.com/XieJiSS) | Arch小队 | [Blog](https://blog.jiejiss.com) |
-| [Xeonacid](https://github.com/Xeonacid) | Arch小队 | TBA |
-| [rvalue](https://github.com/r-value) | Arch小队 | TBA |
-| [Ast-x64](https://github.com/Ast-x64) | Arch小队| TBA |
-| [Zenithal](https://github.com/ZenithalHourlyRate) | Arch小队、CAAT小队 | TBA |
-| [Coelacanthus](https://github.com/CoelacanthusHex) | Arch 小队 | TBA |
-| 任鹏飞 [kxxt](https://github.com/kxxt) | Arch 小队 | https://kxxt.dev |
-
 ## LV4+ Interns （大能力者和超能力者）
 
 高能力等级的优秀实习生（含已经完成实习的同学）
@@ -148,3 +109,42 @@ GitHub ID / 知乎ID / 个人邮箱 等联系信息（可选）
 何时成为LVx
 
 想要放在这里的内容。
+
+## Senior Interns (高级实习生)
+
+Senior interns 的设立目标，是对PLCT实验室目前「外部可见交付月度观测制度」的补充完善。已经证明自己的技术能力和自治能力的同学将进入准员工的精英自治模式，每个月的实习费不会低于设定的基准值，只会上浮，确保 senior interns 可以做一些更加困难、更加有技术挑战的开源贡献。
+
+设定的理由：
+1. 让荣光落于刀锋之上。
+2. 目前的外部可见交付观测制度并不能观测团队内隐形产出，包括同辈指导、跨组互助、人际关系维持等。而 senior intern 隐含的被期待积极的帮助指导团队（新）同学。
+3. 需要将 senior 实习生从简单工作上转入比较难、不太容易一个月出结果的工作上。
+
+成为 senior 的入门条件：
+1. 实习3个月以上，续签了新的实习合同，且处于实习存续期间。
+2. 在实习期间外部可见产出稳定，技术能力达到LV3及以上（部分岗位仅要求LV2+）。
+2. 在小队中承担起部分决策、培养新同学、计划外事件处理等责任。
+
+（变更：2022-03-27 开始公开新增了 senior interns 的分类。）
+
+### List of senior interns
+
+| 姓名 | 所属小队 | 介绍、链接 |
+| ---- | ---- | ---- |
+| 樊其轩 | Gentoo小队、LLVM小队 | 捞回 rm -rf 的LV4 |
+| dram | ITEM |  ([GitHub @dramforever](https://github.com/dramforever), <https://dram.page>) |
+| 喵喵 | CAAT小队 | TBA |
+| [Sharzy](https://github.com/SharzyL) | CAAT小队 | TBA |
+| 人形自走WA机 | CAAT小队 | ([GitHub @OceanS2000](https://github.com/OceanS2000), 个人主页在建了在建了) |
+| [Kiva](https://github.com/imkiva) | Aya小队 | TBA |
+| [Glavo](https://github.com/Glavo) | Aya小队 | [知乎专栏·JVM 新闻速递](https://www.zhihu.com/column/c_1359548809383686144) |
+| [zxs-un](https://github.com/zxs-un) | oerv小队 | TBA |
+| 乌鑫龙 | LLVM小队 | TBA |
+| dingiso | 模拟器小队 | TBA |
+| 潘瑞哲 [XieJiSS](https://github.com/XieJiSS) | Arch小队 | [Blog](https://blog.jiejiss.com) |
+| [Xeonacid](https://github.com/Xeonacid) | Arch小队 | TBA |
+| [rvalue](https://github.com/r-value) | Arch小队 | TBA |
+| [Ast-x64](https://github.com/Ast-x64) | Arch小队| TBA |
+| [Zenithal](https://github.com/ZenithalHourlyRate) | Arch小队、CAAT小队 | TBA |
+| [Coelacanthus](https://github.com/CoelacanthusHex) | Arch 小队 | TBA |
+| 任鹏飞 [kxxt](https://github.com/kxxt) | Arch 小队 | https://kxxt.dev |
+
