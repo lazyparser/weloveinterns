@@ -964,7 +964,7 @@ Requirement:
 1) self-motivated, self-learning
 2) enough *time* to contribute
 3) good english communication skills
-     at least able to do good online comunication
+     at least able to do good online communication
 4) familiar with Linux Distro
      have experience with Gentoo would be great++
 
