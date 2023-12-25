@@ -51,7 +51,36 @@
 
 PLCT全称是程序语言与编译技术实验室，隶属于中科院软件所智能软件研究中心（ISRC），致力于成为编译技术领域的开源领导者，推进工具链及运行时系统等软件基础设施的技术革新， 具备主导开发和维护重要基础设施的技术及管理能力。与此同时，致力于培养一万名编译领域尖端人才，推动先进编译技术在国内的普及和发展。
 
-(Next Job ID: 110)
+(Next Job ID: 111)
+
+### BJ110 LLVM Flang 开发实习生（1 人）
+
+岗位介绍：
+
+Flang 是 LLVM 的 Fortran 语言前端，处于积极开发之中。Flang 当前存在很多问题有待修复，也有一些功能尚未实现。
+
+已经确认有待修复的问题可以参见：
+
+ - https://github.com/orgs/llvm/projects/17
+ - https://github.com/orgs/llvm/projects/20
+
+计划中、尚未实现的功能可以参见：
+
+- https://github.com/orgs/llvm/projects/12
+
+实习内容：
+
+- 参与 Flang 已知问题的修复，并将工作提交到上游
+- 参与 Flang 尚未实现功能的开发，并将工作提交到上游
+- 利用 gfortran 测试集等对 Flang 进行测试，针对失败用例进行修复或整理提交 issue 到上游
+
+
+岗位要求：
+
+1. 基础能力 LV2 及以上，熟练使用脚本语言，shell/python 等。
+2. 熟悉 LLVM 编译器，了解 Fortran 语言。
+3. 可以流畅书写和阅读英文。
+4. 有 LLVM/MLIR 相关开发经验者优先。
 
 ### OC109 QtRVSim 开发实习生（远程，2-3名）
 
