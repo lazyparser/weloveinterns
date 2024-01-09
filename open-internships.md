@@ -172,92 +172,6 @@ DynamoRIO 是一个运行时的二进制动态插桩系统，广泛地用于程�
 3. 可以流畅书写和阅读英文；
 4. 投递简历之前，我们希望你已经了解并尝试使用过 DynamoRIO。
 
-### BJ106 openEuler RISC-V 操作系统开发实习生 (已满，暂停招聘)
-
-岗位介绍:
-
-参与 openEuler 官方 risc-v sig 的维护工作，包含 compiler sig 的 LLVM 平行宇宙计划 RISC-V 方向实习生。
-
-实习内容：
-
-1. 跟踪 openEuler 在 RISC-V 架构的软件包构建情况并进行修复
-2. 参与以 llvm 构建发行版的「LLVM 平行宇宙计划」的软件包构建情况、进行尝试性修复与提交
-3. 协助 maintainer 调研并解决 oerv 系统 issue
-4. 构建并丰富openEuler软件生态，参加社区 SIG 组开源运作
-5. 调研分析操作系统领域最新动向和前沿技术，结合产品场景应用落地
-
-岗位要求:
-1. 基础能力 Lv2 及以上。
-2. 对 linux 发行版有一定使用经验。
-3. 掌握中文普通话、英文[通常要求 CET4/6 通过]。
-4. 微信响应速度快，每周7天中至少能够有3天、工作时间有至少连续3个小时在线一起工作。
-
-### BJ105 ART 虚拟机性能评测实习生 (暂停招聘)
-
-岗位介绍：
-本岗位是 PLCT 实验室与 OPPO 开源及产学研合作等团队合作招募的岗位。
-
-实习内容介绍：
-
-1. 建立开源的ART虚拟机性能benchmark套件，对标google不开源的golem。希望在分析主流app的负荷之后，依据重要性和热度逐渐建立各项测试指标。大体上可以拆分成两个阶段。第一个阶段就单纯是分析，合作厂商列一些核心应用的核心场景，先调研当前ART虚拟机的性能状态，涉及的哪些功能、基础库会影响到性能表现。第二个阶段，再根据第一阶段的结果，根据重要性来写对应的benchmark。
-2. 性能对比分析。扩展https://github.com/dsrg-uoft/LangBench使其支持swift，对比swfit、java on ART和java on OpenJdk三者的性能(对比方法和粒度参考https://www.usenix.org/conference/atc22/presentation/lion)
-3. LLVM编译VM语言代码能力调研。对比分析 llvm中statepoint机制的代码生成结果 和 ART虚拟机的代码生成结果，给出LLVM当前支持VM语言的功能和性能状态。
-
-
-岗位要求：
-- 基础能力 LV3 及以上。
-
-### BJ104 SG2042 数据库移植实习生 (停止招聘，被新岗位JD替代)
-
-岗位介绍：
-SG2042 是一款高性能  RISC-V 处理器，具有 64 个 RISC-V 核心。 该岗位招募实习生帮助移植常见的数据库系统到基于 SG2042 的 Pioneer Box 等设备上。
-
-工作内容：
-- 构建、移植、测试运行在 Pioneer Box 上的各类开源数据库，包括
-  - TiDB (≥1)
-  - OceanBase (≥1)
-  - GaussDB (≥1)
-  - TDSQL (≥1)
-  - MySQL (1) 测试为主
-  - PostgreSQL (1) 测试为主
-- 建立维护CI测试监控体系，及时检测和处理软硬件适配问题和软件依赖问题等。
-- 撰写社区宣传文章、开源活动申请书等。
-- 组织社区会议和活动，开源项目每周同步 / 社区伙伴月度分享。
-
-岗位要求：
-- 基础能力 LV3 及以上。
-- 掌握中文普通话、英文。
-- 具备数据库理论知识（本科优等水平）。
-- 微信响应速度快，每周7天中至少能够有3天、工作时间有至少连续3个小时在线一起工作。
-
-### BJ103 SG2042 操作系统开发实习生 (停止招聘，被新岗位JD替代)
-
-岗位介绍：
-SG2042 是一款高性能  RISC-V 处理器，具有 64 个 RISC-V 核心。 该岗位招募实习生帮助移植常见的操作系统到基于 SG2042 的 Pioneer Box 等设备上。
-
-工作内容：
-- 构建、移植、测试运行在 Pioneer Box 上的各类操作系统，包括
-  - Arch Linux (10)
-  - RevyOS (Debian) (10)
-  - Gentoo (5)
-  - Fedora (5)
-  - Deepin, UOS (5)
-  - openEuler (3)
-  - openKylin (3)
-  - OpenAnolis (3)
-  - 中标麒麟 (3)
-  - FreeBSD and others (3)
-- 建立维护CI测试监控体系，及时检测和处理软硬件适配问题和软件依赖问题等。
-- 撰写社区宣传文章、开源活动申请书等。
-- 组织社区会议和活动，开源项目每周同步 / 社区伙伴月度分享。
-
-岗位要求：
-- 本岗位面向首次实习的新人。已经在PLCT实验室或TARSIER实习过的同学请挑战其他更难的岗位。
-- 基础能力 LV2 及以上。
-- 掌握中文普通话、英文。
-- 微信响应速度快，每周7天中至少能够有3天、工作时间有至少连续3个小时在线一起工作。
-- 遵守良好的社交礼仪，在开源社区交流中能够高度自律，不引战，不应战；遇到计划外坏消息及时团队同步应对。
-- 请知悉本岗位的招募评价标准按照每个发行版细分方向有各自独立的 mentor 考核要求。
 
 ### BJ102 Buddy Compiler 开源社区运营助理实习生 (已满，暂停招聘)
 
@@ -273,27 +187,7 @@ SG2042 是一款高性能  RISC-V 处理器，具有 64 个 RISC-V 核心。 该
 - 掌握中文普通话、英文。
 - 微信响应速度快，每周至少能够有3天、工作时间有至少连续4个小时在线一起工作。
 
-### BJ101 FORCE-RISCV 开发实习生 （已满，暂停招聘）
 
-**工作内容描述**
-
-基于 FORCE-RISCV 动态指令发生器的 litmus 用例编译工具链。
-
-FORCE-RISCV 是 RISC-V 领域重要的动态指令集发生器，提供大型 server 级别 cpu 的完整验证交付能力。Litmus 是 memory model 架构探索的重要工具，是多核 memory model 方面的核心工具。本任务基于 FORCE-RISCV 前端 Python API，建立编译工具链，将 litmus test 转译到 FORCE-RISCV 平台上。
-
-**岗位职责**
-
-基于FORCE-RISCV前端Python API，建立编译工具链，将litmus test转译到FORCE-RISCV平台上：
-1. 负责编译python编译工具链，将litmus用例转译为FORCE-RISCV的templates
-2. 负责相关regression管理工具的开发
-
-**岗位要求**
-
-0. 基础能力 LV3 及以上
-1. 对编译原理有基本了解
-2. 熟悉python编程
-3. 熟悉CPU验证基本流程
-4. 对CPU验证工具、指令发生器有经验者优先
 
 ### BJ100 RISC-V nettle 开发实习生 (20240101 开放 1 名)
 
@@ -414,32 +308,6 @@ FORCE-RISCV 是 RISC-V 领域重要的动态指令集发生器，提供大型 se
 - 在投递简历之前已经尝试将 OpenWRT 在 RISC-V 设备上跑起来。
 - 微信响应速度快、自驱力强、自己喜欢写操作系统代码。
 
-### BJ91 开源社区运营助理（LicheePi 4A 等 RISC-V SBC）实习生 (已满，暂停招聘)
-
-工作内容：
-- 围绕 LicheePi 4A 建设开源社区，每周进行全网资料收集和情报整理。进行测试和验证。
-- 中译英、英译中；为新闻稿撰写摘要（缩写文章）；
-- 每个月偶尔组织线上会议，或者（更为少见的）自己本校区/城市范围内的 meetup。
-
-岗位要求：
-- 基础能力 LV2 及以上。
-- 掌握中文普通话、英文。
-- 微信响应速度快，每周至少能够有3天、工作时间有至少连续4个小时在线一起工作。
-
-### BJ90 开源社区运营助理（SG2042 and Duo）实习生 (已满，暂停招聘)
-
-工作内容：
-- 围绕 SG2042 开源社区，每周进行全网资料收集和情报整理，汇总为 [SG2042 Newsletter](https://github.com/sophgocommunity/SG2042-Newsletter)，每周五发布一次。
-- 中译英、英译中；为新闻稿撰写摘要（缩写文章）；
-- 参与社区技术人员沟通，收集反馈信息、发放问卷等（中英双语）；
-- 每个月偶尔组织线上会议，或者（更为少见的）自己本校区/城市范围内的 meetup。
-
-岗位要求：
-- 基础能力 LV2 及以上。
-- 掌握中文普通话、英文。
-- 加分：掌握日语、韩语、俄语、德语、法语、西班牙语中的任何一个。
-- 加分：掌握闽南语、吴语、上海话等方言。
-- 微信响应速度快，每周至少能够有3天、工作时间有至少连续4个小时在线一起工作。
 
 ### BJ89 编译器功能支持实习生 (20240101 开放 2 名)
 
@@ -482,157 +350,6 @@ FORCE-RISCV 是 RISC-V 领域重要的动态指令集发生器，提供大型 se
 - LV2+，对RISC-V架构测试有兴趣。
 - 远程实习，不需要坐班。
 
-### HZ86 CXL开源硬件IP开发【暂停招聘】
-
-(NOTE: 这是由 DatenLord 提供外部 mentor 支持的联合培养实习岗位）
-
-岗位职责
-参与CXL协议开源硬件IP开发：
-1. 负责CXL.io、CXL.cache、CXL.mem协议的RTL实现；
-2. 负责开源IP的综合与原型验证；
-3. 撰写相关设计和接口文档（英文）。
-
-岗位要求：
-
-基本要求：
-1. 熟悉数字IC的开发工具链；
-2. 熟悉Bluespec、SpinalHDL、Chisel或Clash等新一代HDL语言；
-3. 熟练掌握Verilog、SystemVerilog或VHDL语言；
-4. 熟悉SystemVerilog Assertion的使用；
-5. 熟练掌握TCL脚本语言；
-6. 具有很强的学习能力，自我驱动以及团队合作意识。
-
-加分项：
-1. 熟悉CXL、PCIe、AXI、ACE、CHI、NVMe等协议接口开发优先；
-2. 熟悉基于Python的仿真测试工具Cocotb优先；
-3. 有形式化验证相关经验优先；
-4. 有硬件敏捷开发和验证相关经验优先；
-5. 能长期实习优先。
-
-简历投递：pwang@datenlord.com cc wuwei2016@iscas.ac.cn
-
-
-### HZ85 CXL软硬件联合开发【暂停招聘】
-
-(NOTE: 这是由 DatenLord 提供外部 mentor 支持的联合培养实习岗位）
-
-岗位职责
-参与CXL软硬件联合开发与仿真测试：
-1. 负责CXL协议接口的硬件仿真实现；
-2. 负责CXL协议的相关Linux驱动开发；
-3. 负责实现CXL相关软硬件联合调试与自动化测试。
-
-岗位要求
-基本要求：
-1. 熟悉SystemC等高层次系统建模语言；
-2. 熟悉Linux内核模块、驱动的开发；
-3. 熟悉基于QEMU的软硬件联合调试工具链；
-4. 具有很强的学习能力，自我驱动以及团队合作意识。
-
-加分项：
-1. 有RTL开发经验优先；
-2. 熟悉CXL、PCIe、AXI、ACE、CHI、NVMe等协议接口开发优先；
-3. 熟悉Rust for Linux开发内核模块、驱动；
-4. 能长期实习优先。
-
-简历投递：pwang@datenlord.com cc wuwei2016@iscas.ac.cn
-
-### BJ84 RVWhl Python Package 开发实习生【暂停招聘】
-
-【工作内容】
-1. 编译以及构建 Python Wheel Package, 目前主要集中在 Linux 平台
-2. 开发维护 RVWhl 系统(语言为 Python)
-3. 提交 Wheel Package 第三方依赖的兼容 RISC-V 补丁(涉及多种编程语言以及多种编译软件)
-
-【岗位要求】
-1. 一年以上 Linux 开发经验，C 语言或 RUST 语言开发经验
-2. 熟悉计算机组成原理以及编译原理
-3. 了解 Python 语言, 熟悉 Python Package 机制
-4. 了解 RISC-V 架构
-5. 实习期每个月不少于 14 天的工作日
-
-### BJ83 openEuler操作系统实习开发工程师【暂停招聘】
-
-【工作内容】
-1. Linux内核/用户态OS热补丁特性开发
-2. OS热补丁特性多架构支持，如RISC-V
-3. 构建并丰富openEuler软件生态，参加社区SIG组开源运作
-4. 调研分析操作系统领域最新动向和前沿技术，结合产品场景应用落地
-
-【岗位要求】
-1. 一年以上Linux开发经验，C语言或RUST语言开发经验
-2. 熟悉计算机组成原理以及编译原理
-3. 了解Linux内核驱动开发
-4. 了解RISC-V架构
-5. 实习期三个月以上
-
-### BJ82 实现基于 LoongArch 架构的 RISC-V 模拟器 LARVa 【暂停招聘】
-
-(本岗位为外部社区联合贡献岗位，mentor来自 loongson 社区。)
-
-项目地址：https://github.com/xen0n/larva
-
-工作内容：
-- 与 mentor 协作开发基于 LoongArch 架构的 RISC-V 模拟器 LARVa。
-- 该项目目前使用 Rust 语言开发，需要有一定 Rust 基础。由于 LoongArch 在 Rust 上游支持很新（截至该职位发布时甚至不完整），有很大机率涉及直接向 Rust 上游贡献适配代码。
-- 目前路线图上的短期目标包括实现一个不依赖 LoongArch 的解释执行后端，用于校验 RISC-V 模拟语义，因此暂时没有 LoongArch 知识或硬件也 okay。
-- 在 Rust 上游支持开发 LoongArch UEFI 应用之前，工作重心会放在实现 linux-user 模拟上。否则会开始基于 RustSBI 实现完整的 RISC-V 系统级模拟。（这也可能通过一定的方式先在 Linux 环境模拟，但目前没有这方面想法。）
-- mentor 会和你一同学习制作架构模拟器。
-
-岗位要求：
-- LV3及以上。
-- 对指令集架构模拟、虚拟化等技术有基本的了解。
-- 对二进制翻译技术、相关的编译原理内容有基本的了解。
-- 有一定的 Rust 语言基础。
-
-加分项：
-
-- 读过 LoongArch 手册、相关文档。
-- 了解 QEMU、Box64 等类似项目做事情的方式。
-
-### BJ81 RISC-V科研实习生：P扩展在 Linux Kernel 中对解压缩算法等模块的加速可能性研究及原型实现 【暂停招聘】
-
-工作内容：
-- 在 Linux Kernel 内核中寻找可以用 P 扩展进行加速的模块（第一步是解压缩模块）
-- 根据分析调研的结果，基于香山等开源RISC-V处理器进行扩展，做软硬件协同优化。
-- 撰写论文（英文优先）并投递学术杂志发表。
-
-岗位要求：
-- LV3及以上。
-- 面试之前已经阅读过 RVP 标准草案，可以是 0.5.2 也可以是 0.9.x 的版本。
-- 自己编译过 Linux （架构不限），自己做过 LFS 或 CLFS 实践。
-
-论文说明：
-- 如果是1位实习生solo，那么该实习生一作；如果是多位实习生，则提前根据分工排序，并根据每个阶段的观测结果决定是否需要调整。
-- 通讯作者需要是负责研究思路确定、审稿把关的软件所研究人员（员工）。
-- 论文发表前需要软件所作为第一单位审核并确认基金号支持。
-
-### Android(AOSP) RISC-V 移植开发实习生 BJ77~BJ80 【暂停招聘】
-
-基本要求：
-- 熟悉 C/C++，熟悉 Shell/Python。
-- 对 RISC-V 指令集以及汇编编程有一定了解。
-- 对安卓系统基本架构有所了解，了解安卓 build system 和镜像制作等
-- 自我能力评定是 [LV3+](https://github.com/plctlab/weloveinterns/blob/master/how-do-we-rank-interns.md)
-
-以下按方向分
-
-- BJ77 LLVM/Clang 方向
-  - 对编译链接技术感兴趣。
-  - 了解 LLVM / Clang 相关技术。
-  - 在 LLVM 上开发过 Clang 和相关组件或者调试过相关问题。
-
-- BJ78 嵌入式开发方向
-  - 对 Linux / U-boot / 模拟器 VirtIO 技术等感兴趣。
-  - 有过一定的嵌入式开发基础，譬如编译过内核和 U-boot 等。
-
-- BJ79 虚拟机方向
-  - 熟悉 Java 语言，对 Java 虚拟机实现原理感兴趣。
-  - 了解 OpenJDK 或者 Android ART 内部实现者优先。
-
-- BJ80 底层库性能优化
-  - 对性能优化感兴趣，譬如多媒体加速、数据格式压缩、数学浮点运算加速等。
-  - 有过 X86(SSEx)/ARM(NEON) 架构相关指令级别优化经验优先。
 
 ### BJ76 OpenCV RISC-V P 扩展移植实习生 （已满，暂停招聘）
 
@@ -801,25 +518,6 @@ PLCT Aya 小队致力于研发划时代的类型论实现，包括如何更好�
 3. 对文学编程有自己的理解。
 4. 对代码质量要求高，对重构持乐观态度。
 
-### BJ69 Deepin RISC-V 操作系统构建实习生【暂停招聘】
-
-**工作内容**
-
-从事 Linux 发行版的软件包构建、测试、分析工作。
-
-**要求**
-
-- LV3+；喜欢从事开源软件开发工作。
-
-需要在提交简历之前，请完成以下工作：
-
-- 在 amd64 或其他架构操作系统架构使用 qemu-user 启动 deepin riscv 发行版 并输出 `neofetch` `bash --version` 截图
-- 在此基础上，使用 `apt source bash` 下载对应源码并完成升级版本号 打包并安装 然后输出 `apt policy bash` 与 `bash --version` 截图
-  - Tips:
-    - 请使用 dpkg-buildpackage 的方式从源码编译 并且需要做到 `可重复构建` 即输出的 `dsc` 也可以再次构建
-    - 打包源码 `dsc` 的命令为 `dpkg-source` / 升级deb包版本 `changelog` 的命令为 `dch`
-    - 可以参考 [Debian New Maintainers' Guide](https://www.debian.org/doc/manuals/maint-guide/)
-- 展示更新 `bash` 的 patch 并输出截图
 
 ### BJ65 DynamoRIO 开发实习生（负责 RISC-V 移植及优化） (20240101 开放 1 名)
 
@@ -851,61 +549,6 @@ https://github.com/DynamoRIO/dynamorio/issues/3544
 
 [1] https://github.com/mono/mono/blob/main/docs/riscv.md
 
-### BJ63 Maple-C 编译器 Linux 构建验证及 RISC-V 移植实习生【暂停招聘】
-
-2019年下半年开源的方舟编译器（Maple）系列，在移动端的Java虚拟机领域进展并不顺利。 Maple-C 是 Maple 编译架构面向C语言的编译系统。源代码保存在[1]中。
-
-时至今日，PLCT实验室依然看重 Maple 编译框架的价值，并且希望能够完成两个长期目标：
-1. Maple-C 编译器能够支持 RISC-V 架构，包括 RV64GC 和 RV32GC 等常用的指令集组合。
-2. Maple-C 编译器能够替换 GCC 和 Clang 对流行的 Linux 发行版进行整体构建（Linux Kernel 除外）。
-
-欢迎有志向有能力的小伙伴加入我们。道阻且长，需要自行探索的路径非常多。要求能力在LV3以上，并且能够有着高度的自驱能力。
-
-[1] https://gitee.com/openarkcompiler/OpenArkCompiler
-
-### BJ61 蝉语实习生【暂停招聘】
-
-(本岗位为外部社区联合贡献岗位，mentor来自蝉语社区。岗位信息来自 [cicada-internships](https://github.com/cicada-lang/cicada-internships))
-
-**蝉语实习生 / Cicada Internships**
-
-[蝉语](https://github.com/cicada-lang) 是一个开源程序语言设计团队。
-
-主要项目 [Cicada](https://github.com/cicada-lang/cicada)
-是一个 Dependently Typed 程序语言（类似 Coq、Agda、Idris 和 Lean），
-可以用来辅助证明数学定理，并却作为形式化的数学基础。
-
-想要设计一个实用的计算机辅助证明系统的同时，这个语言也是大家学习与尝试新想法的基础。
-
-程序语言设计就像 Web App 的设计一样，也分为 _前端_ 与 _后端_，
-前端包括语法设计与类型系统设计，后端主要在于代码生成与编译器优化。
-我们的工作偏重于程序语言设计的前端。
-
-工作内容：
-
-- 维护 [Cicada](https://github.com/cicada-lang/cicada) 的代码。
-  - 由 TypeScript 实现，OOP 编程风格。
-- 编写文档来介绍我们的语言，以普及 _机器辅助证明_ 与 _形式化数学基础_ 相关的知识。
-  - 当前的文档在：https://cicada-lang.org/docs
-- 探索类型系统的功能与实现方式。
-  - 例如 Inductive datatype、递归函数、子类型关系等等。
-  - 我们读类型论相关的书籍与论文，然后以研讨会和博客的形式分享。
-  - 中文 Telegram 讨论群：https://t.me/CicadaLanguageCN
-
-入职要求：
-
-- 能读英文。
-- 对 _程序语言设计_ 与 _类型系统设计_ 感兴趣。
-
-说明：
-
-- 目前 [Cicada](https://github.com/cicada-lang/cicada)
-  的代码有 10000 行左右（包括 REPL，以及模块系统）。
-  良好的代码结构在于容易理解（因而容易修改），
-  我们努力注意保持良好的代码结构，
-  但是代码中还是有很多有待改进的地方。
-  也许通过讲解与讨论实现方式，
-  我们能获得清晰的理解与更好的代码结构。
 
 ### BJ58 libcxx-simd 项目实习生招聘 (20240101 开放 5 名)
 
@@ -920,33 +563,6 @@ https://github.com/DynamoRIO/dynamorio/issues/3544
 
 远程实习。要求LV3及以上能力。
 
-### NJ53 软件测试实习生（这是测试岗位）【暂停招聘】
-
-（这是目前唯一只需要LV1+的岗位）
-
-工作内容：
-- 为 PLCT 正在开发或维护的开源软件提供QA服务，包括最新的软件的构建、测试、分析、报告和技术交流分享。
-- 能够理解测试组长的需求，阅读分析现有测试用例/测试集/测试过程的不足，按照一些通用的测试评价指标（覆盖率等）进行测试用例的补充和设计。
-
-要求：
-1. LV1+ 即可，不需要通过上机编程考试。
-2. 具有一定的软件测试的理论基础（上过软件测试或者软件工程的课）。
-3. 具备基本的 Linux 操作的基础，例如会在命令行使用 cd/ps/mkdir/make 等。
-4. （加分）具备基本的 git 操作基础，会使用 git clone，知道有 submodule 的概念。
-5. （加分）能够有比较好的英语的阅读和书写能力。英语的口头表达能力不要求。
-
-### NJ52 测试开发实习生（这是开发岗位）【暂停招聘】
-
-工作内容：
-- 通过测试流程设计、自动化脚本编写、框架或系统开发等方式，为 RISC-V Linux 发行版的测试工作的生产力提高提供帮助。
-- 能够理解测试组长的需求，阅读分析现有测试用例/测试集/测试过程的不足，按照一些通用的测试评价指标（覆盖率等）进行测试用例的补充和设计，并通过程序或脚本的形式来批量的实现。
-- 为 PLCT 正在开发或维护的开源软件提供QA服务，包括最新的软件的构建、测试、分析、报告和技术交流分享。
-- 跟 Jenkins、GitHub Actions、Gitlab Runners、Ansible Playbooks 等打交道，还有可能写 Web UI，写 expect/lit 自动化回归测试脚本。
-
-要求：
-1. LV2+；需要通过上机考试。
-2. 熟练使用至少两种脚本语言，包括但不限于 python、bash、perl、PHP 等。
-3. 具备基本的软件测试的流程和思想，具备基本的调试代码的能力。
 
 ### BJ15 QEMU/Spike 开源模拟器开发实习生(20240101 开放 2 名)
 
@@ -980,58 +596,6 @@ PLCT实验室2022年路线图中包含了移植DartVM到RISC-V架构，但是一
 入职要求：
 - LV3+，能进行英语交流，对编译技术有基本了解。如果事先了解过ELF格式、RISC-V或其他指令集、相关ABI文档，那么都算是加分项。
 - 远程实习，不需要坐班。
-
-### BJ47 Gentoo RISC-V 操作系统构建实习生 (20240101 开放 2 名)
-
-要求：LV2或以上。日常使用 Gentoo。【没有用过Gentoo的同学请勿投递。】
-
-```
-Requirement:
-
-0) eager to contribute to open source
-1) self-motivated, self-learning
-2) enough *time* to contribute
-3) good english communication skills
-     at least able to do good online communication
-4) familiar with Linux Distro
-     have experience with Gentoo would be great++
-
-Note:
- sophisticated programming skill is not a must,
- but do prefer computer/science (or related) background
-
-works:
- help ARCH=riscv in Gentoo Linux - (test, maintain, fix, improve)
- work on Gentoo based binary distro/binhost project
-
-```
-
-### NJ51 Arch Linux RISC-V 操作系统构建实习生【暂停招聘】
-
-工作内容：
-从事 Linux 发行版的软件包构建、测试、分析工作。
-
-要求：
-- LV3及以上；喜欢从事开源软件开发工作。
-- **需要在提交简历之前，在社区提交一个PR，为 RISC-V 修复一个包。**
-
-### NJ50 Debian/Ubuntu RISC-V 操作系统构建实习生【暂停招聘】
-
-工作内容：
-从事 Linux 发行版的软件包构建、测试、分析工作。
-
-要求：
-- LV2+；喜欢从事开源软件开发工作。
-- **需要在提交简历之前，在社区提交一个PR，为 RISC-V 修复一个包。**
-
-### NJ49 Fedora RISC-V 操作系统构建实习生【暂停招聘】
-
-工作内容：
-从事 Linux 发行版的软件包构建、测试、分析工作。
-
-要求：
-- LV2+；喜欢从事开源软件开发工作。
-- **需要在提交简历之前，在社区提交一个PR，为 RISC-V 修复一个包。**
 
 ### HZ48 Chisel 开发实习生(20240101 开放 1 名)
 
@@ -1084,25 +648,39 @@ works:
 LV3+，能进行英语交流，对编译技术有基本了解。
 远程实习，不需要坐班。
 
-### BJ38 LuaJIT 开发实习生【暂停招聘】
+## 历史岗位（已经不再招募实习生）
 
-目标：将 LuaJIT 移植到 RV64G 平台。
-背景参考：https://github.com/plctlab/plctlab.github.io/issues/9
-
-入职要求：
-LV4+，能进行英语交流，对编译技术有基本了解。如果事先了解过ELF格式、RISC-V或其他指令集、相关ABI文档，那么都算是加分项。
-远程实习，不需要坐班。
-
-
-已经废弃的岗位：
-
-- NJ57 Android(AOSP) RISC-V 移植开发实习生【停止招聘】
+- Android(AOSP) RISC-V 移植开发实习生 BJ77~BJ80 【暂停招聘】
+- BJ101 FORCE-RISCV 开发实习生 （已满，暂停招聘）
+- BJ103 SG2042 操作系统开发实习生 (停止招聘，被新岗位JD替代)
+- BJ104 SG2042 数据库移植实习生 (停止招聘，被新岗位JD替代)
+- BJ105 ART 虚拟机性能评测实习生 (暂停招聘)
+- BJ106 openEuler RISC-V 操作系统开发实习生 (停止招聘，转入软件所其他部门)
 - BJ33 Spidermonkey 开发实习生【暂停招聘】
+- BJ38 LuaJIT 开发实习生【暂停招聘】
+- BJ38 LuaJIT 开发实习生【暂停招聘】
 - BJ39 Web 前端开发实习生【暂停招聘】
+- BJ47 Gentoo RISC-V 操作系统构建实习生 (20240101 开放 2 名)
 - BJ59 开源软件项目经理实习生【暂停招聘】
 - BJ60 开源技术社区运营经理实习生【暂停招聘】
+- BJ61 蝉语实习生【暂停招聘】
+- BJ63 Maple-C 编译器 Linux 构建验证及 RISC-V 移植实习生【暂停招聘】
 - BJ66 科技文档翻译实习生（日语、韩语）【暂停招聘】
 - BJ67 操作系统RISC-V成熟度观测实习生（跟踪所有国内外知名Linux发行版）【暂停招聘】
 - BJ68 OpenWrt RISC-V 移植及观测实习生【暂停招聘】
+- BJ69 Deepin RISC-V 操作系统构建实习生【暂停招聘】
+- BJ81 RISC-V科研实习生：P扩展在 Linux Kernel 中对解压缩算法等模块的加速可能性研究及原型实现 【暂停招聘】
+- BJ82 实现基于 LoongArch 架构的 RISC-V 模拟器 LARVa 【暂停招聘】
+- BJ84 RVWhl Python Package 开发实习生【暂停招聘】
+- BJ90 开源社区运营助理（SG2042 and Duo）实习生 (已满，暂停招聘)
+- BJ91 开源社区运营助理（LicheePi 4A 等 RISC-V SBC）实习生 (已满，暂停招聘)
+- HZ85 CXL软硬件联合开发【暂停招聘】
+- HZ86 CXL开源硬件IP开发【暂停招聘】
+- NJ49 Fedora RISC-V 操作系统构建实习生【暂停招聘】
+- NJ50 Debian/Ubuntu RISC-V 操作系统构建实习生【暂停招聘】
+- NJ51 Arch Linux RISC-V 操作系统构建实习生【暂停招聘】
+- NJ52 测试开发实习生（这是开发岗位）【暂停招聘】
+- NJ53 软件测试实习生（这是测试岗位）【暂停招聘】
 - NJ53a openEuler RISC-V 操作系统构建实习生【暂停招聘】
 - NJ55 开源EDA实习生【暂停招聘】
+- NJ57 Android(AOSP) RISC-V 移植开发实习生【停止招聘】
