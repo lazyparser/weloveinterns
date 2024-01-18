@@ -442,22 +442,25 @@ mentor：
 
 (本岗位为外部社区联合贡献岗位，mentor来自 eunomia-bpf 社区。)
 
-[eunomia-bpf](https://github.com/eunomia-bpf/eunomia-bpf) 是一个开源的 eBPF 动态加载运行时和开发工具链，是为了简化 eBPF 程序的开发、构建、分发、运行而设计的基于 libbpf 的轻量级开发框架。使用 eunomia-bpf ，可以在编写 eBPF 程序或工具时只编写内核态代码，自动获取内核态导出信息，或使用 WASM 进行用户态交互程序的开发，在 WASM 虚拟机内部控制整个 eBPF 程序的加载和执行。eunomia-bpf 可以将预编译的 eBPF 程序打包为通用的 JSON 或 WASM 模块，跨架构和内核版本进行分发，无需重新编译即可动态加载运行。
+eunomia-bpf 社区是一个致力于探索、改进、扩展 eBPF 相关开发工具链和运行时的开源社区，我们维护了一系列的开源项目、文档教程，并且积极探索将 eBPF 从内核态扩展到用户态、简化 eBPF 的开发和移植、发布流程、使用 LLM 自动生成 eBPF 代码、将 Wasm 和 eBPF 结合起来等等相关解决方案。希望我们能有机会一起扩展整个 eBPF 生态的边界，并且做出能持续长久、有影响力的开源项目。
 
-我们已经测试了在 x86、ARM 等不同架构、不同内核版本的 Linux 系统上，对于一个基于 eBPF 的工具或模块，eunomia-bpf 框架都可以使用同一个预编译 eBPF 程序二进制，从云端一行命令获取到本地之后直接运行，不需要类似 BCC 一样再使用 LLVM/Clang 进行本地编译，也能嵌入其他应用中作为插件运行且具有良好的隔离性。我们希望能尝试在 RISC-V 系统上完成移植和测试，实现架构无关的 eBPF 工具的移植和运行。
+- 主页： https://eunomia.dev 和 https://github.com/eunomia-bpf
+- 教程：https://eunomia.dev/zh/tutorials/ 和博客：https://eunomia.dev/zh/blogs/
 
 工作内容:
 
-1. 将 eunomia-bpf 的运行时模块移植到 RISC-V 系统上（主要是 Webassembly 运行时和 libbpf 库）
-2. 将 [BCC](https://github.com/iovisor/bcc) 中基于 libbpf 的工具移植到 Webassembly 并进行测试，尝试让编译产物在 RISC-V、x86、ARM 或其他指令集的内核上都可以正常运行；
-3. 尝试移植更多 eBPF 的开发框架和工具到 WebAssembly，并为基于 Webassembly 的 eBPF 程序开发和运行提供更多的用户态开发库和工具链；
-4. 尝试进行更多基于 eBPF 和 WebAssembly 的相关探索和实现，重构现有的开发框架和工具链，和 WebAssembly、eBPF 相关上游社区进行交流和推进；目前的核心代码量其实很少（~2k），主要使用 C/C++ 完成，我们希望接下来使用 Rust 完成一些重构和重新设计的工作，支持更多的 eBPF 程序类型和相关 API；
+1. 维护 eunomia-bpf 社区中的项目，并积极向内核和相关上游社区贡献代码
+2. 追踪 eBPF 相关领域的研究和工程实践，了解、响应社区开发者的需求，以及给出让人耳目一新的解决方案
+3. 向 PLCT 内部和全世界输出文档、教程、演讲和论文，分享和扩大我们的工作影响力，普及 eBPF 相关知识和实践（比如我们之前在 Kubecon 和 Linux Plumbers 等等的 Talk）
+
 
 岗位要求:
 
-1. 对 WebAssembly 和 eBPF 技术感兴趣，对二者有一些初步的了解或者有一些 demo 尝试（花个一两天看看就好）
-2. 了解 C/C++，对于操作系统有一些了解（按照我们在 ARM 上面的经验来说，完成移植工具和测试工作应该不是很困难，预计 LV2 就够？）
-3. 了解 BTF 格式信息，了解 Rust 语言，对于 eBPF 的实现机制或 WebAssembly 相关生态有一些深入的理解（可选）
+1. LV2+ （如果你自我评级 LV2 的话，可以先从文档和测试工作做起？）
+2. 在投递岗位之前学习过 eBPF，如果没接触过的话，这里有个关于如何学习 eBPF 的小建议：https://eunomia.dev/zh/tutorials/0-introduce/ （花个两三天看看也好？）
+3. 学习过 C/C++ 和操作系统相关知识
+4. 希望能在以下任何一个方向有一些了解或背景：eBPF 的内核实现本身，LLVM/编译工具链与运行时，WebAssembly，二进制插桩与反编译，LLM/langchain/GPT，可观测性和性能分析，可编程网络（没有也没关系，如果你愿意并且有能力现学的话？）
+5. 英文阅读能力和解决、调试复杂问题的能力
 
 ### BJ71 RT-Thread 社区实习生  (20240101 开放 5 名)
 RT-Thread诞生于2006年，是一款以开源、中立、社区化发展起来的物联网操作系统。 RT-Thread主要采用 C 语言编写，浅显易懂，且具有方便移植的特性（可快速移植到多种主流 MCU 及模组芯片上）。RT-Thread社区是一个开放、开源的社区。RT-Thread拥有非常丰富的软件包，基于这些软件包可以快速构建产品原型。并且拥有较好的POSIX接口支持，可方便的移植Linux应用。为了更好的服务蓬勃发展的RISC-V生态，我们期望可以将RT-Thread已有的软件生态都很好的对接到RISC-V平台上。同时，RT-Thread Smart微内核系统支持用户态应用程序，rootfs等的构建程序，后面也会积极推进Smart for riscv 版本,也欢迎大家积极参与进来！
