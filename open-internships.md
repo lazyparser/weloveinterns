@@ -444,14 +444,15 @@ mentor：
 
 eunomia-bpf 社区是一个致力于探索、改进、扩展 eBPF 相关开发工具链和运行时的开源社区，我们维护了一系列的开源项目、文档教程，并且积极探索将 eBPF 从内核态扩展到用户态、简化 eBPF 的开发和移植、发布流程、使用 LLM 自动生成 eBPF 代码、将 Wasm 和 eBPF 结合起来等等相关解决方案。希望我们能有机会一起扩展整个 eBPF 生态的边界，并且做出能持续长久、有影响力的开源项目。
 
-- 主页：eunomia.dev 和 https://github.com/eunomia-bpf
+- 主页： https://eunomia.dev 和 https://github.com/eunomia-bpf
 - 教程：https://eunomia.dev/zh/tutorials/ 和博客：https://eunomia.dev/zh/blogs/
 
 工作内容:
 
 1. 维护 eunomia-bpf 社区中的项目，并积极向内核和相关上游社区贡献代码
-2. 追踪 eBPF 相关领域的研究和工程实践，了解、响应社区开发者的需求以及思考解决方案
+2. 追踪 eBPF 相关领域的研究和工程实践，了解、响应社区开发者的需求，以及给出让人耳目一新的解决方案
 3. 向 PLCT 内部和全世界输出文档、教程、演讲和论文，分享和扩大我们的工作影响力，普及 eBPF 相关知识和实践（比如我们之前在 Kubecon 和 Linux Plumbers 等等的 Talk）
+
 
 岗位要求:
 
@@ -459,7 +460,7 @@ eunomia-bpf 社区是一个致力于探索、改进、扩展 eBPF 相关开发�
 2. 在投递岗位之前学习过 eBPF，如果没接触过的话，这里有个关于如何学习 eBPF 的小建议：https://eunomia.dev/zh/tutorials/0-introduce/ （花个两三天看看也好？）
 3. 学习过 C/C++ 和操作系统相关知识
 4. 希望能在以下任何一个方向有一些了解或背景：eBPF 的内核实现本身，LLVM/编译工具链与运行时，WebAssembly，二进制插桩与反编译，LLM/langchain/GPT，可观测性和性能分析，可编程网络（没有也没关系，如果你愿意并且有能力现学的话？）
-5. 英文阅读能力
+5. 英文阅读能力和解决、调试复杂问题的能力
 
 ### BJ71 RT-Thread 社区实习生  (20240101 开放 5 名)
 RT-Thread诞生于2006年，是一款以开源、中立、社区化发展起来的物联网操作系统。 RT-Thread主要采用 C 语言编写，浅显易懂，且具有方便移植的特性（可快速移植到多种主流 MCU 及模组芯片上）。RT-Thread社区是一个开放、开源的社区。RT-Thread拥有非常丰富的软件包，基于这些软件包可以快速构建产品原型。并且拥有较好的POSIX接口支持，可方便的移植Linux应用。为了更好的服务蓬勃发展的RISC-V生态，我们期望可以将RT-Thread已有的软件生态都很好的对接到RISC-V平台上。同时，RT-Thread Smart微内核系统支持用户态应用程序，rootfs等的构建程序，后面也会积极推进Smart for riscv 版本,也欢迎大家积极参与进来！
