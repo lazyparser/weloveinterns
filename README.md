@@ -22,4 +22,4 @@ PLCT实验室隶属于中国科学院软件研究所（ISCAS）[智能软件研�
 
 ## 参考链接
 
-- PLCT Lab 维护了着自己的月刊：[PLCT开源进展](https://github.com/isrc-cas/PLCT-Weekly)。如果想来PLCT实验室，请务必提前阅读。
+- PLCT Lab 维护了着自己的月刊：[PLCT开源进展](https://github.com/plctlab/PLCT-Weekly)。如果想来PLCT实验室，请务必提前阅读。
