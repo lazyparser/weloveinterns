@@ -44,7 +44,7 @@ PLCT全称是程序语言与编译技术实验室，隶属于中国科学院软�
 技术岗位（开发、测试、助教）需要满足的：
 
 - 技术岗位默认要求能力等级达到LV2及以上。参见：[我们如何面试实习生](https://github.com/lazyparser/weloveinterns/blob/master/how-do-we-interview-interns.md)，[我们如何给实习生评级](https://github.com/lazyparser/weloveinterns/blob/master/how-do-we-rank-interns.md)。
-- 熟练使用 Linux 命令行，并且能够写简单的 Bash 脚本。参考 [linux技能表](archives/capabilities/linux-checklist.md) 和 [Bash技能表](capabilities/bash-checklist.md)。
+- 熟练使用 Linux 命令行，并且能够写简单的 Bash 脚本。参考 [linux技能表](archives/capabilities/linux-checklist.md)。
 - 熟练使用 git 进行团队合作。参考 [git技能列表](archives/capabilities/git-checklist.md)。
 - 知道如何描述 bugs/issues 以及礼貌地向其他人求助，做到尽量不浪费他人的时间，将复现 bug 需要的信息提供完整。
 - 加分：自学了 RISC-V 指令集，包括 RV32GC 和 RV64GC。在自己的电脑上部署运行起来QEMU-RISCV64以及Spike模拟器。
