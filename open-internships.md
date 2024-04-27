@@ -66,7 +66,48 @@ PLCT全称是程序语言与编译技术实验室，隶属于中国科学院软�
 
 ## 开放岗位列表
 
-(Next Job ID: 116)
+(Next Job ID: 117)
+
+### BJ116 Gold Linker RISC-V 移植实习生（20240427 开放1名）
+
+**任务描述**
+
+让 Gold Linker 支持 RISC-V，并且持续优化和维护。
+
+**能力要求**
+
+LV3 以上。需要完成下手任务的前4步才能投简历。
+
+**学习步骤和工作步骤**
+
+Linker的移植从简单到复杂，先支持静态链接（static linking），再支持动态链
+接（dynamic linking）。
+
+1. 确保手头有最新的:
+   ELF格式手册: https://refspecs.linuxbase.org/elf/elf.pdf
+   RISC-V ISA手册: https://riscv.org/technical/specifications/
+   RISC-V ABI手册: https://github.com/riscv/riscv-elf-psabi-doc/blob/master/riscv-elf.md
+   GNU Binutils源代码: https://sourceware.org/git/gitweb.cgi?p=binutils-gdb.git
+
+2. 阅读ELF格式手册和 RISC-V ABI 手册，Relocation 相关的部分着重（一周）
+
+3. 编写一个简单的 ELF parser，能parse最简单的 helloworld.o，尤其是 .rel/.rela 段，需要跟 readelf -Wr 输出一致（一周）
+
+4. 结合RISC-V ISA系统性的汇报RISC-V带立即数编码的指令和关联的relocation类型 （一周）【完成这一步就可以发简历了】
+
+5. 开始在GOLD linker实做RISC-V静态链接支持（3-5周）：
+   A. 添加RISC-V dummy框架，确保能编译出后端
+   B. 添加基本的静态链接需要的hook，确保能出发相关的代码
+   C. 添加h elloworld 静态链接重定位支持
+
+6. 系统性的学习动态链接的只是，汇报GOT/PLT表机制原理（一周）
+7. 调研 RISC-V GOT/PLT 表结构并汇报（一周）
+8. 在 GOLD linker 实作RISC-V动态链接支持（两周 ~ 四周）
+9. 系统性的学习TLS（thread local storage）相关知识（一周）
+10. 在 GOLD linker 实作 TLS optimization （一周 ~ 两周）
+11. IFUNC支持（两周）
+
+全程三个月 ~ 六个月。计划明年6/7月upstream。对参与者来说是难得的机会。
 
 ### BJ115 openEuler RISC-V 操作系统开发实习生 【20240301 开放名额：10】
 岗位介绍:
