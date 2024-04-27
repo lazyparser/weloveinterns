@@ -100,7 +100,7 @@ Linker的移植从简单到复杂，先支持静态链接（static linking），
    B. 添加基本的静态链接需要的hook，确保能出发相关的代码
    C. 添加h elloworld 静态链接重定位支持
 
-6. 系统性的学习动态链接的只是，汇报GOT/PLT表机制原理（一周）
+6. 系统性的学习动态链接的知识，汇报GOT/PLT表机制原理（一周）
 7. 调研 RISC-V GOT/PLT 表结构并汇报（一周）
 8. 在 GOLD linker 实作RISC-V动态链接支持（两周 ~ 四周）
 9. 系统性的学习TLS（thread local storage）相关知识（一周）
