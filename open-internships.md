@@ -68,7 +68,7 @@ PLCT全称是程序语言与编译技术实验室，隶属于中国科学院软�
 
 (Next Job ID: 118)
 
-### P117 Linux Kernel RISC-V 开发实习生 (20240429 开放 6 名)
+### P117 Linux Kernel RISC-V 开发实习生 (20240510 开放 10 名)
 
 工作内容：
 - 写代码，帮助国内 RISC-V 厂商的 IP/SoC 代码进入 Linux Kernel 主线。
@@ -126,10 +126,12 @@ Linker的移植从简单到复杂，先支持静态链接（static linking），
 
 全程三个月 ~ 六个月。计划明年6/7月upstream。对参与者来说是难得的机会。
 
-### BJ115 openEuler RISC-V 操作系统开发实习生 【20240301 开放名额：10】
+### BJ115 openEuler RISC-V 操作系统开发实习生（OERV团队） 【20240501 开放名额：20】
 岗位介绍:
 
 参与 openEuler 官方 risc-v sig 的维护工作，探索 RISC-V 操作系统领域前沿技术，建设和推广 openEuler RISC-V 生态。
+
+请注意自2024年3月开始，OERV团队完成孵化，成为与PLCT实验室平级的团队。上机考试和面试等由OERV团队负责人王经纬老师主导。
 
 实习内容：
 
