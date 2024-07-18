@@ -1,8 +1,8 @@
 # 实习生岗位
 
-全职员工的招聘可以 从 [PLCT-Weekly 仓库找到](https://github.com/plctlab/PLCT-Weekly/blob/master/Jobs.md)。
+全职员工的招聘可以 从 [PLCT-Weekly 仓库找到](https://github.com/plctlab/PLCT-Weekly/blob/master/Jobs.md)。请注意自从 2023 年 6 月开始 PLCT 实验室开始经历创立以来的第一次大裁员，目前全职入职的几率非常小。
 
-如果你是即将毕业的应届生，欢迎按照下属方式投递简历，应届生也可以走实习生的招聘通道。
+如果你是即将毕业的应届生，欢迎按照下属方式投递简历，应届生也可以走实习生的招聘通道。但是录取率同上。
 
 ## PLCT实验室（PLCT Lab）
 
