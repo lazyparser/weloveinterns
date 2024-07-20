@@ -503,7 +503,7 @@ Linker的移植从简单到复杂，先支持静态链接（static linking），
 - 微信响应速度快，每周7天中至少能够有3天、工作时间有至少连续3个小时在线一起工作。
 
 
-### BJ114 Pixman RISC-V 优化实习生 【20240218 开放名额：1】
+### BJ114 Pixman RISC-V 优化实习生 【工作已完成，结束招聘】
 
 岗位介绍：
 [Pixman](https://www.pixman.org) 是非常重要的一个底层像素化图像处理库，被 X11 、 Cairo 等多个显示相关开源项目使用，构成了现代桌面 Linux 绝大多数图形应用程序界面绘制的基础。然而很不幸的是，该库至今为止不具备任何 RISC-V 的架构相关优化代码，在 RISC-V 设备上完全使用纯 C 的 fallback codepath 运行，性能存在较大提升空间（尤其考虑使用 V 扩展的情况）。
@@ -514,7 +514,7 @@ Linker的移植从简单到复杂，先支持静态链接（static linking），
 入职要求：
 - LV3 ，熟练使用 C 语言（且必要时会使用汇编），熟悉 RISC-V 指令集与任意 SIMD/Vector 指令的优化开发（最好是 RV V 扩展），最好能够熟练掌握英文。
 
-### BJ113 操作系统移植： ThreadX 移植到 RISC-V (Milk-V Duo) 【20240217 开放名额：1】
+### BJ113 操作系统移植： ThreadX 移植到 RISC-V (Milk-V Duo) 【工作已完成，结束招聘】
 
 岗位介绍： 将新开源捐赠给 Eclipse 基金会的 ThreadX 移植到 RISC-V 上（如果还没有移植的话）；同时进行测评验证，补充适配更多的RISC-V设备。
 
@@ -522,7 +522,7 @@ Linker的移植从简单到复杂，先支持静态链接（static linking），
 - 有基本的RTOS的学习积累。
 - LV2
 
-### BJ112 QEMU RISC-V 开发实习生 (已满)
+### BJ112 QEMU RISC-V 开发实习生 【缺乏mentor，欢迎自带proposal投递】
 
 岗位介绍：
 - 参与 PLCT 实验室在 QEMU 开源项目的开发。在开源社区直接提交代码。
@@ -534,7 +534,7 @@ Linker的移植从简单到复杂，先支持静态链接（static linking），
 - LV2+，对模拟器的内部实现有兴趣。
 - 远程实习，不需要坐班。
 
-### BJ111 TH1520 U-Boot 移植实习生 (20240101 开放 1 名)
+### BJ111 TH1520 U-Boot 移植实习生 (暂停招聘)
 
 岗位介绍：
 
@@ -555,7 +555,7 @@ TH1520有一个vendor uboot 需要移植到主线uboot 并提交到主线
 
 https://github.com/revyos/thead-u-boot/tree/thead-sdk
 
-### BJ110 LLVM Flang 开发实习生 (20240101 开放 2 名)
+### BJ110 LLVM Flang 开发实习生 (20240720 开放 20 名)
 
 岗位介绍：
 
@@ -636,7 +636,7 @@ TL;DR of the topics (in random order):
 4. 要求北京学校在校大学生，可以来软件所北京本部坐班，工作日每周至少2天。实习生费用按照出勤天数（100元/天）+外部可见产出（可变）叠加的方式。
 5. 注意不提供住宿和任何补助，北京以外其他城市同学可以看看其他岗位信息，基本都是可以远程的。
 
-### BJ107 DynamoRIO RISC-V 移植开发实习生（1 人）
+### BJ107 DynamoRIO RISC-V 移植开发实习生（20240720开放 3 人）
 
 岗位介绍：
 
