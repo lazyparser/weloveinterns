@@ -13,6 +13,12 @@
 >
 > 何时成为LVx，以及其他想要放在这里的内容。
 
+### LV4 陈泱宇（cyy）
+
+陈泱宇 2022 年本科毕业于重庆大学，现在为重庆大学博士研究生，研究方向为体系结构，2022年加入 PLCT 实验室实习，进行 RISC-V 底层软硬件相关工作，给 Linux Kernel、GCC、QEMU、gem5、FireSim、OpenSSL、XiangShan、Rocket-Chip 等上游项目贡献过 RISC-V 相关功能实现、Bug 修复、性能优化在内的补丁；为第一款量产的 RISC-V Vector 1.0 开发板——嘉楠 K230 提交了 Linux 主线内核支持并进入 RuyiSDK 为 RISC-V Vector 软件开发者提供便利；修复过 2 处 RISC-V ISA 手册存在的模棱两可问题；完成多次 RISC-V 软硬件技术相关的技术报告。
+
+更多信息参见 [甲辰人才背书010号](https://github.com/rv2036/jiachen-builders-network/blob/main/pool/010-CHEN-Yangyu.md)
+
 ### LV4 郑英炜 (dtcxzyw)
 
 2023年11月成为LV4。目前主要在LLVM中端与RISC-V后端贡献代码。
