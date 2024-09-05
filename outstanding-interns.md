@@ -29,6 +29,8 @@
 
 2023年11月成为LV4。目前主要在LLVM中端与RISC-V后端贡献代码。
 
+更多信息参见 [甲辰人才背书007号](https://github.com/rv2036/jiachen-builders-network/blob/main/pool/007-ZHENG-Yingwei.md)
+
 ### LV4 郑昱笙（云微/yunwei37）
 
 2023年1月成为LV4。目前主要在维护 [eunomia-bpf](https://github.com/eunomia-bpf) 社区的一些相关项目，并持续向 eBPF/Wasm 相关上游社区反馈和贡献代码；和 eBPF 小队一同创建和维护了第一个在 Wasm 上构建、发布和运行通用 eBPF 程序的运行时与工具链，并且通过重构 bcc 运行时，推动 bcc 生态向 libbpf 相关生态转化。
@@ -36,6 +38,8 @@
 ### LV5 dram
 
 在RISC-V方面有着超过PLCT员工级别平均值的能力和专业知识积累。作为RISC-V方面的专家顾问，进入 PLCT ITEM 部门。
+
+更多信息参见 [甲辰人才背书009号](https://github.com/rv2036/jiachen-builders-network/blob/main/pool/009-dram.md)
 
 ### LV5 红人
 
