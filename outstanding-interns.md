@@ -13,6 +13,12 @@
 >
 > 何时成为LVx，以及其他想要放在这里的内容。
 
+### LV4 蒋周奇 (洛佳 luojia)
+
+蒋周奇（洛佳） 2022 年本科毕业于华中科技大学，现在为华中科技大学硕士研究生，研究方向为系统安全，2021 年加入 PLCT 实验室实习，进行 RISC-V 固件和内核开发有关工作；目前负责维护 RustSBI 项目，设计和带领 RustSBI 各个子项目的发展，丰富 RustSBI 的应用场景；带领团队为多核异构的 RISC-V 芯片——博流 BL808 提供了完整的 Rust 裸机到内核开发支持包解决方案；修复过 RISC-V SBI 规范标准中存在的定义不严格问题；完成多次 RISC-V 固件和引导程序相关的技术报告。
+
+更多信息参见 [甲辰人才背书012号](https://github.com/rv2036/jiachen-builders-network/blob/main/pool/012-JIANG-Zhouqi.md)
+
 ### LV4 陈泱宇（cyy）
 
 陈泱宇 2022 年本科毕业于重庆大学，现在为重庆大学博士研究生，研究方向为体系结构，2022年加入 PLCT 实验室实习，进行 RISC-V 底层软硬件相关工作，给 Linux Kernel、GCC、QEMU、gem5、FireSim、OpenSSL、XiangShan、Rocket-Chip 等上游项目贡献过 RISC-V 相关功能实现、Bug 修复、性能优化在内的补丁；为第一款量产的 RISC-V Vector 1.0 开发板——嘉楠 K230 提交了 Linux 主线内核支持并进入 RuyiSDK 为 RISC-V Vector 软件开发者提供便利；修复过 2 处 RISC-V ISA 手册存在的模棱两可问题；完成多次 RISC-V 软硬件技术相关的技术报告。
