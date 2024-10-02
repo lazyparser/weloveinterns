@@ -553,27 +553,6 @@ Linker的移植从简单到复杂，先支持静态链接（static linking），
 - 有基本的RTOS的学习积累。
 - LV2
 
-### BJ111 TH1520 U-Boot 移植实习生 (暂停招聘)
-
-岗位介绍：
-
-TH1520有一个vendor uboot 需要移植到主线uboot 并提交到主线
-
-实习内容：
-
-- 移植vendor uboot开源部分功能到主线uboot 并提交给主线
-
-岗位要求：
-
-1. 基础能力 LV3 及以上，熟练使用c语言。
-2. 拥有 lpi4a/ahead/meles 开发板（必须）。
-3. 可以流畅书写和阅读英文。
-4. 有 u-boot 相关开发经验者优先。
-
-参考uboot链接：
-
-https://github.com/revyos/thead-u-boot/tree/thead-sdk
-
 ### BJ110 LLVM Flang 开发实习生 (20240720 开放 20 名)
 
 岗位介绍：
@@ -1188,3 +1167,4 @@ LV3+，能进行英语交流，对编译技术有基本了解。
 - NJ55 开源EDA实习生【暂停招聘】
 - NJ57 Android(AOSP) RISC-V 移植开发实习生【停止招聘】
 - BJ112 QEMU RISC-V 开发实习生 【结束招聘：任务完成】
+- BJ111 TH1520 U-Boot 移植实习生
