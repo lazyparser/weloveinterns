@@ -1031,20 +1031,6 @@ https://github.com/DynamoRIO/dynamorio/issues/3544
 
 [1] https://github.com/mono/mono/blob/main/docs/riscv.md
 
-
-### BJ58 libcxx-simd 项目实习生招聘 (20240101 开放 5 名)
-
-工作内容：
- 参与 libcxx-simd 项目开发与测试相关工作。 experimental/simd 是一个为 C++ 显式数据并行编程提供零开销 C++ 类型的库，该库已经被包含进GCC官方的 libstdc++ 库。PLCT正尝试将其移植到 Clang/LLVM 官方的 libcxx 库中。
-
-要求：
-- 熟练使用C++，熟悉C++模板元编程及C++11/14/17新特性。
-- 了解libstdc++/libc++库的使用与开发流程。
-- 具备SIMD指令集相关基础知识，了解至少一种SIMD指令集及其intrinsic（SSE、AVX、AVX512、Arm Neon、PowerPC AltiVec）。
-- 具备基本的Linux操作基础和基本的git操作基础。
-
-远程实习。要求LV3及以上能力。
-
 ### BJ37 GCC 开发实习生(20240101 开放 10 名)
 
 工作内容
@@ -1139,3 +1125,4 @@ LV3+，能进行英语交流，对编译技术有基本了解。
 - HZ48 Chisel 开发实习生
 - BJ32 Dart for RISC-V 开发实习生【暂停招聘：缺少mentor & 无人投简历】
 - BJ15 QEMU/Spike 开源模拟器开发实习生【暂停招聘：缺少mentor】
+- BJ58 libcxx-simd 项目实习生招聘【结束招聘：任务完成】
