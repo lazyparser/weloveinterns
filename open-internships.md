@@ -1100,12 +1100,13 @@ PLCT实验室2022年路线图中包含了移植DartVM到RISC-V架构，但是一
 - 需要熟悉 JavaScript 语言。如果看过 WebAssembly 加分。
 - 远程实习，不需要坐班。
 
-### BJ45 MLIR 开源开发实习生【暂停招聘】
+### BJ45 MLIR 开源开发实习生 aka Buddy Compiler 开发（20241002 新开放50名）
 
 我们相信MLIR将会成为未来编译器框架的实施标准。因此从2021年开始，PLCT实验室将 MLIR 列入了「关键开源基础设施」名单，已经跟 LLVM、GCC 一样成为PLCT实验室的长期管理对象。
 
 工作内容：
 - 参与PLCT实验室 MLIR 相关开源项目的开发。
+- 参与 Buddy Compiler 开发。
 
 入职要求：
 - LV3+，能进行英语交流，对编译技术有很好的了解。对 MLIR 项目有浓厚的兴趣。
