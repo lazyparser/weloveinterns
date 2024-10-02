@@ -553,18 +553,6 @@ Linker的移植从简单到复杂，先支持静态链接（static linking），
 - 有基本的RTOS的学习积累。
 - LV2
 
-### BJ112 QEMU RISC-V 开发实习生 【缺乏mentor，欢迎自带proposal投递】
-
-岗位介绍：
-- 参与 PLCT 实验室在 QEMU 开源项目的开发。在开源社区直接提交代码。
-
-实习内容：
-- 使 QEMU 的riscv64-linux-user模式能解析 ELF32 格式可执行文件并正确运行。
-
-入职要求：
-- LV2+，对模拟器的内部实现有兴趣。
-- 远程实习，不需要坐班。
-
 ### BJ111 TH1520 U-Boot 移植实习生 (暂停招聘)
 
 岗位介绍：
@@ -1199,3 +1187,4 @@ LV3+，能进行英语交流，对编译技术有基本了解。
 - NJ53a openEuler RISC-V 操作系统构建实习生【暂停招聘】
 - NJ55 开源EDA实习生【暂停招聘】
 - NJ57 Android(AOSP) RISC-V 移植开发实习生【停止招聘】
+- BJ112 QEMU RISC-V 开发实习生 【结束招聘：任务完成】
