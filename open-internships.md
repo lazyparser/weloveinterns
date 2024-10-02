@@ -1,16 +1,16 @@
-# 实习生岗位
+# 甲辰计划开源实习生联合招聘及培养
 
-## 背景介绍
+## We Love Interns 仓库演化介绍
 
-本页面目前主要包含甲辰计划开源实习生联合招聘计划的岗位信息，同时也包含了PLCT实验室的所有实习生招聘信息。本仓库（weloveinterns）2017年建立，一开始是创始人（lazyparser）为了吸引更多潜在实习生加入、同时为实习生提供成果展示的机会。后来随着团队的发展、剥离、合并，逐渐成为多个不同公司和研究团队、社会群体共享的实习生招聘信息和培训信息集散地。2019年PLCT实验室正式成立之后，逐步成为PLCT实验室的官方招聘页面；2024年甲辰计划开始之后，成为甲辰计划的招聘页面。这个项目的衍生下游，例如苦芽科技的 [kuloveinterns](https://github.com/kubuds/kuloveinterns/)，共同构成了实习生社区的一部分。
+本仓库目前主要包含甲辰计划开源实习生联合招聘计划的岗位信息，同时也包含了PLCT实验室的所有实习生招聘信息。本仓库（weloveinterns）2017年建立，一开始是创始人（lazyparser）为了吸引更多潜在实习生加入、同时为实习生提供成果展示的机会。后来随着团队的发展、剥离、合并，逐渐成为多个不同公司和研究团队、社会群体共享的实习生招聘信息和培训信息集散地。2019年PLCT实验室正式成立之后，逐步成为PLCT实验室的官方招聘页面；2024年甲辰计划开始之后，成为甲辰计划的招聘页面。这个项目的衍生下游，例如苦芽科技的 [kuloveinterns](https://github.com/kubuds/kuloveinterns/)，共同构成了实习生社区的一部分。
 
-## 甲辰计划
+## 关于甲辰计划开源实习生联合培养
 
-参见 [甲辰计划主理人发起开源实习生联合招聘培养项目](https://mp.weixin.qq.com/s/TenVAVzaWuUWGIWodGaFKA)
+详细背景介绍请移步《[甲辰计划主理人发起开源实习生联合招聘培养项目](https://mp.weixin.qq.com/s/TenVAVzaWuUWGIWodGaFKA)》。
 
 > 2024年6月8日，甲辰计划主理人吴伟向甲辰计划成员单位发布【开源实习生联合招聘培养】新项目。这个项目的动机和出发点是「成员单位用最小的金钱和管理资源投入，完成对就自己企业有用的RISC-V生态建设目标的加速」，充分结合甲辰计划主理人在过去10年的大规模实习生培养经验，依托PLCT实验室在开源社区领域已经建立的工作积累，自甲辰龙年开始，每年开放超过2000名实习名额，并招募超过1000人次的学生参与实习。
 
-## PLCT实验室（PLCT Lab）
+## 关于PLCT实验室（PLCT Lab）
 
 PLCT全称是程序语言与编译技术实验室，隶属于中国科学院软件研究所（ISCAS）智能软件研究中心（ISRC）。PLCT实验室致力于成为编译技术领域的开源领导者，推进工具链及运行时系统等软件基础设施的技术革新，具备主导开发和维护重要基础设施的技术及管理能力。与此同时，致力于培养一万名编译领域尖端人才，推动先进编译技术在国内的普及和发展。
 
@@ -18,14 +18,32 @@ PLCT全职员工的招聘可以从 [PLCT-Weekly 仓库找到](https://github.com
 **请注意自从 2023 年 6 月开始 PLCT 实验室开始经历创立以来的第一次大裁员，一直执行严格的财务收缩政策，目前全职入职的几率非常小。**
 如果你是即将毕业的应届生，欢迎按照下属方式投递简历，应届生也可以走实习生的招聘通道。但是录取率同样很低。
 
+## 关于苦芽科技（含「赛博酸橙」小队）
+
+苦芽科技是2023年6月PLCT实验室第一次大裁员之后成立的初创公司，联合创始人李威威是前PLCT实验室模拟器团队主管，联合创始人王俊强是PLCT实验室操作系统团队TARSIER团队主管（TARSIER团队已经于2023年6-8月解散）。苦芽科技的建立参见 [苦芽成立通告](https://mp.weixin.qq.com/s/u_-5x-WeZlsWm39NykM80w)。
+
+酸橙小队是另一组2023年6月PLCT实验室第一次大裁员之后被剥离的小队，在短暂的独立运营半年之后，于[2024年4月并入苦芽科技](https://mp.weixin.qq.com/s/F61y53BnISjrRCBbqvlYTg)作为子部门运营。酸橙小队同时是「RISC-V软件移植与优化锦标赛」的承办组织团队。
+
+苦芽科技与PLCT实验室同根同源，在甲辰计划主理人发起开源实习生联合培养项目后即宣告加入，提供多个实习岗位和不少于200名实习名额用于开源贡献。
+
+## 开源联合实习的合同签署说明
+
+- 首次签署实习合同为三个月，实习生随时可以加入和退出，实习证明以合同生效至实际退出之日为准。
+- 首次签署实习为开源远程实习。PLCT实验室是本次实习岗位的培养承担组织。
+- 实习期满之后实习生可以自由与甲辰计划成员企业协商续签，本实习对后续实习合同没有制约关系，实习形式与内容由用人单位和实习生双方自行协定。
+
+## 开源联合实习的女性等少数群体STEM支持
+
+- 甲辰计划联合实习生提供至少 20% 岗位数量为女性工程师预留。PLCT实验室、苦芽科技为女性等少数群体预留 50% 名额。
+
 ## 如何正确的投递简历
 
 在投递简历之前最好对我们有更多一点了解。以下是阅读材料：
 
-- [极简项目管理](https://github.com/lazyparser/minimalist-team-leader) 是目前PLCT实验室的管理方式，实习生也在管理范围内。请先阅读。
-- [我们如何进行实习生招聘](https://github.com/lazyparser/weloveinterns/blob/master/how-do-we-interview-interns.md)
-- [我们如何对实习生进行能力评定和培养](https://github.com/lazyparser/weloveinterns/blob/master/how-do-we-rank-interns.md)
-- [实习生生存手册](https://github.com/lazyparser/survivial-manual-for-interns) （目前还在撰写中，欢迎围观和贡献。）
+- 《极简项目管理》：[git-repo](https://github.com/lazyparser/minimalist-team-leader) 、[公众号发表](https://mp.weixin.qq.com/s/vOWYchggz279ya3fkBIhug)。吴伟撰写的目前PLCT实验室的管理方式，甲辰计划开源联合实习生的管理也遵循同样模式。请先阅读本书已熟悉风格和要求。
+- 《我们如何进行实习生招聘》：[git-repo](https://github.com/lazyparser/weloveinterns/blob/master/how-do-we-interview-interns.md)、[微信阅读](https://mp.weixin.qq.com/s/QinGYb685c1EsOfsbEy4tg)。
+- 《我们如何对实习生进行能力评定和培养》[repo](https://github.com/lazyparser/weloveinterns/blob/master/how-do-we-rank-interns.md)、[微信阅读](https://mp.weixin.qq.com/s/lt9kdMp5WNSHcH3uBHG_ZA)。
+- 《实习生存手册（烂尾版）》：[git-repo](https://github.com/lazyparser/survivial-manual-for-interns) 目前还在撰写中，随便看看。
 
 阅读之后，接下来就可以发邮件了。以下内容请认真阅读。不符合条件邮件不会收到回复。
 
