@@ -1045,16 +1045,6 @@ https://github.com/DynamoRIO/dynamorio/issues/3544
 
 远程实习。要求LV3及以上能力。
 
-
-### BJ15 QEMU/Spike 开源模拟器开发实习生(20240211 开放 5 名)
-
-工作内容：
-- 参与PLCT实验室在QEMU、Spike等相关开源项目的开发。在开源社区直接提交代码。
-
-入职要求：
-- LV3+，对模拟器的内部实现有兴趣。
-- 远程实习，不需要坐班。
-
 ### BJ37 GCC 开发实习生(20240101 开放 10 名)
 
 工作内容
@@ -1148,3 +1138,4 @@ LV3+，能进行英语交流，对编译技术有基本了解。
 - BJ111 TH1520 U-Boot 移植实习生
 - HZ48 Chisel 开发实习生
 - BJ32 Dart for RISC-V 开发实习生【暂停招聘：缺少mentor & 无人投简历】
+- BJ15 QEMU/Spike 开源模拟器开发实习生【暂停招聘：缺少mentor】
