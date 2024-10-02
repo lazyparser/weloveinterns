@@ -843,29 +843,6 @@ DynamoRIO 是一个运行时的二进制动态插桩系统，广泛地用于程�
 - 加分项：具有开源项目开发经验，为 OpenCV 或其他开源社区提交过代码
 - 加分项：了解SIMD编程模型，使用Intrinsic编写过向量化代码（SSE / AVX / NEON / RVV 等）
 
-### BJ75 OpenJDK 实习生（Lilliput、RISC-V） (20240101 开放 5 名)
-
-ISCAS Intern Job Description
-
-Add support for Openjdk Lilliput on 64-bit RISC-V
-
-Openjdk Lilliput Project: https://openjdk.org/projects/lilliput/
-
-The goal of this Project is to explore techniques to downsize Java object headers in
-the Hotspot JVM from 128 bits to 64 bits or less, reducing Java's memory footprint.
-Improved performance across most, if not all, workloads is also expected.
-
-Currently only supports x64 and aarch64 platforms.
-
-Target:
-- Port this feature to Linux RISC-V 64-bit platform.
-- Pass jtreg tier1-4 regression tests on Linux RISC-V 64-bit HiFive Unmatched board.
-- Demonstrate effect on CPU and/or memory usage for Java benchmarks like SPECjvm2008, SPECjbb2015, etc.
-
-报名要求：
-1. LV3+
-2. 熟练构建 OpenJDK，看过 OpenJDK 内部实现，调研 Lilliput。
-
 ### BJ74 编译器性能评测实习生 （20241002 开放2名）
 
 岗位名称：
@@ -1111,3 +1088,4 @@ LV3+，能进行英语交流，对编译技术有基本了解。
 - BJ15 QEMU/Spike 开源模拟器开发实习生【暂停招聘：缺少mentor】
 - BJ58 libcxx-simd 项目实习生招聘【结束招聘：任务完成】
 - BJ65 DynamoRIO 开发实习生（负责 RISC-V 移植及优化）【结束招聘：任务完成】
+- BJ75 OpenJDK 实习生（Lilliput、RISC-V）【结束招聘：无人投简历】
