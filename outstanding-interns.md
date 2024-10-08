@@ -57,6 +57,8 @@
 
 让我们为TARSIER建立以来的第二位LV4实习生，献上表情包祝贺🎊
 
+更多信息参见 [甲辰人才背书016号](https://github.com/rv2036/jiachen-builders-network/blob/main/pool/016-WANG-Yiqiao.md)
+
 2022-11-08
 
 ### LV4 陆言/Robin
