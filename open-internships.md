@@ -94,7 +94,30 @@ PLCT全职员工的招聘可以从 [PLCT-Weekly 仓库找到](https://github.com
 
 ## 开放岗位列表
 
-(Next Job ID: 132)
+(Next Job ID: 137)
+
+### J136 RVV 大模型开发实习生
+
+#### 岗位介绍
+
+为以下两个项目实现 RISC-V Vector v1.0 的移植与优化：
+
+- [whisper.cpp](https://github.com/ggerganov/whisper.cpp)
+- [llama.cpp](https://github.com/ggerganov/llama.cpp)
+
+参考现有的 AArch64（ggml-aarch64.c）实现，完成 RVV 的相关适配与优化，尤其关注性能提升。
+
+#### 工作内容
+
+- 负责将 whisper.cpp 和 llama.cpp 移植到 RISC-V 架构上，实现 RISC-V Vector v1.0 支持。
+- 与上游维护者沟通，推动代码合入上游。
+
+#### 岗位要求
+- 能力等级 LV3+。
+- 该岗位的 mentor 没有 whisper.cpp / llama.cpp 的实际贡献经验，因此我们要求实习生本身有很强的兴趣和自驱力。
+- 有任意主流架构的汇编代码 / SIMD intrinsics 编写经验。
+- 具备较强的代码分析和问题解决能力，能够在英文开源社区中进行有效沟通。
+- 对开源贡献有极大的兴趣，具备较强的自驱力与责任心，能够独立推动项目进展。
 
 ### J131 libultrahdr RISC-V 开发实习生【甲辰计划联合实习生培养】
 
