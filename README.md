@@ -29,3 +29,8 @@ PLCT实验室隶属于中国科学院软件研究所（ISCAS）[智能软件研�
 ## 参考链接
 
 - PLCT Lab 维护了着自己的月刊：[PLCT开源进展](https://github.com/plctlab/PLCT-Weekly)。如果想来PLCT实验室，请务必提前阅读。
+
+## 三年及更早之前的数据
+
+由于时效性和正确性等原因，2024年10月份本仓库删除了2021年及更早的一些实习生调研报告等。如果您感兴趣或想要查找自己提交过的报告，可以 clone 本仓库并 '
+`git checkout -b old-happy-time 664048d87ae7cb2510689da17e04d86027dc27c1` 得到。也可以 [直接GitHub上查看](https://github.com/plctlab/weloveinterns/tree/664048d87ae7cb2510689da17e04d86027dc27c1)。

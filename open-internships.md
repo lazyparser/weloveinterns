@@ -71,9 +71,9 @@ PLCT全职员工的招聘可以从 [PLCT-Weekly 仓库找到](https://github.com
 
 技术岗位（开发、测试、助教）需要满足的：
 
-- 技术岗位默认要求能力等级达到LV2及以上。参见：[我们如何面试实习生](https://github.com/lazyparser/weloveinterns/blob/master/how-do-we-interview-interns.md)，[我们如何给实习生评级](https://github.com/lazyparser/weloveinterns/blob/master/how-do-we-rank-interns.md)。
-- 熟练使用 Linux 命令行，并且能够写简单的 Bash 脚本。参考 [linux技能表](archives/capabilities/linux-checklist.md)。
-- 熟练使用 git 进行团队合作。参考 [git技能列表](archives/capabilities/git-checklist.md)。
+- 技术岗位默认要求能力等级达到LV2及以上。
+- 熟练使用 Linux 命令行，并且能够写简单的 Bash 脚本。
+- 熟练使用 git 进行团队合作。
 - 知道如何描述 bugs/issues 以及礼貌地向其他人求助，做到尽量不浪费他人的时间，将复现 bug 需要的信息提供完整。
 - 加分：自学了 RISC-V 指令集，包括 RV32GC 和 RV64GC。在自己的电脑上部署运行起来QEMU-RISCV64以及Spike模拟器。
 - 加分：对于网络知识有基本了解并熟练使用，例如SSH任意端口登陆、Port Forwarding、反向链接、ProxyCommand 等配置自行掌握。
@@ -82,7 +82,7 @@ PLCT全职员工的招聘可以从 [PLCT-Weekly 仓库找到](https://github.com
 
 - 喜欢跟人打交道。能够倾听。能够观察和共情到他人的情感和需求。主动沟通。
 - 对外界有强烈的好奇心。
-- 可选：能看懂简单的Python程序。参考 [python技能表](archives/capabilities/python-checklist.md)。
+- 可选：能看懂简单的Python程序。
 - 可选：最好是有GitHub账号，知道如何开新分支，提交PR。这个如果不知道可以看看GitHub官网的帮助，很详细。
 - 可选：具备网站制作、社区运营、公众号运营、社团组织、活动策划、美工设计等技能可以加分。
 

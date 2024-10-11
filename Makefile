@@ -1,6 +1,4 @@
-all: publish
+all:
+	echo "We Love Interns!"
 
-publish:
-	git remote | xargs -I{} git push {} master
-
-.PHONY: all publish
+.PHONY: all
