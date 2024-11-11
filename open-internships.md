@@ -181,7 +181,7 @@ LLMs的推理能力使他们能够执行多个函数调用，使用用户提供�
 - 在ASPLOS，HPCA，ISCA，MICRO，OSDI，PLDI，SOSP，POPL，CGO等系统领域顶级会议上发表过论文的额候选人优先。
 
 
-### J143 RevyOS小队测试实习生
+### J143 RevyOS小队测试实习生（20241111开放100名）
 
 #### 岗位介绍
 
