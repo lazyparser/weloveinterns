@@ -100,7 +100,42 @@ PLCT全职员工的招聘可以从 [PLCT-Weekly 仓库找到](https://github.com
 
 ## 开放岗位列表
 
-(Next Job ID: 146)
+(Next Job ID: 147)
+
+### J146 OpenCV RISC-V 向量扩展移植与优化实习生
+
+#### 岗位介绍
+
+该岗位旨在优化 OpenCV 在 RISC-V 向量扩展 (RISC-V Vector, RVV) 平台上的性能表现。
+OpenCV 是世界上规模最大、应用最为广泛的开源计算机视觉算法库，包含 2500 多种算法。
+为了优化算法库在 CPU 上的性能，OpenCV 支持多种 SIMD 或向量架构，包括SSE2-SSE4.2, AVX2, AVX512 (x86); NEON (ARM); RVV (RISC-V)。而为了避免编写和维护同一优化算法面向多个平台的副本, 社区在平台特定的 Intrinsic 函数之上封装了 Universal Intrinsic。
+然而，某些内核函数对性能非常关键，并且可以使用其他平台上不存在的一些特定于硬件的指令来最有效地实现它们。在这种情况下，Universal Intrinsic 方法将不起作用。相反，应该为此类性能关键型内核引入平台特定的优化。
+RVV 的向量特性让我们有机会去进一步优化这些关键函数的性能，这就是我们想做的事情。
+具体来说，需要使用 RVV 的平台特定 Intrinsic 函数为 OpenCV 中的核心函数实现特定优化。并在不同硬件设备上开展性能分析，据此进一步采用循环展开、寄存器分组等方法深入调优。
+
+
+#### 实习内容
+
+- 参考现有的 ARM Neon (opencv/3rdparty/carotene) 优化实现，补充和完善 RVV (opencv/3rdparty/hal_rvv/hal_rvv_1p0) 优化。
+- 使用 RISC-V 开发板**评估**性能优化效果。
+- 使用 ARM 开发板**对比**优化效果。
+
+#### 参考资料
+
+- OpenCV 代码仓库: https://github.com/opencv/opencv
+- RVV Intrinsic: https://github.com/riscv-non-isa/rvv-intrinsic-doc
+- OpenCV 中 ARM Neon 特定优化实现：https://github.com/opencv/opencv/tree/4.x/3rdparty/carotene
+- OpenCV 中 RVV 特定优化实现：https://github.com/opencv/opencv/tree/4.x/3rdparty/hal_rvv
+- 用于开展性能评估的开发板： CanMV-k230 (RVV, VLEN=128), SpacemiT Muse Pi (RVV, VLEN=256) 和 ATOMPI-CA1 (ARM A55), 以上设备均由此岗位的 mentor 提供远程访问。
+
+#### 岗位要求
+
+- 学习过 C++ 编程，了解使用 Intrinsic 编写向量优化代码的方法。
+- 熟悉 RISC-V 指令集架构，能够部署和使用 RISC-V GNU 工具链和 QEMU 模拟器。
+- 具备较强的代码分析和问题解决能力，能够使用 GDB 等工具调试 RISC-V 程序。
+- 加分项：拥有使用 OpenCV 进行项目开发的经历，熟悉计算机视觉算法。
+- 加分项：具备任意架构的 SIMD intrinsics 开发经验。
+- 加分项：对开源贡献有较高热情，能够使用英文在开源社区中沟通交流。
 
 ### J145 基础库 RISC-V 移植与优化开发实习生（20241119开放2名）
 
