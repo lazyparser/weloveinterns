@@ -201,7 +201,7 @@ LLMs的推理能力使他们能够执行多个函数调用，使用用户提供�
 - 陈云霁老师组：AutoOS: Make Your OS More Powerful by Exploiting Large Language Models
 - 陈海波老师组：
 
-    ![IMG_5181.HEIC](img/P144//IMG_5181.heic)
+    ![IMG_5181.HEIC](img/jd144/IMG_5181.heic)
 
 
 #### **岗位描述**
