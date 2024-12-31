@@ -1165,6 +1165,10 @@ eunomia-bpf 社区是一个致力于探索、改进、扩展 eBPF 相关开发�
 
 RT-Thread诞生于2006年，是一款以开源、中立、社区化发展起来的物联网操作系统。 RT-Thread主要采用 C 语言编写，浅显易懂，且具有方便移植的特性（可快速移植到多种主流 MCU 及模组芯片上）。RT-Thread社区是一个开放、开源的社区。RT-Thread拥有非常丰富的软件包，基于这些软件包可以快速构建产品原型。并且拥有较好的POSIX接口支持，可方便的移植Linux应用。为了更好的服务蓬勃发展的RISC-V生态，我们期望可以将RT-Thread已有的软件生态都很好的对接到RISC-V平台上。同时，RT-Thread Smart微内核系统支持用户态应用程序，rootfs等的构建程序，后面也会积极推进Smart for riscv 版本,也欢迎大家积极参与进来！
 
+自2025年1月1日起，持有「嵌入式系统设计工程师-实时操作系统(RT-Thread）认证」的同学优先，并免除上机考试环节。
+
+关于上述认证的介绍网页参见： http://www.eetalent.com.cn/certificationexam
+
 RT-Thread相关的工作可以分为三类：A类（MCU）、B类(Smart)、C类(libc)
 
 #### A类（MCU）-工作内容：
