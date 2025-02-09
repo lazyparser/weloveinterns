@@ -108,6 +108,31 @@ MoonBit 编程创新挑战赛是由粤港澳大湾区数字经济研究院（福
 
 (Next Job ID: 149)
 
+### J149 CIRCT-LLHD 实习生（20250209 开放1名）
+
+职位描述：
+
+将 LLHD 方言融入到 Arcilator 中：LLHD方言目前仅服务于 SystemVerilog 技术路线，如下： SystemVerilog --- 由slang前端编译器处理 ---> Json格式的AST --- 再由 ImportVerilog Pass 处理 ---> Moore IR --- 再经过 MooreToCore Pass 处理---> Core IR（包括HW、Seq、Comb方言） 与 LLHD IR。
+在 SystemVerilog 技术路线中，原本由Seq方言负责的时序逻辑相关的转换，目前由LLHD方言全权负责。而因 LLHD 方言目前不被 Arcilator 处理，故需要将 LLHD 方言接入到A rcilator 中。
+
+这是由兆松科技提供外部 mentor 指导的甲辰计划联合培养实习岗位。
+
+实习要求：
+
+- 扎实的数据结构基础知识，熟练掌握C++，熟练使用C++ STL，最好了解STL实现原理。
+- 申请者至少需要保证每周投入到项目的时间不少于20小时，不少于半年的连续投入。
+- 熟练使用Linux，会编写shell脚本。
+- 学习过数字电路，以及最好有编译原理基础知识。
+- 足够自信的英语阅读和书写能力，需要和上游无障碍沟通。
+- 有LLVM/CIRCT/MLIR开发经验者优先考虑。
+- LV3+ 及以上能力等级。
+
+参考信息：
+
+- slang仓库: https://github.com/MikePopoloski/slang
+- Moore仓库: https://github.com/fabianschuiki/moore
+- CIRCT: https://circt.llvm.org/
+
 ### J148 RISC-V 自动化测试与性能分析平台开发与运维实习生
 
 #### 岗位介绍
