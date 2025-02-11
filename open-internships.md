@@ -133,7 +133,7 @@ MoonBit 编程创新挑战赛是由粤港澳大湾区数字经济研究院（福
 - Moore仓库: https://github.com/fabianschuiki/moore
 - CIRCT: https://circt.llvm.org/
 
-### J148 RISC-V 自动化测试与性能分析平台开发与运维实习生
+### J148 RISC-V 自动化测试与性能分析平台开发与运维实习生（已满，暂停招聘）
 
 #### 岗位介绍
 
