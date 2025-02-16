@@ -937,7 +937,11 @@ RISC-V 已经开始进入机器人领域，基于 RISC-V 主控芯片的 ROS 小
 额外说明事项：
 - 实习劳务费每个月根据产出浮动，浮动区间 0k - 5k，大多数学生正常产出一般是税前 2k-3k 之间。不算高。 **完成（merge）有点厉害的 upstream 任务则另外以 5k 为单位叠加**
 
-### BJ116 Gold Linker RISC-V 移植实习生（20240427 开放1名）
+### BJ116 Gold Linker RISC-V 移植实习生（因 Gold Linker 退出历史舞台而撤销）
+
+Update 20250217:
+
+Ohh my gold: GNU Binutils 2.44 was released, notably [depreciated the gold linker](https://lists.gnu.org/archive/html/info-gnu/2025-02/msg00001.html).
 
 **任务描述**
 
