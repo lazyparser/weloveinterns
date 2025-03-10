@@ -235,7 +235,7 @@ RuyiSDK 是中国科学院软件研究所正在开发的面向 RISC-V 开发人�
 - 加分：如果在学习过程中参与完善了 MoonBit 的文档、甚至帮助 MoonBit 的编译器定位和修复 Bugs 都可以获得加分。
 - 加分：熟悉 RISC-V 架构，手里有 RISC-V 开发板，跑起来 Linux on RISC-V。
 
-### J146 OpenCV RISC-V 向量扩展移植与优化实习生
+### J146 OpenCV RISC-V 向量扩展移植与优化实习生（暂时满员，停止招聘）
 
 #### 岗位介绍
 
