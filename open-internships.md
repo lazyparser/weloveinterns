@@ -1179,7 +1179,7 @@ mentor：
 3. 了解 benchmark 的方法学，熟悉创建测试集，比如 spec cpu 2006, coremark 等。
 4. 熟练使用 llvm-test-suite，对其实现过外部 benchmark 扩展功能支持的优先。
 
-### BJ73 SystemVerilog编译器工程师(slang to mlir), （进行中，名额 1）
+### BJ73 SystemVerilog编译器工程师(slang to mlir), （20250311 开放 1 名）
 
 (NOTE: 这是由兆松科技提供外部mentor支持的联合培养实习岗位）
 
