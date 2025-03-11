@@ -1207,9 +1207,7 @@ mentor：
 - Moore仓库: https://github.com/fabianschuiki/moore
 - CIRCT: https://circt.llvm.org/
 
-
-
-### BJ72 eunomia-bpf intern (20240101 开放 2 名)
+### BJ72 eunomia-bpf intern （暂停招聘）
 
 (本岗位为外部社区联合贡献岗位，mentor来自 eunomia-bpf 社区。)
 
