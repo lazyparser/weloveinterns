@@ -1292,7 +1292,7 @@ RT-Thread相关的工作可以分为三类：A类（MCU）、B类(Smart)、C类(
 - 需要熟悉 JavaScript 语言。如果看过 WebAssembly 加分。
 - 远程实习，不需要坐班。
 
-### BJ45 MLIR 开源开发实习生 aka Buddy Compiler 开发（20241002 新开放50名）
+### BJ45 MLIR 开源开发实习生 aka Buddy Compiler 开发（20250311 开放 20 名）
 
 我们相信MLIR将会成为未来编译器框架的实施标准。因此从2021年开始，PLCT实验室将 MLIR 列入了「关键开源基础设施」名单，已经跟 LLVM、GCC 一样成为PLCT实验室的长期管理对象。
 
