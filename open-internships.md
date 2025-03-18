@@ -106,7 +106,24 @@ MoonBit 编程创新挑战赛是由粤港澳大湾区数字经济研究院（福
 
 ## 开放岗位列表
 
-(Next Job ID: 153)
+(Next Job ID: 154)
+
+### J153 arceos-hypervisor 开发实习生（20250318 开放 5 名）
+
+**工作内容**
+
+为 arceos-hypervisor 开源项目添加 RISC-V 相关的支持。
+
+开源社区方式工作，具体通过以下看板看具体的任务内容：
+
+- https://github.com/orgs/arceos-hypervisor/projects/1
+- https://github.com/orgs/arceos-hypervisor/projects/3
+
+本实习岗位为甲辰计划联合实习岗位，目前由 PLCT Lab 提供实习合同和实习费。
+
+**入职要求**
+- LV3 及以上，熟悉 Rust，基本了解操作系统实现原理，有兴趣深入挖掘 hypervisor 技术实现。
+- 良好的跨团队沟通能力和社区协作能力。
 
 ### P152 QEMU开源模拟器开发实习生(20250314 开放 1 名)
 
