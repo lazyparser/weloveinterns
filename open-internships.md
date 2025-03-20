@@ -106,7 +106,39 @@ MoonBit 编程创新挑战赛是由粤港澳大湾区数字经济研究院（福
 
 ## 开放岗位列表
 
-(Next Job ID: 155)
+(Next Job ID: 156)
+
+### J155 OpenCloudOS RISC-V 测试开发实习生（20250320 开放 18 名)
+
+本实习岗位为甲辰计划联合实习岗位，目前根据具体认领的任务，由苦芽科技、PLCT实验室等多家企业提供实习合同和实习费。
+
+#### 实习内容
+
+##### 开发
+
+- 跟踪 OpenCloudOS 在 RISC-V 架构的软件包构建情况并进行修复
+- 协助 OpenCloudOS 维护者调研、解决 RISC-V 相关 Issue
+- 构建并丰富OpenCloudOS 软件生态，参与 RISC-V SIG 组运作
+
+##### 测试
+
+- 在开发板、虚拟机安装和测试 OpenCloudOS RISC-V 镜像
+- 根据开发进度制定测试计划
+- 在OpenCloudOS Stream gitee仓库 新建并跟踪Issue
+- 输出测试报告和性能优化建议
+
+##### 推广RISC-V 影响力
+
+- 调研分析操作系统领域最新动向和前沿技术，结合RISC-V 实现应用落地
+- 参与本地或同城高校的 RISC-V 技术交流推广活动
+- 在自己的社区、论坛主动分享甲辰计划及其实习生计划
+
+#### 岗位要求:
+
+- 基础能力 Lv2 及以上。
+- 对 RISC-V 指令集有一定了解，对 RISC-V 生态建设感兴趣。
+- 对 Linux 发行版有一定使用经验，在开发板或者qemu中使用过包括但不限于 openEuler/Fedora/Debian 等发行版的 RISC-V 镜像。
+- 了解 CentOS、Fedora、openEuler等发行版的rpm包构建流程。
 
 ### J154 Web 全栈开发实习生 （20250318 开放 1 名）
 
