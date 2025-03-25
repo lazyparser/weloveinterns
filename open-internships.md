@@ -106,7 +106,48 @@ MoonBit 编程创新挑战赛是由粤港澳大湾区数字经济研究院（福
 
 ## 开放岗位列表
 
-(Next Job ID: 159)
+(Next Job ID: 160)
+
+### J159 RuyiSDK IDE 开发实习生（20250325 开放 5 名）
+
+**工作内容**
+
+RuyiSDK 是一款面向 RISC-V 开发者提供一站式服务的开源套件，RuyiSDK IDE 是基于 Eclipse 定制的面向 RISC-V 开发的图形化集成开发环境，目前该工具正在持续开发和滚动发布中。目前 RuyiSDK IDE 需要开发一系列的插件来满足更高程度的集成和用户的开发需求，如集成 ruyi （如意包管理器工具）安装多样化版本的编译器、模拟器等开发工具，集成和支持不同的 RISC-V 开发板 SDK ，智能化支持如高亮提示、自动补全等开发辅助功能等等。
+
+主要工作内容包括：
+
+1. 负责 Eclipse 插件模块的设计、实现与调试
+2. 参与基于 Eclipse 的 RISC-V 集成开发环境（IDE）的定制化开发和产品打包
+3. 参与嵌入式开发环境的功能优化和用户体验改进
+4. 编写相关使用文档、技术文档、测试用例
+
+**入职要求**
+
+- LV2 及以上，有非常强的学习能力；
+- 扎实的 Java 基础，能独立完成模块开发，熟悉 Eclipse 插件开发机制者优先；
+- [加分项] 了解嵌入式开发过程和基础（编译/调试/烧录等流程）；
+- [加分项] 具备产品思维，能从开发者视角优化 IDE 体验；良好的沟通能力和文档习惯；
+- 每周至少3天工作时间，持续3个月以上。
+
+**学习资源**
+
+- Eclipse插件开发官方文档
+
+  - 官网：
+    - https://www.eclipse.org/
+    - https://projects.eclipse.org/projects/technology.packaging
+  - 主要仓库：
+    - https://github.com/eclipse-embed-cdt/eclipse-plugins
+    - https://github.com/eclipse-packaging/packages
+  - 插件开发文档：
+    - [Platform Extension Points](https://help.eclipse.org/latest/topic/org.eclipse.platform.doc.isv/reference/extension-points/index.html?cp=2_1_1 "Extension Points Reference")
+    - [Eclipse Platform API Specification](https://help.eclipse.org/latest/topic/org.eclipse.platform.doc.isv/reference/api/overview-summary.html?cp=2_1_0 "API Reference")
+- 现有IDE项目代码库
+
+  - https://github.com/ruyisdk/ruyisdk-eclipse-packages
+  - https://github.com/xijing21/eclipse-plugins
+  - https://github.com/xijing21/eclipse-myplugins
+
 
 ### J158 南京 RISC-V Lab 运维实习生（20250323 开放 3 名）
 
