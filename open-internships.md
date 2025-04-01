@@ -1080,31 +1080,51 @@ RISC-V 已经开始进入机器人领域，基于 RISC-V 主控芯片的 ROS 小
 - Bonus2:对计算机组成原理以及对应的模拟器的实现有所了解。
 - Bonus3:有过ocaml语言编写历史或者C语言能力出众。
 
-### P119 RISC-V 测试实习生（蔡玮霖小队，RuyiSDK 测试方向）（20250311 开放 20 名）
+### P119 RISC-V 测试实习生（[蔡玮霖](https://github.com/weilinfox/)小队，RuyiSDK 测试方向）（20250311 开放 20 名）
 
-原第三测试小队。现主要负责 RuyiSDK 测试方向，包括 Ruyi 包管理器的测试和 Ruyi IDE 的测试； Ruyi 包管理器的打包。
+RuyiSDK 测试的职责范围包括但不限于：
 
-总目标：
++ Ruyi 包管理器的测试
++ Ruyi 包管理器的打包
++ Ruyi 软件包的测试
++ RuyiSDK IDE 的测试
++ ruyisdk.org 官网维护
 
-+ 测试目标：设计一套完善的系统测试流程，主要应用过程驱动测试和数据驱动测试。
-+ 打包目标：让 Debian/Ubuntu/Fedora/openEuler/Archlinux/Gentoo 使用各自的包管理器方便地安装和升级 Ruyi 包管理器。
+工作方向大体有三个方向，这里列出了每个方向都会在干哪些活：
 
-工作内容：
+1. 测试方向：
+    + RuyiSDK IDE 的 GUI 手动测试
+    + [ruyisdk.org](https://ruyisdk.org/) 的肉眼测试和内容搬运
+    + 向 ruyisdk.org 或关联 [discussions](https://github.com/ruyisdk/ruyisdk/discussions/) 区域贡献文档、博客、教程内容
+    + ruyisdk.org 官网内容翻译
+    + 对测试开发方向中自动生成的测试报告进行人工审核
+    + 该方向主要产出[测试报告](https://gitee.com/yunxiangluo/ruyisdk-test/) 和其他 paper work 类型的 pr
+2. 测试开发方向：
+    + Ruyi 包管理器的 [ruyi-litester](https://github.com/weilinfox/ruyi-litester) 测试，测试平台使用 [Jenkins](https://jenkins.inuyasha.love/job/ruyi-reimu-mugen-auto-test/)
+    + [packages-index](https://github.com/ruyisdk/packages-index/) 的测试，保证软件包版本能够跟随上游版本
+    + 与 packages-index 具有上下游关系的 [support-matrix](https://github.com/ruyisdk/support-matrix/) 部分的测试，跟踪同步情况
+    + 该部分测试是自动化的，需要维护自动化测试代码，并在测试中发现新的测试需求
+    + 将现有的手动测试转化为自动化测试，如果自动化有助于减少工作量
+    + 该方向主要产出代码，自动化生成[测试报告](https://gitee.com/yunxiangluo/ruyisdk-test/)，有时也需要贡献一点博客文档
+3. 前端方向：
+    + 更新和维护 [ruyisdk.org](https://ruyisdk.org/) 官网静态网页前端代码
+    + 设计和美化网页，适时更新网站内容
+    + 具体查看 [ruyisdk-website](https://github.com/ruyisdk/ruyisdk-website) 仓库
 
-写代码和做调研，产出物通常为代码、文档、 PPT。
-
-+ 测试用例开发。主要应用 [ruyi-mugen](https://github.com/weilinfox/ruyi-mugen) 和 [openQA](https://openqa.opensuse.org/)，了解 RuyiSDK 的测试目标，知道测试的目的是什么，改进测试用例、策略和流程。
-+ 测试框架调研。吸收新的测试框架或框架设计思想，以改进现有的测试流程，比如 [lit](https://llvm.org/docs/CommandGuide/lit.html)。
-+ 测试框架开发。测试使用的 ruyi-mugen 实际应用中很难提升测试覆盖率，设计新的测试框架在提升覆盖率的同时兼顾复杂的过程测试。
+面试考核根据测试开发方向和前端方向，内容有差异。
 
 岗位要求：
 
-+ LV2 及以上。在没有外界支援的情况下使用 Bash、 Python 两种程序语言完成开发工作，在使用其他语言开发时提供 Python 接口。
-+ 能够理解英文文档。没有硬性等级要求，但是要有这样的能力。
-+ 在 Linux 上工作程度的能力。能够使用单 Linux/MacOS 工作，能够以远程连接的方式在 Linux 主机/容器上工作，要熟悉常见的国内外 Linux 发行版。
-+ 知道什么是测试。了解软件测试的方法论，理解自动化测试的脚本生成，知道过程驱动测试、数据驱动测试、关键字驱动测试，能够在有限的算力下实现更高的测试效益。
-+ 了解软件包打包。能够为 Debian/Fedora 打出可用的软件包。
-+ 步调一致。微信（或其他通讯方式）响应速度快、自驱力强，有及时进行信息同步的意识。
++ LV2 及以上
++ 能够阅读和理解英文技术文档/网页，大学英语四级以上或日语 N2 及以上
++ 思维活跃，交流积极，响应消息及时
++ 对 RuyiSDK 生态系统感兴趣
++ 测试开发方向需熟悉 Bash 和 Python，独立完成脚本开发程度的能力
++ 测试开发方向需熟悉 Git 的使用，会 GitHub Workflow
++ 测试开发方向应当玩过搭载 RISC-V SoC 的开发板，或具有较多使用其他架构 SoC 开发板的经验
++ 测试开发方向需要平常在 Linux 上工作，Linux 单系统/双系统均可，有自己喜欢的发行版
++ 测试开发方向应用过 Ruyi 包管理器和其他 RuyiSDK 生态系统中的工具
++ 前端方向需要相关开发和设计能力，制作的网页美观且功能上符合需求
 
 ### P118 RISC-V 测试实习生（张馥媛小队，短视频教学普及方向）（20250311 开放 2 名）
 
