@@ -106,7 +106,32 @@ MoonBit 编程创新挑战赛是由粤港澳大湾区数字经济研究院（福
 
 ## 开放岗位列表
 
-(Next Job ID: 160)
+(Next Job ID: 161)
+
+### J160 Pydrofoil 开发实习生（20250609 开放 3 名）
+
+**工作内容**
+
+参与 PLCT 实验室在 Pydrofoil 相关开源项目的开发，在开源社区直接提交代码。
+
+包括但不限于
+
+- 为 Pydrofoil 探索更多依赖高性能模拟的使用场景，积极推广 Pydrofoil 在工程中的实践和应用
+- 探索方法提高基于 Pydrofoil 生成的 ISA 模拟器的性能，达到比肩或超越 Qemu 的水平
+- 为 Pydrofoil 添加 Sail 的新语法特性支持，持续跟进维护模拟器的更新
+- 输出相关文档、教程、演讲和论文，分享和扩大 Pydrofoil 的影响力，普及 Pydrofoil 相关知识和应用
+
+**入职要求**
+
+- LV3+，对 ISA 模拟器加速技术，PyPy JIT 即时编译技术有兴趣。
+- 远程实习，不需要坐班。
+
+**参考资料**
+
+- Pdrofoil 仓库: https://github.com/pydrofoil/pydrofoil
+- 论文: https://arxiv.org/abs/2503.04389
+- Sail ISA 规范语言: https://github.com/rems-project/sail
+- PyPy meta-tracing JIT: https://pypy.org/posts/2025/01/musings-tracing.html
 
 ### J159 RuyiSDK IDE 开发实习生（20250325 开放 5 名）
 
