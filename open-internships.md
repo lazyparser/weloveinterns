@@ -106,7 +106,25 @@ MoonBit 编程创新挑战赛是由粤港澳大湾区数字经济研究院（福
 
 ## 开放岗位列表
 
-(Next Job ID: 164)
+(Next Job ID: 165)
+
+### P164 Jeandle 开发实习生（开放 5 名）
+
+PLCT实验室开放 5 名实习生名额做本土新出现的 Java JIT 编译器项目 Jeandle。
+
+> Jeandle is a Just-in-Time compiler for Java. It is built on OpenJDK and leverages the LLVM compiler infrastructure to generate machine code, aiming to provide powerful compilation optimizations and deliver high-performance code.
+
+https://github.com/jeandle/jeandle-jdk
+
+#### 实习内容
+
+- 贡献代码。
+- 撰写文档、参与技术交流和演讲、线下活动教程培训等。
+
+#### 岗位要求
+
+- 能力等级 LV3 及以上。
+- 投递简历之前已经自学过 Jeandle 的源代码，熟悉 Java 和 LLVM。
 
 ### J163 VSCode 插件开发实习生（开放 10 名）
 
