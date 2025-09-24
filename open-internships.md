@@ -106,7 +106,25 @@ MoonBit 编程创新挑战赛是由粤港澳大湾区数字经济研究院（福
 
 ## 开放岗位列表
 
-(Next Job ID: 166)
+(Next Job ID: 167)
+
+### P166 Bao-Hypervisor 开发实习生（线上，5名）
+
+本岗位是 Bao Hypervisor 团队和PLCT实验室联合招聘。
+
+职责为Bao-Hypervisor[1]进行国产芯片平台适配，包括Bootstrap、设备驱动适配等，开发和使用平台BSP/MCAL，静态代码分析（Good To Have）。
+
+**技能与学历要求**
+- LV3及以上，对底层计算机编程有浓厚兴趣；
+- 熟练使用Git，SSH，Bash Script 等不同小工具提升效率；
+- 具备操作系统、调度与实时系统的知识；
+- 熟悉 C 和汇编语言；
+- 扎实的计算机架构与处理器知识；
+- 基本了解 Linux 内核，且愿意接触其他操作系统内核；
+- 基本了解硬件调试接口，硬件调试器等；
+- 计算机工程、电气工程或计算机科学的学士、硕士学位。
+
+[1] https://github.com/bao-project/bao-hypervisor/tree/main/src
 
 ### A165 AI 算法实习生（西安，全志）
 
