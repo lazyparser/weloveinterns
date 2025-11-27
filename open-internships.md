@@ -174,7 +174,7 @@ https://github.com/jeandle/jeandle-jdk
 - 能力等级 LV3 及以上。
 - 投递简历之前已经自学过 Jeandle 的源代码，熟悉 Java 和 LLVM。
 
-### J163 VSCode 插件开发实习生（开放 1 名）
+### J163 VSCode 插件开发实习生（暂时已满）
 
 #### 岗位介绍
 
