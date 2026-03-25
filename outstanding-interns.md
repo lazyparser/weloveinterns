@@ -6,6 +6,12 @@
 
 ## LV4+ Interns （大能力者和超能力者）
 
+### LV5 任鹏飞（kxxt）
+
+任鹏飞（kxxt）是中国科学技术大学网络空间安全学院硕士研究生。他热爱自由开源软件（FOSS），积极参与并贡献于多个开源项目。在RISC-V生态系统中，他为 Arch Linux RISC-V 提供了大量软件包的维护和适配工作，并主导或参与了 Electron、Chromium 等大型项目的 RISC-V 移植、优化、长期维护工作（riscv-forks 系列[1]），是RISC-V开源基础设施建设的重要贡献者。
+
+更多信息参见 [甲辰人才背书018号](https://github.com/rv2036/jiachen-builders-network/blob/main/pool/018-REN-Pengfei.md)
+
 ### LV4+ 王炳臻
 
 王炳臻是 LuaJIT RISC-V Porting 维护者、PLCT实验室实习生，目前在南方科技大学攻读学士学位。在PLCT实验室实习期间，王炳臻一直从事编译器和 Linux 发行版维护工作，其中最引人注目的项目是将 LuaJIT 移植到 RISC-V 架构，尽管这项任务非常深奥，但质量很高。王炳臻在编译器领域表现出了非凡的兴趣和学习能力，并就该主题发表了令人印象深刻的公开演讲。
