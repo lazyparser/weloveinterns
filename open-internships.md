@@ -112,7 +112,7 @@ MoonBit 编程创新挑战赛是由粤港澳大湾区数字经济研究院（福
 
 ## 开放岗位列表
 
-### S176 市场运营 / 品牌增长运营（1人，需要在深圳公司坐班）
+### S176 市场运营 / 品牌增长运营（暂停招聘，需要在深圳公司坐班）
 
 工作地点：深圳宝安区西乡地铁站B口旁，蘅芳科技大厦
 
@@ -150,7 +150,7 @@ MoonBit 编程创新挑战赛是由粤港澳大湾区数字经济研究院（福
 - 能判断什么内容值得传播；
 - 能在资源有限的情况下把事情做出来；
 
-### S175 PicoClaw 社区运营增长经理（1人，默认需要在深圳公司坐班）
+### S175 PicoClaw 社区运营增长经理（暂停招聘，默认需要在深圳公司坐班）
 
 **项目介绍**
 
@@ -244,7 +244,7 @@ ECOS Studio：集成整个ECOS团队的成果，形成一套IDE工具，全部�
 - 熟悉 RISC-V 架构的基础知识，熟悉 Vector 扩展等 AI 有关的扩展。
 - 能够至少实习3个月或以上。
 
-### P166 Bao-Hypervisor 开发实习生（线上，1名）（已满，暂停招聘）
+### P166 Bao-Hypervisor 开发实习生（已满，暂停招聘）
 
 本岗位是 Bao Hypervisor 团队和PLCT实验室联合招聘。
 
@@ -280,7 +280,7 @@ ECOS Studio：集成整个ECOS团队的成果，形成一套IDE工具，全部�
 **甲辰计划附加**
 5. 难度要求近似 LV3 级以上。
 
-### P164 Jeandle 开发实习生（开放 2 名）
+### P164 Jeandle 开发实习生（已满，暂停招聘）
 
 PLCT实验室开放 5 名实习生名额做本土新出现的 Java JIT 编译器项目 Jeandle。
 
@@ -298,7 +298,7 @@ https://github.com/jeandle/jeandle-jdk
 - 能力等级 LV3 及以上。
 - 投递简历之前已经自学过 Jeandle 的源代码，熟悉 Java 和 LLVM。
 
-### J163 VSCode 插件开发实习生（开放 2 名）
+### J163 VSCode 插件开发实习生（已满，暂停招聘）
 
 **工作内容：**
 
@@ -323,7 +323,7 @@ https://github.com/jeandle/jeandle-jdk
 **参考资料：**
 - 项目仓库：https://github.com/ruyisdk/ruyisdk-vscode-extension
 
-### J162 RuyiSDK 开源社区运营实习经理（CM）（开放 2 名）
+### J162 RuyiSDK 开源社区运营实习经理（CM）（已满，暂停招聘）
  
 作为产品和用户之间的“桥梁型”角色，你将与研发团队紧密配合，帮助更多开发者认识、使用 RuyiSDK。你需要先深入理解 RuyiSDK 的使用场景与产品愿景，围绕“如何使用 RuyiSDK 在 XX 开发板上开发和运行某个程序”等问题，面向社区进行传播、运营与支持。
 
@@ -443,7 +443,7 @@ GLIBC 作为 Linux 生态的核心运行时库，其性能直接影响操作系�
 - Sail ISA 规范语言: https://github.com/rems-project/sail
 - PyPy meta-tracing JIT: https://pypy.org/posts/2025/01/musings-tracing.html
 
-### J159 RuyiSDK IDE 开发实习生（开放 1 名）
+### J159 RuyiSDK IDE 开发实习生（已满，暂停招聘）
 
 **工作内容：**
 
@@ -480,7 +480,7 @@ GLIBC 作为 Linux 生态的核心运行时库，其性能直接影响操作系�
     - [Eclipse Platform API Specification](https://help.eclipse.org/latest/topic/org.eclipse.platform.doc.isv/reference/api/overview-summary.html?cp=2_1_0 "API Reference")
 
 
-### J158 南京 RISC-V Lab 运维实习生（开放 1 名）
+### J158 南京 RISC-V Lab 运维实习生（已满，暂停招聘）
 
 **工作内容**
 
@@ -494,7 +494,7 @@ GLIBC 作为 Linux 生态的核心运行时库，其性能直接影响操作系�
 - 能够耐心细致的进行操作系统重装测试和撰写测试复现报告。
 - 平均每周在南京英麒坐班2天。
 
-### J157 南京 RISC-V Lab 教学视频开发实习生（开放 2 名）
+### J157 南京 RISC-V Lab 教学视频开发实习生（已满，暂停招聘）
 
 **工作内容**
 
