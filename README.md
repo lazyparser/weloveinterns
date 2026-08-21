@@ -1,5 +1,7 @@
 # weloveinterns
 
+**注意：本项目即将进行大幅度改组以适应AI时代的快速发展。从2016年延续至今的各项制度和理念在2026年9月1日之后可能会有较大调整。**
+
 ## 甲辰计划开源实习生联合招聘培养
 
 参见 [启动通告](https://mp.weixin.qq.com/s/TenVAVzaWuUWGIWodGaFKA)
