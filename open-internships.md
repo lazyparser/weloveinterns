@@ -112,6 +112,42 @@ MoonBit 编程创新挑战赛是由粤港澳大湾区数字经济研究院（福
 
 ## 开放岗位列表
 
+### B179 虚拟化与实时操作系统开发实习生
+
+面向国产 ARM SoC 平台, 做虚拟化与实时操作系统的移植、适配与实时性调优。你会同时接触 Hypervisor、RTOS 内核、Linux 驱动三层。
+
+**职责**
+
+- Bao Hypervisor 平台适配: 在Renesas，NXP， Rockchip MCU上完成 Bootstrap、中断控制器、内存与 Cache 分区、设备直通与 VirtIO 后端,开发和使用平台 BSP/MCAL。
+- RTOS 内核移植:启用 MMU 与用户态进程模型,建立进程间地址空间隔离。
+- ARM 平台驱动开发:Linux 与 RTOS 两侧的驱动适配,以及跨核通信通道(Mailbox / 共享内存)的设计与实现。
+- AMP 与虚拟化混合部署:A 核侧跑 Hypervisor 承载 Linux 与 RTOS 并存,R 核侧承载硬实时任务;负责两域的资源隔离(含 Cache / NPU 分区)与启动流程。
+- 实时性量测与调优:上下文切换、中断响应、控制周期抖动的微秒级量测,建立可复现的测试方法并输出数据。
+- Rust 在 RTOS 中的落地:让 RTOS 具备执行 Rust 应用与中间件的能力(std 库、异步机制),并逐步将内核模块迁移到 Rust(Good To Have)。
+- 静态代码分析与认证相关的编码规范(Good To Have)。
+
+**你会接触到的**
+- 真实量产项目上的芯片平台适配、Hypervisor 与 RTOS 的完整移植链路、以及 Rust 在安全关键系统中的工程化落地 —— 这些工作会直接进入客户的Safety Critical产品,不是练习项目。
+
+**技能与学历要求**
+- LV3 及以上,对底层计算机编程有浓厚兴趣;
+- 熟练 C 与汇编语言;
+- 熟悉 Linux 内核与驱动开发,有 ARM 平台 Linux 驱动开发经验者优先;
+- 了解至少一种 RTOS(RT-Thread / FreeRTOS / Zephyr 等),理解 POSIX 接口模型;
+- 具备操作系统、调度与实时系统的知识,理解实时性指标的定义与量测方法;
+- 扎实的计算机架构与处理器知识:ARMv8-A / ARMv8-R、异常等级、MMU / MPU、GIC、Cache 一致性;
+- 熟练使用 Git、SSH、Bash Script 等不同小工具提升效率;
+- 基本了解硬件调试接口、硬件调试器(JTAG / 串口 / 逻辑分析仪 / 示波器);
+- 计算机工程、电气工程或计算机科学的学士、硕士学位。
+
+加分项
+- Rust,尤其是嵌入式或 no_std 方向;
+- 接触过任一虚拟化方案(Bao / Jailhouse / Xen / KVM);
+- 异构多核 AMP 架构、核间通信的实践经验;
+- 功能安全或自主可控认证相关的开发流程经验;
+- 静态分析工具使用经验(MISRA C、Coverity、clang-analyzer 等);
+- 开源社区贡献记录。
+
 ### H178 具身智能AI硬件开发实习生（灵巧手方向）（2名）
 
 **岗位职责**
