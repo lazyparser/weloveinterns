@@ -18,6 +18,10 @@
 
 推荐阅读：[在AI时代，即将毕业的⼤学⽣如何找到和保住⼯作？](https://mp.weixin.qq.com/s/lTQFVpMmIHJRMqzk9_Aagw)
 
+## weloveinterns 仓库演化介绍
+
+本仓库目前主要包含甲辰计划开源实习生联合招聘计划的岗位信息，同时也包含了PLCT实验室的所有实习生招聘信息。本仓库（weloveinterns）2017年建立，一开始是创始人（lazyparser）为了吸引更多潜在实习生加入、同时为实习生提供成果展示的机会。后来随着团队的发展、剥离、合并，逐渐成为多个不同公司和研究团队、社会群体共享的实习生招聘信息和培训信息集散地。2019年PLCT实验室正式成立之后，逐步成为PLCT实验室的官方招聘页面；2024年甲辰计划开始之后，成为甲辰计划的招聘页面。这个项目的衍生下游，例如苦芽科技的 [kuloveinterns](https://github.com/kubuds/kuloveinterns/)，共同构成了实习生社区的一部分。
+
 ## 参考链接
 
 - [极简项目管理](https://github.com/lazyparser/minimalist-team-leader) 是目前PLCT实验室的管理方式，实习生也在管理范围内。请先阅读。
