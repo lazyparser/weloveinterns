@@ -133,22 +133,23 @@
   <section class="chapter" id="mentors">
     <div class="chapter-head"><span class="chapter-num">04</span><h2>社区导师</h2></div>
     <p class="lead">
-      实习需要跟着一位师父 —— 只有获得一位 mentor 的认可，实习契约才成立。这一节陆续补充，先放上这位。
+      实习需要跟着一位师父 —— 只有获得一位 mentor 的认可，实习契约才成立。这一节陆续补充。
     </p>
     {{ range $people.mentors }}
     <article class="mentor">
       {{ partial "avatar.html" (dict "name" .name "handle" .handle "avatar" .avatar "size" 112) }}
       <div class="mentor-body">
         <div class="person-top">
-          <h3>{{ .name }}<span class="alias">（{{ .alias }}）</span></h3>
-          <span class="lvl">{{ .role }}</span>
+          <h3>{{ .name }}{{ with .alias }}<span class="alias">（{{ . }}）</span>{{ end }}</h3>
+          {{ with .role }}<span class="lvl">{{ . }}</span>{{ end }}
         </div>
-        <p class="work">{{ .bio }}</p>
-        <p class="who">{{ .history }}</p>
-        <p class="mentor-note">{{ .note }}</p>
+        {{ with .bio }}<p class="work">{{ . }}</p>{{ end }}
+        {{ with .history }}<p class="who">{{ . }}</p>{{ end }}
+        {{ with .note }}<p class="mentor-note">{{ . }}</p>{{ end }}
         <div class="person-links">
-          <a href="https://github.com/{{ .handle }}" target="_blank" rel="noopener">@{{ .handle }}</a>
-          <a href="mailto:{{ .contact }}">{{ .contact }}</a>
+          {{ with .handle }}<a href="https://github.com/{{ . }}" target="_blank" rel="noopener">@{{ . }}</a>{{ end }}
+          {{ with .contact }}<a href="mailto:{{ . }}">{{ . }}</a>{{ end }}
+          {{ with .tags }}{{ range . }}<span class="proj-tag">{{ . }}</span>{{ end }}{{ end }}
         </div>
       </div>
     </article>
