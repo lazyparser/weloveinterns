@@ -22,6 +22,16 @@
 
 本仓库目前主要包含甲辰计划开源实习生联合招聘计划的岗位信息，同时也包含了PLCT实验室的所有实习生招聘信息。本仓库（weloveinterns）2017年建立，一开始是创始人（lazyparser）为了吸引更多潜在实习生加入、同时为实习生提供成果展示的机会。后来随着团队的发展、剥离、合并，逐渐成为多个不同公司和研究团队、社会群体共享的实习生招聘信息和培训信息集散地。2019年PLCT实验室正式成立之后，逐步成为PLCT实验室的官方招聘页面；2024年甲辰计划开始之后，成为甲辰计划的招聘页面。这个项目的衍生下游，例如苦芽科技的 [kuloveinterns](https://github.com/kubuds/kuloveinterns/)，共同构成了实习生社区的一部分。
 
+## 站点部署（只有主仓会部署）
+
+网站的构建与部署跑在 GitHub Actions 上（`.github/workflows/pages.yml`），部署目标 weloveinterns.org 只挂在主仓 **lazyparser/weloveinterns**。
+
+下游 fork 与衍生仓库没有本站的 Pages 站点与部署凭据，因此部署作业在这些仓库里会被直接跳过，不会报错；**构建与站内自检仍然照跑**，改了内容的下游仓库照样能看到「链接有没有坏、引用有没有漏登记」。本地想跑同一套检查：
+
+```bash
+make site-check   # 构建站点 + 站内链接 / 引用角标 / 岗位撤稿自检
+```
+
 ## 参考链接
 
 - [极简项目管理](https://github.com/lazyparser/minimalist-team-leader) 是目前PLCT实验室的管理方式，实习生也在管理范围内。请先阅读。
