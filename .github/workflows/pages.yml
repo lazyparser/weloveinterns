@@ -19,6 +19,12 @@ concurrency:
   group: pages
   cancel-in-progress: false
 
+# 这个仓库有大量下游 fork，它们没有本站的 Pages 站点与部署凭据，一旦跑部署作业
+# 就会报 "Get Pages site failed" 一类的错误。所以：
+#   - 构建与站内自检在哪个仓库都跑，下游也能验证自己的改动能不能过链接检查
+#   - 读取 Pages 参数、上传产物、部署三步只在主仓 lazyparser/weloveinterns 执行
+# 下游仓库看到的是「构建通过、部署作业 skipped」，不会报错。
+
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -31,23 +37,29 @@ jobs:
           hugo-version: "0.147.9"
           extended: true
 
+      # 只有主仓才有 Pages 站点可读；下游跳过这一步，baseURL 回退成 "/"
       - name: 读取 Pages 参数
         id: pages
+        if: github.repository == 'lazyparser/weloveinterns'
         uses: actions/configure-pages@v5
 
       - name: 构建站点
         run: hugo --source website --gc --minify --cleanDestinationDir --baseURL "${{ steps.pages.outputs.base_url }}/"
 
+      # 这一步不依赖 Pages，任何仓库都跑：下游 PR 也能先自查链接与引用登记
       - name: 站内链接与引用登记自检
         run: python3 scripts/check_site.py
 
       - name: 上传产物
+        if: github.repository == 'lazyparser/weloveinterns'
         uses: actions/upload-pages-artifact@v3
         with:
           path: website/public
 
   deploy:
     needs: build
+    # 部署只发生在主仓。下游 fork 里这个作业会被跳过，不会失败。
+    if: github.repository == 'lazyparser/weloveinterns'
     runs-on: ubuntu-latest
     environment:
       name: github-pages
