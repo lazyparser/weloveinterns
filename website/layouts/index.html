@@ -1,21 +1,22 @@
 {{ define "main" }}
 {{ $s := site.Data.stats }}
+{{ $people := site.Data.people }}
+{{ $proj := site.Data.projects }}
 
 <section class="hero">
   <div class="wrap-wide">
-    <div class="kicker">{{ $s.span_start }} — {{ $s.span_end }} · 一个仓库的九年</div>
+    <div class="kicker">甲辰计划 · 开源实习生联合培养</div>
     <h1>
-      铁打的联合培养计划<br>流水的实习生
-      <span class="thin">weloveinterns.org —— 关于一仓库的实习生、 mentors 与他们共同在开源世界里留下的痕迹</span>
+      给实习生以荣光
+      <span class="thin">铁打的联合培养计划，流水的实习生 —— 以及那些从这里走进开源世界的人</span>
     </h1>
     <p class="lede">
-      2017 年 5 月，有个叫 lazyparser 的人在 GitHub 上建了一个仓库，用来放实习生的作业和报告。
-      九年之后，它成了甲辰计划的招聘入口、上千名实习生的第一块垫脚石，
-      以及一份没有被删除的组织变迁史：中科重德、PLCT 实验室、苦芽科技、甲辰计划、五色石工程。
+      weloveinterns 是甲辰计划开源实习生联合招聘培养的主入口，也是一个从 2017 年写到今天的仓库。
+      这里介绍我们在做的事、正在做这些事的人，以及可以让你上手的第一批开源项目。
     </p>
-    <div class="quote">
-      让荣光落于刀锋之上。
-      <small>—— senior interns 设立理由第一条，写于 2022 年 3 月 27 日</small>
+    <div class="hero-actions">
+      <a class="btn primary" href="{{ "join/" | relURL }}">投递简历 →</a>
+      <a class="btn" href="{{ "blog/nine-years/" | relURL }}">读九年回顾</a>
     </div>
   </div>
 </section>
@@ -23,73 +24,205 @@
 <section class="stats">
   <div class="wrap-wide">
     <div class="stats-grid">
-      <div class="stat"><div class="n">{{ $s.repo_commits }}</div><div class="l">仓库提交总数</div></div>
       <div class="stat"><div class="n">{{ $s.program_positions }}</div><div class="l">累计开放实习岗位</div></div>
       <div class="stat"><div class="n">{{ $s.program_interns }}</div><div class="l">累计实习人次</div></div>
       <div class="stat"><div class="n">{{ $s.program_mentors }}</div><div class="l">社区导师</div></div>
       <div class="stat"><div class="n">{{ $s.program_maintainers }}</div><div class="l">培养出的开源维护者</div></div>
+      <div class="stat"><div class="n">{{ $s.member_orgs }}</div><div class="l">甲辰计划成员单位</div></div>
     </div>
   </div>
 </section>
 
 <div class="wrap-wide">
 
-  <section class="chapter">
-    <div class="chapter-head"><span class="chapter-num">01</span><h2>一个人，和一条一直没断的线</h2></div>
-    <div class="prose" style="padding-top:0">
-      {{ .Content }}
+  <section class="chapter" id="jiachen">
+    <div class="chapter-head"><span class="chapter-num">01</span><h2>甲辰计划是什么</h2></div>
+    <p class="lead">
+      甲辰计划（RISC-V Prosperity 2036）诞生于 2024 年除夕，由国内多家 RISC-V 软件与芯片团队联合发起。
+      它没有财务实体、没有会员费、没有董事会，只有一个主理人和一份共同愿景 —— 一个基于共识的合作网络。
+    </p>
+    <blockquote>
+      在下一个丙辰年（2036 龙年）之前，基于 RISC-V 实现从数据中心到桌面办公、从移动穿戴到智能物联网全信息产业覆盖的开放标准体系及开源系统软件栈，
+      使 RISC-V 软硬件生态达到或超过其它主流架构的生态成熟度。
+      <footer style="font-size:.8rem;color:var(--muted);margin-top:.5rem">—— 甲辰计划愿景与使命{{ partial "cite.html" "ccf-deck" }}</footer>
+    </blockquote>
+    <p>
+      目标是联合 100 家以上芯片及方案厂商、500 家以上软件企业，在 18 个以上基础关键行业领域完成面向 RISC-V 的适配与优化，
+      合作完成超过 1000 款重要行业及商业软件的移植与部署；并建立 RISC-V 人才识别体系，连接超过 1 万名专业人才。
+    </p>
+    <div class="cards cards-3">
+      <div class="card">
+        <span class="tag">组织方式</span>
+        <h3>基于共同愿景的「朋友圈」</h3>
+        <p>认可愿景即可加入，随时可以退出；成员地位平等、无等级结构；贡献越大，影响力越大。</p>
+      </div>
+      <div class="card">
+        <span class="tag">财务模式</span>
+        <h3>开源项目式运作</h3>
+        <p>无财务实体、无会员费用、无董事会；成员自行发起项目并筹措资金，PLCT 实验室与苦芽科技提供初始动能。</p>
+      </div>
+      <div class="card">
+        <span class="tag">生态</span>
+        <h3>{{ $s.member_orgs }} 家成员</h3>
+        <p>从芯片厂商、发行版社区到高校与研究机构，依托甲辰计划已发起多个独立项目。</p>
+      </div>
     </div>
   </section>
 
-  <section class="chapter">
-    <div class="chapter-head"><span class="chapter-num">02</span><h2>支撑体系：逐步成型</h2></div>
+  <section class="chapter" id="program">
+    <div class="chapter-head"><span class="chapter-num">02</span><h2>开源实习生联合培养</h2></div>
     <p class="lead">
-      甲辰计划把培养拆成了四块可以各自运转的基石，再用五色石工程把它们接成一个闭环 ——
-      这门课给所有人，这块板子借给想动手的人，这个岗位留给需要导师的人，这张背书交给已经证明自己的人。
+      2024 年 6 月 8 日发布的项目，出发点是一句很务实的话：让成员单位用最小的金钱和管理资源投入，
+      完成对自家企业有用的 RISC-V 生态建设目标的加速。{{ partial "cite.html" "wechat-jd" }}
+    </p>
+
+    <div class="trio">
+      <div class="trio-item">
+        <h3>愿景</h3>
+        <p>让每一个想进入开源世界的学生，都能拿到一块真实的垫脚石：有导师、有真实的上游任务、有被 merge 的 PR、有实习费。</p>
+      </div>
+      <div class="trio-item">
+        <h3>使命</h3>
+        <p>做企业与年轻人之间的接口：企业拿出岗位与 mentor，我们负责筛选、培养、评级与背书。自甲辰龙年起，每年开放 2000 名以上实习名额。</p>
+      </div>
+      <div class="trio-item">
+        <h3>成就</h3>
+        <p>累计岗位 <strong>{{ $s.program_positions }}</strong>、累计实习 <strong>{{ $s.program_interns }}</strong>；超过 10 家公司和机构提供岗位，超过 <strong>{{ $s.program_mentors }}</strong> 名社区导师，培养出约百余名开源维护者。{{ partial "cite.html" "ccf-deck" }}</p>
+      </div>
+    </div>
+
+    <h3 style="margin-top:2.4rem">三条不看的，一条坚持的</h3>
+    <p>
+      不看 985 或 211，不看专业和年级排名，完全按照工作能力和潜力选拔；相信女性在 STEM 领域的潜力，
+      <strong>预留至少 30% 的实习生岗位给女性应聘者</strong>。{{ partial "cite.html" "repo" }}
+    </p>
+    <p>
+      评价标准只有一条：能不能完成联合培养单位的日常开发任务 —— 用不到的能力，不在评价范围。
+      能力分级是 LV0–LV5，由主理人以「仁慈独裁者」方式评定；LV4 是默认的全职招聘等级。
+      <a href="{{ "program/" | relURL }}">看完整的分级与流程 →</a>
+    </p>
+  </section>
+
+  <section class="chapter" id="interns">
+    <div class="chapter-head"><span class="chapter-num">03</span><h2>杰出实习生</h2></div>
+    <p class="lead">
+      名单上不是「若干名优秀实习生」，是一个个具体的人。每一张卡片背后是一次被 merge 的提交，一份能被上游认可的产出。
+    </p>
+    <div class="people-grid">
+      {{ range $people.interns }}
+      <article class="person">
+        {{ partial "avatar.html" (dict "name" .name "handle" .handle "avatar" .avatar) }}
+        <div class="person-body">
+          <div class="person-top">
+            <h3>{{ .name }}{{ with .alias }}<span class="alias">（{{ . }}）</span>{{ end }}</h3>
+            <span class="lvl">{{ .level }}</span>
+          </div>
+          {{ with .org }}<div class="who">{{ . }}</div>{{ end }}
+          <p class="work">{{ .work }}</p>
+          <div class="person-links">
+            {{ with .handle }}<a href="https://github.com/{{ . }}" target="_blank" rel="noopener">@{{ . }}</a>{{ end }}
+            {{ with .link }}<a href="{{ . }}" target="_blank" rel="noopener">更多 →</a>{{ end }}
+            {{ with .endorse }}<span class="endorse">{{ . }}</span>{{ end }}
+          </div>
+        </div>
+      </article>
+      {{ end }}
+    </div>
+    <p><a class="btn" href="{{ "interns/" | relURL }}">完整名单（含 senior interns 与寄语原文）→</a></p>
+  </section>
+
+  <section class="chapter" id="mentors">
+    <div class="chapter-head"><span class="chapter-num">04</span><h2>社区导师</h2></div>
+    <p class="lead">
+      实习需要跟着一位师父 —— 只有获得一位 mentor 的认可，实习契约才成立。这一节陆续补充，先放上这位。
+    </p>
+    {{ range $people.mentors }}
+    <article class="mentor">
+      {{ partial "avatar.html" (dict "name" .name "handle" .handle "avatar" .avatar "size" 112) }}
+      <div class="mentor-body">
+        <div class="person-top">
+          <h3>{{ .name }}<span class="alias">（{{ .alias }}）</span></h3>
+          <span class="lvl">{{ .role }}</span>
+        </div>
+        <p class="work">{{ .bio }}</p>
+        <p class="who">{{ .history }}</p>
+        <p class="mentor-note">{{ .note }}</p>
+        <div class="person-links">
+          <a href="https://github.com/{{ .handle }}" target="_blank" rel="noopener">@{{ .handle }}</a>
+          <a href="mailto:{{ .contact }}">{{ .contact }}</a>
+        </div>
+      </div>
+    </article>
+    {{ end }}
+  </section>
+
+  <section class="chapter" id="shise">
+    <div class="chapter-head"><span class="chapter-num">05</span><h2>五色石工程</h2></div>
+    <p class="lead">
+      2026 年丙午正月初一，甲辰计划发布 RISC-V 全球领袖人才培养工程（简称五色石工程）：取女娲炼五色石补天之意，
+      以十年为周期，从「寻找、筛选人才」升级为「系统性、长期性培养人才」。{{ partial "cite.html" "jiachen-wucai-shi" }}
     </p>
     {{ partial "stones.html" . }}
     <p><a class="btn" href="{{ "shise-stone/" | relURL }}">五色石工程：初衷与佐证 →</a></p>
   </section>
 
-  <section class="chapter">
-    <div class="chapter-head"><span class="chapter-num">03</span><h2>荣光属于具体的人</h2></div>
+  <section class="chapter" id="projects">
+    <div class="chapter-head"><span class="chapter-num">06</span><h2>开源项目</h2></div>
     <p class="lead">
-      名单上不是「若干名优秀实习生」，是一个个具体的人：把 LuaJIT 移植到 RISC-V 的本科生、
-      维护 RustSBI 的硕士生、给 K230 提交主线内核支持的博士生、把 rm -rf 捞回来的 LV4。
+      依托甲辰计划，成员组织发起了一批项目；下面另有一组推荐给实习生上手的开源仓库 —— 它们都是真实的上游，能拿到真实的 review。
     </p>
-    <div class="cards">
-      <div class="card">
-        <span class="tag">LV5 · Arch Linux RISC-V</span>
-        <h3>任鹏飞（kxxt）</h3>
-        <div class="who">中国科学技术大学 · 网络空间安全学院</div>
-        <p>Arch Linux RISC-V 大量软件包的维护与适配，主导 Electron、Chromium 等大型项目的 RISC-V 移植与长期维护。</p>
-      </div>
-      <div class="card">
-        <span class="tag">LV4+ · LuaJIT RISC-V</span>
-        <h3>王炳臻</h3>
-        <div class="who">南方科技大学 · 本科</div>
-        <p>把 LuaJIT 移植到 RISC-V：一个「非常深奥」但质量很高的 port，并就此做过公开演讲。</p>
-      </div>
-      <div class="card">
-        <span class="tag">LV4 · RustSBI</span>
-        <h3>蒋周奇（洛佳）</h3>
-        <div class="who">华中科技大学 · 硕士</div>
-        <p>设计与带领 RustSBI 各子项目，为博流 BL808 提供完整的 Rust 裸机到内核支持包，并修复 RISC-V SBI 规范里定义不严格的地方。</p>
-      </div>
+
+    <h3>甲辰计划与成员共建</h3>
+    <div class="proj-grid">
+      {{ range $proj.jiachen }}
+      <a class="proj" href="{{ .url }}" target="_blank" rel="noopener">
+        <div class="proj-head"><span class="proj-name">{{ .name }}</span><span class="proj-tag">{{ .tag }}</span></div>
+        <p>{{ .desc }}</p>
+      </a>
+      {{ end }}
     </div>
-    <p><a class="btn" href="{{ "interns/" | relURL }}">全部 LV4+ 与 senior interns 名单 →</a></p>
+
+    <h3 style="margin-top:2.4rem">推荐上手</h3>
+    <div class="proj-grid">
+      {{ range $proj.community }}
+      <a class="proj" href="{{ .url }}" target="_blank" rel="noopener">
+        <div class="proj-head"><span class="proj-name">{{ .name }}</span><span class="proj-tag">{{ .tag }}</span></div>
+        <p>{{ .desc }}</p>
+      </a>
+      {{ end }}
+    </div>
   </section>
 
-  <section class="chapter">
-    <div class="chapter-head"><span class="chapter-num">04</span><h2>下一个垫脚石</h2></div>
+  <section class="chapter" id="blog">
+    <div class="chapter-head"><span class="chapter-num">07</span><h2>博客</h2></div>
+    <p class="lead">回顾、方法与零散记录。第一篇是这个仓库自己的九年。</p>
+    <ul class="post-list">
+      {{ range (where site.RegularPages "Section" "blog").ByDate.Reverse }}
+      <li>
+        <div class="post-date">{{ .Date.Format "2006-01-02" }}</div>
+        <div>
+          <a class="post-title" href="{{ .RelPermalink }}">{{ .Title }}</a>
+          <p class="post-sum">{{ .Description }}</p>
+        </div>
+      </li>
+      {{ end }}
+    </ul>
+    <p><a class="btn" href="{{ "blog/" | relURL }}">全部文章 →</a></p>
+  </section>
+
+  <section class="chapter" id="join">
+    <div class="chapter-head"><span class="chapter-num">08</span><h2>下一个垫脚石</h2></div>
     <p class="lead">
-      这个仓库每天都在等下一封邮件。不看 985 或 211，不看专业和年级排名，按工作能力和潜力选拔；
-      女性应聘者预留至少 30% 的岗位。
+      这个仓库每天都在等下一封邮件。标题写「岗位编号 - 姓名 - 手机号 - 学校」，带一份 PDF 简历，发到 wuwei@rv2036.org。
     </p>
     <p>
       <a class="btn primary" href="{{ "join/" | relURL }}">怎么加入 →</a>
       <a class="btn" href="{{ site.Params.repo }}" target="_blank" rel="noopener">直接看仓库</a>
     </p>
+  </section>
+  <section class="chapter" id="about">
+    <div class="chapter-head"><span class="chapter-num">09</span><h2>关于这个站</h2></div>
+    <div class="prose" style="padding-top:0">{{ .Content }}</div>
   </section>
 
 </div>

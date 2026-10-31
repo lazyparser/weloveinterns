@@ -1,0 +1,12 @@
+{{- /* 头像：优先用 GitHub 头像直链，加载失败或没有则退回首字徽标 */ -}}
+{{- $name := .name -}}
+{{- $src := .avatar -}}
+{{- if and (not $src) .handle -}}{{- $src = printf "https://github.com/%s.png?size=200" .handle -}}{{- end -}}
+{{- $size := .size | default 84 -}}
+<span class="avatar" style="--sz:{{ $size }}px">
+  {{- with $src }}
+  <img src="{{ . }}" alt="{{ $name }} 的头像" width="{{ $size }}" height="{{ $size }}"
+       loading="lazy" decoding="async" referrerpolicy="no-referrer" onerror="this.remove()">
+  {{- end }}
+  <span class="mono" aria-hidden="true">{{ substr $name 0 1 }}</span>
+</span>

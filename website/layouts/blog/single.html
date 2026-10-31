@@ -1,0 +1,16 @@
+{{ define "main" }}
+<header class="page-head">
+  <div class="wrap-wide">
+    <div class="crumb"><a href="{{ "" | relURL }}">首页</a> / <a href="{{ "blog/" | relURL }}">博客</a> / {{ .Title }}</div>
+    <h1>{{ .Title }}</h1>
+    <div class="sub">
+      {{ .Date.Format "2006-01-02" }}
+      {{ with .Params.tags }}　{{ range . }}<span class="proj-tag">{{ . }}</span>{{ end }}{{ end }}
+    </div>
+  </div>
+</header>
+<div class="wrap-wide">
+  <article class="prose">{{ .Content }}</article>
+  <p style="margin-top:2.4rem"><a class="btn" href="{{ "blog/" | relURL }}">← 回博客列表</a></p>
+</div>
+{{ end }}

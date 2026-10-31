@@ -1,7 +1,10 @@
 ---
 title: 一个仓库的九年
+date: 2026-10-31
 sub: 从机器人作业到 RISC-V 人才体系 —— 这条线是这样长出来的
-description: weloveinterns 仓库从 2017 年到现在，换了四块招牌、散了若干个团队，只有一件事没变过：每年都在招实习生。
+description: 从 2017 年的机器人作业 wiki，到 2026 年的五色石工程：weloveinterns 仓库九年间换过四块招牌、散过若干团队，唯一的连续性是人。
+aliases: ["/story/"]
+tags: ["回顾"]
 ---
 
 ## 序：一个 wiki 的出生证明

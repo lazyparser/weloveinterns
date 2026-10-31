@@ -1,0 +1,62 @@
+# 开源项目：分两组 —— 甲辰计划发起/共建的，与推荐实习生上手的。
+# url 均为 2026-10-31 实测可访问的公开仓库或站点。
+
+jiachen:
+  - name: 开源实习生联合招聘培养
+    url: https://github.com/lazyparser/weloveinterns
+    desc: 就是本站背后的仓库。累计岗位 3000+、累计实习 1000+，是这个人才培养体系的主入口。
+    tag: 人才培养
+  - name: 甲辰计划人才背书互认
+    url: https://github.com/rv2036/jiachen-builders-network
+    desc: 由个人背书的信任网络，背书编号 0 由主理人自签，全部 GitHub 公开可查，与 PLCT 实习生等级体系呼应。
+    tag: 人才识别
+  - name: RISC-V 闲置开发板随缘漂流
+    url: https://github.com/rv2036/riscv-board-wandering
+    desc: 「每一块 RISC-V 开发板都值得被插电和喜爱」。捐赠与领取都靠漂流积分，所有捐赠乐观随缘。
+    tag: 硬件
+  - name: RuyiSDK
+    url: https://github.com/ruyisdk/ruyisdk
+    desc: 面向 RISC-V 开发者的集成开发环境与包管理器（ruyi），把工具链、模拟器、系统镜像的获取与配置收敛成几条命令。
+    tag: 开发者工具
+  - name: RISC-V 文档百科工程
+    url: https://rv2036.org
+    desc: 由甲辰计划成员组织发起的文档类项目，目标是让 RISC-V 的中文技术资料不再散落。
+    tag: 文档
+  - name: RVSPOC / RV 新 32 位
+    url: https://rv2036.org/blog
+    desc: 围绕 RISC-V 软件生态的两个专项计划，细节与进展见甲辰计划公告。
+    tag: 生态
+  - name: RISC-V 芯片安全挑战赛
+    url: https://rv2036.org/blog
+    desc: 面向 RISC-V 芯片安全方向的比赛，与人才识别体系联动。
+    tag: 竞赛
+  - name: 涂山工程
+    url: https://rv2036.org/blog
+    desc: 用 AI 设计一款适用于笔记本电脑的高性能 RISC-V 处理器：CPU/GPU 性能功耗对标 Apple M1，在三个地区 Foundry 流片，2029 己酉春节前交付一千台。
+    tag: 芯片
+
+community:
+  - name: PicoClaw
+    url: https://github.com/sipeed/picoclaw
+    desc: 矽速科技（Sipeed）的极简 AI 助手框架，主打「小、快、随处可部署」，很适合作为嵌入式与边缘 AI 的第一份真实上游任务。
+    tag: AI Agent · Go
+  - name: RT-Claw
+    url: https://github.com/zevorn/rt-claw
+    desc: 把 AI 助手做便宜：在 RT-Thread 生态里用 C 写的小型 agent 实现，代码量可控，适合嵌入式方向的入门贡献。
+    tag: AI Agent · C
+  - name: LoongClaw
+    url: https://github.com/loongclaw-ai/loongclaw
+    desc: 轻量、清晰、可扩展的 AI agent 基础设施，Rust 实现，强调「容易学会、什么都能改」。
+    tag: AI Agent · Rust
+  - name: Buddy Compiler / Buddy MLIR
+    url: https://github.com/buddy-compiler/buddy-mlir
+    desc: 基于 MLIR 的编译框架，把 DSL 桥到 DSA。MLIR 方向实习生的主要练手地之一。
+    tag: 编译器 · MLIR
+  - name: FlagTree
+    url: https://github.com/flagos-ai/FlagTree
+    desc: 支持多种 AI 芯片后端的统一编译器，面向自定义深度学习算子；FlagOS 体系里 RISC-V 后端的工作就在这里发生。
+    tag: 编译器 · AI Infra
+  - name: TileLang
+    url: https://github.com/tile-ai/tilelang
+    desc: 面向高性能 GPU/CPU/加速器 kernel 开发的领域特定语言，让写算子像写 Python 一样直接。
+    tag: DSL · Kernel

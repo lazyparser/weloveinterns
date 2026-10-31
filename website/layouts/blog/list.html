@@ -1,0 +1,24 @@
+{{ define "main" }}
+<header class="page-head">
+  <div class="wrap-wide">
+    <div class="crumb"><a href="{{ "" | relURL }}">首页</a> / <a href="{{ "blog/" | relURL }}">博客</a></div>
+    <h1>{{ .Title }}</h1>
+    {{ with .Params.sub }}<div class="sub">{{ . }}</div>{{ end }}
+  </div>
+</header>
+<div class="wrap-wide">
+  <ul class="post-list post-list-page">
+    {{ range .Pages.ByDate.Reverse }}
+    <li>
+      <div class="post-date">{{ .Date.Format "2006-01-02" }}</div>
+      <div>
+        <a class="post-title" href="{{ .RelPermalink }}">{{ .Title }}</a>
+        {{ with .Description }}<p class="post-sum">{{ . }}</p>{{ end }}
+        {{ with .Params.tags }}<div class="post-tags">{{ range . }}<span class="proj-tag">{{ . }}</span>{{ end }}</div>{{ end }}
+      </div>
+    </li>
+    {{ end }}
+  </ul>
+  {{ .Content }}
+</div>
+{{ end }}
