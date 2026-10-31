@@ -66,6 +66,14 @@ senior 不是荣誉称号，而是一份契约：技术能力达到 LV3 及以�
 | Coelacanthus | Arch | — |
 | 任鹏飞 | Arch | kxxt.dev |
 
+## 社区项目贡献者
+
+这一节收录**没有标注 LV 等级、但由主理人指定列入**的同学 —— 与上面的评级名单不同，这里只看他在上游社区里实际做出来的东西。
+
+| 名字 | GitHub | 社区与项目 |
+| --- | --- | --- |
+| **MikuNotFoundException** | [@Officeyutong](https://github.com/Officeyutong) | 参与 [eunomia-bpf](https://github.com/eunomia-bpf/eunomia-bpf) 社区多个项目的开发，包括 [bpftime](https://github.com/eunomia-bpf/bpftime)、eunomia-bpf、[wasm-bpf](https://github.com/eunomia-bpf/wasm-bpf) 等 |
+
 ## 他们自己说的话
 
 名单里最早的两条（2018–2019 年的机器人时期）保留了实习生写的原文，比任何总结都好：
