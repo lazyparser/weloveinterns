@@ -1,7 +1,7 @@
 {{ define "main" }}
 <header class="page-head">
   <div class="wrap-wide">
-    <div class="crumb"><a href="{{ "" | relURL }}">首页</a> / <a href="{{ "blog/" | relURL }}">博客</a></div>
+    <div class="crumb"><a href="{{ "" | relLangURL }}">{{ i18n "crumb.home" }}</a> / <a href="{{ "blog/" | relLangURL }}">{{ i18n "nav.blog" }}</a></div>
     <h1>{{ .Title }}</h1>
     {{ with .Params.sub }}<div class="sub">{{ . }}</div>{{ end }}
   </div>

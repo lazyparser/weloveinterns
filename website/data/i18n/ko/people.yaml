@@ -1,0 +1,185 @@
+# 인물: 커뮤니티 멘토 + 뛰어난 인턴
+# avatar 는 GitHub 아바타 직링크(avatars.githubusercontent.com 의 숫자 ID 형식, 리다이렉트가 한 번 적고 저장소에 남기지 않음);
+# handle 은 GitHub 사용자 이름(홈페이지 링크용); 공개 handle 이 없는 사람은 비워 두고 카드는 첫 글자 배지로 표시합니다.
+# endorse 는 지아천 인재 보증 번호 또는 설명; 저장소에서 「본인 동의 또는 본인 PR」로 공개된 내용만 수록합니다.
+
+mentors:
+  - name: 吴伟
+    handle: lazyparser
+    avatar: https://avatars.githubusercontent.com/u/1802104?v=4
+    alias: lazyparser
+    role: 지아천 프로젝트 발기인 & 대표
+    tags: [RISC-V, 컴파일러, 커뮤니티 운영]
+    bio: >-
+      지아천 프로젝트 발기인이자 대표, PLCT Lab 창립자, Kubuds 공동 창업자. RISC-V 인터내셔널 재단 기술지도위원회(TSC) 위원,
+      ISA Infra HC 의장, LLVM 재단 이사, RISC-V 중국 서밋 지도위원회 대행 의장.
+    history: "허페이공업대학교(수학 학사)｜중국과학원 소프트웨어연구소(박사 중퇴); 경력: 중국과학원 소프트웨어연구소｜Zhongke Chongde｜PLCT Lab｜Kubuds"
+    contact: wuwei@rv2036.org
+    note: 이 저장소의 779개 커밋 중 500개가 그에게서 나왔습니다 — 대부분 기수의 모집 정보, 등급 갱신, 인턴 보고서 정리를 포함합니다.
+    links:
+      - label: 지아천 프로젝트
+        url: https://rv2036.org
+        note: 발기인 & 대표
+      - label: 미니멀 프로젝트 관리
+        url: https://github.com/lazyparser/minimalist-team-leader
+        note: 운영 방식
+      - label: weloveinterns
+        url: https://github.com/lazyparser/weloveinterns
+        note: 이 저장소
+  - name: U2FsdGVkX1
+    handle: U2FsdGVkX1
+    avatar: https://avatars.githubusercontent.com/u/11484206?v=4
+    role: 멘토 · RISC-V Linux 소프트웨어 생태계
+    tags: [RISC-V, Fedora, RuyiSDK]
+    bio: >-
+      인턴 기간에 Fedora RISC-V, Fedora RVA23 및 Fedora 64ILP32 메인테이너였고, 주로 RISC-V Linux 소프트웨어 생태계 구축에 참여했습니다.
+      동시에 RuyiSDK IDE 멘토를 맡고, deepin DE SIG와 openGauss RISC-V SIG의 커뮤니티 협업에도 참여합니다.
+    links:
+      - label: RuyiSDK IDE
+        url: https://github.com/ruyisdk/ruyisdk-vscode-extension
+        note: 멘토
+      - label: 64ILP32 on K230D
+        url: https://github.com/ruyisdk/k230_linux_sdk
+        note: 유지보수
+      - label: openGauss RISC-V
+        url: https://gitee.com/opengauss/riscv
+        note: SIG 협업
+      - label: Fedora everything
+        url: https://openkoji.iscas.ac.cn
+        note: 빌드/유지보수
+
+interns:
+  - name: 任鹏飞
+    alias: kxxt
+    handle: kxxt
+    avatar: https://avatars.githubusercontent.com/u/18085551?v=4
+    level: LV5
+    org: 중국과학기술대학교 · 사이버보안대학원(석사)
+    work: Arch Linux RISC-V의 다수 패키지 유지보수와 적응; Electron, Chromium 등 대형 프로젝트의 RISC-V 이식·최적화·장기 유지보수를 주도하거나 참여(riscv-forks 시리즈)
+    endorse: 지아천 인재 보증 018호
+    link: https://github.com/rv2036/jiachen-builders-network/blob/main/pool/018-REN-Pengfei.md
+  - name: 王炳臻
+    level: LV4+
+    org: 남방과학기술대학(학부)
+    work: LuaJIT RISC-V port 메인테이너; 컴파일러 분야에서 학습 능력이 두드러지며, 이식 작업으로 공개 발표를 했습니다
+    endorse: 지아천 인재 보증 008호
+  - name: 蒋周奇
+    alias: 洛佳
+    handle: luojia65
+    avatar: https://avatars.githubusercontent.com/u/40385009?v=4
+    level: LV4
+    org: 화중과학기술대학교(석사, 시스템 보안 전공)
+    work: RustSBI 프로젝트 리드로 각 하위 프로젝트의 발전을 이끕니다; Bouffalo BL808을 위한 완전한 Rust 베어메탈~커널 지원 패키지 제공; RISC-V SBI 규격에서 정의가 엄격하지 않은 부분 수정
+    endorse: 지아천 인재 보증 012호
+    link: https://github.com/rv2036/jiachen-builders-network/blob/main/pool/012-JIANG-Zhouqi.md
+  - name: 陈泱宇
+    alias: cyy
+    level: LV4
+    org: 충칭대학교(박사, 시스템 구조 전공)
+    work: Linux Kernel, GCC, QEMU, gem5, FireSim, OpenSSL, XiangShan, Rocket-Chip에 RISC-V 관련 패치를 기여했습니다; Canaan K230의 Linux 메인라인 커널 지원 제출; RISC-V ISA 매뉴얼의 모호한 부분 2곳 수정
+    endorse: 지아천 인재 보증 010호
+    link: https://github.com/rv2036/jiachen-builders-network/blob/main/pool/010-CHEN-Yangyu.md
+  - name: 郑英炜
+    alias: dtcxzyw
+    handle: dtcxzyw
+    avatar: https://avatars.githubusercontent.com/u/15650457?v=4
+    level: LV4
+    org: 2023년 11월 LV4가 됨
+    work: 주로 LLVM 미들엔드와 RISC-V 백엔드에 코드를 기여
+    endorse: 지아천 인재 보증 007호
+    link: https://github.com/rv2036/jiachen-builders-network/blob/main/pool/007-ZHENG-Yingwei.md
+  - name: 郑昱笙
+    alias: 云微
+    handle: yunwei37
+    avatar: https://avatars.githubusercontent.com/u/34985212?v=4
+    level: LV4
+    org: 2023년 1월 LV4가 됨
+    work: eunomia-bpf 커뮤니티 프로젝트 유지보수; eBPF 소팀과 함께 Wasm 위에서 범용 eBPF 프로그램을 빌드·배포·실행하는 첫 런타임과 툴체인을 만들고, bcc 생태계의 libbpf 전환을 추진
+  - name: dram
+    handle: dramforever
+    avatar: https://avatars.githubusercontent.com/u/2818072?v=4
+    level: LV5
+    org: PLCT ITEM 부서
+    work: RISC-V 소프트웨어·하드웨어 역량 축적이 PLCT 직원 평균을 넘어 전문 컨설턴트 자격으로 ITEM에 합류
+    endorse: 지아천 인재 보증 009호
+    link: https://github.com/rv2036/jiachen-builders-network/blob/main/pool/009-dram.md
+  - name: 红人
+    level: LV5
+    org: PLCT Lab
+    work: RISC-V 소프트웨어와 하드웨어 양쪽에 깊이 기여했고, Chisel/RocketChip과 RISC-V Linux Distros 등 여러 분야에서 독자적으로 「영역 전개」를 해냈습니다
+  - name: 潘瑞哲
+    alias: XieJiSS
+    handle: XieJiSS
+    avatar: https://avatars.githubusercontent.com/u/24671280?v=4
+    level: LV5
+    org: Arch 소팀
+    work: 2022-04 LV5가 됨; 「각 업스트림 커뮤니티와 훌륭하게 맞붙는(비폭력 대화) 능력」, 깊게 얽힌 버그를 해결한 뒤 조리 있게 설명하고 수정
+    link: https://blog.jiejiss.com
+  - name: 林思南
+    level: LV4+
+    org: GNU GCC 소팀
+    work: 여러 RISC-V 신규 확장의 GCC와 Binutils 구현에 기여
+  - name: 王弈桥
+    level: LV4
+    org: TARSIER 시기
+    work: openEuler RISC-V 파생 배포판 Eulaceura를 독자적으로 만들고 유지보수
+    endorse: 지아천 인재 보증 016호
+    link: https://github.com/rv2036/jiachen-builders-network/blob/main/pool/016-WANG-Yiqiao.md
+  - name: 陆言
+    alias: Robin
+    level: LV4
+    org: TARSIER 시기
+    work: 여러 오픈소스 소프트웨어를 최신 RISC-V 개발보드에 적응·디버깅하고 RISC-V 중국 서밋에서 공개; 파생 배포판을 RobinOS로 명명하고 장기 유지보수
+  - name: 樊其轩
+    level: LV4
+    org: Gentoo 소팀, LLVM 소팀
+    work: 2021-12-01부터 LV4; 동료들의 인상은 「rm -rf를 되살린 LV4」, 소팀에서 지도와 상호 지원도 맡음
+  - name: Kiva
+    handle: imkiva
+    avatar: https://avatars.githubusercontent.com/u/9902643?v=4
+    level: senior
+    org: Aya 소팀(인턴 종료)
+    work: Aya 프로그래밍 언어와 정리 증명기 구현에 참여
+  - name: Glavo
+    handle: Glavo
+    avatar: https://avatars.githubusercontent.com/u/20694662?v=4
+    level: senior
+    org: Aya 소팀
+    work: 즈후 칼럼 「JVM 뉴스 속보」 작성자
+    link: https://www.zhihu.com/column/c_1359548809383686144
+  - name: MikuNotFoundException
+    handle: Officeyutong
+    avatar: https://avatars.githubusercontent.com/u/9004058?v=4
+    org: eunomia-bpf 커뮤니티(eBPF / Wasm)
+    work: eunomia-bpf 커뮤니티의 여러 프로젝트 개발에 참여했습니다. bpftime, eunomia-bpf, wasm-bpf 등을 포함합니다.
+    link: https://github.com/Officeyutong
+  - name: 陈谋顺
+    handle: cms19859230182-lang
+    avatar: https://avatars.githubusercontent.com/u/276597748?v=4
+    level: LV3+
+    org: openEuler 오픈소스 인턴십 · sig-ROS
+    work: >-
+      ROS 2 Humble 패키지의 빌드 수정과 유지보수를 담당했습니다. 약 60+ PR, 40+ merge로, 주로 다중 아키텍처와 새 버전에서 생기는
+      컴파일 실패를 고치고 의존성 체인을 보완하며 릴리스 브랜치에 백포트했습니다. 그 밖에 RT-Thread 업스트림에서 BSP와 시뮬레이터 관련 기여를 했습니다.
+      특기는 임베디드와 RISC-V 관련 적응, 배포판 패키지 빌드 수정입니다.
+    link: https://github.com/cms19859230182-lang
+  - name: 于鸿伟
+    handle: hongwei-2026
+    avatar: https://avatars.githubusercontent.com/u/239529835?v=4
+    level: LV2
+    org: 화웨이 오픈소스 인턴십 · Ascend NPU 생태계
+    work: >-
+      화웨이 오픈소스 인턴십에서 우수 인턴으로 평가되었습니다. Ascend NPU 생태계 구축에 참여해 프레임워크 적응, 대형 모델 튜닝·배포,
+      하드웨어 모듈 개발을 완료했고 여러 성과가 오픈소스 커뮤니티에 merge되었습니다. AI 도구 협업 개발에 능숙하고, 자료를 스스로 찾아
+      문제를 해결하며 진행 상황과 피드백을 제때 공유해 과제를 효율적으로 착지시킵니다.
+    link: https://github.com/hongwei-2026
+  - name: 孙翊轩
+    alias: Lampese
+    handle: Lampese
+    avatar: https://avatars.githubusercontent.com/u/43312495?v=4
+    level: LV5
+    org: PLCT Lab J139 소팀 · MoonBit 커뮤니티
+    work: >-
+      인턴 경험: PLCT J139 소팀을 이끌고 MoonBit 커뮤니티 생태계 개발에 참여했으며, 커뮤니티 Demo Day와 커뮤니티 웹사이트도 준비했습니다.
+      MoonBit 초기 커뮤니티의 중요한 목소리입니다. 특기: 컴파일러와 형식 증명.
+    link: https://github.com/Lampese

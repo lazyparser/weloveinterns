@@ -1,0 +1,17 @@
+{{- /*
+  按当前语言取数据：优先 data/i18n/<lang>/<key>.yaml，缺哪份就回退到默认语言（zh）。
+  用法：{{ $d := partial "site-data.html" . }} → $d.people / $d.projects / $d.timeline / $d.stats / $d.sources
+*/ -}}
+{{- $lang := site.Language.Lang -}}
+{{- $cur := dict -}}
+{{- with index site.Data "i18n" -}}{{- with index . $lang -}}{{- $cur = . -}}{{- end -}}{{- end -}}
+{{- $fallback := dict -}}
+{{- with index site.Data "i18n" -}}{{- with index . "zh" -}}{{- $fallback = . -}}{{- end -}}{{- end -}}
+{{- $out := dict -}}
+{{- range $k := slice "people" "projects" "timeline" "stats" "sources" -}}
+  {{- $v := index $cur $k -}}
+  {{- if not $v -}}{{- $v = index $fallback $k -}}{{- end -}}
+  {{- if not $v -}}{{- $v = index site.Data $k -}}{{- end -}}
+  {{- $out = merge $out (dict $k $v) -}}
+{{- end -}}
+{{- return $out -}}

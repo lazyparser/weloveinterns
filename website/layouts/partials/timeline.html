@@ -1,17 +1,17 @@
 {{/* 时间线：数据来自 data/timeline.yaml */}}
 <div class="tl-legend">
-  <span style="color:var(--violet)"><i></i>仓库</span>
-  <span style="color:var(--copper)"><i></i>组织</span>
-  <span style="color:var(--cyan)"><i></i>培养体系</span>
-  <span style="color:var(--green)"><i></i>人</span>
+  <span style="color:var(--violet)"><i></i>{{ i18n "timeline.legendRepo" }}</span>
+  <span style="color:var(--copper)"><i></i>{{ i18n "timeline.legendOrg" }}</span>
+  <span style="color:var(--cyan)"><i></i>{{ i18n "timeline.legendProgram" }}</span>
+  <span style="color:var(--green)"><i></i>{{ i18n "timeline.legendPeople" }}</span>
 </div>
 <div class="timeline">
-  {{ range site.Data.timeline }}
+  {{ range (partial "site-data.html" .).timeline }}
   <div class="tl-item" data-kind="{{ .kind }}">
     <div class="tl-date">{{ .date }}</div>
     <div class="tl-title">{{ .title }}</div>
     <p class="tl-desc">{{ .desc }}</p>
-    {{ with .evidence }}<p class="tl-ev">证据：{{ . }}</p>{{ end }}
+    {{ with .evidence }}<p class="tl-ev">{{ i18n "timeline.evidence" }}{{ . }}</p>{{ end }}
   </div>
   {{ end }}
 </div>

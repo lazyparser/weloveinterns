@@ -4,13 +4,14 @@ enableRobotsTXT = true
 disableKinds = ["taxonomy", "term"]
 timeZone = "Asia/Shanghai"
 summaryLength = 60
-defaultContentLanguage = "zh"
 buildFuture = true
+
+# 中文是默认语言，页面留在站点根目录；其它语言在 /<lang>/ 下
+defaultContentLanguage = "zh"
+defaultContentLanguageInSubdir = false
 
 [params]
   siteName = "We Love Interns"
-  siteNameCN = "爱实习生的我们"
-  description = "weloveinterns 是一个从 2017 年写到今天的仓库，也是一条关于中科重德、PLCT 实验室、甲辰计划与五色石工程的长故事。铁打的联合培养计划，流水的实习生。"
   repo = "https://github.com/lazyparser/weloveinterns"
   jiachenSite = "https://rv2036.org"
   buildersNetwork = "https://github.com/rv2036/jiachen-builders-network"
@@ -18,8 +19,6 @@ buildFuture = true
   contactEmail = "wuwei@rv2036.org"
   license = "CC BY-SA 4.0"
   licenseURL = "https://creativecommons.org/licenses/by-sa/4.0/deed.zh-hans"
-  navHome = "首页"
-  moto = "让荣光落于刀锋之上"
 
 [markup]
   [markup.goldmark.renderer]
@@ -40,3 +39,67 @@ buildFuture = true
 
 [services.rss]
   limit = 30
+
+# ---------------------------------------------------------------- 语言
+# 每种语言必须显式声明 contentDir，否则 content/<lang>/ 会被当作默认语言的普通
+# section 发布，默认语言页面会被本地化页面覆盖（opentina.org 上踩过这个坑）。
+[languages]
+  [languages.zh]
+    languageName = "简体中文"
+    languageCode = "zh-CN"
+    contentDir = "content/zh"
+    weight = 1
+    title = "We Love Interns · 爱实习生的我们"
+    [languages.zh.params]
+      siteNameCN = "爱实习生的我们"
+      description = "weloveinterns.org —— 甲辰计划开源实习生联合招聘培养的主入口。介绍甲辰计划、联合培养体系、杰出实习生与社区导师，以及可以上手的开源项目。"
+
+  [languages.zh-Hant]
+    languageName = "繁體中文"
+    languageCode = "zh-Hant"
+    contentDir = "content/zh-Hant"
+    weight = 2
+    title = "We Love Interns · 愛實習生的我們"
+    [languages.zh-Hant.params]
+      siteNameCN = "愛實習生的我們"
+      description = "weloveinterns.org —— 甲辰計畫開源實習生聯合招聘培養的主入口。介紹甲辰計畫、聯合培養體系、傑出實習生與社群導師，以及可以上手的開源專案。"
+
+  [languages.en]
+    languageName = "English"
+    languageCode = "en"
+    contentDir = "content/en"
+    weight = 3
+    title = "We Love Interns · Project Jiachen Open Source Internship"
+    [languages.en.params]
+      siteNameCN = "Project Jiachen Open Source Internship"
+      description = "weloveinterns.org — the front door to Project Jiachen's joint open-source internship programme: what it is, how it works, the interns who came through it, the mentors who teach, and the upstream projects worth starting with."
+
+  [languages.ja]
+    languageName = "日本語"
+    languageCode = "ja"
+    contentDir = "content/ja"
+    weight = 4
+    title = "We Love Interns · 甲辰計画オープンソースインターン"
+    [languages.ja.params]
+      siteNameCN = "甲辰計画オープンソースインターン"
+      description = "weloveinterns.org — 甲辰計画のオープンソースインターン共同募集・育成プログラムの入り口。制度の仕組み、参加したインターン、指導するメンター、そして最初に取り組むべき上流プロジェクトを紹介します。"
+
+  [languages.ru]
+    languageName = "Русский"
+    languageCode = "ru"
+    contentDir = "content/ru"
+    weight = 5
+    title = "We Love Interns · Стажировки Project Jiachen"
+    [languages.ru.params]
+      siteNameCN = "Стажировки Project Jiachen"
+      description = "weloveinterns.org — главный вход в совместную программу стажировок Project Jiachen в открытом исходном коде: как она устроена, кто прошёл через неё, кто учит и с каких upstream-проектов стоит начинать."
+
+  [languages.ko]
+    languageName = "한국어"
+    languageCode = "ko"
+    contentDir = "content/ko"
+    weight = 6
+    title = "We Love Interns · 지아천 프로젝트 오픈소스 인턴십"
+    [languages.ko.params]
+      siteNameCN = "지아천 프로젝트 오픈소스 인턴십"
+      description = "weloveinterns.org — 지아천 프로젝트 오픈소스 인턴 공동 모집·양성 프로그램의 입구입니다. 제도가 어떻게 돌아가는지, 어떤 인턴들이 거쳐 갔는지, 누가 가르치는지, 그리고 무엇부터 시작하면 되는지 소개합니다."

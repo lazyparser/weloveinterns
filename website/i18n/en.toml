@@ -1,0 +1,219 @@
+# English
+[a11y.skip]
+other = "Skip to content"
+[a11y.menu]
+other = "Menu"
+[a11y.theme]
+other = "Toggle light and dark theme"
+[a11y.themeRow]
+other = "Toggle light and dark theme"
+
+[nav.shise]
+other = "Five-Colour Stone"
+[nav.interns]
+other = "Interns"
+[nav.mentors]
+other = "Mentors"
+[nav.program]
+other = "Programme"
+[nav.timeline]
+other = "Timeline"
+[nav.blog]
+other = "Blog"
+[nav.join]
+other = "Join"
+[nav.sources]
+other = "Sources"
+
+[footer.tagline]
+other = "An interns' repository written from 2017 to today, and the people behind it."
+[footer.repo]
+other = "GitHub repository"
+[footer.jiachen]
+other = "Project Jiachen"
+[footer.sources]
+other = "Sources and licence"
+[footer.rss]
+other = "RSS"
+[footer.licenseNote]
+other = "Text on this site is published under CC BY-SA 4.0, matching the weloveinterns repository (its LICENSE file is Attribution-ShareAlike 4.0 International). Every diagram on the site is an SVG drawn here; no third-party images or web fonts are used. Each external source cited is registered individually under Sources and Licence, with its original URL, how it is used and its copyright status. Intern names and endorsement links come only from repository entries the individuals agreed to make public."
+
+[crumb.home]
+other = "Home"
+
+[home.kicker]
+other = "Project Jiachen · joint open-source internship programme"
+[home.title]
+other = "Glory to the interns"
+[home.lede]
+other = "weloveinterns is the main entrance to Project Jiachen's joint open-source internship programme, and a repository written from 2017 to today. It introduces what we do, the people doing it, and the first batch of open-source projects you can start on."
+[home.ctaJoin]
+other = "Send your CV →"
+[home.ctaBlog]
+other = "Read the nine-year retrospective"
+
+[stat.positions]
+other = "Internship positions opened in total"
+[stat.interns]
+other = "Total internship placements"
+[stat.mentors]
+other = "Community mentors"
+[stat.maintainers]
+other = "Open-source maintainers trained"
+[stat.orgs]
+other = "Project Jiachen member organisations"
+
+[sec.jiachen.title]
+other = "What Project Jiachen is"
+[sec.jiachen.lead]
+other = "Project Jiachen (RISC-V Prosperity 2036) was founded on Chinese New Year's Eve 2024 by a group of RISC-V software and chip teams in China. It has no financial entity, no membership fee and no board — just one lead and a shared vision: a cooperation network built on consensus."
+[sec.jiachen.quote]
+other = "Before the next Bingchen year (2036, the Year of the Dragon), build on RISC-V an open standard system and open-source system software stack that covers the whole information industry, from data centres to desktop offices, from wearables to the intelligent IoT, so that the RISC-V hardware and software ecosystem reaches or exceeds the maturity of other mainstream architectures."
+[sec.jiachen.quoteSrc]
+other = "— Project Jiachen vision and mission"
+[sec.jiachen.goals]
+other = "The goal is to bring together more than 100 chip and solution vendors and more than 500 software companies, complete RISC-V adaptation and optimisation in more than 18 foundational industries, and jointly port and deploy more than 1,000 important industry and commercial applications; and to build a RISC-V talent identification system connecting more than 10,000 professionals."
+
+[card.network.tag]
+other = "How it is organised"
+[card.network.title]
+other = "A circle of friends around a shared vision"
+[card.network.desc]
+other = "Join by endorsing the vision, leave whenever you like; members are equal, with no hierarchy; the more you contribute, the more influence you have."
+[card.finance.tag]
+other = "Financial model"
+[card.finance.title]
+other = "Run like an open-source project"
+[card.finance.desc]
+other = "No financial entity, no membership fee, no board; members start projects and raise funds themselves, and PLCT Lab and Kubuds provide the initial momentum."
+[card.eco.tag]
+other = "Ecosystem"
+[card.eco.title]
+other = "60+ members"
+[card.eco.desc]
+other = "From chip vendors and distribution communities to universities and research institutes, several independent projects have already been launched under Project Jiachen."
+
+[sec.program.title]
+other = "Joint open-source internship programme"
+[sec.program.lead]
+other = "Launched on 8 June 2024, the programme starts from a very practical sentence: let member organisations accelerate the RISC-V ecosystem work that matters to their own business, with the smallest possible spend of money and management resources."
+[trio.vision.title]
+other = "Vision"
+[trio.vision.desc]
+other = "Every student who wants to enter the open-source world gets a real stepping stone: a mentor, a real upstream task, a merged PR, a stipend."
+[trio.mission.title]
+other = "Mission"
+[trio.mission.desc]
+other = "Be the interface between companies and young people: companies provide positions and mentors; we screen, train, grade and endorse. Since the Jiachen Dragon year, more than 2,000 internship places have opened each year."
+[trio.achievement.title]
+other = "Achievements"
+[trio.achievement.desc]
+other = "Verifiable numbers for positions, internships, community mentors and maintainers; more than 10 companies and institutions offer positions."
+[sec.program.principlesTitle]
+other = "Three things we don't look at, one we insist on"
+[sec.program.principles]
+other = "We don't look at 985 or 211, at your major or your year ranking; selection is based entirely on ability and potential. We believe in women's potential in STEM and reserve at least 30% of internship places for women applicants."
+[sec.program.grading]
+other = "There is one criterion: can you complete the day-to-day development work of a joint-programme host? Abilities the work does not need are outside the assessment. Capability levels run LV0–LV5 and are assessed by the lead as a 'benevolent dictator'; LV4 is the default level for a full-time hire."
+[sec.program.gradingMore]
+other = "See the full grading and process →"
+
+[sec.interns.title]
+other = "Outstanding interns"
+[sec.interns.lead]
+other = "The list is not 'a number of excellent interns' but specific people. Behind each card is a merged commit, an output that upstream recognises."
+[btn.allInterns]
+other = "Full list (including senior interns and their own words) →"
+[sec.mentors.title]
+other = "Community mentors"
+[sec.mentors.lead]
+other = "An internship follows a master — the contract exists only once a mentor accepts you. This section is filled in over time."
+[btn.allMentors]
+other = "All mentors →"
+[sec.shise.title]
+other = "Five-Colour Stone Project"
+[sec.shise.lead]
+other = "On the first day of the Bingwu year, 2026, Project Jiachen announced the RISC-V Global Leadership Training Programme, known as the Five-Colour Stone Project: taking its meaning from Nüwa smelting five-colour stones to mend the sky, it works on a ten-year cycle and moves from 'finding and screening talent' to 'training talent systematically and over the long term'."
+[btn.shiseMore]
+other = "Five-Colour Stone: why it exists, and the evidence →"
+[sec.projects.title]
+other = "Open-source projects"
+[sec.projects.lead]
+other = "Under Project Jiachen, member organisations have launched a number of projects; below them is another set of repositories recommended for interns — all real upstreams where you get real review."
+[projects.group1]
+other = "Built by Project Jiachen and its members"
+[projects.group2]
+other = "Good places to start"
+[sec.blog.title]
+other = "Blog"
+[sec.blog.lead]
+other = "From the launch announcement of June 2024 to the nine-year retrospective of 2026."
+[btn.allPosts]
+other = "All posts →"
+[sec.join.title]
+other = "The next stepping stone"
+[sec.join.lead]
+other = "This repository waits for the next email every day. Put 'position number - name - phone number - school' in the subject, attach a PDF CV, and send it to wuwei@rv2036.org."
+[btn.join]
+other = "How to join →"
+[btn.repo]
+other = "Go straight to the repository"
+[sec.about.title]
+other = "About this site"
+
+[timeline.legendRepo]
+other = "Repository"
+[timeline.legendOrg]
+other = "Organisation"
+[timeline.legendProgram]
+other = "Programme"
+[timeline.legendPeople]
+other = "People"
+[timeline.evidence]
+other = "evidence: "
+
+[sources.usage]
+other = "Usage: "
+[sources.license]
+other = "Licence: "
+
+[blog.back]
+other = "← Back to the blog"
+[card.more]
+other = "More →"
+
+[a11y.lang]
+other = "Switch language"
+[a11y.themeToLight]
+other = "Switch to light"
+[a11y.themeToDark]
+other = "Switch to dark"
+
+# ---------- 五色石 SVG ----------
+[stones.aria]
+other = "Project Jiachen talent-cultivation framework: open free courses, the joint open-source internship programme, board drifting and talent endorsement — four cornerstones that the Five-Colour Stone Project integrates into one loop"
+[stones.courses]
+other = "Open free courses"
+[stones.coursesSub]
+other = "RISC-V, all subfields"
+[stones.internship]
+other = "Joint internship"
+[stones.internshipSub]
+other = "post + mentor + stipend"
+[stones.board]
+other = "Board drifting"
+[stones.boardSub]
+other = "borrow a board for free"
+[stones.endorse]
+other = "Talent endorsement"
+[stones.endorseSub]
+other = "public backing and referrals"
+[stones.project]
+other = "Five-Colour Stone"
+[stones.projectSub]
+other = "ten years · further integration"
+[stones.caption]
+other = "Figure: drawn by this site after the structure on slide 44 of “Project Jiachen: For the Prosperity of the RISC-V Software Ecosystem” (CCF Open Source Software Conference, 2026-08-16). The original image is not used."
+
+[avatar.alt]
+other = "{{ .Name }} — avatar"

@@ -1,0 +1,218 @@
+# 简体中文（默认语言）
+[a11y.skip]
+other = "跳到正文"
+[a11y.menu]
+other = "菜单"
+[a11y.theme]
+other = "切换明暗配色"
+[a11y.themeRow]
+other = "切换明暗配色"
+
+[nav.shise]
+other = "五色石"
+[nav.interns]
+other = "实习生"
+[nav.mentors]
+other = "导师"
+[nav.program]
+other = "培养计划"
+[nav.timeline]
+other = "时间线"
+[nav.blog]
+other = "博客"
+[nav.join]
+other = "加入"
+[nav.sources]
+other = "来源"
+
+[footer.tagline]
+other = "一个从 2017 年写到今天的实习生仓库，和它背后的那些人。"
+[footer.repo]
+other = "GitHub 仓库"
+[footer.jiachen]
+other = "甲辰计划"
+[footer.sources]
+other = "来源与许可"
+[footer.rss]
+other = "RSS"
+[footer.licenseNote]
+other = "本站文字以 CC BY-SA 4.0 发布，与 weloveinterns 仓库一致（仓库 LICENSE 为 Attribution-ShareAlike 4.0 International）。页面上的图表全部为本站自绘 SVG，不使用第三方图片与网络字体；引用到的外部材料逐条登记在「来源与许可」，含原始 URL、引用方式与版权状态。实习生姓名与背书链接均取自本人同意公开的仓库条目。"
+
+[crumb.home]
+other = "首页"
+
+[home.kicker]
+other = "甲辰计划 · 开源实习生联合培养"
+[home.title]
+other = "给实习生以荣光"
+[home.lede]
+other = "weloveinterns 是甲辰计划开源实习生联合招聘培养的主入口，也是一个从 2017 年写到今天的仓库。这里介绍我们在做的事、正在做这些事的人，以及可以让你上手的第一批开源项目。"
+[home.ctaJoin]
+other = "投递简历 →"
+[home.ctaBlog]
+other = "读九年回顾"
+
+[stat.positions]
+other = "累计开放实习岗位"
+[stat.interns]
+other = "累计实习人次"
+[stat.mentors]
+other = "社区导师"
+[stat.maintainers]
+other = "培养出的开源维护者"
+[stat.orgs]
+other = "甲辰计划成员单位"
+
+[sec.jiachen.title]
+other = "甲辰计划是什么"
+[sec.jiachen.lead]
+other = "甲辰计划（RISC-V Prosperity 2036）诞生于 2024 年除夕，由国内多家 RISC-V 软件与芯片团队联合发起。它没有财务实体、没有会员费、没有董事会，只有一个主理人和一份共同愿景 —— 一个基于共识的合作网络。"
+[sec.jiachen.quote]
+other = "在下一个丙辰年（2036 龙年）之前，基于 RISC-V 实现从数据中心到桌面办公、从移动穿戴到智能物联网全信息产业覆盖的开放标准体系及开源系统软件栈，使 RISC-V 软硬件生态达到或超过其它主流架构的生态成熟度。"
+[sec.jiachen.quoteSrc]
+other = "—— 甲辰计划愿景与使命"
+[sec.jiachen.goals]
+other = "目标是联合 100 家以上芯片及方案厂商、500 家以上软件企业，在 18 个以上基础关键行业领域完成面向 RISC-V 的适配与优化，合作完成超过 1000 款重要行业及商业软件的移植与部署；并建立 RISC-V 人才识别体系，连接超过 1 万名专业人才。"
+[card.network.tag]
+other = "组织方式"
+[card.network.title]
+other = "基于共同愿景的「朋友圈」"
+[card.network.desc]
+other = "认可愿景即可加入，随时可以退出；成员地位平等、无等级结构；贡献越大，影响力越大。"
+[card.finance.tag]
+other = "财务模式"
+[card.finance.title]
+other = "开源项目式运作"
+[card.finance.desc]
+other = "无财务实体、无会员费用、无董事会；成员自行发起项目并筹措资金，PLCT 实验室与苦芽科技提供初始动能。"
+[card.eco.tag]
+other = "生态"
+[card.eco.title]
+other = "60+ 家成员"
+[card.eco.desc]
+other = "从芯片厂商、发行版社区到高校与研究机构，依托甲辰计划已发起多个独立项目。"
+
+[sec.program.title]
+other = "开源实习生联合培养"
+[sec.program.lead]
+other = "2024 年 6 月 8 日发布的项目，出发点是一句很务实的话：让成员单位用最小的金钱和管理资源投入，完成对自家企业有用的 RISC-V 生态建设目标的加速。"
+[trio.vision.title]
+other = "愿景"
+[trio.vision.desc]
+other = "让每一个想进入开源世界的学生，都能拿到一块真实的垫脚石：有导师、有真实的上游任务、有被 merge 的 PR、有实习费。"
+[trio.mission.title]
+other = "使命"
+[trio.mission.desc]
+other = "做企业与年轻人之间的接口：企业拿出岗位与 mentor，我们负责筛选、培养、评级与背书。自甲辰龙年起，每年开放 2000 名以上实习名额。"
+[trio.achievement.title]
+other = "成就"
+[trio.achievement.desc]
+other = "累计岗位、累计实习、社区导师与维护者数量的可核对数字；超过 10 家公司和机构提供岗位。"
+[sec.program.principlesTitle]
+other = "三条不看的，一条坚持的"
+[sec.program.principles]
+other = "不看 985 或 211，不看专业和年级排名，完全按照工作能力和潜力选拔；相信女性在 STEM 领域的潜力，预留至少 30% 的实习生岗位给女性应聘者。"
+[sec.program.grading]
+other = "评价标准只有一条：能不能完成联合培养单位的日常开发任务 —— 用不到的能力，不在评价范围。能力分级是 LV0–LV5，由主理人以「仁慈独裁者」方式评定；LV4 是默认的全职招聘等级。"
+[sec.program.gradingMore]
+other = "看完整的分级与流程 →"
+
+[sec.interns.title]
+other = "杰出实习生"
+[sec.interns.lead]
+other = "名单上不是「若干名优秀实习生」，是一个个具体的人。每一张卡片背后是一次被 merge 的提交，一份能被上游认可的产出。"
+[btn.allInterns]
+other = "完整名单（含 senior interns 与寄语原文）→"
+[sec.mentors.title]
+other = "社区导师"
+[sec.mentors.lead]
+other = "实习需要跟着一位师父 —— 只有获得一位 mentor 的认可，实习契约才成立。这一节陆续补充。"
+[btn.allMentors]
+other = "全部导师 →"
+[sec.shise.title]
+other = "五色石工程"
+[sec.shise.lead]
+other = "2026 年丙午正月初一，甲辰计划发布 RISC-V 全球领袖人才培养工程（简称五色石工程）：取女娲炼五色石补天之意，以十年为周期，从「寻找、筛选人才」升级为「系统性、长期性培养人才」。"
+[btn.shiseMore]
+other = "五色石工程：初衷与佐证 →"
+[sec.projects.title]
+other = "开源项目"
+[sec.projects.lead]
+other = "依托甲辰计划，成员组织发起了一批项目；下面另有一组推荐给实习生上手的开源仓库 —— 它们都是真实的上游，能拿到真实的 review。"
+[projects.group1]
+other = "甲辰计划与成员共建"
+[projects.group2]
+other = "推荐上手"
+[sec.blog.title]
+other = "博客"
+[sec.blog.lead]
+other = "从 2024 年 6 月那份启动通告开始，到 2026 年的九年回顾。"
+[btn.allPosts]
+other = "全部文章 →"
+[sec.join.title]
+other = "下一个垫脚石"
+[sec.join.lead]
+other = "这个仓库每天都在等下一封邮件。标题写「岗位编号 - 姓名 - 手机号 - 学校」，带一份 PDF 简历，发到 wuwei@rv2036.org。"
+[btn.join]
+other = "怎么加入 →"
+[btn.repo]
+other = "直接看仓库"
+[sec.about.title]
+other = "关于这个站"
+
+[timeline.legendRepo]
+other = "仓库"
+[timeline.legendOrg]
+other = "组织"
+[timeline.legendProgram]
+other = "培养体系"
+[timeline.legendPeople]
+other = "人"
+[timeline.evidence]
+other = "证据："
+
+[sources.usage]
+other = "用法："
+[sources.license]
+other = "许可："
+
+[blog.back]
+other = "← 回博客列表"
+[card.more]
+other = "更多 →"
+
+[a11y.lang]
+other = "切换语言"
+[a11y.themeToLight]
+other = "切到亮色"
+[a11y.themeToDark]
+other = "切到深色"
+
+# ---------- 五色石 SVG ----------
+[stones.aria]
+other = "甲辰计划人才培养支撑体系：公开免费培训课程体系、开源实习生联合培养、开发板漂流、甲辰计划人才背书四块基石，由五色石工程进一步整合成闭环"
+[stones.courses]
+other = "公开免费培训课程"
+[stones.coursesSub]
+other = "全门类 RISC-V 课程"
+[stones.internship]
+other = "开源实习生联合培养"
+[stones.internshipSub]
+other = "岗位 + 导师 + 实习费"
+[stones.board]
+other = "开发板漂流"
+[stones.boardSub]
+other = "免费借你一块板子"
+[stones.endorse]
+other = "甲辰计划人才背书"
+[stones.endorseSub]
+other = "公开背书与工作内推"
+[stones.project]
+other = "五色石工程"
+[stones.projectSub]
+other = "十年 · 进一步整合"
+[stones.caption]
+other = "图：本站依据《甲辰计划：为了 RISC-V 软件生态的繁荣》（CCF 开源软件大会，2026-08-16）第 44 页的结构自绘，未使用原图。"
+
+[avatar.alt]
+other = "{{ .Name }} 的头像"

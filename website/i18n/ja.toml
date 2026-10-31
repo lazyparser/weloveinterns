@@ -1,0 +1,218 @@
+# 日本語
+[a11y.skip]
+other = "本文へスキップ"
+[a11y.menu]
+other = "メニュー"
+[a11y.theme]
+other = "配色を切り替え"
+[a11y.themeRow]
+other = "配色を切り替え"
+
+[nav.shise]
+other = "五色石"
+[nav.interns]
+other = "インターン"
+[nav.mentors]
+other = "メンター"
+[nav.program]
+other = "養成プログラム"
+[nav.timeline]
+other = "年表"
+[nav.blog]
+other = "ブログ"
+[nav.join]
+other = "参加"
+[nav.sources]
+other = "出典"
+
+[footer.tagline]
+other = "2017 年から今日まで書き続けてきたインターンのリポジトリと、その背後にいる人たち。"
+[footer.repo]
+other = "GitHub リポジトリ"
+[footer.jiachen]
+other = "甲辰計画"
+[footer.sources]
+other = "出典とライセンス"
+[footer.rss]
+other = "RSS"
+[footer.licenseNote]
+other = "当サイトの文章は CC BY-SA 4.0 で公開しており、weloveinterns リポジトリと同じです（リポジトリの LICENSE は Attribution-ShareAlike 4.0 International）。ページ上の図表はすべて当サイトが描いた SVG で、第三者の画像や Web フォントは使っていません。引用した外部資料は「出典とライセンス」に 1 件ずつ登録しており、元の URL、引用のしかた、著作権の状態を記載しています。インターンの氏名と推薦リンクは、本人が公開に同意したリポジトリの項目からのみ採録しています。"
+
+[crumb.home]
+other = "ホーム"
+
+[home.kicker]
+other = "甲辰計画 · オープンソースインターン共同養成"
+[home.title]
+other = "インターンに栄光を"
+[home.lede]
+other = "weloveinterns は、甲辰計画のオープンソースインターン共同募集・養成の主な入り口であり、2017 年から今日まで書き続けてきたリポジトリでもあります。ここでは私たちが取り組んでいること、それに携わる人たち、そして最初に手をつけられるオープンソースプロジェクトを紹介します。"
+[home.ctaJoin]
+other = "履歴書を送る →"
+[home.ctaBlog]
+other = "9 年の振り返りを読む"
+
+[stat.positions]
+other = "累計インターン枠"
+[stat.interns]
+other = "累計インターン参加"
+[stat.mentors]
+other = "コミュニティメンター"
+[stat.maintainers]
+other = "輩出したオープンソースメンテナ"
+[stat.orgs]
+other = "甲辰計画のメンバー組織"
+
+[sec.jiachen.title]
+other = "甲辰計画とは"
+[sec.jiachen.lead]
+other = "甲辰計画（RISC-V Prosperity 2036）は 2024 年の春節前夜に生まれ、国内の複数の RISC-V ソフトウェア・チップチームが共同で立ち上げました。財務実体も会費も理事会もなく、あるのは主宰者 1 人と共通のビジョンだけ —— 合意にもとづく協力ネットワークです。"
+[sec.jiachen.quote]
+other = "次の丙辰年（2036 年、辰年）までに、RISC-V にもとづいてデータセンターからデスクトップ業務まで、モバイル・ウェアラブルからスマート IoT まで、情報産業の全体を覆うオープン標準体系とオープンソースのシステムソフトウェアスタックを実現し、RISC-V のソフトウェア・ハードウェア生態系を他の主要アーキテクチャに匹敵するか、それを上回る成熟度にします。"
+[sec.jiachen.quoteSrc]
+other = "—— 甲辰計画のビジョンと使命"
+[sec.jiachen.goals]
+other = "目標は、100 社以上のチップ・ソリューションベンダーと 500 社以上のソフトウェア企業が連携し、18 以上の基幹産業分野で RISC-V 向けの適応と最適化を成し遂げ、1000 本を超える重要産業・業務用ソフトウェアの移植と配備を共同で完了することです。あわせて RISC-V 人材の識別体系を築き、1 万人を超える専門人材をつなぎます。"
+[card.network.tag]
+other = "組織のあり方"
+[card.network.title]
+other = "共通のビジョンにもとづく「交友の輪」"
+[card.network.desc]
+other = "ビジョンに賛同すれば参加でき、いつでも抜けられます。メンバーの地位は対等で階層構造はなく、貢献が大きいほど影響力も大きくなります。"
+[card.finance.tag]
+other = "財務モデル"
+[card.finance.title]
+other = "オープンソースプロジェクト方式の運営"
+[card.finance.desc]
+other = "財務実体・会費・理事会はありません。メンバーが自らプロジェクトを立ち上げて資金を調達し、PLCT ラボと苦芽科技が最初の推進力を提供します。"
+[card.eco.tag]
+other = "生態系"
+[card.eco.title]
+other = "参加メンバー"
+[card.eco.desc]
+other = "チップベンダーからディストリビューションのコミュニティ、大学や研究機関まで、甲辰計画を軸にすでに複数の独立プロジェクトが始まっています。"
+
+[sec.program.title]
+other = "オープンソースインターン共同養成"
+[sec.program.lead]
+other = "2024 年 6 月 8 日に発表されたプロジェクトです。出発点はとても実務的な一言でした。メンバー組織が最小限の資金と管理リソースの投入で、自社に役立つ RISC-V 生態系の構築目標を加速して達成できるようにする、というものです。"
+[trio.vision.title]
+other = "ビジョン"
+[trio.vision.desc]
+other = "オープンソースの世界に入りたい学生一人ひとりが、本物の踏み台を手にできるようにします。メンターがいて、実際の上流タスクがあり、マージされた PR があり、インターン手当がある —— そういう踏み台です。"
+[trio.mission.title]
+other = "使命"
+[trio.mission.desc]
+other = "企業と若者のあいだのインターフェースになります。企業が枠とメンターを出し、私たちが選考・養成・格付け・推薦を担います。甲辰の辰年から、毎年 2000 名以上のインターン枠を開いています。"
+[trio.achievement.title]
+other = "実績"
+[trio.achievement.desc]
+other = "累計の枠、累計のインターン参加、コミュニティメンターとメンテナの数 —— 検証できる数字です。10 社以上の企業・機関が枠を提供しています。"
+[sec.program.principlesTitle]
+other = "見ない三点、守る一点"
+[sec.program.principles]
+other = "985 も 211 も見ません。専攻や学年順位も見ません。仕事の能力と潜在力だけで選考します。STEM 分野における女性の潜在力を信じ、インターン枠の少なくとも 30% を女性応募者に確保します。"
+[sec.program.grading]
+other = "評価基準はただ一つ、共同養成先の日常的な開発タスクをこなせるかどうかです。使わない能力は評価の対象外です。能力の格付けは LV0–LV5 で、主宰者が「慈悲深い独裁者」として判定します。LV4 が常勤採用の既定ラインです。"
+[sec.program.gradingMore]
+other = "格付けと流れの全体を見る →"
+
+[sec.interns.title]
+other = "傑出したインターン"
+[sec.interns.lead]
+other = "このリストにあるのは「若干名の優秀なインターン」ではなく、一人ひとりの具体的な人間です。カードの一枚一枚の背後には、マージされたコミットと、上流に認められた成果があります。"
+[btn.allInterns]
+other = "全リスト（senior interns と本人の言葉つき）→"
+[sec.mentors.title]
+other = "コミュニティメンター"
+[sec.mentors.lead]
+other = "インターンには師匠が必要です。あるメンターの承認を得てはじめて、インターンの契約が成立します。この節は順次追加していきます。"
+[btn.allMentors]
+other = "メンター一覧 →"
+[sec.shise.title]
+other = "五色石プロジェクト"
+[sec.shise.lead]
+other = "2026 年、丙午の正月一日に、甲辰計画は RISC-V グローバルリーダー人材養成プロジェクト（略称・五色石プロジェクト）を発表しました。女媧が五色の石を錬じて天を補った故事にちなみ、10 年を周期として、「人材を探し、選ぶ」ことから「体系的・長期的に人材を育てる」ことへ移ります。"
+[btn.shiseMore]
+other = "五色石プロジェクト：趣旨と根拠 →"
+[sec.projects.title]
+other = "オープンソースプロジェクト"
+[sec.projects.lead]
+other = "甲辰計画を軸に、メンバー組織がいくつものプロジェクトを立ち上げました。その下には、インターンが最初に取り組むのに向いたリポジトリを別に並べています。いずれも本物の上流で、本物のレビューが返ってきます。"
+[projects.group1]
+other = "甲辰計画とメンバーの共同開発"
+[projects.group2]
+other = "はじめの一歩におすすめ"
+[sec.blog.title]
+other = "ブログ"
+[sec.blog.lead]
+other = "2024 年 6 月の始動告知から、2026 年の 9 年振り返りまで。"
+[btn.allPosts]
+other = "記事一覧 →"
+[sec.join.title]
+other = "次の踏み台"
+[sec.join.lead]
+other = "このリポジトリは毎日、次の一通のメールを待っています。件名は「募集番号 - 氏名 - 携帯番号 - 学校」、PDF の履歴書を添えて wuwei@rv2036.org へ。"
+[btn.join]
+other = "参加方法 →"
+[btn.repo]
+other = "リポジトリを見る"
+[sec.about.title]
+other = "このサイトについて"
+
+[timeline.legendRepo]
+other = "リポジトリ"
+[timeline.legendOrg]
+other = "組織"
+[timeline.legendProgram]
+other = "養成制度"
+[timeline.legendPeople]
+other = "人"
+[timeline.evidence]
+other = "根拠："
+
+[sources.usage]
+other = "用法："
+[sources.license]
+other = "ライセンス："
+
+[blog.back]
+other = "← ブログ一覧へ"
+[card.more]
+other = "詳細 →"
+
+[a11y.lang]
+other = "言語を切り替え"
+[a11y.themeToLight]
+other = "ライトに切り替え"
+[a11y.themeToDark]
+other = "ダークに切り替え"
+
+# ---------- 五色石 SVG ----------
+[stones.aria]
+other = "甲辰計画の人材育成支援体系：公開無料研修コース、オープンソースインターン共同養成、開発ボード漂流、甲辰計画人材認定という四つの基盤を、五色石プロジェクトが統合して一つの循環にしたもの"
+[stones.courses]
+other = "公開無料研修コース"
+[stones.coursesSub]
+other = "全分野 RISC-V"
+[stones.internship]
+other = "インターン共同養成"
+[stones.internshipSub]
+other = "求人 + メンター + 手当"
+[stones.board]
+other = "開発ボード漂流"
+[stones.boardSub]
+other = "ボードを無料で貸出"
+[stones.endorse]
+other = "甲辰計画人材認定"
+[stones.endorseSub]
+other = "公開認定とリファラル"
+[stones.project]
+other = "五色石プロジェクト"
+[stones.projectSub]
+other = "十年 · さらなる統合"
+[stones.caption]
+other = "図：本サイトが「甲辰計画：RISC-V ソフトウェア生態系の繁栄のために」（CCF オープンソースソフトウェア会議、2026-08-16）44 ページの構造に基づいて自作したもので、原図は使用していません。"
+
+[avatar.alt]
+other = "{{ .Name }} のアバター"

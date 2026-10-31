@@ -3,20 +3,17 @@
     <div class="footer-grid">
       <div>
         <strong>{{ site.Params.siteName }}</strong>（{{ site.Params.siteNameCN }}）<br>
-        一个从 2017 年写到今天的实习生仓库，和它背后的那些人。
+        {{ i18n "footer.tagline" }}
       </div>
       <div>
-        <a href="{{ site.Params.repo }}" target="_blank" rel="noopener">GitHub 仓库</a> ·
-        <a href="{{ site.Params.jiachenSite }}" target="_blank" rel="noopener">甲辰计划</a> ·
-        <a href="{{ "sources/" | relURL }}">来源与许可</a> ·
-        <a href="{{ "rss.xml" | relURL }}">RSS</a>
+        <a href="{{ site.Params.repo }}" target="_blank" rel="noopener">{{ i18n "footer.repo" }}</a> ·
+        <a href="{{ site.Params.jiachenSite }}" target="_blank" rel="noopener">{{ i18n "footer.jiachen" }}</a> ·
+        <a href="{{ "sources/" | relLangURL }}">{{ i18n "footer.sources" }}</a> ·
+        <a href="{{ "rss.xml" | relLangURL }}">{{ i18n "footer.rss" }}</a>
       </div>
     </div>
     <div class="footer-note">
-      本站文字以 <a href="{{ site.Params.licenseURL }}" target="_blank" rel="noopener">{{ site.Params.license }}</a> 发布，与 weloveinterns 仓库一致（仓库 LICENSE 为 Attribution-ShareAlike 4.0 International）。
-      页面上的图表全部为本站自绘 SVG，不使用第三方图片与网络字体；引用到的外部材料逐条登记在
-      <a href="{{ "sources/" | relURL }}">来源与许可</a>，含原始 URL、引用方式与版权状态。
-      实习生姓名与背书链接均取自本人同意公开的仓库条目。
+      {{ i18n "footer.licenseNote" }}
     </div>
   </div>
 </footer>

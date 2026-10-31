@@ -1,0 +1,62 @@
+# Open-source projects: two groups — those started or co-built by Project Jiachen, and those recommended for interns to start on.
+# All urls are public repositories or sites reachable when tested on 2026-10-31.
+
+jiachen:
+  - name: Joint open-source internship recruitment and training
+    url: https://github.com/lazyparser/weloveinterns
+    desc: The repository behind this site. 3,000+ positions and 1,000+ internships to date; the main entrance to this talent programme.
+    tag: Talent development
+  - name: Project Jiachen talent endorsement network
+    url: https://github.com/rv2036/jiachen-builders-network
+    desc: A trust network of personal endorsements; number 0 is self-signed by the lead, all are publicly verifiable on GitHub, and it echoes the PLCT intern level system.
+    tag: Talent identification
+  - name: RISC-V development board drifting
+    url: https://github.com/rv2036/riscv-board-wandering
+    desc: "'Every RISC-V development board deserves to be plugged in and loved.' Donating and claiming both run on drifting points; every donation is accepted optimistically, as it comes."
+    tag: Hardware
+  - name: RuyiSDK
+    url: https://github.com/ruyisdk/ruyisdk
+    desc: An integrated development environment and package manager (ruyi) for RISC-V developers, reducing the fetching and configuration of toolchains, simulators and system images to a few commands.
+    tag: Developer tools
+  - name: RISC-V documentation wiki project
+    url: https://rv2036.org
+    desc: A documentation project launched by Project Jiachen member organisations, with the goal that Chinese-language RISC-V technical material is no longer scattered.
+    tag: Documentation
+  - name: RVSPOC / RV New 32-bit
+    url: https://rv2036.org/blog
+    desc: Two special programmes around the RISC-V software ecosystem; details and progress are in Project Jiachen announcements.
+    tag: Ecosystem
+  - name: RISC-V chip security challenge
+    url: https://rv2036.org/blog
+    desc: A competition aimed at RISC-V chip security, linked to the talent identification system.
+    tag: Competition
+  - name: Tushan Project
+    url: https://rv2036.org/blog
+    desc: "Using AI to design a high-performance RISC-V processor for laptops: CPU/GPU performance per watt benchmarked against Apple M1, taped out at foundries in three regions, a thousand units to be delivered before Chinese New Year 2029, the Jiyou year."
+    tag: Chips
+
+community:
+  - name: PicoClaw
+    url: https://github.com/sipeed/picoclaw
+    desc: Sipeed's minimal AI assistant framework, built around "small, fast, deployable anywhere"; a good first real upstream task for embedded and edge AI.
+    tag: AI Agent · Go
+  - name: RT-Claw
+    url: https://github.com/zevorn/rt-claw
+    desc: "Making an AI assistant cheap: a small agent written in C within the RT-Thread ecosystem, with a manageable amount of code, suitable as a first contribution in the embedded direction."
+    tag: AI Agent · C
+  - name: LoongClaw
+    url: https://github.com/loongclaw-ai/loongclaw
+    desc: Lightweight, clear and extensible AI agent infrastructure in Rust, emphasising "easy to learn, anything can be changed".
+    tag: AI Agent · Rust
+  - name: Buddy Compiler / Buddy MLIR
+    url: https://github.com/buddy-compiler/buddy-mlir
+    desc: An MLIR-based compiler framework that bridges DSLs to DSAs. One of the main practice grounds for interns working on MLIR.
+    tag: Compilers · MLIR
+  - name: FlagTree
+    url: https://github.com/flagos-ai/FlagTree
+    desc: A unified compiler supporting multiple AI chip backends, aimed at custom deep-learning operators; the RISC-V backend work in the FlagOS system happens here.
+    tag: Compilers · AI Infra
+  - name: TileLang
+    url: https://github.com/tile-ai/tilelang
+    desc: A domain-specific language for high-performance GPU/CPU/accelerator kernel development, making operator writing as direct as writing Python.
+    tag: DSL · Kernel

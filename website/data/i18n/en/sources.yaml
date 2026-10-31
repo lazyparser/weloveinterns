@@ -1,0 +1,131 @@
+# Source register: every external fact that appears on the site must have a row here.
+# id is used by the shortcode in the text: {{< cite "stanford-canaries" >}}
+# usage says how this site uses the item (data citation / brief quote / link only); license states the verifiable copyright status.
+- id: repo
+  title: weloveinterns 仓库
+  author: Wu Wei (lazyparser) and contributors
+  url: https://github.com/lazyparser/weloveinterns
+  date: 2017-05-02 to present
+  license: CC BY-SA 4.0
+  usage: "The original source for this site's story, timeline and figures (git history and the individual md files); the content of this site is likewise published under CC BY-SA 4.0."
+  note: "The repository's LICENSE file is 'Attribution-ShareAlike 4.0 International'."
+
+- id: jiachen-wucai-shi
+  title: 甲辰计划「五色石工程」启动：十年育匠，打造 RISC-V 全球开源领袖梯队
+  author: Project Jiachen (Wu Wei)
+  url: https://mp.weixin.qq.com/s/l2oxeuTLbci7ws-xK0U9FQ
+  date: "2026-02-17 (first day of the Bingwu Horse year)"
+  license: "Copyright belongs to Project Jiachen; this site only summarises key points and quotes briefly, credits the source and links to the original, and does not reproduce the full text or layout."
+  usage: "The sole authoritative source for the Five-Colour Stone Project's origins, three goals, four-stage milestones and admission criteria."
+
+- id: jiachen-site
+  title: Jiachen Project 官网（RISC-V Prosperity 2036）
+  author: Project Jiachen
+  url: https://rv2036.org
+  date: Continuously updated
+  license: "Copyright in the site content belongs to Project Jiachen; this site only cites its public statements and links to them."
+  usage: "The source for Project Jiachen's vision, mission and organisational model."
+
+- id: jiachen-blog
+  title: 甲辰计划 Blog（项目与活动公告索引）
+  author: Project Jiachen
+  url: https://rv2036.org/blog
+  date: Continuously updated
+  license: "As above; links and paraphrased titles only."
+  usage: "The index source for timeline events such as board drifting, position announcements and member join-ups."
+
+- id: builders-network
+  title: 甲辰计划顶尖人才识别互认体系（jiachen-builders-network）
+  author: Project Jiachen
+  url: https://github.com/rv2036/jiachen-builders-network
+  date: 2024 to present
+  license: "The repository is publicly readable; endorsement number 0 is self-signed by the lead."
+  usage: "The 'Project Jiachen endorsement' numbers and links in outstanding intern entries."
+
+- id: board-wandering
+  title: RISC-V 闲置开发板随缘漂流活动
+  author: Project Jiachen
+  url: https://github.com/rv2036/riscv-board-wandering
+  date: 2024 to present
+  license: "The repository is publicly readable; the rules and points mechanics are as stated in the repository."
+  usage: "The description of the 'development board drifting' part of the support system."
+
+- id: ccf-deck
+  title: 甲辰计划：为了 RISC-V 软件生态的繁荣（CCF 开源软件大会演讲，56 页）
+  author: Wu Wei (Project Jiachen)
+  url: "Talk PDF, 2026-08-16"
+  date: 2026-08-16
+  license: "Author's own material, provided by the author for this site's use."
+  usage: "The structure of the five-part 'talent training support system: taking shape', and Project Jiachen's target figures (member organisations, positions and internship scale), come from this talk."
+
+- id: gotc-deck
+  title: 这是最坏的时代，这是最好的时代（2026 QEMU 训练营开营仪式发言，55 页）
+  author: Wu Wei (Project Jiachen)
+  url: "Talk PDF, 2026-04-05"
+  date: 2026-04-05
+  license: "Author's own material, provided by the author for this site's use."
+  usage: "The phrasing 'missing the first opportunity, the first stepping stone', and the Five-Colour Stone Project's positioning and goals page."
+
+- id: stanford-canaries
+  title: "Canaries in the Coal Mine? Six Facts about the Recent Employment Effects of Artificial Intelligence（2026 年 8 月更新版）"
+  author: Erik Brynjolfsson, Bharat Chandar, Ruyu Chen（Stanford Digital Economy Lab）
+  url: https://digitaleconomy.stanford.edu/app/uploads/2026/08/Canaries_August2026.pdf
+  date: 2026-08
+  license: "Copyright in the paper belongs to the authors; this site cites only the statistical conclusions in its public abstract and provides a link; no charts are reused."
+  usage: "The quantitative basis for the employment gap among 22–25-year-olds in occupations highly exposed to AI (19%, −11% and +10%, mainly slower hiring)."
+
+- id: anthropic-labor
+  title: "Labor market impacts of AI: a new measure and early evidence"
+  author: Anthropic
+  url: https://www.anthropic.com/research/labor-market-impacts
+  date: 2026
+  license: "Copyright in the Anthropic research page belongs to Anthropic; this site restates the conclusions and links."
+  usage: "The more cautious judgement that highly exposed occupations show no systematic rise in unemployment, but hiring of young workers has slowed."
+
+- id: so-survey-2025
+  title: 2025 Stack Overflow Developer Survey — AI
+  author: Stack Overflow
+  url: https://survey.stackoverflow.co/2025/ai
+  date: 2025-07
+  license: "The survey data is published publicly by Stack Overflow; this site cites the percentages and links."
+  usage: "84% of respondents using or planning to use AI tools, and 51% of professional developers using them daily."
+
+- id: moe-1270
+  title: 2026 届全国普通高校毕业生规模预计 1270 万人（教育部数据）
+  author: Xinhua News Agency / China Education News
+  url: http://m.jyb.cn/rmtzcg/xwy/wzxw/202511/t20251120_2111416145_wap.html
+  date: 2025-11-20
+  license: "Copyright in the news report belongs to the original outlets; this site cites the figure and links."
+  usage: "Background data on 'the scale of competition among peers', up 480,000 year on year."
+
+- id: hwchase17
+  title: Harrison Chase（LangChain）关于编程 AI 改变产品开发流程的公开帖
+  author: Harrison Chase
+  url: https://x.com/hwchase17/status/2031051115169808685
+  date: 2026
+  license: "Copyright in the social-media post belongs to the author; this site only restates the view and links, without copying the text."
+  usage: "The industry observation that code has become cheap and the bottleneck has moved from implementation to review."
+
+- id: plct-retire
+  title: 关于「PLCT 实验室」品牌退役的说明
+  author: PLCT Lab (Wu Wei)
+  url: https://www.bilibili.com/opus/1186013918448844803
+  date: 2025-12
+  license: "Copyright belongs to the author; this site cites only the fact and links."
+  usage: "The timeline event of the PLCT brand's retirement in December 2025."
+
+- id: wechat-jd
+  title: 甲辰计划主理人发起开源实习生联合招聘培养项目（启动通告）
+  author: Project Jiachen (Wu Wei)
+  url: https://mp.weixin.qq.com/s/TenVAVzaWuUWGIWodGaFKA
+  date: "The text says published '8 June 2024'; the Project Jiachen news index records 2024-06-09"
+  license: "Copyright belongs to Project Jiachen; **full republication authorised by the author** (the author is the lead of this repository). The republication keeps the original wording but does not carry over the original images or layout."
+  usage: "The launch announcement of the joint recruitment and training project. The blog post 'Project Jiachen's lead launches a joint open-source internship recruitment and training project' on this site is a full republication of it plus notes three years on."
+
+- id: rv2036-news-index
+  title: 甲辰计划公众号文章索引（rv2036-website 的 third-party-news.md）
+  author: Project Jiachen
+  url: https://github.com/rv2036/rv2036-website/blob/main/_includes/third-party-news.md
+  date: "Continuously updated (268 lines as of 2026-10)"
+  license: "Copyright in the repository content belongs to Project Jiachen; this site uses it only to verify article dates and titles, and links to it."
+  usage: "Verifying the publication date and official title of a WeChat article (for example, the launch announcement is recorded under 2024-06-09)."

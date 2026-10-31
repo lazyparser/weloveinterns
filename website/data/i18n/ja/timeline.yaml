@@ -1,0 +1,115 @@
+# 年表：どの項目もリポジトリの履歴のなかで具体的なコミットかファイルを指せます。
+# kind: repo（リポジトリ自身）／ org（組織）／ program（養成制度）／ people（人）
+- date: 2017-05-02
+  title: 最初のコミット
+  desc: b558384「Initial commit」、続く数件は「Initial Home page」「Created _Sidebar」—— 当時それはまだ GitHub wiki で、募集ページではありませんでした。
+  kind: repo
+  evidence: b558384
+
+- date: 2017
+  title: ロボット時代の資料庫
+  desc: 一年で 254 回のコミットは、リポジトリ史上のピークです。内容はすべてロボット、AI、ROS：MACE、GluonCV、opencv.js、YOLO-in-Android、TensorRT、PocketSphinx の音声認識、深層学習モデルの圧縮。コード規約のディレクトリは droid_coding_norm と呼ばれていました。
+  kind: repo
+  evidence: MACE/ · gluoncv_0.2/ · opencv.js/ · droid_coding_norm/
+
+- date: 2018-2019
+  title: インターンによる最初の成果レビュー
+  desc: リポジトリに長文のインターンレポートが現れはじめます。Android 側への音声合成の統合、ROS Server と Android 側のやりとり、ScanNet データ、CNNdroid の配備。今日の「外部から見える成果」制度の原型は、これらのレポートです。
+  kind: repo
+  evidence: Reports/ · reports/
+
+- date: 2019
+  title: PLCT ラボの設立
+  desc: プログラム言語・コンパイル技術研究室（PLCT）が中国科学院ソフトウェア研究所に設立されました。リポジトリは徐々に PLCT の公式募集ページになり、plct-interns.md が現れます。
+  kind: org
+  evidence: plct-interns.md
+
+- date: 2019-03-14
+  title: LV0–LV5 の能力格付け 第一版を公開
+  desc: 常盤台中学の「能力者」設定を借りて、インターンを LV0 から LV5 の六級に分け、主宰者が「慈悲深い独裁者」方式で判定します。
+  kind: program
+  evidence: how-do-we-rank-interns.md の更新履歴
+
+- date: 2020-06-01
+  title: LV3 の入口要件が「デバッグできる」に
+  desc: 第三版の更新で「遭遇したバグやクラッシュを単独で分析できる」が LV3 の硬い要件として書き込まれました —— この体系で最も学歴らしくなく、最も能力らしい一条です。
+  kind: program
+  evidence: how-do-we-rank-interns.md
+
+- date: 2021-01-10
+  title: wiki が退場し、README が引き継ぐ
+  desc: reorganize と Remove Home.md の二つのコミットのあと、リポジトリは wiki 形態から単一 README の入り口へ変わり、今日までそのままです。
+  kind: repo
+  evidence: 9bb3b23 · 066ef35
+
+- date: 2022-03-27
+  title: senior interns の区分を公開
+  desc: 設立理由の第一条が「栄光を刃の上に落とす」でした。同時に「同輩への指導、チームをまたぐ相互扶助」といった見えない成果を評価体系に取り込みました。
+  kind: program
+  evidence: outstanding-interns.md
+
+- date: 2022-09
+  title: TARSIER とその最初の LV4 たち
+  desc: オペレーティングシステムチーム TARSIER の時期、王弈桥は openEuler RISC-V の派生ディストリビューション Eulaceura を単独で作成し維持しました。陆言（Robin）は開発ボードへの適応を完了し、自分の名を冠した RobinOS を持ちました。
+  kind: people
+  evidence: outstanding-interns.md
+
+- date: 2023-06
+  title: 最初の大規模人員削減と、苦芽の誕生
+  desc: PLCT ラボは財務縮小に入りました。共同創業者の李威威はシミュレータチームから、王俊强は TARSIER から —— チーム解散後の行き先が、新しい会社の出発点になりました。
+  kind: org
+  evidence: employers.md
+
+- date: 2023-06 – 2023-08
+  title: TARSIER 解散
+  desc: LV4 と数名のチームリーダーを抱えていたチームが、二か月で解散しました。リポジトリは彼らの名前を消していません。
+  kind: org
+  evidence: employers.md · outstanding-interns.md
+
+- date: 2023-09-15
+  title: PLCT 以外の内容を削除
+  desc: b7f25eb の一コミットで、リポジトリは単一の主線に収束し、README とインターンの流れも簡素化されました。これは「チームと組織が組み直されては解散する」ことがリポジトリに残した継ぎ目の一つです。
+  kind: repo
+  evidence: b7f25eb
+
+- date: 2024-06-08
+  title: 甲辰計画オープンソースインターン共同募集・養成を発表
+  desc: メンバー組織に向けて新プロジェクトを発表：最小限の資金と管理の投入で、自社に役立つ RISC-V 生態系構築の加速を得る。毎年 2000+ のインターン枠を開きます。
+  kind: program
+  evidence: README · employers.md
+
+- date: 2024-07-19
+  title: リポジトリが正式に甲辰計画へ接続
+  desc: a2a18f4「甲辰計画の紹介を追加」。これ以降 weloveinterns は PLCT の募集ページから、甲辰計画の主な入り口へ変わりました。
+  kind: repo
+  evidence: a2a18f4
+
+- date: 2024-10-12
+  title: 一度に 253 ファイルを削除
+  desc: 2021 年以前のインターンレポートがまとめて外され（b9c43ed、253 files changed）、中科重德期の archives/ 全体も含まれました。README には門番号が残されました：git checkout 664048d。
+  kind: repo
+  evidence: b9c43ed · 664048d
+
+- date: 2025-12
+  title: PLCT ラボのブランド退役
+  desc: 六年使われた名前が退場しました。募集と養成は止まらず、甲辰計画の名の下へ移って続いています。
+  kind: org
+  evidence: plct-retire
+
+- date: 2026-02-17
+  title: 五色石プロジェクト始動
+  desc: 丙午の馬年の正月一日、甲辰計画は RISC-V グローバルリーダー人材養成プロジェクトを発表しました。女媧が五色の石を錬じて天を補った故事にちなみ、10 年を周期として、「人材を探し、選ぶ」から「体系的・長期的に人材を育てる」へ移ります。
+  kind: program
+  evidence: jiachen-wucai-shi
+
+- date: 2026-09
+  title: 募集番号が K18x に到達
+  desc: open-internships.md に K181 openEuler ロボットパッケージのメンテナンス、K182 openKylin エンボディドインテリジェンス、K183 RT-Thread、K184 FlagOS RISC-V、K185 RISC-V ロボットが現れ、いずれも「五色石プロジェクトの一部」と記されています。
+  kind: repo
+  evidence: 4915bc5 · 589cbf3 · eb14c8f · 53cfa10
+
+- date: 2026-09-26
+  title: 今のところ最後のコミット
+  desc: 83b5f4a「update K182」。779 のコミットのあと、このリポジトリはまだ同じ場所にいて、次のインターンからのメールを待っています。
+  kind: repo
+  evidence: 83b5f4a
