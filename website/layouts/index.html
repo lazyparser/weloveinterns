@@ -115,7 +115,7 @@
         <div class="person-body">
           <div class="person-top">
             <h3>{{ .name }}{{ with .alias }}<span class="alias">（{{ . }}）</span>{{ end }}</h3>
-            <span class="lvl">{{ .level }}</span>
+            {{ with .level }}<span class="lvl">{{ . }}</span>{{ end }}
           </div>
           {{ with .org }}<div class="who">{{ . }}</div>{{ end }}
           <p class="work">{{ .work }}</p>

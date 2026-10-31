@@ -116,3 +116,9 @@ interns:
     org: Aya 小队
     work: 知乎专栏「JVM 新闻速递」作者
     link: https://www.zhihu.com/column/c_1359548809383686144
+  - name: MikuNotFoundException
+    handle: Officeyutong
+    avatar: https://avatars.githubusercontent.com/u/9004058?v=4
+    org: eunomia-bpf 社区（eBPF / Wasm）
+    work: 参与了 eunomia-bpf 社区多个项目的开发，包括 bpftime、eunomia-bpf、wasm-bpf 等。
+    link: https://github.com/Officeyutong
