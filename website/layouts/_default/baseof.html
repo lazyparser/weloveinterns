@@ -51,10 +51,20 @@
         paint();
       });
       var mt = document.getElementById("menuToggle"), nav = document.getElementById("siteNav");
-      if (mt && nav) mt.addEventListener("click", function () {
-        nav.classList.toggle("open");
-        mt.setAttribute("aria-expanded", nav.classList.contains("open") ? "true" : "false");
-      });
+      function setMenu(open) {
+        if (!nav || !mt) return;
+        nav.classList.toggle("open", open);
+        document.body.classList.toggle("nav-open", open);
+        mt.setAttribute("aria-expanded", open ? "true" : "false");
+      }
+      if (mt && nav) {
+        mt.addEventListener("click", function () { setMenu(!nav.classList.contains("open")); });
+        // 点链接、按 Esc、或者转回桌面宽度时收起，避免遮罩留在屏幕上
+        nav.addEventListener("click", function (e) { if (e.target.tagName === "A") setMenu(false); });
+        document.addEventListener("keydown", function (e) { if (e.key === "Escape") setMenu(false); });
+        var mq = window.matchMedia("(min-width: 861px)");
+        (mq.addEventListener ? mq.addEventListener.bind(mq, "change") : mq.addListener.bind(mq))(function () { if (mq.matches) setMenu(false); });
+      }
     })();
   </script>
 </body>
