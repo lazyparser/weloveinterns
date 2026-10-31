@@ -1,0 +1,115 @@
+# 时间线：每一条都能在仓库历史里指到具体提交或文件。
+# kind: repo（仓库自身）/ org（组织）/ program（培养体系）/ people（人）
+- date: 2017-05-02
+  title: 第一次提交
+  desc: b558384「Initial commit」，随后几笔是「Initial Home page」「Created _Sidebar」—— 那时它还是一个 GitHub wiki，不是招聘页。
+  kind: repo
+  evidence: b558384
+
+- date: 2017
+  title: 机器人时代的资料库
+  desc: 一年 254 次提交，是仓库历史的峰值。内容全是机器人、AI 与 ROS：MACE、GluonCV、opencv.js、YOLO-in-Android、TensorRT、PocketSphinx 语音识别、深度学习模型压缩。代码规范目录叫 droid_coding_norm。
+  kind: repo
+  evidence: MACE/ · gluoncv_0.2/ · opencv.js/ · droid_coding_norm/
+
+- date: 2018-2019
+  title: 实习生的第一批评测
+  desc: 仓库里开始出现成篇的实习报告：Android 端集成语音合成、ROS Server 与 Android 端交互、ScanNet 数据、CNNdroid 部署。今天的「外部可见交付」制度，雏形就是这些报告。
+  kind: repo
+  evidence: Reports/ · reports/
+
+- date: 2019
+  title: PLCT 实验室成立
+  desc: 程序语言与编译技术实验室（PLCT）在中国科学院软件研究所成立。仓库逐步变成 PLCT 的官方招聘页，plct-interns.md 出现。
+  kind: org
+  evidence: plct-interns.md
+
+- date: 2019-03-14
+  title: LV0–LV5 能力分级第一版公开
+  desc: 借用常盘台中学的「能力者」设定，把实习生分成 LV0 到 LV5 六级，由主理人以「仁慈独裁者」方式评定。
+  kind: program
+  evidence: how-do-we-rank-interns.md 文件更新记录
+
+- date: 2020-06-01
+  title: LV3 的准入门槛变成「会调试」
+  desc: 第三版更新把「能够独立分析遇到的 bug 或 crash」写成 LV3 的硬门槛 —— 这是这套体系里最不像学历、最像能力的一条。
+  kind: program
+  evidence: how-do-we-rank-interns.md
+
+- date: 2021-01-10
+  title: wiki 退场，README 接手
+  desc: reorganize 与 Remove Home.md 两笔提交之后，仓库从 wiki 形态转为单一 README 入口，一直沿用到今天。
+  kind: repo
+  evidence: 9bb3b23 · 066ef35
+
+- date: 2022-03-27
+  title: senior interns 分类公开
+  desc: 设立理由的第一条就是「让荣光落于刀锋之上」。同时把「同辈指导、跨组互助」这些看不见的产出，纳入评价体系。
+  kind: program
+  evidence: outstanding-interns.md
+
+- date: 2022-09
+  title: TARSIER 与它的第一批 LV4
+  desc: 操作系统团队 TARSIER 期间，王弈桥独立创建并维护 openEuler RISC-V 衍生发行版 Eulaceura；陆言（Robin）完成开发板适配并有了以他命名的 RobinOS。
+  kind: people
+  evidence: outstanding-interns.md
+
+- date: 2023-06
+  title: 第一次大裁员，与苦芽的诞生
+  desc: PLCT 实验室进入财务收缩。联合创始人李威威来自模拟器团队，王俊强来自 TARSIER —— 团队解散之后的去向，成了新公司的起点。
+  kind: org
+  evidence: employers.md
+
+- date: 2023-06 至 2023-08
+  title: TARSIER 解散
+  desc: 一个带走了 LV4 与若干小队长的团队，在两个月内散摊。仓库没有删掉他们的名字。
+  kind: org
+  evidence: employers.md · outstanding-interns.md
+
+- date: 2023-09-15
+  title: 移除非 PLCT 内容
+  desc: b7f25eb 一笔提交，把仓库收敛回单一主线，README 与实习流程一起被简化。这是「团队和组织不断的组建又解散」在仓库里留下的一道接缝。
+  kind: repo
+  evidence: b7f25eb
+
+- date: 2024-06-08
+  title: 甲辰计划开源实习生联合招聘培养发布
+  desc: 向成员单位发布新项目：用最小的金钱与管理投入，换取对自家企业有用的 RISC-V 生态建设加速，每年开放 2000+ 实习名额。
+  kind: program
+  evidence: README · employers.md
+
+- date: 2024-07-19
+  title: 仓库正式接入甲辰计划
+  desc: a2a18f4「更新添加甲辰计划介绍」。此后 weloveinterns 从 PLCT 的招聘页，变成甲辰计划的主入口。
+  kind: repo
+  evidence: a2a18f4
+
+- date: 2024-10-12
+  title: 一次删掉 253 个文件
+  desc: 2021 年及更早的实习生报告被整体移出（b9c43ed，253 files changed），包括中科重德时期的一整个 archives/。README 里留了门牌号：git checkout 664048d。
+  kind: repo
+  evidence: b9c43ed · 664048d
+
+- date: 2025-12
+  title: PLCT 实验室品牌退役
+  desc: 一个用了六年的名字退场。招聘与培养没有停，转到甲辰计划名下继续。
+  kind: org
+  evidence: plct-retire
+
+- date: 2026-02-17
+  title: 五色石工程启动
+  desc: 丙午马年正月初一，甲辰计划发布 RISC-V 全球领袖人才培养工程。取女娲炼五色石补天之意，以十年为周期，从「寻找、筛选人才」升级为「系统性、长期性培养人才」。
+  kind: program
+  evidence: jiachen-wucai-shi
+
+- date: 2026-09
+  title: 岗位编号进入 K18x
+  desc: open-internships.md 里出现 K181 openEuler 机器人软件包维护、K182 openKylin 具身智能、K183 RT-Thread、K184 FlagOS RISC-V、K185 RISC-V 机器人 —— 全部标注「属于五色石工程的一部分」。
+  kind: repo
+  evidence: 4915bc5 · 589cbf3 · eb14c8f · 53cfa10
+
+- date: 2026-09-26
+  title: 到目前为止的最后一次提交
+  desc: 83b5f4a「update K182」。779 个提交之后，这个仓库还在原地，等下一位实习生发来邮件。
+  kind: repo
+  evidence: 83b5f4a

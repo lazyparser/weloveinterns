@@ -1,0 +1,96 @@
+{{ define "main" }}
+{{ $s := site.Data.stats }}
+
+<section class="hero">
+  <div class="wrap-wide">
+    <div class="kicker">{{ $s.span_start }} — {{ $s.span_end }} · 一个仓库的九年</div>
+    <h1>
+      铁打的联合培养计划<br>流水的实习生
+      <span class="thin">weloveinterns.org —— 关于一仓库的实习生、 mentors 与他们共同在开源世界里留下的痕迹</span>
+    </h1>
+    <p class="lede">
+      2017 年 5 月，有个叫 lazyparser 的人在 GitHub 上建了一个仓库，用来放实习生的作业和报告。
+      九年之后，它成了甲辰计划的招聘入口、上千名实习生的第一块垫脚石，
+      以及一份没有被删除的组织变迁史：中科重德、PLCT 实验室、苦芽科技、甲辰计划、五色石工程。
+    </p>
+    <div class="quote">
+      让荣光落于刀锋之上。
+      <small>—— senior interns 设立理由第一条，写于 2022 年 3 月 27 日</small>
+    </div>
+  </div>
+</section>
+
+<section class="stats">
+  <div class="wrap-wide">
+    <div class="stats-grid">
+      <div class="stat"><div class="n">{{ $s.repo_commits }}</div><div class="l">仓库提交总数</div></div>
+      <div class="stat"><div class="n">{{ $s.program_positions }}</div><div class="l">累计开放实习岗位</div></div>
+      <div class="stat"><div class="n">{{ $s.program_interns }}</div><div class="l">累计实习人次</div></div>
+      <div class="stat"><div class="n">{{ $s.program_mentors }}</div><div class="l">社区导师</div></div>
+      <div class="stat"><div class="n">{{ $s.program_maintainers }}</div><div class="l">培养出的开源维护者</div></div>
+    </div>
+  </div>
+</section>
+
+<div class="wrap-wide">
+
+  <section class="chapter">
+    <div class="chapter-head"><span class="chapter-num">01</span><h2>一个人，和一条一直没断的线</h2></div>
+    <div class="prose" style="padding-top:0">
+      {{ .Content }}
+    </div>
+  </section>
+
+  <section class="chapter">
+    <div class="chapter-head"><span class="chapter-num">02</span><h2>支撑体系：逐步成型</h2></div>
+    <p class="lead">
+      甲辰计划把培养拆成了四块可以各自运转的基石，再用五色石工程把它们接成一个闭环 ——
+      这门课给所有人，这块板子借给想动手的人，这个岗位留给需要导师的人，这张背书交给已经证明自己的人。
+    </p>
+    {{ partial "stones.html" . }}
+    <p><a class="btn" href="{{ "shise-stone/" | relURL }}">五色石工程：初衷与佐证 →</a></p>
+  </section>
+
+  <section class="chapter">
+    <div class="chapter-head"><span class="chapter-num">03</span><h2>荣光属于具体的人</h2></div>
+    <p class="lead">
+      名单上不是「若干名优秀实习生」，是一个个具体的人：把 LuaJIT 移植到 RISC-V 的本科生、
+      维护 RustSBI 的硕士生、给 K230 提交主线内核支持的博士生、把 rm -rf 捞回来的 LV4。
+    </p>
+    <div class="cards">
+      <div class="card">
+        <span class="tag">LV5 · Arch Linux RISC-V</span>
+        <h3>任鹏飞（kxxt）</h3>
+        <div class="who">中国科学技术大学 · 网络空间安全学院</div>
+        <p>Arch Linux RISC-V 大量软件包的维护与适配，主导 Electron、Chromium 等大型项目的 RISC-V 移植与长期维护。</p>
+      </div>
+      <div class="card">
+        <span class="tag">LV4+ · LuaJIT RISC-V</span>
+        <h3>王炳臻</h3>
+        <div class="who">南方科技大学 · 本科</div>
+        <p>把 LuaJIT 移植到 RISC-V：一个「非常深奥」但质量很高的 port，并就此做过公开演讲。</p>
+      </div>
+      <div class="card">
+        <span class="tag">LV4 · RustSBI</span>
+        <h3>蒋周奇（洛佳）</h3>
+        <div class="who">华中科技大学 · 硕士</div>
+        <p>设计与带领 RustSBI 各子项目，为博流 BL808 提供完整的 Rust 裸机到内核支持包，并修复 RISC-V SBI 规范里定义不严格的地方。</p>
+      </div>
+    </div>
+    <p><a class="btn" href="{{ "interns/" | relURL }}">全部 LV4+ 与 senior interns 名单 →</a></p>
+  </section>
+
+  <section class="chapter">
+    <div class="chapter-head"><span class="chapter-num">04</span><h2>下一个垫脚石</h2></div>
+    <p class="lead">
+      这个仓库每天都在等下一封邮件。不看 985 或 211，不看专业和年级排名，按工作能力和潜力选拔；
+      女性应聘者预留至少 30% 的岗位。
+    </p>
+    <p>
+      <a class="btn primary" href="{{ "join/" | relURL }}">怎么加入 →</a>
+      <a class="btn" href="{{ site.Params.repo }}" target="_blank" rel="noopener">直接看仓库</a>
+    </p>
+  </section>
+
+</div>
+{{ end }}

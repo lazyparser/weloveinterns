@@ -181,3 +181,8 @@ TSWLatexianTemp*
 *~[0-9]*
 .DS_Store
 *.swp
+
+## 站点构建产物
+website/public/
+website/resources/_gen/
+.hugo_build.lock

@@ -1,0 +1,123 @@
+# 引用来源登记：站点上出现的每一个外部事实都必须在这里有一行。
+# id 用于正文 shortcode：{{< cite "stanford-canaries" >}}
+# usage 说明本站怎么用（数据引用 / 短引 / 仅链接），license 说明可复核的版权状态。
+- id: repo
+  title: weloveinterns 仓库
+  author: 吴伟（lazyparser）及贡献者
+  url: https://github.com/lazyparser/weloveinterns
+  date: 2017-05-02 至今
+  license: CC BY-SA 4.0
+  usage: 本站故事、时间线与数字的原始来源（git 历史、各 md 文件）；本站内容同样以 CC BY-SA 4.0 发布。
+  note: 仓库 LICENSE 文件为「Attribution-ShareAlike 4.0 International」。
+
+- id: jiachen-wucai-shi
+  title: 甲辰计划「五色石工程」启动：十年育匠，打造 RISC-V 全球开源领袖梯队
+  author: 甲辰计划（吴伟）
+  url: https://mp.weixin.qq.com/s/l2oxeuTLbci7ws-xK0U9FQ
+  date: 2026-02-17（丙午马年正月初一）
+  license: 版权归甲辰计划所有；本站仅作要点转述与短引，标注出处并链接原文，不转载全文与版式。
+  usage: 五色石工程初衷、三大目标、四阶段里程碑、准入标准的唯一权威来源。
+
+- id: jiachen-site
+  title: Jiachen Project 官网（RISC-V Prosperity 2036）
+  author: 甲辰计划
+  url: https://rv2036.org
+  date: 持续更新
+  license: 站点内容版权归甲辰计划；本站仅引用其公开表述并链接。
+  usage: 甲辰计划愿景、使命、组织方式的引用来源。
+
+- id: jiachen-blog
+  title: 甲辰计划 Blog（项目与活动公告索引）
+  author: 甲辰计划
+  url: https://rv2036.org/blog
+  date: 持续更新
+  license: 同上；仅链接与转述标题。
+  usage: 开发板漂流、岗位发布、成员加入等时间线事件的索引来源。
+
+- id: builders-network
+  title: 甲辰计划顶尖人才识别互认体系（jiachen-builders-network）
+  author: 甲辰计划
+  url: https://github.com/rv2036/jiachen-builders-network
+  date: 2024 至今
+  license: 仓库公开可查；背书编号 0 由主理人自签。
+  usage: 优秀实习生条目中的「甲辰人才背书」编号与链接。
+
+- id: board-wandering
+  title: RISC-V 闲置开发板随缘漂流活动
+  author: 甲辰计划
+  url: https://github.com/rv2036/riscv-board-wandering
+  date: 2024 至今
+  license: 仓库公开可查；规则与积分机制以仓库说明为准。
+  usage: 支撑体系中「开发板漂流」一节的说明。
+
+- id: ccf-deck
+  title: 甲辰计划：为了 RISC-V 软件生态的繁荣（CCF 开源软件大会演讲，56 页）
+  author: 吴伟（甲辰计划）
+  url: 演讲 PDF，2026-08-16
+  date: 2026-08-16
+  license: 作者自有材料，由作者提供本站使用。
+  usage: 「人才培养支撑体系：逐步成型」五件套的结构、甲辰计划目标数字（成员单位、岗位与实习规模）来自这份演讲。
+
+- id: gotc-deck
+  title: 这是最坏的时代，这是最好的时代（2026 QEMU 训练营开营仪式发言，55 页）
+  author: 吴伟（甲辰计划）
+  url: 演讲 PDF，2026-04-05
+  date: 2026-04-05
+  license: 作者自有材料，由作者提供本站使用。
+  usage: 「缺少第一个机会、第一块垫脚石」的表述、五色石工程定位与目标页。
+
+- id: stanford-canaries
+  title: "Canaries in the Coal Mine? Six Facts about the Recent Employment Effects of Artificial Intelligence（2026 年 8 月更新版）"
+  author: Erik Brynjolfsson, Bharat Chandar, Ruyu Chen（Stanford Digital Economy Lab）
+  url: https://digitaleconomy.stanford.edu/app/uploads/2026/08/Canaries_August2026.pdf
+  date: 2026-08
+  license: 论文版权归作者；本站仅引用其公开摘要中的统计结论并给出链接，不复用图表。
+  usage: 22–25 岁在 AI 高暴露职业中的就业缺口的量化依据（19%、-11% 与 +10%、以放缓招聘为主）。
+
+- id: anthropic-labor
+  title: "Labor market impacts of AI: a new measure and early evidence"
+  author: Anthropic
+  url: https://www.anthropic.com/research/labor-market-impacts
+  date: 2026
+  license: Anthropic 研究页面版权归 Anthropic；本站转述结论并链接。
+  usage: 「高暴露职业未出现系统性失业率上升，但年轻劳动力招聘放缓」这一更谨慎的判断。
+
+- id: so-survey-2025
+  title: 2025 Stack Overflow Developer Survey — AI
+  author: Stack Overflow
+  url: https://survey.stackoverflow.co/2025/ai
+  date: 2025-07
+  license: 调查数据由 Stack Overflow 公开发布；本站引用百分比数字并链接。
+  usage: 84% 受访者正在或计划使用 AI 工具、51% 专业开发者每天使用。
+
+- id: moe-1270
+  title: 2026 届全国普通高校毕业生规模预计 1270 万人（教育部数据）
+  author: 新华社 / 中国教育新闻网
+  url: http://m.jyb.cn/rmtzcg/xwy/wzxw/202511/t20251120_2111416145_wap.html
+  date: 2025-11-20
+  license: 新闻稿版权归原媒体；本站引用数字并链接。
+  usage: 「同龄人的竞争规模」背景数据，同比增加 48 万人。
+
+- id: hwchase17
+  title: Harrison Chase（LangChain）关于编程 AI 改变产品开发流程的公开帖
+  author: Harrison Chase
+  url: https://x.com/hwchase17/status/2031051115169808685
+  date: 2026
+  license: 社交媒体帖文版权归作者；本站仅转述观点并链接，不复制原文。
+  usage: 「代码变廉价、瓶颈从实现转向评审」的行业观察。
+
+- id: plct-retire
+  title: 关于「PLCT 实验室」品牌退役的说明
+  author: PLCT 实验室（吴伟）
+  url: https://www.bilibili.com/opus/1186013918448844803
+  date: 2025-12
+  license: 版权归作者；本站仅引用事实并链接。
+  usage: 2025 年 12 月 PLCT 品牌退役这一时间线事件。
+
+- id: wechat-jd
+  title: 甲辰计划主理人发起开源实习生联合招聘培养项目
+  author: 甲辰计划（吴伟）
+  url: https://mp.weixin.qq.com/s/TenVAVzaWuUWGIWodGaFKA
+  date: 2024-06-08
+  license: 版权归甲辰计划；本站仅引用并链接。
+  usage: 联合招聘培养项目启动的公告来源（仓库 README 与 employers.md 亦引用此链接）。
