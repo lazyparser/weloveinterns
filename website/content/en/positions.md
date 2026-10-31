@@ -7,7 +7,7 @@ layout: positions
 
 This page is not a second position list: it is what the "open positions list" section of `open-internships.md` in the repository root looks like. When someone adds a position to the repository, a card will eventually appear here too. **Whether a position is still open is decided by the repository**; this page just saves you scrolling through 400 lines of markdown.
 
-The list mixes three states: **open**, **details to come** (the repository entry still says TBA) and **filled**. Filled ones come last; they are not deleted — filled does not mean gone, and it may open again next year.
+The list currently shows two states: **open** and **filled**. Filled ones come last; they are not deleted — filled does not mean gone, and it may open again next year. If a repository entry has only a title and still says TBA for the details, it does not go up on this page until the information is filled in.
 
 ## How to apply
 

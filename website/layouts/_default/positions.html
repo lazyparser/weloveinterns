@@ -1,9 +1,13 @@
 {{ define "main" }}
 {{ $d := partial "site-data.html" . }}
 {{ $pos := $d.positions }}
-{{ $open := where $pos.positions "status" "open" }}
-{{ $tba := where $pos.positions "status" "tba" }}
-{{ $full := where $pos.positions "status" "full" }}
+{{/* 撤下的编号写在 data/positions_meta.yaml 的 withheld 里，数据留着、页面不渲染 */}}
+{{ $withheld := (site.Data.positions_meta).withheld | default slice }}
+{{ $shown := $pos.positions }}
+{{ with $withheld }}{{ $shown = where $shown "id" "not in" . }}{{ end }}
+{{ $open := where $shown "status" "open" }}
+{{ $tba := where $shown "status" "tba" }}
+{{ $full := where $shown "status" "full" }}
 
 <header class="page-head">
   <div class="wrap-wide">
@@ -23,7 +27,7 @@
 
   {{ range $pos.tracks }}
     {{ $track := . }}
-    {{ $items := where $pos.positions "track" $track.key }}
+    {{ $items := where $shown "track" $track.key }}
     {{ if $items }}
     <section class="pos-track">
       <h2 id="track-{{ $track.key }}">{{ $track.name }}<span class="track-count">{{ len $items }}</span></h2>
