@@ -9,6 +9,7 @@
     {{ $cur := .RelPermalink }}
     <a href="{{ "shise-stone/" | relURL }}" {{ if eq $cur "/shise-stone/" }}class="active"{{ end }}>五色石</a>
     <a href="{{ "interns/" | relURL }}" {{ if eq $cur "/interns/" }}class="active"{{ end }}>实习生</a>
+    <a href="{{ "mentors/" | relURL }}" {{ if eq $cur "/mentors/" }}class="active"{{ end }}>导师</a>
     <a href="{{ "program/" | relURL }}" {{ if eq $cur "/program/" }}class="active"{{ end }}>培养计划</a>
     <a href="{{ "history/" | relURL }}" {{ if eq $cur "/history/" }}class="active"{{ end }}>时间线</a>
     <a href="{{ "blog/" | relURL }}" {{ if hasPrefix $cur "/blog/" }}class="active"{{ end }}>博客</a>

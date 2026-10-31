@@ -133,26 +133,10 @@
   <section class="chapter" id="mentors">
     <div class="chapter-head"><span class="chapter-num">04</span><h2>社区导师</h2></div>
     <p class="lead">
-      实习需要跟着一位师父 —— 只有获得一位 mentor 的认可，实习契约才成立。这一节陆续补充，先放上这位。
+      实习需要跟着一位师父 —— 只有获得一位 mentor 的认可，实习契约才成立。这一节陆续补充。
     </p>
-    {{ range $people.mentors }}
-    <article class="mentor">
-      {{ partial "avatar.html" (dict "name" .name "handle" .handle "avatar" .avatar "size" 112) }}
-      <div class="mentor-body">
-        <div class="person-top">
-          <h3>{{ .name }}<span class="alias">（{{ .alias }}）</span></h3>
-          <span class="lvl">{{ .role }}</span>
-        </div>
-        <p class="work">{{ .bio }}</p>
-        <p class="who">{{ .history }}</p>
-        <p class="mentor-note">{{ .note }}</p>
-        <div class="person-links">
-          <a href="https://github.com/{{ .handle }}" target="_blank" rel="noopener">@{{ .handle }}</a>
-          <a href="mailto:{{ .contact }}">{{ .contact }}</a>
-        </div>
-      </div>
-    </article>
-    {{ end }}
+    {{ range $people.mentors }}{{ partial "mentor-card.html" . }}{{ end }}
+    <p><a class="btn" href="{{ "mentors/" | relURL }}">全部导师 →</a></p>
   </section>
 
   <section class="chapter" id="shise">

@@ -475,3 +475,14 @@ th { background: var(--bg-soft); font-weight: 700; }
   .prose td:first-child { font-weight: 700; font-size: .95rem; }
   .prose td:empty { display: none; }
 }
+
+/* ---------- 导师卡片里的上游链接 ---------- */
+.mentor-links { list-style: none; margin: .7rem 0 0; padding: 0; display: flex; flex-wrap: wrap; gap: .4rem .5rem; }
+.mentor-links li {
+  margin: 0; display: inline-flex; align-items: baseline; gap: .35rem;
+  border: 1px solid var(--line); border-radius: 999px; padding: .18rem .6rem;
+  background: var(--bg-soft); font-size: .8rem;
+}
+.mentor-links a { color: var(--text-soft); border: 0; font-weight: 600; }
+.mentor-links a:hover { color: var(--gold); }
+.mentor-link-note { color: var(--muted); font-family: var(--mono); font-size: .72rem; }

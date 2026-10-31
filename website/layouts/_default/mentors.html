@@ -1,0 +1,15 @@
+{{ define "main" }}
+<header class="page-head">
+  <div class="wrap-wide">
+    <div class="crumb"><a href="{{ "" | relURL }}">首页</a> / {{ .Title }}</div>
+    <h1>{{ .Title }}</h1>
+    {{ with .Params.sub }}<div class="sub">{{ . }}</div>{{ end }}
+  </div>
+</header>
+<div class="wrap-wide">
+  <div class="prose">{{ .Content }}</div>
+  {{ range site.Data.people.mentors }}
+    {{ partial "mentor-card.html" . }}
+  {{ end }}
+</div>
+{{ end }}

@@ -16,6 +16,37 @@ mentors:
     history: 合肥工业大学（数学本科）｜中国科学院软件研究所（博士肄业）；工作经历：中科院软件所｜中科重德｜PLCT 实验室｜苦芽科技
     contact: wuwei@rv2036.org
     note: 这个仓库里 779 个提交中有 500 个来自他 —— 包括绝大多数期的招聘信息、评级更新与实习报告清理。
+    links:
+      - label: 甲辰计划
+        url: https://rv2036.org
+        note: 发起人 & 主理人
+      - label: 极简项目管理
+        url: https://github.com/lazyparser/minimalist-team-leader
+        note: 管理方式
+      - label: weloveinterns
+        url: https://github.com/lazyparser/weloveinterns
+        note: 本仓库
+  - name: U2FsdGVkX1
+    handle: U2FsdGVkX1
+    avatar: https://avatars.githubusercontent.com/u/11484206?v=4
+    role: 导师 · RISC-V Linux 软件生态
+    tags: [RISC-V, Fedora, RuyiSDK]
+    bio: >-
+      实习期间为 Fedora RISC-V、Fedora RVA23 及 Fedora 64ILP32 维护者，主要参与 RISC-V Linux 软件生态建设；
+      同时担任 RuyiSDK IDE 导师，并参与 deepin DE SIG 与 openGauss RISC-V SIG 的社区协作。
+    links:
+      - label: RuyiSDK IDE
+        url: https://github.com/ruyisdk/ruyisdk-vscode-extension
+        note: 导师
+      - label: 64ILP32 on K230D
+        url: https://github.com/ruyisdk/k230_linux_sdk
+        note: 维护
+      - label: openGauss RISC-V
+        url: https://gitee.com/opengauss/riscv
+        note: SIG 协作
+      - label: Fedora everything
+        url: https://openkoji.iscas.ac.cn
+        note: 构建/维护
 
 interns:
   - name: 任鹏飞
