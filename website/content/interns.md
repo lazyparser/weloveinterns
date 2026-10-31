@@ -74,6 +74,7 @@ senior 不是荣誉称号，而是一份契约：技术能力达到 LV3 及以�
 | --- | --- | --- |
 | **MikuNotFoundException** | [@Officeyutong](https://github.com/Officeyutong) | 参与 [eunomia-bpf](https://github.com/eunomia-bpf/eunomia-bpf) 社区多个项目的开发，包括 [bpftime](https://github.com/eunomia-bpf/bpftime)、eunomia-bpf、[wasm-bpf](https://github.com/eunomia-bpf/wasm-bpf) 等 |
 | **陈谋顺** | [@cms19859230182-lang](https://github.com/cms19859230182-lang) | [openEuler](https://www.openeuler.org/) 开源实习（sig-ROS）：做 ROS 2 Humble 软件包的构建修复与维护，约 **60+ PR、合入 40+**，主要修多架构与新版本带来的编译失败、补依赖链、发布分支回移植。另在 [RT-Thread](https://github.com/RT-Thread/rt-thread) 上游做过 BSP 与模拟器相关贡献。特长是嵌入式与 RISC-V 相关适配、发行版软件包修构建 |
+| **于鸿伟** | [@hongwei-2026](https://github.com/hongwei-2026) | 华为开源实习**获评优秀实习生**。参与 [昇腾 NPU](https://github.com/Ascend) 生态建设：完成框架适配、大模型调优部署与硬件模块开发，多项成果合入开源社区。擅长 AI 工具协作开发，能主动查阅资料解决问题、及时同步项目进度与反馈，保障任务高效推进落地 |
 
 ## 他们自己说的话
 
