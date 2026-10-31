@@ -76,6 +76,7 @@ senior는 명예 칭호가 아니라 계약입니다. 기술 능력이 LV3 이�
 | 이름 | GitHub | 커뮤니티와 프로젝트 |
 | --- | --- | --- |
 | **MikuNotFoundException** | [@Officeyutong](https://github.com/Officeyutong) | [eunomia-bpf](https://github.com/eunomia-bpf/eunomia-bpf) 커뮤니티의 여러 프로젝트 개발에 참여. [bpftime](https://github.com/eunomia-bpf/bpftime), eunomia-bpf, [wasm-bpf](https://github.com/eunomia-bpf/wasm-bpf) 등 포함 |
+| **黄镇雨(Rain Huang)** | [@rainhuang0220](https://github.com/rainhuang0220) | [PLCT Lab](https://github.com/plctlab) J139 팀에서 [MoonBit](https://www.moonbitlang.com/) 개발 인턴으로 참여; 현재는 LLM의 장기 기억과 컨텍스트 관리 개선에 힘쓰고 있음 |
 
 ## 그들이 직접 한 말
 

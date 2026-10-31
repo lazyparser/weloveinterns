@@ -76,6 +76,7 @@ This section lists students who **have no LV level but were named by the lead** 
 | Name | GitHub | Community and projects |
 | --- | --- | --- |
 | **MikuNotFoundException** | [@Officeyutong](https://github.com/Officeyutong) | Worked on several projects in the [eunomia-bpf](https://github.com/eunomia-bpf/eunomia-bpf) community, including [bpftime](https://github.com/eunomia-bpf/bpftime), eunomia-bpf and [wasm-bpf](https://github.com/eunomia-bpf/wasm-bpf) |
+| **Huang Zhenyu (Rain Huang)** | [@rainhuang0220](https://github.com/rainhuang0220) | Interned on [MoonBit](https://www.moonbitlang.com/) development in [PLCT Lab](https://github.com/plctlab)'s J139 team; now actively working on long-term memory and context management for LLMs |
 
 ## In their own words
 
