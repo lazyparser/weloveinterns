@@ -1,0 +1,439 @@
+# Open positions: the data source is the "open positions list" section of open-internships.md at the repository root.
+# When a position changes, edit that md in the repository first, then sync it here; status is open / tba (details to come) / full.
+tracks:
+- key: jiachen
+  name: Project Jiachen
+  note: Initiated by Project Jiachen lead Wu Wei (lazyparser), who runs the interviews and the training. Internship agreements are signed with Shanghai Kubuds Technology Co., Ltd. Part of the Five-Colour Stone Project.
+- key: hfut
+  name: RISC-V Ecosystem Lab (in preparation), Hefei University of Technology
+  note: Project Jiachen's Hefei RISC-V drifting base; it provides the RISC-V chips, robotic arms and sensors the internship needs. Because the work involves operating hardware, undergraduates from universities in Hefei are preferred.
+- key: ecos
+  name: ECOS team
+  note: On-site internships; you can be employed at the Institute of Computing Technology, CAS (institute establishment, project hire, Chuangjia) or at the Beijing Institute of Open Source Chip; most positions can be based in Beijing or Shenzhen, and a Xiong'an office is under construction.
+- key: partner
+  name: Member organisations and partner companies
+  note: Provided directly by Project Jiachen members or partner companies; that organisation handles the interview and the employment.
+positions:
+- id: K185
+  title: Robot design and development on a RISC-V main-control chip
+  org: Project Jiachen
+  track: jiachen
+  mode: Not stated
+  location: Not stated
+  level: Not stated
+  stipend: Not stated
+  slots: ''
+  status: tba
+  desc: TBA — details of this position are still to come. The repository currently has only the position name for this entry; before applying, it is worth writing to ask about the specific requirements.
+- id: K184
+  title: FlagOS RISC-V architecture development (AI Infra)
+  org: Project Jiachen
+  track: jiachen
+  mode: Not stated
+  location: Not stated
+  level: Not stated
+  stipend: Not stated
+  slots: ''
+  status: tba
+  desc: TBA — details of this position are still to come. The repository currently has only the position name for this entry; before applying, it is worth writing to ask about the specific requirements.
+- id: K183
+  title: RT-Thread embedded development
+  org: Project Jiachen · Five-Colour Stone Project
+  track: jiachen
+  mode: Remote
+  location: Online, remote
+  level: LV1 and above
+  stipend: No stipend (RISC-V development board and Token provided)
+  slots: ''
+  status: open
+  desc: 'Note: this position has no stipend. It does provide the RISC-V development board needed for the internship (through Project Jiachen''s board-drifting programme, or donated directly by a vendor) and Token. Once you pass the interview you get an internship contract and an internship certificate. The internship agreement is signed with Shanghai Kubuds Technology Co., Ltd.
+
+
+    Under a mentor''s guidance, interns contribute code directly to the RT-Thread open-source community, and all output is publicly visible. After completing the entry-level internship work, you can be recommended for internships or campus-recruitment positions at more employers.
+
+
+    This position was initiated by Project Jiachen lead Wu Wei (lazyparser), who handles the interviews and the training, with several RT-Thread developers and instructors serving as mentors. The position is part of the Five-Colour Stone Project.'
+  duties:
+  - Build embedded application examples on the RT-Thread system, including but not limited to the control modules of various kinds of robot.
+  - Complete and maintain long-term support for multiple RISC-V SoCs in the RT-Thread repository, and be trained along the community maintainers' long-term path.
+  - (optional) Write technical blog posts that introduce and promote RT-Thread application examples.
+  - (optional) Produce videos promoting RT-Thread, including in the English-speaking world and Southeast Asia.
+  - (optional) You are encouraged to take part in technical sharing and public talks to present your internship work.
+  reqs:
+  - Enthusiastic about embedded development and hardware integration; proactive, good at taking the initiative to communicate, and clear about what you want to get out of the internship.
+  - Proficient with large AI models and various harnesses as part of your daily workflow.
+  - Technical ability at LV1 or above.
+  - Able to intern steadily for 3 months or more (online and remote; progress every week is enough).
+- id: K182
+  title: openKylin embodied-intelligence case development
+  org: Project Jiachen · Five-Colour Stone Project
+  track: jiachen
+  mode: Remote
+  location: Online, remote
+  level: LV2 and above
+  stipend: No stipend (RISC-V development board and Token provided)
+  slots: ''
+  status: open
+  desc: 'Note: this position has no stipend. It does provide the RISC-V development board needed for the internship (through Project Jiachen''s board-drifting programme, or donated directly by a vendor) and Token. Once you pass the interview you get an internship contract and an internship certificate. The internship agreement is signed with Shanghai Kubuds Technology Co., Ltd. Under a mentor''s guidance, interns contribute code directly to the openKylin open-source community, and all output is publicly visible. The embodied-intelligence cases produced must be released under an open-source licence. After completing the entry-level internship work, you can be recommended for internships or campus-recruitment positions at more employers.
+
+
+    This position was initiated by the openKylin ROS SIG maintainer and Project Jiachen lead Wu Wei (lazyparser), who handles the interviews and the training. The position is part of the Five-Colour Stone Project.'
+  duties:
+  - Build embodied-intelligence cases on the openKylin system, including but not limited to desktop quadruped cars, wheeled robots, quadruped dogs and humanoid robots.
+  - (optional) Write technical blog posts promoting the work of the openKylin embodied-intelligence working group and the ROS SIG.
+  - (optional) Produce videos promoting openKylin's AI capabilities.
+  - (optional) You are encouraged to take part in technical sharing and public talks to present your internship work.
+  reqs:
+  - Enthusiastic, proactive, good at taking the initiative to communicate, and clear about what you want to get out of the internship.
+  - Proficient with large AI models and various harnesses as part of your daily workflow.
+  - Technical ability at LV2 or above.
+  - Able to intern steadily for 3 months or more (online and remote; progress every week is enough).
+- id: K181
+  title: openEuler robot software package maintenance
+  org: Project Jiachen · Five-Colour Stone Project
+  track: jiachen
+  mode: Remote
+  location: Online, remote
+  level: LV1 technical ability
+  stipend: No stipend (RISC-V development board and Token provided)
+  slots: ''
+  status: open
+  desc: 'Note: this position has no stipend. It does provide the RISC-V development board needed for the internship (through Project Jiachen''s board-drifting programme, or donated directly by a vendor) and Token. Aimed at LV1–LV2 students. Once you pass the interview you get an internship contract and an internship certificate. The internship agreement is signed with Shanghai Kubuds Technology Co., Ltd.
+
+
+    Under a mentor''s guidance, interns contribute code directly to the openEuler open-source community, and all output is publicly visible. After completing the entry-level internship work, you can be recommended for internships or campus-recruitment positions at more employers.
+
+
+    This position was initiated by the openEuler ROS SIG maintainer and Project Jiachen lead Wu Wei (lazyparser), who handles the interviews and the training. The position is part of the Five-Colour Stone Project.'
+  duties:
+  - Take part in software package maintenance and testing in the openEuler ROS SIG; submit update patches upstream.
+  - (optional) Write technical blog posts promoting the work of the openEuler ROS SIG.
+  - (optional) Produce videos promoting openEuler.
+  - (optional) You are encouraged to take part in technical sharing and public talks to present your internship work.
+  reqs:
+  - Enthusiastic, proactive, good at taking the initiative to communicate, and clear about what you want to get out of the internship.
+  - Proficient with large AI models and various harnesses as part of your daily workflow.
+  - Technical ability at LV1.
+  - Able to intern steadily for 3 months or more (online and remote; progress every week is enough).
+- id: A180
+  title: Embedded virtualisation / hypervisor intern
+  org: Jincheng Shiming Technology Co., Ltd.
+  track: partner
+  mode: On-site
+  location: Shanghai (preferred) · Beijing
+  level: Not stated (undergraduate or postgraduate, currently enrolled)
+  stipend: Not stated
+  slots: ''
+  status: open
+  desc: This position is from Jincheng Shiming Technology Co., Ltd. Only on-site internships (Shanghai) are accepted. More recruitment information from the company is available at the address below.
+  duties:
+  - Take part in the development, debugging and testing of core embedded hypervisor features, including VM / vCPU, memory management, interrupts and device virtualisation.
+  - Take part in adaptation to architectures such as ARM64 and RISC-V64, analysing and solving low-level problems in privilege levels, exceptions, interrupts and address translation.
+  - Carry out research on virtualisation, RTOS, CPU architecture and related technical directions, reading papers, specifications, open-source implementations and community material, and turning it into technical surveys, design proposals and verification conclusions.
+  - Use QEMU, GDB, the shell and trace tools for system debugging, experimental verification and problem localisation.
+  - Take part in open-source community collaboration, completing upstream contributions such as issue analysis, patch development and code review.
+  - Use AI agents to assist with code analysis, technical research, development, debugging and testing, and be able to verify and improve the agent's output independently.
+  reqs:
+  - An undergraduate or postgraduate student in computer science, software, electronics, automation, communications or a related field.
+  - Familiar with C, with basic Linux development ability and able to use tools such as Git and the shell.
+  - Understand basic operating-system concepts such as threads, interrupts, virtual memory, the MMU and exception handling.
+  - Some research ability, able to find and read English technical material, papers, architecture manuals and open-source code on your own, and to verify your analysis and judgement experimentally.
+  - Good code-reading, problem-decomposition and self-learning ability, with an interest in embedded systems, CPU architecture or virtualisation.
+  - Practical experience with AI agents / coding agents, able to use an agent as an engineering and research tool rather than relying on "wishful programming".
+  - At least 3 days of internship per week, for no less than 3 months.
+  bonus:
+  - Experience with RTOS, the Linux kernel, bootloaders, drivers or other low-level system development.
+  - Understanding of the ARM64 / RISC-V privileged architecture, page tables, interrupts or hardware virtualisation mechanisms.
+  - Have used QEMU, GDB, devicetree, Kconfig, CMake or Python.
+  - Exposure to a hypervisor, KVM, Xen, IOMMU/SMMU or device virtualisation.
+  - Experience reproducing papers, technical research, benchmark / experiment design or system prototype implementation.
+  - Open-source contributions, or coursework / personal projects in systems software.
+  gains:
+  - Work on the core features of a real embedded hypervisor, not peripheral demos.
+  - Go deep into RTOS, CPU virtualisation, memory isolation, device virtualisation and multi-architecture system development.
+  - Practise the full technical path from research and design through prototype verification to engineering implementation.
+  - Explore a way of working that combines AI agents with systems software R&D and technical research.
+  - Take part in real open-source community collaboration and contribute part of the work upstream.
+  links:
+  - label: www.liepin.com
+    url: https://www.liepin.com/company/21491191/
+- id: BJ45
+  title: MLIR open-source development intern, aka RuyiAI, aka Buddy Compiler development
+  badge: Open year-round
+  org: Project Jiachen · PLCT Lab
+  track: jiachen
+  mode: Remote
+  location: Online, remote
+  level: LV3+, able to communicate in English
+  stipend: Not stated
+  slots: Open year-round
+  status: open
+  desc: We believe MLIR will become the implementation standard for future compiler frameworks. That is why, starting in 2021, PLCT Lab put MLIR on its list of "critical open-source infrastructure"; it has become a long-term management object for PLCT Lab, alongside LLVM and GCC.
+  duties:
+  - Take part in the development of RuyiAI / MLIR open-source projects at the Intelligent Software Research Center, Institute of Software, Chinese Academy of Sciences.
+  - Take part in Buddy Compiler development.
+  reqs:
+  - LV3+, able to communicate in English, with a good understanding of compiler technology. A strong interest in the MLIR project.
+  - Remote internship; no need to be at a desk.
+- id: B179
+  title: Virtualisation and real-time operating system development intern
+  badge: 2 places open
+  org: Member organisation (the repository does not name the provider)
+  track: partner
+  mode: Not stated
+  location: Not stated
+  level: LV3 and above
+  stipend: Not stated
+  slots: '2'
+  status: open
+  desc: 'On domestic ARM SoC platforms: porting, adaptation and real-time tuning of virtualisation and real-time operating systems. You will work at all three layers at once — hypervisor, RTOS kernel and Linux drivers.'
+  duties:
+  - 'Bao Hypervisor platform adaptation: complete bootstrap, interrupt controllers, memory and cache partitioning, device passthrough and VirtIO backends on Renesas, NXP and Rockchip MCUs, and develop and use the platform BSP/MCAL.'
+  - 'RTOS kernel porting: enable the MMU and a user-mode process model, and establish address-space isolation between processes.'
+  - 'ARM platform driver development: driver adaptation on both the Linux and RTOS sides, plus design and implementation of cross-core communication channels (mailbox / shared memory).'
+  - 'Mixed AMP and virtualisation deployment: the A-core side runs the hypervisor hosting Linux and an RTOS side by side, while the R-core side carries hard real-time tasks; responsible for resource isolation between the two domains (including cache / NPU partitioning) and the boot flow.'
+  - 'Real-time measurement and tuning: microsecond-level measurement of context-switch time, interrupt response and control-loop jitter; establish reproducible test methods and publish the data.'
+  - 'Landing Rust in the RTOS: give the RTOS the ability to run Rust applications and middleware (std library, async mechanisms), and migrate kernel modules to Rust step by step (good to have).'
+  - Static code analysis and certification-related coding standards (good to have).
+  reqs:
+  - LV3 and above, with a strong interest in low-level computer programming;
+  - Proficient in C and assembly;
+  - Familiar with Linux kernel and driver development; experience with Linux driver development on ARM platforms is a plus;
+  - Familiar with at least one RTOS (RT-Thread / FreeRTOS / Zephyr and so on) and understand the POSIX interface model;
+  - Knowledge of operating systems, scheduling and real-time systems, and understanding of how real-time metrics are defined and measured;
+  - 'Solid computer architecture and processor knowledge: ARMv8-A / ARMv8-R, exception levels, MMU / MPU, GIC, cache coherency;'
+  - Proficient with small tools such as Git, SSH and bash scripts to work efficiently;
+  - Basic understanding of hardware debug interfaces and debuggers (JTAG / serial port / logic analyser / oscilloscope);
+  - A bachelor's or master's degree in computer engineering, electrical engineering or computer science.
+  bonus:
+  - Rust, especially embedded or no_std work;
+  - Exposure to any virtualisation solution (Bao / Jailhouse / Xen / KVM);
+  - Hands-on experience with heterogeneous multi-core AMP architectures and inter-core communication;
+  - Experience with the development processes behind functional safety or self-controlled certification;
+  - Experience with static analysis tools (MISRA C, Coverity, clang-analyzer and so on);
+  - A record of open-source community contributions.
+  gains:
+  - Chip platform adaptation on real production projects, the full hypervisor and RTOS porting chain, and engineering Rust in safety-critical systems — this work goes straight into a customer's Safety Critical products; these are not practice projects.
+- id: H178
+  title: Embodied-intelligence AI hardware development intern (dexterous hands)
+  org: RISC-V Ecosystem Lab (in preparation), School of Mathematics, Hefei University of Technology
+  track: hfut
+  mode: On-site
+  location: Hefei · Room 1609, Science and Education Building B, Feicui Lake Campus, HFUT
+  level: LV3
+  stipend: No guaranteed stipend (agreed with the mentor according to externally visible output)
+  slots: '2'
+  status: open
+  duties:
+  - This position is offered by the RISC-V Ecosystem Lab (in preparation), School of Mathematics, Hefei University of Technology — Project Jiachen's Hefei RISC-V drifting base. The work is to develop and build two-finger grippers with tactile and EMG sensing, three-finger grippers, five-finger dexterous hands and possibly various custom end effectors, and to develop the related embedded software as the project requires; if interested you can take part in testing and developing some of the AI algorithms and models.
+  - Because the work involves operating hardware on site, this position gives priority to undergraduates from the Feicui Lake Campus of Hefei University of Technology and nearby universities. The lab provides the various RISC-V chips, robotic arms, sensors and other equipment the internship needs.
+  - 'Location: Room 1609, Science and Education Building B, Feicui Lake Campus, Hefei University of Technology (RISC-V Ecosystem Lab)'
+  - 'Stipend: no guaranteed stipend; it is agreed with the mentor according to externally visible output (see the note above). Note that Project Jiachen positions do not pay by hours spent at a desk.'
+  reqs:
+  - Self-assessed at LV3 or above, with good hands-on ability;
+  - Knowledge or experience of mechanical structure, embedded systems and automation (proficient use of a soldering iron and a multimeter is a plus)
+  - A strong interest in embodied intelligence and AI algorithms, with hands-on attempts at running them;
+  - Enjoys tinkering with all kinds of electronic components or software systems;
+  - Happy to give public technical reports and share at on-site events;
+  - Able to come to the RISC-V Ecosystem Lab at least 2 days each working week (because the work involves operating hardware).
+- id: H177
+  title: AI algorithm deployment and optimisation intern (RISC-V architecture)
+  org: RISC-V Ecosystem Lab (in preparation), School of Mathematics, Hefei University of Technology
+  track: hfut
+  mode: On-site
+  location: Hefei · Room 1609, Science and Education Building B, Feicui Lake Campus, HFUT
+  level: LV3
+  stipend: No guaranteed stipend (agreed with the mentor according to externally visible output)
+  slots: '2'
+  status: open
+  duties:
+  - This position is offered by the RISC-V Ecosystem Lab (in preparation), School of Mathematics, Hefei University of Technology — Project Jiachen's Hefei RISC-V drifting base. The work is to deploy and optimise locally, on RISC-V development boards such as Canaan K230, SpacemiT K3, SiFive P550 and Milk-V Duo S, the AI models that need local deployment on the RISC-V architecture (currently mainly with embodied-intelligence robots as the application scenario, including ASR, VAD, TTS, SLAM, stereo vision, VLA, VLM and so on), making full use of the RVV, IME and other extension instruction sets that RISC-V chips provide to accelerate the algorithms.
+  - Because the work involves operating hardware on site, this position gives priority to undergraduates from the Feicui Lake Campus of Hefei University of Technology and nearby universities. The lab provides the various RISC-V chips, robotic arms, sensors and other equipment the internship needs.
+  - 'Location: Room 1609, Science and Education Building B, Feicui Lake Campus, Hefei University of Technology (RISC-V Ecosystem Lab)'
+  - 'Stipend: no guaranteed stipend; it is agreed with the mentor according to externally visible output (see the note above). Note that Project Jiachen positions do not pay by hours spent at a desk.'
+  reqs:
+  - Self-assessed at LV3 or above, with good hands-on ability;
+  - A strong interest in deploying and optimising AI algorithms, with hands-on attempts at running them;
+  - Some study of RISC-V RVV, IME and similar instructions — enough to have taught yourself the rough picture before applying;
+  - Enjoys tinkering with all kinds of electronic components or software systems;
+  - Happy to give public technical reports and share at on-site events;
+  - Able to come to the RISC-V Ecosystem Lab at least 1 day each week (because the work involves operating hardware).
+- id: E174
+  title: RISC-V open-source embedded system design and development
+  badge: On-site internships; places on both the new-graduate engineering track and the research track
+  org: ECOS team
+  track: ecos
+  mode: On-site
+  location: Beijing · Shenzhen (some projects can choose; Xiong'an in preparation)
+  level: Not stated (places on both the new-graduate engineering track and the research track)
+  stipend: See the ECOS team note
+  slots: ''
+  status: open
+  desc: 'Around RISC-V processor chips developed in-house by the ECOS team or mainstream ones on the market, design PCB boards, embedded SDKs, embedded development tools and typical application cases, and write the accompanying chip manuals and board documentation. Most chips the ECOS team releases are based on open-source processor cores and open-source EDA, with the SoC integration, physical design, tape-out, packaging and board design all done in-house. The embedded team works closely with the chip team, and you can take part in chip specification definition, SoC integration and verification. Joining ECOS to work on embedded systems, you can grow into a full-stack, high-level embedded engineer who knows both software and hardware. The embedded team has plenty of room to explore all kinds of applications and try fun things — robots, embedded games, handheld consoles, smart toys and so on.
+
+
+    This position is offered by the ECOS team. For the internship requirements, stipend, salary and so on, see the ECOS team note on internships, new-graduate campus recruitment and experienced hiring.
+
+
+    This position requires on-site work: you can be employed at the Institute of Computing Technology, Chinese Academy of Sciences (institute establishment, project hire or Chuangjia) or at the Beijing Institute of Open Source Chip office. Apart from a few projects with a preference, most can choose Beijing or Shenzhen. A Xiong''an office is also being added (low living costs and a good environment).'
+  links:
+  - label: mp.weixin.qq.com
+    url: https://mp.weixin.qq.com/s/_UUNePIXV5H1q742XKVfnw
+- id: E173
+  title: Software and hardware system performance analysis and optimisation
+  badge: On-site internships; places on both the new-graduate engineering track and the research track
+  org: ECOS team
+  track: ecos
+  mode: On-site
+  location: Beijing · Shenzhen (some projects can choose; Xiong'an in preparation)
+  level: Not stated (places on both the new-graduate engineering track and the research track)
+  stipend: See the ECOS team note
+  slots: ''
+  status: open
+  desc: 'For a given algorithm or application, analyse its program behaviour, performance bottlenecks and architectural characteristics, and use high-performance computing methods — software approaches (parallel computing, vector computing, memory-access optimisation and so on), hardware-software co-design and dedicated accelerator design — to reach higher program performance with fewer hardware resources. Take the high-performance RTL simulator as an example: GSIM supports the Chisel language and is 10 times faster than Verilator, greatly improving the testing and verification efficiency of XiangShan. At present the ECOS team puts a great deal of time and effort into performance optimisation of EDA software, performance optimisation of embedded systems, and in future software optimisation on XiangShan.
+
+
+    This position is offered by the ECOS team. For the internship requirements, stipend, salary and so on, see the ECOS team note on internships, new-graduate campus recruitment and experienced hiring.
+
+
+    This position requires on-site work: you can be employed at the Institute of Computing Technology, Chinese Academy of Sciences (institute establishment, project hire or Chuangjia) or at the Beijing Institute of Open Source Chip office. Apart from a few projects with a preference, most can choose Beijing or Shenzhen. A Xiong''an office is also being added (low living costs and a good environment).'
+  links:
+  - label: mp.weixin.qq.com
+    url: https://mp.weixin.qq.com/s/_UUNePIXV5H1q742XKVfnw
+- id: E172
+  title: ECOS Studio development
+  badge: On-site internships; places on both the new-graduate engineering track and the research track
+  org: ECOS team
+  track: ecos
+  mode: On-site
+  location: Beijing · Shenzhen (some projects can choose; Xiong'an in preparation)
+  level: Not stated (places on both the new-graduate engineering track and the research track)
+  stipend: See the ECOS team note
+  slots: ''
+  status: open
+  desc: 'ECOS Studio: integrates the results of the whole ECOS team into one IDE toolset, designing chips entirely with open-source EDA and open-source IP, with the whole flow open-source and publicly visible. Anyone can modify and realise their own chip design on this flow without paying expensive EDA and IP fees. Every digital module written in Verilog/Chisel/SpinalHDL/SystemVerilog can use the open-source EDA and SoC to evaluate the PPA of its design in an ASIC flow, or go for tape-out once the layout is complete. ECOS Studio comes in two forms (a local IDE and a cloud platform). So students who believe in open-source chips and are also interested in UI or web development are a very good fit.
+
+
+    This position is offered by the ECOS team. For the internship requirements, stipend, salary and so on, see the ECOS team note on internships, new-graduate campus recruitment and experienced hiring.
+
+
+    This position requires on-site work: you can be employed at the Institute of Computing Technology, Chinese Academy of Sciences (institute establishment, project hire or Chuangjia) or at the Beijing Institute of Open Source Chip office. Apart from a few projects with a preference, most can choose Beijing or Shenzhen. A Xiong''an office is also being added (low living costs and a good environment).'
+  links:
+  - label: mp.weixin.qq.com
+    url: https://mp.weixin.qq.com/s/_UUNePIXV5H1q742XKVfnw
+- id: E171
+  title: Full-time teaching assistant for the "One Student One Chip" talent programme
+  badge: On-site internships; places on both the new-graduate engineering track and the research track
+  org: ECOS team
+  track: ecos
+  mode: On-site
+  location: Beijing · Shenzhen (some projects can choose; Xiong'an in preparation)
+  level: Not stated (places on both the new-graduate engineering track and the research track)
+  stipend: See the ECOS team note
+  slots: ''
+  status: open
+  desc: '"One Student One Chip" (ysyx.org) is a large-scale, open, non-profit chip and systems talent programme initiated by the University of Chinese Academy of Sciences. It focuses on training students to break down and solve problems independently, and on the abilities to co-design computer hardware and software systems and to design a chip end to end. Applications are open all year, with no restriction on school, major or year. Since it started in 2019, more than 16,000 people have signed up, covering more than 1,100 universities in China and abroad. Past participants have joined leading companies in the field such as HiSilicon, Cambricon, Moore Threads, Hygon and Canaan, or gone on to further study at top institutions including CAS, Tsinghua, Peking University, HKUST and Carnegie Mellon. "One Student One Chip" has added a full-time teaching assistant position, especially suited to students who focus on deepening their technical skills, enjoy building community and like communicating
+    with people. A full-time TA spends half their energy on improving their own technical strength and leading or joining open-source technical projects they are interested in, and half on passing the ECOS team''s technical experience on to more students (mentoring and organising sharing sessions and so on).
+
+
+    This position is offered by the ECOS team. For the internship requirements, stipend, salary and so on, see the ECOS team note on internships, new-graduate campus recruitment and experienced hiring.
+
+
+    This position requires on-site work: you can be employed at the Institute of Computing Technology, Chinese Academy of Sciences (institute establishment, project hire or Chuangjia) or at the Beijing Institute of Open Source Chip office. Apart from a few projects with a preference, most can choose Beijing or Shenzhen. A Xiong''an office is also being added (low living costs and a good environment).'
+  links:
+  - label: mp.weixin.qq.com
+    url: https://mp.weixin.qq.com/s/_UUNePIXV5H1q742XKVfnw
+- id: E170
+  title: Embedded open-source RISC-V IP/SoC development
+  badge: On-site internships; places on both the new-graduate engineering track and the research track
+  org: ECOS team
+  track: ecos
+  mode: On-site
+  location: Beijing · Shenzhen (some projects can choose; Xiong'an in preparation)
+  level: Not stated (places on both the new-graduate engineering track and the research track)
+  stipend: See the ECOS team note
+  slots: ''
+  status: open
+  desc: 'Develop low- and mid-range RISC-V open-source processor core IP, with emphasis on low power and embedded system design. Here the ECOS team''s core development stresses PPA quality and focuses on making the cores more customisable, supporting flexible integration of accelerators and custom extension instructions. At the same time, for RISC-V''s main scenarios, develop peripheral IP and the necessary compute IP — AMBA, SDRAM, VGA, UART, I2C, PWM, QSPI, embedded graphics GPU, Bluetooth, Ethernet and so on.
+
+
+    This position is offered by the ECOS team. For the internship requirements, stipend, salary and so on, see the ECOS team note on internships, new-graduate campus recruitment and experienced hiring.
+
+
+    This position requires on-site work: you can be employed at the Institute of Computing Technology, Chinese Academy of Sciences (institute establishment, project hire or Chuangjia) or at the Beijing Institute of Open Source Chip office. Apart from a few projects with a preference, most can choose Beijing or Shenzhen. A Xiong''an office is also being added (low living costs and a good environment).'
+  links:
+  - label: mp.weixin.qq.com
+    url: https://mp.weixin.qq.com/s/_UUNePIXV5H1q742XKVfnw
+- id: E169
+  title: Open-source RISC-V high-performance IP design
+  badge: On-site internships; places on both the new-graduate engineering track and the research track
+  org: ECOS team
+  track: ecos
+  mode: On-site
+  location: Beijing · Shenzhen (some projects can choose; Xiong'an in preparation)
+  level: Not stated (places on both the new-graduate engineering track and the research track)
+  stipend: See the ECOS team note
+  slots: ''
+  status: open
+  desc: 'The "XiangShan" open-source high-performance RISC-V processor represents the highest performance level of open-source RISC-V processor cores in the world today . Its latest tape-out, "Kunminghu V2", reaches 45 points @ 3 GHz (that is, 15 points/GHz) in the SPECCPU2006 benchmark. That performance level is already enough to compete on equal terms with the ARM Neoverse N1/N2-class cores used in today''s mainstream ARM server chips (such as Kunpeng 920 and Yitian 710).
+
+
+    At present the "XiangShan" team is working on the next-generation high-performance RISC-V processor core for data centres, "Kunminghu V3". This version aims at the industry''s top data-centre processor core, ARM Neoverse V2. The design target of "Kunminghu V3" is 22 points/GHz in the SPEC2006 benchmark, with a higher performance level and energy efficiency that is fully competitive, to further push RISC-V architecture breakthroughs in data centres, high-performance computing and other fields.
+
+
+    The "XiangShan" team holds to a full-stack open-source philosophy: its microarchitecture documents, RTL source code and related development platform tools are all fully public on GitHub. The project has built a highly open development team and technical community, so whether you work on advanced microarchitecture, high-performance operator implementation, memory-subsystem optimisation, multi-core interconnect architecture, vector extension (RVV) or processor security, you can find a direction in "XiangShan" that you like and that fits you.
+
+
+    The "XiangShan" processor is designed under the lead of the XiangShan team, with the ECOS team deeply involved in technical development and talent training.
+
+
+    This position is offered by the ECOS team. For the internship requirements, stipend, salary and so on, see the ECOS team note on internships, new-graduate campus recruitment and experienced hiring.
+
+
+    This position requires on-site work: you can be employed at the Institute of Computing Technology, Chinese Academy of Sciences (institute establishment, project hire or Chuangjia) or at the Beijing Institute of Open Source Chip office. Apart from a few projects with a preference, most can choose Beijing or Shenzhen. A Xiong''an office is also being added (low living costs and a good environment).'
+  links:
+  - label: github.com
+    url: https://github.com/OpenXiangShan
+  - label: mp.weixin.qq.com
+    url: https://mp.weixin.qq.com/s/_UUNePIXV5H1q742XKVfnw
+- id: E168
+  title: Open-source EDA tool / toolchain development
+  badge: On-site internships; places on both the new-graduate engineering track and the research track
+  org: ECOS team
+  track: ecos
+  mode: On-site
+  location: Beijing · Shenzhen (some projects can choose; Xiong'an in preparation)
+  level: Not stated (places on both the new-graduate engineering track and the research track)
+  stipend: See the ECOS team note
+  slots: ''
+  status: open
+  desc: 'Open-source EDA tools and toolchains matter to chips the way GCC/LLVM matters to the open-source software ecosystem. The ECOS team builds an open-source EDA toolchain covering the core steps of chip design — simulation and verification, logic synthesis, physical design, physical verification — to support the whole chip design flow. In this way, every student and chip enthusiast will in future be able to design their own chip with open-source software, get a layout and send it for fabrication. This is undoubtedly a huge undertaking. On open-source EDA alone, ECOS has already put in hundreds of people (since 2018) and written close to 500,000 lines of code; in 2023 it got the open-source EDA tool flow working end to end and released the iEDA project . For many years to come ECOS will keep improving open-source EDA in engineering quality, algorithm performance and runtime efficiency. Students interested in large software architecture, software engineering quality and program runtime
+    efficiency are welcome to join.
+
+
+    This position is offered by the ECOS team. For the internship requirements, stipend, salary and so on, see the ECOS team note on internships, new-graduate campus recruitment and experienced hiring.
+
+
+    This position requires on-site work: you can be employed at the Institute of Computing Technology, Chinese Academy of Sciences (institute establishment, project hire or Chuangjia) or at the Beijing Institute of Open Source Chip office. Apart from a few projects with a preference, most can choose Beijing or Shenzhen. A Xiong''an office is also being added (low living costs and a good environment).'
+  links:
+  - label: github.com
+    url: https://github.com/OSCC-Project/iEDA
+  - label: mp.weixin.qq.com
+    url: https://mp.weixin.qq.com/s/_UUNePIXV5H1q742XKVfnw
+- id: BJ18
+  title: Clang/LLVM development intern
+  org: Project Jiachen · PLCT Lab
+  track: jiachen
+  mode: Remote
+  location: Online, remote
+  level: LV3+, able to communicate in English
+  stipend: Not stated
+  slots: ''
+  status: full
+  duties:
+  - Take part in the development, technical analysis and report writing of PLCT Lab's Clang/LLVM projects. Submit code directly in the open-source community.
+  reqs:
+  - 'LV3+, able to communicate in English, with a basic understanding of compiler technology.
+
+
+    Remote internship; no need to be at a desk.'

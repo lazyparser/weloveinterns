@@ -1,0 +1,12 @@
+{{- /*
+  正文里的相对链接按语言补前缀：多语站里 [某页](program/) 写在 /ja/positions/ 下会被浏览器
+  解析成 /ja/positions/program/（404）。这里把相对目标改写成 <语言前缀>/program/。
+  绝对路径（/xxx/）、协议链接（http/mailto）与页内锚点原样输出。
+*/ -}}
+{{- $dest := .Destination -}}
+{{- $keep := or (hasPrefix $dest "http") (hasPrefix $dest "mailto") (hasPrefix $dest "tel") (hasPrefix $dest "#") (hasPrefix $dest "/") -}}
+{{- if not $keep -}}
+  {{- $prefix := site.LanguagePrefix | default "" -}}
+  {{- $dest = printf "%s/%s" $prefix $dest -}}
+{{- end -}}
+<a href="{{ $dest }}"{{ with .Title }} title="{{ . }}"{{ end }}>{{ .Text | safeHTML }}</a>

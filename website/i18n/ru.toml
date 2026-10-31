@@ -216,3 +216,41 @@ other = "Рисунок: выполнен этим сайтом по струк�
 
 [avatar.alt]
 other = "Аватар: {{ .Name }}"
+
+# ---------- Страница открытых позиций ----------
+[nav.positions]
+other = "Позиции"
+[home.ctaPositions]
+other = "Открытые позиции"
+[positions.tallyOpen]
+other = "Открыто позиций: {{ .n }}"
+[positions.tallyTba]
+other = "из них {{ .n }} — подробности уточняются"
+[positions.tallyFull]
+other = "закрыто: {{ .n }}"
+[positions.tba]
+other = "Дополняется"
+[positions.full]
+other = "Набор закрыт"
+[positions.org]
+other = "Организация"
+[positions.mode]
+other = "Формат"
+[positions.location]
+other = "Место"
+[positions.level]
+other = "Уровень"
+[positions.slots]
+other = "Места"
+[positions.stipend]
+other = "Стипендия"
+[positions.duties]
+other = "Задачи"
+[positions.reqs]
+other = "Требования"
+[positions.bonus]
+other = "Плюсы"
+[positions.gains]
+other = "Что получит стажёр"
+[positions.source]
+other = "Исходный список позиций в репозитории →"

@@ -1,0 +1,414 @@
+# 在招岗位：数据源是仓库根目录的 open-internships.md「开放岗位列表」一节。
+# 改岗位时先改仓库那份 md，再同步这里；status 取 open（在招）/ tba（详情待补充）/ full（已满）。
+tracks:
+- key: jiachen
+  name: 甲辰计划
+  note: 由甲辰计划主理人吴伟（lazyparser）发起、负责面试与培养；实习签署单位为上海苦芽科技有限公司，属于五色石工程的一部分。
+- key: hfut
+  name: 合肥工业大学 RISC-V 生态实验室（筹）
+  note: 甲辰计划合肥 RISC-V 漂流基地，提供实习所需的 RISC-V 芯片、机械臂与传感器；因需操作硬件，优先招合肥本地高校本科生。
+- key: ecos
+  name: ECOS 团队
+  note: 线下实习，可入职中科院计算所（所编、项目聘、创嘉）或北京开源芯片研究院；多数岗位可选北京、深圳，雄安办公点在建。
+- key: partner
+  name: 成员单位与合作企业
+  note: 由甲辰计划成员或合作企业直接提供，面试与用工由该单位负责。
+positions:
+- id: K185
+  title: 基于 RISC-V 主控芯片的机器人设计开发
+  org: 甲辰计划
+  track: jiachen
+  mode: 未注明
+  location: 未注明
+  level: 未注明
+  stipend: 未注明
+  slots: ''
+  status: tba
+  desc: TBA —— 岗位详情待补充。仓库里这一条目前只有岗位名，投递前建议先发信问一下具体要求。
+- id: K184
+  title: FlagOS RISC-V 架构开发（AI Infra）
+  org: 甲辰计划
+  track: jiachen
+  mode: 未注明
+  location: 未注明
+  level: 未注明
+  stipend: 未注明
+  slots: ''
+  status: tba
+  desc: TBA —— 岗位详情待补充。仓库里这一条目前只有岗位名，投递前建议先发信问一下具体要求。
+- id: K183
+  title: RT-Thread 嵌入式开发
+  org: 甲辰计划 · 五色石工程
+  track: jiachen
+  mode: 远程
+  location: 线上远程
+  level: LV1 及以上
+  stipend: 无实习费（提供 RISC-V 开发板与 Token）
+  slots: ''
+  status: open
+  desc: '注意：本岗位 没有 实习费，会提供实习所需的 RISC-V 开发板（由甲辰计划开发板漂流或者厂商直接捐赠）以及 Token。面试合格后提供实习合同和实习证明。实习签署单位为上海苦芽科技有限公司。
+
+    实习生在 mentor 的指导下，向 RT-Thread 开源社区直接贡献代码，所有成果公开可查。完成初级的实习成果后，可以推荐更多用人单位实习岗或校招岗位。
+
+    本岗位由甲辰计划主理人吴伟（lazyparser）发起，负责面试和培养工作，并有多名 RT-Thread 开发者/讲师担任 mentor。本岗位属于五色石工程的一部分。'
+  duties:
+  - 基于 RT-Thread 系统制作一些嵌入式应用案例，包括但不限于各类机器人的控制模块等。
+  - 补全和长期维护 RT-Thread 仓库中多种 RISC-V SoC 的支持，按照社区维护者的长期路线培养
+  - （可选）撰写一些技术博客，介绍和推广 RT-Thread 的应用案例。
+  - （可选）制作一些视频宣传推广 RT-Thread，包含在英文世界、东南亚地区等。
+  - （可选）鼓励参与技术分享公开演讲等介绍自己的实习工作。
+  reqs:
+  - 对嵌入式开发和硬件集成有热情，积极主动，善于主动沟通，能够明确知道通过实习想要获得什么。
+  - 熟练使用 AI 大模型和各种 Harness 帮助自己完成日常工作流。
+  - 具备 LV1 及以上技术能力。
+  - 能够稳定实习3个月以上（线上远程，每周有进展即可）。
+- id: K182
+  title: openKylin 具身智能案例开发
+  org: 甲辰计划 · 五色石工程
+  track: jiachen
+  mode: 远程
+  location: 线上远程
+  level: LV2 及以上
+  stipend: 无实习费（提供 RISC-V 开发板与 Token）
+  slots: ''
+  status: open
+  desc: '注意：本岗位 没有 实习费，会提供实习所需的 RISC-V 开发板（由甲辰计划开发板漂流或者厂商直接捐赠）以及 Token。面试合格后提供实习合同和实习证明。实习签署单位为上海苦芽科技有限公司。实习生在 mentor 的指导下，向 openKylin 开源社区直接贡献代码，所有成果公开可查。参与制作的具身智能案例，需要采用开源许可证公开。完成初级的实习成果后，可以推荐更多用人单位实习岗或校招岗位。
+
+    本岗位由 openKylin ROS SIG Maintainer、甲辰计划主理人吴伟（lazyparser）发起，负责面试和培养工作。本岗位属于五色石工程的一部分。'
+  duties:
+  - 基于 openKylin 系统制作一些具身智能案例，包括但不限于桌面四足小车、轮式、四足狗、人形机器人等。
+  - （可选）撰写一些技术博客推广 openKylin 具身智能工作组和 ROS SIG 的工作。
+  - （可选）制作一些视频宣传推广 openKylin 的 AI 能力。
+  - （可选）鼓励参与技术分享公开演讲等介绍自己的实习工作。
+  reqs:
+  - 有热情，积极主动，善于主动沟通，能够明确知道通过实习想要获得什么。
+  - 熟练使用 AI 大模型和各种 Harness 帮助自己完成日常工作流。
+  - 具备 LV2 及以上技术能力。
+  - 能够稳定实习3个月以上（线上远程，每周有进展即可）。
+- id: K181
+  title: openEuler 操作系统机器人软件包维护
+  org: 甲辰计划 · 五色石工程
+  track: jiachen
+  mode: 远程
+  location: 线上远程
+  level: LV1 技术能力
+  stipend: 无实习费（提供 RISC-V 开发板与 Token）
+  slots: ''
+  status: open
+  desc: '注意：本岗位 没有 实习费，会提供实习所需的 RISC-V 开发板（由甲辰计划开发板漂流或者厂商直接捐赠）以及 Token。面向 LV1-LV2 学生。面试合格后提供实习合同和实习证明。实习签署单位为上海苦芽科技有限公司。
+
+    实习生在 mentor 的指导下，向 openEuler 开源社区直接贡献代码，所有成果公开可查。完成初级的实习成果后，可以推荐更多用人单位实习岗或校招岗位。
+
+    本岗位由 openEuler ROS SIG Maintainer、甲辰计划主理人吴伟（lazyparser）发起，负责面试和培养工作。本岗位属于五色石工程的一部分。'
+  duties:
+  - 参与 openEuler ROS SIG 的软件包维护和测试工作；向上游提交更新补丁。
+  - （可选）撰写一些技术博客推广 openEuler ROS SIG 的工作。
+  - （可选）制作一些视频宣传推广 openEuler。
+  - （可选）鼓励参与技术分享公开演讲等介绍自己的实习工作。
+  reqs:
+  - 有热情，积极主动，善于主动沟通，能够明确知道通过实习想要获得什么。
+  - 熟练使用 AI 大模型和各种 Harness 帮助自己完成日常工作流。
+  - 具备 LV1 技术能力。
+  - 能够稳定实习3个月以上（线上远程，每周有进展即可）。
+- id: A180
+  title: 嵌入式虚拟化 / Hypervisor 实习生
+  org: 进程使命科技有限公司
+  track: partner
+  mode: 线下
+  location: 上海（期望）· 北京
+  level: 未注明（本科或研究生在读）
+  stipend: 未注明
+  slots: ''
+  status: open
+  desc: 本岗位来自进程使命科技有限公司。仅接受线下实习（上海）。进程使命更多的招聘信息可以从以下地址获得。
+  duties:
+  - 参与嵌入式 Hypervisor 核心功能的开发、调试与测试，包括 VM / vCPU、内存管理、中断及设备虚拟化等。
+  - 参与 ARM64、RISC-V64 等架构适配，分析和解决特权级、异常、中断、地址转换等底层问题。
+  - 针对虚拟化、RTOS、CPU 架构等技术方向开展 Research，阅读论文、技术规范、开源实现和社区资料，形成技术调研、方案设计与验证结论。
+  - 使用 QEMU、GDB、Shell、Trace 等工具进行系统调试、实验验证和问题定位。
+  - 参与开源社区协作，完成 Issue 分析、Patch 开发、代码评审等上游贡献。
+  - 使用 AI Agent 辅助代码分析、技术调研、开发、调试和测试，并能够独立验证和改进 Agent 输出。
+  reqs:
+  - 计算机、软件、电子、自动化、通信等相关专业本科生或研究生。
+  - 熟悉 C 语言，具备基本的 Linux 开发能力，能够使用 Git、Shell 等工具。
+  - 了解操作系统基本概念，如线程、中断、虚拟内存、MMU 和异常处理等。
+  - 具备一定的 Research 能力，能够主动检索和阅读英文技术资料、论文、架构手册及开源代码，并通过实验验证自己的分析和判断。
+  - 具备较好的代码阅读、问题拆解和自主学习能力，对嵌入式系统、CPU 架构或虚拟化技术有兴趣。
+  - 有 AI Agent / Coding Agent 实际使用经验，能够将 Agent 作为工程与 Research 工具，而非依赖“许愿式编程”。
+  - 每周至少实习 3 天，实习周期不少于 3 个月。
+  bonus:
+  - 有 RTOS、Linux 内核、Bootloader、驱动或其他底层系统开发经验。
+  - 了解 ARM64 / RISC-V 特权架构、页表、中断或硬件虚拟化机制。
+  - 使用过 QEMU、GDB、Devicetree、Kconfig、CMake 或 Python。
+  - 接触过 Hypervisor、KVM、Xen、IOMMU/SMMU 或设备虚拟化。
+  - 有论文复现、技术调研、Benchmark / 实验设计或系统原型实现经验。
+  - 有开源贡献或系统软件相关课程 / 个人项目经验。
+  gains:
+  - 参与真实嵌入式 Hypervisor 核心功能研发，而非外围 Demo。
+  - 深入学习 RTOS、CPU 虚拟化、内存隔离、设备虚拟化和多架构系统开发。
+  - 实践从 Research、方案设计、原型验证到工程实现的完整技术路径。
+  - 探索 AI Agent 与系统软件研发、技术研究相结合的工作方式。
+  - 参与真实开源社区协作，并将部分工作成果贡献至上游社区。
+  links:
+  - label: www.liepin.com
+    url: https://www.liepin.com/company/21491191/
+- id: BJ45
+  title: MLIR 开源开发实习生 aka RuyiAI aka Buddy Compiler 开发
+  badge: 长期开放
+  org: 甲辰计划 · PLCT 实验室
+  track: jiachen
+  mode: 远程
+  location: 线上远程
+  level: LV3+，能英文交流
+  stipend: 未注明
+  slots: 长期开放
+  status: open
+  desc: 我们相信MLIR将会成为未来编译器框架的实施标准。因此从2021年开始，PLCT实验室将 MLIR 列入了「关键开源基础设施」名单，已经跟 LLVM、GCC 一样成为PLCT实验室的长期管理对象。
+  duties:
+  - 参与中国科学院软件研究所智能软件研究中心 RuyiAI / MLIR 相关开源项目的开发。
+  - 参与 Buddy Compiler 开发。
+  reqs:
+  - LV3+，能进行英语交流，对编译技术有很好的了解。对 MLIR 项目有浓厚的兴趣。
+  - 远程实习，不需要坐班。
+- id: B179
+  title: 虚拟化与实时操作系统开发实习生
+  badge: 开放2名
+  org: 成员单位（仓库未注明提供方）
+  track: partner
+  mode: 未注明
+  location: 未注明
+  level: LV3 及以上
+  stipend: 未注明
+  slots: 2 名
+  status: open
+  desc: 面向国产 ARM SoC 平台, 做虚拟化与实时操作系统的移植、适配与实时性调优。你会同时接触 Hypervisor、RTOS 内核、Linux 驱动三层。
+  duties:
+  - 'Bao Hypervisor 平台适配: 在Renesas，NXP， Rockchip MCU上完成 Bootstrap、中断控制器、内存与 Cache 分区、设备直通与 VirtIO 后端,开发和使用平台 BSP/MCAL。'
+  - RTOS 内核移植:启用 MMU 与用户态进程模型,建立进程间地址空间隔离。
+  - ARM 平台驱动开发:Linux 与 RTOS 两侧的驱动适配,以及跨核通信通道(Mailbox / 共享内存)的设计与实现。
+  - AMP 与虚拟化混合部署:A 核侧跑 Hypervisor 承载 Linux 与 RTOS 并存,R 核侧承载硬实时任务;负责两域的资源隔离(含 Cache / NPU 分区)与启动流程。
+  - 实时性量测与调优:上下文切换、中断响应、控制周期抖动的微秒级量测,建立可复现的测试方法并输出数据。
+  - Rust 在 RTOS 中的落地:让 RTOS 具备执行 Rust 应用与中间件的能力(std 库、异步机制),并逐步将内核模块迁移到 Rust(Good To Have)。
+  - 静态代码分析与认证相关的编码规范(Good To Have)。
+  reqs:
+  - LV3 及以上,对底层计算机编程有浓厚兴趣;
+  - 熟练 C 与汇编语言;
+  - 熟悉 Linux 内核与驱动开发,有 ARM 平台 Linux 驱动开发经验者优先;
+  - 了解至少一种 RTOS(RT-Thread / FreeRTOS / Zephyr 等),理解 POSIX 接口模型;
+  - 具备操作系统、调度与实时系统的知识,理解实时性指标的定义与量测方法;
+  - 扎实的计算机架构与处理器知识:ARMv8-A / ARMv8-R、异常等级、MMU / MPU、GIC、Cache 一致性;
+  - 熟练使用 Git、SSH、Bash Script 等不同小工具提升效率;
+  - 基本了解硬件调试接口、硬件调试器(JTAG / 串口 / 逻辑分析仪 / 示波器);
+  - 计算机工程、电气工程或计算机科学的学士、硕士学位。
+  bonus:
+  - Rust,尤其是嵌入式或 no_std 方向;
+  - 接触过任一虚拟化方案(Bao / Jailhouse / Xen / KVM);
+  - 异构多核 AMP 架构、核间通信的实践经验;
+  - 功能安全或自主可控认证相关的开发流程经验;
+  - 静态分析工具使用经验(MISRA C、Coverity、clang-analyzer 等);
+  - 开源社区贡献记录。
+  gains:
+  - 真实量产项目上的芯片平台适配、Hypervisor 与 RTOS 的完整移植链路、以及 Rust 在安全关键系统中的工程化落地 —— 这些工作会直接进入客户的Safety Critical产品,不是练习项目。
+- id: H178
+  title: 具身智能 AI 硬件开发实习生（灵巧手方向）
+  org: 合肥工业大学数学学院 RISC-V 生态实验室（筹）
+  track: hfut
+  mode: 线下
+  location: 合肥 · 工大翡翠湖校区科教楼 B 座 1609
+  level: LV3
+  stipend: 无保底实习费（按外部可见产出与 mentor 协商）
+  slots: 2 名
+  status: open
+  duties:
+  - 本岗位是由合肥工业大学数学学院 RISC-V 生态实验室（筹）暨甲辰计划合肥RISC-V漂流基地提供的实习岗位。实习内容是研发制造带有触觉和肌电的二指夹爪、三指夹爪、五指灵巧手和可能的各种异形末端，并结合项目需求开发相关的嵌入式软件；感兴趣可以参与部分AI算法/模型的测试和开发。
+  - 由于现场需要操作硬件，本岗位优先招募合肥工业大学翡翠湖校区及周边高校的本科生。合肥工业大学数学学院 RISC-V 生态实验室（筹）提供实习所需的各类 RISC-V 芯片及实验的机器人机械臂、传感器等。
+  - 实习地点： 合肥工业大学翡翠湖校区科教楼B座1609室（RISC-V生态实验室）
+  - 实习费用： 无保底实习费，根据外部可见产出与mentor进行协商（参见上方注意事项）；请注意甲辰计划岗位并不按照坐班时间付费。
+  reqs:
+  - 自我评测至少达到 LV3 能力等级，有很好的动手能力；
+  - 具备结构和嵌入式、自动化的知识或经验（熟练使用电烙铁、万用表等就可以加分）
+  - 对具身智能方向和AI算法有浓厚兴趣，动手尝试运行过；
+  - 喜欢折腾各类电子器件或者软件系统；
+  - 乐于进行公开的技术报告和线下活动分享；
+  - 每周工作日能够来RISC-V生态实验室至少2天（因为要操作硬件）。
+- id: H177
+  title: AI 算法部署优化实习生（RISC-V 架构）
+  org: 合肥工业大学数学学院 RISC-V 生态实验室（筹）
+  track: hfut
+  mode: 线下
+  location: 合肥 · 工大翡翠湖校区科教楼 B 座 1609
+  level: LV3
+  stipend: 无保底实习费（按外部可见产出与 mentor 协商）
+  slots: 2 名
+  status: open
+  duties:
+  - 本岗位是由合肥工业大学数学学院 RISC-V 生态实验室（筹）暨甲辰计划合肥RISC-V漂流基地提供的实习岗位。实习内容是在 RISC-V 架构上针对需要本地部署的AI模型（目前主要以具身智能机器人为落地应用场景，包括 ASR、VAD、TTS、SLAM、双目视觉、VLA、VLM 等），在嘉楠K230、进迭时空K3、SiFive P550、Milk-V Duo S 等 RISC-V 开发板上进行本地化部署及优化，充分利用 RISC-V 芯片具备的 RVV、IME 等扩展指令集进行算法加速。
+  - 由于现场需要操作硬件，本岗位优先招募合肥工业大学翡翠湖校区及周边高校的本科生。合肥工业大学数学学院 RISC-V 生态实验室（筹）提供实习所需的各类 RISC-V 芯片及实验的机器人机械臂、传感器等。
+  - 实习地点： 合肥工业大学翡翠湖校区科教楼B座1609室（RISC-V生态实验室）
+  - 实习费用： 无保底实习费，根据外部可见产出与mentor进行协商（参见上方注意事项）；请注意甲辰计划岗位并不按照坐班时间付费。
+  reqs:
+  - 自我评测至少达到 LV3 能力等级，有很好的动手能力；
+  - 对 AI 算法的部署和优化有浓厚兴趣，动手尝试运行过；
+  - 对 RISC-V RVV、IME 等指令有学习了解，在投简历前自学掌握大概；
+  - 喜欢折腾各类电子器件或者软件系统；
+  - 乐于进行公开的技术报告和线下活动分享；
+  - 每周能够来RISC-V生态实验室至少1天（因为要操作硬件）。
+- id: E174
+  title: RISC-V开源嵌入式系统设计及开发
+  badge: 线下实习、应届工程线、研究线均有名额
+  org: ECOS 团队
+  track: ecos
+  mode: 线下
+  location: 北京 · 深圳（部分项目可选定；雄安筹建中）
+  level: 未注明（应届工程线、研究线均有名额）
+  stipend: 见 ECOS 团队说明
+  slots: ''
+  status: open
+  desc: '围绕ECOS团队自研或市面上主流的RISC-V架构处理器芯片，设计PCB板卡、嵌入式SDK、嵌入式开发工具、典型应用案例，并编写配套的芯片手册和板卡使用文档。ECOS团队推出的芯片，大部分都是基于开源处理器核和开源EDA，自行完成SoC集成、物理设计、流片、封装和板卡设计等步骤。嵌入式团队与芯片团队紧密协作，并且可参与到芯片规格定义、SoC集成和验证等工作中。加入ECOS从事嵌入式系统的工作，可逐渐成长为一个全栈且“知软知硬”的高水平嵌入式工程师。嵌入式团队有很大空间，探索各类应用，尝试一些好玩儿的东西，例如机器人、嵌入式游戏、掌上游戏机、智能玩具等。
+
+    本岗位由 ECOS 团队提供。相关实习要求、实习费、薪资等参考ECOS团队实习、应届校招、社招说明。
+
+    本岗位需要线下实习，可选择入职到中国科学院计算技术研究所（所编、项目聘、创嘉），或者是北京开源芯片研究院办公地点，除少数项目有倾向外，大部分可选择北京、深圳。同时，正在增设雄安（生活成本低且环境好）。'
+  links:
+  - label: mp.weixin.qq.com
+    url: https://mp.weixin.qq.com/s/_UUNePIXV5H1q742XKVfnw
+- id: E173
+  title: 软硬件系统性能分析优化
+  badge: 线下实习、应届工程线、研究线均有名额
+  org: ECOS 团队
+  track: ecos
+  mode: 线下
+  location: 北京 · 深圳（部分项目可选定；雄安筹建中）
+  level: 未注明（应届工程线、研究线均有名额）
+  stipend: 见 ECOS 团队说明
+  slots: ''
+  status: open
+  desc: '针对指定算法和应用，分析其程序行为、性能瓶颈和体系结构特征等，借助软件方法（并行计算、向量计算、访存优化等）、软硬件协同设计和专用加速器设计等高性能计算方法，使用更少硬件资源达成更高程序性能。以高性能 RTL 仿真器为例，GSIM 支持 Chisel 语言，比 Verilator 还要快10倍，大幅提升了香山的测试和验证效率。当前，ECOS团队在EDA软件的性能优化、嵌入式系统的性能优化，以及未来在香山上的软件优化上，都会投放大量时间和精力。
+
+    本岗位由 ECOS 团队提供。相关实习要求、实习费、薪资等参考ECOS团队实习、应届校招、社招说明。
+
+    本岗位需要线下实习，可选择入职到中国科学院计算技术研究所（所编、项目聘、创嘉），或者是北京开源芯片研究院办公地点，除少数项目有倾向外，大部分可选择北京、深圳。同时，正在增设雄安（生活成本低且环境好）。'
+  links:
+  - label: mp.weixin.qq.com
+    url: https://mp.weixin.qq.com/s/_UUNePIXV5H1q742XKVfnw
+- id: E172
+  title: ECOS Studio 开发
+  badge: 线下实习、应届工程线、研究线均有名额
+  org: ECOS 团队
+  track: ecos
+  mode: 线下
+  location: 北京 · 深圳（部分项目可选定；雄安筹建中）
+  level: 未注明（应届工程线、研究线均有名额）
+  stipend: 见 ECOS 团队说明
+  slots: ''
+  status: open
+  desc: 'ECOS Studio：集成整个ECOS团队的成果，形成一套IDE工具，全部使用开源EDA和开源IP设计芯片，全流程皆可开源并开放可见。每个人都可以基于该流程修改并实现自己的芯片设计方案，并无需支付昂贵的 EDA 和 IP 费用。每一个用 Verilog/Chisel/SpinalHDL/SystemVerilog 编写的数字模块，都可以用开源 EDA 和 SoC 来评估自己方案在 ASIC 流程上的 PPA，或者完成版图设计后，拿去流片。ECOS Studio 具备两种形式（本地IDE和云平台）。故而，认可开源芯片，同时对UI开发、web开发比较感兴趣的同学，是非常适合的。
+
+    本岗位由 ECOS 团队提供。相关实习要求、实习费、薪资等参考ECOS团队实习、应届校招、社招说明。
+
+    本岗位需要线下实习，可选择入职到中国科学院计算技术研究所（所编、项目聘、创嘉），或者是北京开源芯片研究院办公地点，除少数项目有倾向外，大部分可选择北京、深圳。同时，正在增设雄安（生活成本低且环境好）。'
+  links:
+  - label: mp.weixin.qq.com
+    url: https://mp.weixin.qq.com/s/_UUNePIXV5H1q742XKVfnw
+- id: E171
+  title: “一生一芯”人才培养计划全职助教
+  badge: 线下实习、应届工程线、研究线均有名额
+  org: ECOS 团队
+  track: ecos
+  mode: 线下
+  location: 北京 · 深圳（部分项目可选定；雄安筹建中）
+  level: 未注明（应届工程线、研究线均有名额）
+  stipend: 见 ECOS 团队说明
+  slots: ''
+  status: open
+  desc: '“一生一芯”（ysyx.org）：是由中国科学院大学发起的大规模开放式公益性芯片及系统人才培养计划，专注培养学生独立分解和解决问题的能力，以及“计算机软硬件系统协同设计能力”和“芯片全链条设计能力”，全年开放报名，不限学校、专业和年级，皆可参与。自 2019 年发起以来，累计报名超 16000 人，覆盖国内外 1100 余所高校。往届学员入职华为海思、寒武纪、摩尔线程、海光、嘉楠科技等行业头部企业工作，或进入中科院、清华、北大、港科大、卡内基梅隆大学等国内外顶级院校深造。“一生一芯”新增全职助教的岗位，特别适合专注于技术精进、喜欢做社区、喜欢沟通交流的同学。全职助教的精力，一半用于提升技术实力、主导或参与自己感兴趣的开源技术项目，一半用于把ECOS团队的技术经验传递给更多学员（指导和组织分享等）。
+
+    本岗位由 ECOS 团队提供。相关实习要求、实习费、薪资等参考ECOS团队实习、应届校招、社招说明。
+
+    本岗位需要线下实习，可选择入职到中国科学院计算技术研究所（所编、项目聘、创嘉），或者是北京开源芯片研究院办公地点，除少数项目有倾向外，大部分可选择北京、深圳。同时，正在增设雄安（生活成本低且环境好）。'
+  links:
+  - label: mp.weixin.qq.com
+    url: https://mp.weixin.qq.com/s/_UUNePIXV5H1q742XKVfnw
+- id: E170
+  title: 嵌入式开源 RISC-V IP/SoC 开发
+  badge: 线下实习、应届工程线、研究线均有名额
+  org: ECOS 团队
+  track: ecos
+  mode: 线下
+  location: 北京 · 深圳（部分项目可选定；雄安筹建中）
+  level: 未注明（应届工程线、研究线均有名额）
+  stipend: 见 ECOS 团队说明
+  slots: ''
+  status: open
+  desc: '研发中低端 RISC-V 开源处理器核 IP，注重低功耗及嵌入式系统设计等。此处，ECOS 团队研发处理器核，强调 PPA 质量，并着重提升处理器核的可定制性，支持灵活集成加速部件和自定义扩展指令等。同时，针对 RISC-V 的主要场景，开发外围 IP 及必要的计算 IP，例如 AMBA、SDRAM、VGA、UART、I2C、PWM、QSPI、嵌入式图形 GPU、Bluetooth、Ethernet 等。
+
+    本岗位由 ECOS 团队提供。相关实习要求、实习费、薪资等参考ECOS团队实习、应届校招、社招说明。
+
+    本岗位需要线下实习，可选择入职到中国科学院计算技术研究所（所编、项目聘、创嘉），或者是北京开源芯片研究院办公地点，除少数项目有倾向外，大部分可选择北京、深圳。同时，正在增设雄安（生活成本低且环境好）。'
+  links:
+  - label: mp.weixin.qq.com
+    url: https://mp.weixin.qq.com/s/_UUNePIXV5H1q742XKVfnw
+- id: E169
+  title: 开源RISC-V高性能IP设计
+  badge: 线下实习、应届工程线、研究线均有名额
+  org: ECOS 团队
+  track: ecos
+  mode: 线下
+  location: 北京 · 深圳（部分项目可选定；雄安筹建中）
+  level: 未注明（应届工程线、研究线均有名额）
+  stipend: 见 ECOS 团队说明
+  slots: ''
+  status: open
+  desc: '“香山” 开源高性能 RISC-V 处理器代表了当前全球开源 RISC-V 处理器核的最高性能水平其最新流片版本 “昆明湖 V2” 在 SPECCPU2006 基准测试中可以达到 45分@3GHz（即 15分/GHz）的成绩。该性能水平已具备与目前业界主流 ARM 服务器芯片（如鲲鹏 920 及倚天 710）所采用的 ARM Neoverse N1/N2 级核心同台竞争的能力。
+
+    目前，“香山” 团队正致力于研发面向数据中心的下一代高性能 RISC-V 处理器核心 “昆明湖 V3”。该版本旨在对标业界顶尖的数据中心处理器核 ARM Neoverse V2。“昆明湖 V3” 的设计目标为在 SPEC2006 性能基准测试中达到 22分/GHz 的性能水平，具备更高的性能水平与充足竞争力的能效表现，以进一步推动支持 RISC-V 架构在数据中心、高性能计算等领域的突破。
+
+    “香山” 团队坚持全栈开源理念，其微架构文档、RTL 源代码及相关开发平台工具均已在 GitHub 完全公开。项目组构建了高度开放的开发团队与技术社区，无论您致力于高级体系结构、高性能算子实现、访存子系统优化、多核互联架构、向量扩展（RVV）还是处理器安全等领域，均可在 “香山” 找到喜欢与适合的方向。
+
+    “香山” 处理器由香山团队主导设计，ECOS 团队深度参与技术研发与人才培养。
+
+    本岗位由 ECOS 团队提供。相关实习要求、实习费、薪资等参考ECOS团队实习、应届校招、社招说明。
+
+    本岗位需要线下实习，可选择入职到中国科学院计算技术研究所（所编、项目聘、创嘉），或者是北京开源芯片研究院办公地点，除少数项目有倾向外，大部分可选择北京、深圳。同时，正在增设雄安（生活成本低且环境好）。'
+  links:
+  - label: github.com
+    url: https://github.com/OpenXiangShan
+  - label: mp.weixin.qq.com
+    url: https://mp.weixin.qq.com/s/_UUNePIXV5H1q742XKVfnw
+- id: E168
+  title: 开源EDA工具/工具链开发
+  badge: 线下实习、应届工程线、研究线均有名额
+  org: ECOS 团队
+  track: ecos
+  mode: 线下
+  location: 北京 · 深圳（部分项目可选定；雄安筹建中）
+  level: 未注明（应届工程线、研究线均有名额）
+  stipend: 见 ECOS 团队说明
+  slots: ''
+  status: open
+  desc: '开源 EDA 工具及工具链开源 EDA 工具链对芯片的作用，正如 GCC/LLVM 之于开源软件生态。ECOS团队构建开源 EDA 工具链，覆盖仿真验证、逻辑综合、物理设计、物理验证等芯片设计核心步骤，支撑芯片全流程设计。如此，将来每一位同学和芯片爱好者，都可以使用开源软件设计自己的芯片，得到版图并且投片生产。这无疑是一个浩大的工程。仅在开源EDA一项工作上，ECOS就已经投放了数百人（从2018年开始），开发的代码量接近 50万行，并在2023年初步打通开源EDA工具流程，发布了 iEDA 项目。 未来很多年，ECOS都会从工程质量、算法性能、运行效率等方面，持续优化和提升开源EDA质量。欢迎对大型软件架构、对软件工程质量、程序运行效率感兴趣的同学加入。
+
+    本岗位由 ECOS 团队提供。相关实习要求、实习费、薪资等参考ECOS团队实习、应届校招、社招说明。
+
+    本岗位需要线下实习，可选择入职到中国科学院计算技术研究所（所编、项目聘、创嘉），或者是北京开源芯片研究院办公地点，除少数项目有倾向外，大部分可选择北京、深圳。同时，正在增设雄安（生活成本低且环境好）。'
+  links:
+  - label: github.com
+    url: https://github.com/OSCC-Project/iEDA
+  - label: mp.weixin.qq.com
+    url: https://mp.weixin.qq.com/s/_UUNePIXV5H1q742XKVfnw
+- id: BJ18
+  title: Clang/LLVM 开发实习生
+  org: 甲辰计划 · PLCT 实验室
+  track: jiachen
+  mode: 远程
+  location: 线上远程
+  level: LV3+，能英文交流
+  stipend: 未注明
+  slots: ''
+  status: full
+  duties:
+  - 参与PLCT实验室 Clang/LLVM 相关项目的开发、技术分析、报告撰写。在开源社区直接提交代码。
+  reqs:
+  - 'LV3+，能进行英语交流，对编译技术有基本了解。
+
+    远程实习，不需要坐班。'

@@ -216,3 +216,41 @@ other = "圖：本站依《甲辰計畫：為了 RISC-V 軟體生態的繁榮》
 
 [avatar.alt]
 other = "{{ .Name }} 的頭像"
+
+# ---------- 招募中職缺頁 ----------
+[nav.positions]
+other = "職缺"
+[home.ctaPositions]
+other = "職缺"
+[positions.tallyOpen]
+other = "招募中 {{ .n }} 個職缺"
+[positions.tallyTba]
+other = "其中 {{ .n }} 個詳情待補"
+[positions.tallyFull]
+other = "{{ .n }} 個已額滿"
+[positions.tba]
+other = "待補"
+[positions.full]
+other = "已額滿"
+[positions.org]
+other = "提供單位"
+[positions.mode]
+other = "方式"
+[positions.location]
+other = "地點"
+[positions.level]
+other = "能力分級"
+[positions.slots]
+other = "名額"
+[positions.stipend]
+other = "實習津貼"
+[positions.duties]
+other = "職務內容"
+[positions.reqs]
+other = "應徵條件"
+[positions.bonus]
+other = "加分項"
+[positions.gains]
+other = "你會獲得"
+[positions.source]
+other = "看儲存庫裡的原始職缺表 →"

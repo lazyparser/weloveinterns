@@ -160,3 +160,53 @@ if lang in ("en","ru","ko"):
 ## 六、最终报告要求
 
 返回：语言代码、写了哪些文件（绝对路径或相对仓库路径）、上面自检脚本的真实输出、以及任何你拿不准的译法（列出来，别自己改事实）。
+
+---
+
+# 追加任务：在招岗位页（positions）
+
+新增了 `/positions/` 一页。每种语言需要**再补 3 处**，规则与前面完全一致（只译人话，不动标识符）：
+
+### 1. `website/i18n/<lang>.toml` 追加 18 个键
+
+中文源在 `website/i18n/zh.toml` 末尾的「在招岗位页」一节：`nav.positions`、`home.ctaPositions`、`positions.tallyOpen`、`positions.tallyTba`、`positions.tallyFull`、`positions.tba`、`positions.full`、`positions.org`、`positions.mode`、`positions.location`、`positions.level`、`positions.slots`、`positions.stipend`、`positions.duties`、`positions.reqs`、`positions.bonus`、`positions.gains`、`positions.source`。
+
+注意 `positions.tallyOpen` / `tallyTba` / `tallyFull` 三个键**必须保留 `{{ .n }}` 占位**（Hugo 的 Go 模板写法），只翻译占位符周围的文字。例：
+
+```toml
+[positions.tallyOpen]
+other = "{{ .n }} positions open"
+```
+
+### 2. `website/data/i18n/<lang>/positions.yaml`（新建）
+
+结构必须与 `website/data/i18n/zh/positions.yaml` **逐键一致**：`tracks`（4 条）+ `positions`（18 条）。要译的是：
+
+- `tracks[].name` / `tracks[].note`
+- `positions[].title` / `desc` / `badge` / `org` / `mode` / `location` / `level` / `slots` / `stipend`
+- `positions[].duties[]` / `reqs[]` / `bonus[]` / `gains[]` 里的每一条
+
+**不动**：`tracks[].key`、`positions[].id`（岗位编号如 K183）、`status`（`open`/`tba`/`full` 是程序用的值）、`track`、`links[].url`、`links[].label`（域名）。
+
+岗位编号、LV 等级、`RISC-V`/`RT-Thread`/`openKylin`/`openEuler`/`MLIR`/`Bao` 这类专名、以及「TBA」一律原样。
+
+### 3. `website/content/<lang>/positions.md`（新建）
+
+照 `website/content/zh/positions.md` 译：front matter 保留 `layout: positions` 与键序，`title` / `sub` / `description` 翻译。正文里的邮箱 `wuwei@rv2036.org`、岗位编号（K181–K183）、「LV2 及以上」这类数值与专名不动；文中指向 `/program/`、`/interns/` 的内链保留原样路径（站点会按语言前缀解析导航，正文里这两处链接**改成相对形式** `program/`、`interns/` 更保险）。
+
+### 自检
+
+```python
+import yaml
+zh = yaml.safe_load(open('website/data/i18n/zh/positions.yaml', encoding='utf-8'))
+tr = yaml.safe_load(open('website/data/i18n/<lang>/positions.yaml', encoding='utf-8'))
+def shape(o):
+    if isinstance(o, dict): return {k: shape(v) for k, v in o.items() if k != 'other'}
+    if isinstance(o, list): return [shape(v) for v in o]
+    return None
+assert shape(zh) == shape(tr), 'positions.yaml 结构不一致'
+assert [p['id'] for p in zh['positions']] == [p['id'] for p in tr['positions']], '岗位编号顺序变了'
+assert [t['key'] for t in zh['tracks']] == [t['key'] for t in tr['tracks']]
+assert [p['status'] for p in zh['positions']] == [p['status'] for p in tr['positions']], 'status 不能译'
+print('ok positions.yaml')
+```

@@ -216,3 +216,41 @@ other = "図：本サイトが「甲辰計画：RISC-V ソフトウェア生態�
 
 [avatar.alt]
 other = "{{ .Name }} のアバター"
+
+# ---------- 募集中のポジション ----------
+[nav.positions]
+other = "募集職種"
+[home.ctaPositions]
+other = "募集中のポジション"
+[positions.tallyOpen]
+other = "{{ .n }} 件を募集中"
+[positions.tallyTba]
+other = "うち {{ .n }} 件は詳細未定"
+[positions.tallyFull]
+other = "{{ .n }} 件が定員に達しました"
+[positions.tba]
+other = "詳細未定"
+[positions.full]
+other = "定員に達しました"
+[positions.org]
+other = "提供元"
+[positions.mode]
+other = "形態"
+[positions.location]
+other = "勤務地"
+[positions.level]
+other = "能力レベル"
+[positions.slots]
+other = "募集人数"
+[positions.stipend]
+other = "インターン手当"
+[positions.duties]
+other = "職務内容"
+[positions.reqs]
+other = "応募要件"
+[positions.bonus]
+other = "歓迎スキル"
+[positions.gains]
+other = "得られること"
+[positions.source]
+other = "リポジトリの元の募集一覧を見る →"
