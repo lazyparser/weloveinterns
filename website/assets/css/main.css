@@ -511,3 +511,8 @@ th { background: var(--bg-soft); font-weight: 700; }
   .lang-btn { display: none; }
   .lang-menu a { padding: .45rem 0; }
 }
+
+/* ---------- 五色石图：非中日韩语言的字形更宽，按语言微调字号，避免溢出方框 ---------- */
+html:lang(ru) .stones .node-label { font-size: 12.5px; }
+html:lang(ru) .stones .node-sub { font-size: 9px; }
+html:lang(en) .stones .node-label { font-size: 14px; }

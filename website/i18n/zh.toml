@@ -169,12 +169,12 @@ other = "培养体系"
 [timeline.legendPeople]
 other = "人"
 [timeline.evidence]
-other = "证据"
+other = "证据："
 
 [sources.usage]
-other = "用法"
+other = "用法："
 [sources.license]
-other = "许可"
+other = "许可："
 
 [blog.back]
 other = "← 回博客列表"
@@ -187,3 +187,32 @@ other = "切换语言"
 other = "切到亮色"
 [a11y.themeToDark]
 other = "切到深色"
+
+# ---------- 五色石 SVG ----------
+[stones.aria]
+other = "甲辰计划人才培养支撑体系：公开免费培训课程体系、开源实习生联合培养、开发板漂流、甲辰计划人才背书四块基石，由五色石工程进一步整合成闭环"
+[stones.courses]
+other = "公开免费培训课程"
+[stones.coursesSub]
+other = "全门类 RISC-V 课程"
+[stones.internship]
+other = "开源实习生联合培养"
+[stones.internshipSub]
+other = "岗位 + 导师 + 实习费"
+[stones.board]
+other = "开发板漂流"
+[stones.boardSub]
+other = "免费借你一块板子"
+[stones.endorse]
+other = "甲辰计划人才背书"
+[stones.endorseSub]
+other = "公开背书与工作内推"
+[stones.project]
+other = "五色石工程"
+[stones.projectSub]
+other = "十年 · 进一步整合"
+[stones.caption]
+other = "图：本站依据《甲辰计划：为了 RISC-V 软件生态的繁荣》（CCF 开源软件大会，2026-08-16）第 44 页的结构自绘，未使用原图。"
+
+[avatar.alt]
+other = "{{ .Name }} 的头像"

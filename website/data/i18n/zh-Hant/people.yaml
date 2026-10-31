@@ -1,0 +1,185 @@
+# 人物：社群導師 + 傑出實習生
+# avatar 為 GitHub 頭像直連（avatars.githubusercontent.com 的數字 ID 形式，少一次跳轉，不落庫）；
+# handle 為 GitHub 使用者名稱（用於主頁連結）；沒有公開 handle 的留空，卡片用首字徽標。
+# endorse 為甲辰人才背書編號或說明；僅收錄儲存庫中「本人同意或本人 PR」公開的內容。
+
+mentors:
+  - name: 吳偉
+    handle: lazyparser
+    avatar: https://avatars.githubusercontent.com/u/1802104?v=4
+    alias: lazyparser
+    role: 甲辰計畫發起人 & 主理人
+    tags: [RISC-V, 編譯器, 社群營運]
+    bio: >-
+      甲辰計畫發起人與主理人，PLCT 實驗室創建者，苦芽科技共同創辦人。RISC-V 國際基金會技術指導委員會（TSC）委員、
+      ISA Infra HC 主席，LLVM 基金會理事，RISC-V 中國峰會指導委員會代理主席。
+    history: 合肥工業大學（數學系學士）｜中國科學院軟體研究所（博士肄業）；工作經歷：中科院軟體所｜中科重德｜PLCT 實驗室｜苦芽科技
+    contact: wuwei@rv2036.org
+    note: 這個儲存庫裡 779 個提交中有 500 個來自他 —— 包括絕大多數期的招募資訊、評級更新與實習報告清理。
+    links:
+      - label: 甲辰計畫
+        url: https://rv2036.org
+        note: 發起人 & 主理人
+      - label: 極簡專案管理
+        url: https://github.com/lazyparser/minimalist-team-leader
+        note: 管理方式
+      - label: weloveinterns
+        url: https://github.com/lazyparser/weloveinterns
+        note: 本儲存庫
+  - name: U2FsdGVkX1
+    handle: U2FsdGVkX1
+    avatar: https://avatars.githubusercontent.com/u/11484206?v=4
+    role: 導師 · RISC-V Linux 軟體生態
+    tags: [RISC-V, Fedora, RuyiSDK]
+    bio: >-
+      實習期間為 Fedora RISC-V、Fedora RVA23 及 Fedora 64ILP32 維護者，主要參與 RISC-V Linux 軟體生態建設；
+      同時擔任 RuyiSDK IDE 導師，並參與 deepin DE SIG 與 openGauss RISC-V SIG 的社群協作。
+    links:
+      - label: RuyiSDK IDE
+        url: https://github.com/ruyisdk/ruyisdk-vscode-extension
+        note: 導師
+      - label: 64ILP32 on K230D
+        url: https://github.com/ruyisdk/k230_linux_sdk
+        note: 維護
+      - label: openGauss RISC-V
+        url: https://gitee.com/opengauss/riscv
+        note: SIG 協作
+      - label: Fedora everything
+        url: https://openkoji.iscas.ac.cn
+        note: 建置/維護
+
+interns:
+  - name: 任鵬飛
+    alias: kxxt
+    handle: kxxt
+    avatar: https://avatars.githubusercontent.com/u/18085551?v=4
+    level: LV5
+    org: 中國科學技術大學 · 網路空間安全學院（碩士）
+    work: Arch Linux RISC-V 大量軟體套件的維護與適配；主導或參與 Electron、Chromium 等大型專案的 RISC-V 移植、最佳化與長期維護（riscv-forks 系列）
+    endorse: 甲辰人才背書 018 號
+    link: https://github.com/rv2036/jiachen-builders-network/blob/main/pool/018-REN-Pengfei.md
+  - name: 王炳臻
+    level: LV4+
+    org: 南方科技大學（大學部）
+    work: LuaJIT 的 RISC-V port 維護者；在編譯器領域學習能力突出，並就移植工作做過公開演講
+    endorse: 甲辰人才背書 008 號
+  - name: 蔣周奇
+    alias: 洛佳
+    handle: luojia65
+    avatar: https://avatars.githubusercontent.com/u/40385009?v=4
+    level: LV4
+    org: 華中科技大學（碩士，方向系統安全）
+    work: RustSBI 專案負責人，帶領各子專案發展；為博流 BL808 提供完整 Rust 裸機到核心支援包；修復 RISC-V SBI 規範中定義不嚴謹處
+    endorse: 甲辰人才背書 012 號
+    link: https://github.com/rv2036/jiachen-builders-network/blob/main/pool/012-JIANG-Zhouqi.md
+  - name: 陳泱宇
+    alias: cyy
+    level: LV4
+    org: 重慶大學（博士，方向計算機架構）
+    work: 向 Linux 核心、GCC、QEMU、gem5、FireSim、OpenSSL、XiangShan、Rocket-Chip 貢獻 RISC-V 相關修補；為嘉楠 K230 提交 Linux 主線核心支援；修復 2 處 RISC-V ISA 手冊的模稜兩可處
+    endorse: 甲辰人才背書 010 號
+    link: https://github.com/rv2036/jiachen-builders-network/blob/main/pool/010-CHEN-Yangyu.md
+  - name: 鄭英煒
+    alias: dtcxzyw
+    handle: dtcxzyw
+    avatar: https://avatars.githubusercontent.com/u/15650457?v=4
+    level: LV4
+    org: 2023 年 11 月成為 LV4
+    work: 主要在 LLVM 中端與 RISC-V 後端貢獻程式碼
+    endorse: 甲辰人才背書 007 號
+    link: https://github.com/rv2036/jiachen-builders-network/blob/main/pool/007-ZHENG-Yingwei.md
+  - name: 鄭昱笙
+    alias: 云微
+    handle: yunwei37
+    avatar: https://avatars.githubusercontent.com/u/34985212?v=4
+    level: LV4
+    org: 2023 年 1 月成為 LV4
+    work: 維護 eunomia-bpf 社群專案；與 eBPF 小隊一起做出第一個在 Wasm 上建置、發布、執行通用 eBPF 程式的執行環境與工具鏈，並推動 bcc 生態向 libbpf 轉化
+  - name: dram
+    handle: dramforever
+    avatar: https://avatars.githubusercontent.com/u/2818072?v=4
+    level: LV5
+    org: PLCT ITEM 部門
+    work: RISC-V 軟體與硬體能力累積超過 PLCT 員工平均值，以專家顧問身分進入 ITEM
+    endorse: 甲辰人才背書 009 號
+    link: https://github.com/rv2036/jiachen-builders-network/blob/main/pool/009-dram.md
+  - name: 紅人
+    level: LV5
+    org: PLCT 實驗室
+    work: 在 RISC-V 軟體與硬體兩側都有深入貢獻，在 Chisel/RocketChip 與 RISC-V Linux Distros 等多個領域獨立進行過「領域展開」
+  - name: 潘瑞哲
+    alias: XieJiSS
+    handle: XieJiSS
+    avatar: https://avatars.githubusercontent.com/u/24671280?v=4
+    level: LV5
+    org: Arch 小隊
+    work: 2022-04 成為 LV5；「傑出的跟各路上游社群對線（非暴力溝通）的能力」，解決纏繞很深的 bug 後能條理清晰地闡釋與修復
+    link: https://blog.jiejiss.com
+  - name: 林思南
+    level: LV4+
+    org: GNU GCC 小隊
+    work: 貢獻了多個 RISC-V 新擴展的 GCC 與 Binutils 實作
+  - name: 王弈橋
+    level: LV4
+    org: TARSIER 時期
+    work: 獨立建立並維護 openEuler RISC-V 衍生發行版 Eulaceura
+    endorse: 甲辰人才背書 016 號
+    link: https://github.com/rv2036/jiachen-builders-network/blob/main/pool/016-WANG-Yiqiao.md
+  - name: 陸言
+    alias: Robin
+    level: LV4
+    org: TARSIER 時期
+    work: 完成一系列開源軟體在新款 RISC-V 開發板上的適配與除錯並在 RISC-V 中國峰會公布；衍生發行版命名為 RobinOS 並長期維護
+  - name: 樊其軒
+    level: LV4
+    org: Gentoo 小隊、LLVM 小隊
+    work: 2021-12-01 起成為 LV4；隊友的印象是「撈回 rm -rf 的 LV4」，同時在小隊裡承擔指導與互助
+  - name: Kiva
+    handle: imkiva
+    avatar: https://avatars.githubusercontent.com/u/9902643?v=4
+    level: senior
+    org: Aya 小隊（實習已結束）
+    work: 參與 Aya 程式語言與定理證明器的實作
+  - name: Glavo
+    handle: Glavo
+    avatar: https://avatars.githubusercontent.com/u/20694662?v=4
+    level: senior
+    org: Aya 小隊
+    work: 知乎專欄「JVM 新聞速遞」作者
+    link: https://www.zhihu.com/column/c_1359548809383686144
+  - name: MikuNotFoundException
+    handle: Officeyutong
+    avatar: https://avatars.githubusercontent.com/u/9004058?v=4
+    org: eunomia-bpf 社群（eBPF / Wasm）
+    work: 參與了 eunomia-bpf 社群多個專案的開發，包括 bpftime、eunomia-bpf、wasm-bpf 等。
+    link: https://github.com/Officeyutong
+  - name: 陳謀順
+    handle: cms19859230182-lang
+    avatar: https://avatars.githubusercontent.com/u/276597748?v=4
+    level: LV3+
+    org: openEuler 開源實習 · sig-ROS
+    work: >-
+      負責 ROS 2 Humble 軟體套件的建置修復與維護：約 60+ PR、合入 40+，主要修多架構與新版本帶來的編譯失敗、
+      補相依鏈、發布分支回移植；另在 RT-Thread 上游做過 BSP 與模擬器相關貢獻。
+      專長是嵌入式與 RISC-V 相關適配、發行版軟體套件建置修復。
+    link: https://github.com/cms19859230182-lang
+  - name: 于鴻偉
+    handle: hongwei-2026
+    avatar: https://avatars.githubusercontent.com/u/239529835?v=4
+    level: LV2
+    org: 華為開源實習 · 昇騰 NPU 生態
+    work: >-
+      華為開源實習獲評優秀實習生。參與昇騰 NPU 生態建設，完成框架適配、大模型調校部署與硬體模組開發，
+      多項成果合入開源社群。擅長 AI 工具協作開發，能主動查閱資料解決問題、即時同步專案進度與回饋，
+      保障任務高效推進落地。
+    link: https://github.com/hongwei-2026
+  - name: 孫翊軒
+    alias: Lampese
+    handle: Lampese
+    avatar: https://avatars.githubusercontent.com/u/43312495?v=4
+    level: LV5
+    org: PLCT 實驗室 J139 小隊 · MoonBit 社群
+    work: >-
+      實習經歷：帶領 PLCT J139 小隊參與 MoonBit 社群生態的開發，也籌辦了社群 Demo Day 與社群網站，
+      是 MoonBit 早期社群的重要聲音。專長：編譯器與形式化證明。
+    link: https://github.com/Lampese

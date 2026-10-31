@@ -1,0 +1,115 @@
+# 時間軸：每一條都能在儲存庫歷史裡指到具體提交或檔案。
+# kind: repo（儲存庫自身）/ org（組織）/ program（培育體系）/ people（人）
+- date: 2017-05-02
+  title: 第一次提交
+  desc: b558384「Initial commit」，隨後幾筆是「Initial Home page」「Created _Sidebar」—— 那時它還是一個 GitHub wiki，不是招募頁。
+  kind: repo
+  evidence: b558384
+
+- date: 2017
+  title: 機器人時代的資料庫
+  desc: 一年 254 次提交，是儲存庫歷史的峰值。內容全是機器人、AI 與 ROS：MACE、GluonCV、opencv.js、YOLO-in-Android、TensorRT、PocketSphinx 語音辨識、深度學習模型壓縮。程式碼規範目錄叫 droid_coding_norm。
+  kind: repo
+  evidence: MACE/ · gluoncv_0.2/ · opencv.js/ · droid_coding_norm/
+
+- date: 2018-2019
+  title: 實習生的第一批評測
+  desc: 儲存庫裡開始出現成篇的實習報告：Android 端整合語音合成、ROS Server 與 Android 端互動、ScanNet 資料、CNNdroid 部署。今天的「外部可見交付」制度，雛形就是這些報告。
+  kind: repo
+  evidence: Reports/ · reports/
+
+- date: 2019
+  title: PLCT 實驗室成立
+  desc: 程式語言與編譯技術實驗室（PLCT）在中國科學院軟體研究所成立。儲存庫逐步變成 PLCT 的官方招募頁，plct-interns.md 出現。
+  kind: org
+  evidence: plct-interns.md
+
+- date: 2019-03-14
+  title: LV0–LV5 能力分級第一版公開
+  desc: 借用常盤台中學的「能力者」設定，把實習生分成 LV0 到 LV5 六級，由主理人以「仁慈獨裁者」方式評定。
+  kind: program
+  evidence: how-do-we-rank-interns.md 檔案更新記錄
+
+- date: 2020-06-01
+  title: LV3 的准入門檻變成「會除錯」
+  desc: 第三版更新把「能夠獨立分析遇到的 bug 或 crash」寫成 LV3 的硬門檻 —— 這是這套體系裡最不像學歷、最像能力的一條。
+  kind: program
+  evidence: how-do-we-rank-interns.md
+
+- date: 2021-01-10
+  title: wiki 退場，README 接手
+  desc: reorganize 與 Remove Home.md 兩筆提交之後，儲存庫從 wiki 形態轉為單一 README 入口，一直沿用到今天。
+  kind: repo
+  evidence: 9bb3b23 · 066ef35
+
+- date: 2022-03-27
+  title: senior interns 分類公開
+  desc: 設立理由的第一條就是「讓榮光落於刀鋒之上」。同時把「同輩指導、跨組互助」這些看不見的產出，納入評價體系。
+  kind: program
+  evidence: outstanding-interns.md
+
+- date: 2022-09
+  title: TARSIER 與它的第一批 LV4
+  desc: 作業系統團隊 TARSIER 期間，王弈橋獨立建立並維護 openEuler RISC-V 衍生發行版 Eulaceura；陸言（Robin）完成開發板適配並有了以他命名的 RobinOS。
+  kind: people
+  evidence: outstanding-interns.md
+
+- date: 2023-06
+  title: 第一次大裁員，與苦芽的誕生
+  desc: PLCT 實驗室進入財務緊縮。共同創辦人李威威來自模擬器團隊，王俊強來自 TARSIER —— 團隊解散之後的去向，成了新公司的起點。
+  kind: org
+  evidence: employers.md
+
+- date: 2023-06 至 2023-08
+  title: TARSIER 解散
+  desc: 一個帶走了 LV4 與若干小隊長的團隊，在兩個月內散攤。儲存庫沒有刪掉他們的名字。
+  kind: org
+  evidence: employers.md · outstanding-interns.md
+
+- date: 2023-09-15
+  title: 移除非 PLCT 內容
+  desc: b7f25eb 一筆提交，把儲存庫收斂回單一主線，README 與實習流程一起被簡化。這是「團隊和組織不斷的組建又解散」在儲存庫裡留下的一道接縫。
+  kind: repo
+  evidence: b7f25eb
+
+- date: 2024-06-08
+  title: 甲辰計畫開源實習生聯合招募培養發布
+  desc: 向成員單位發布新專案：用最小的金錢與管理投入，換取對自家企業有用的 RISC-V 生態建設加速，每年開放 2000+ 實習名額。
+  kind: program
+  evidence: README · employers.md
+
+- date: 2024-07-19
+  title: 儲存庫正式接入甲辰計畫
+  desc: a2a18f4「更新添加甲辰計畫介紹」。此後 weloveinterns 從 PLCT 的招募頁，變成甲辰計畫的主入口。
+  kind: repo
+  evidence: a2a18f4
+
+- date: 2024-10-12
+  title: 一次刪掉 253 個檔案
+  desc: 2021 年及更早的實習報告被整體移出（b9c43ed，253 files changed），包括中科重德時期的一整個 archives/。README 裡留了門牌號：git checkout 664048d。
+  kind: repo
+  evidence: b9c43ed · 664048d
+
+- date: 2025-12
+  title: PLCT 實驗室品牌退役
+  desc: 一個用了六年的名字退場。招募與培育沒有停，轉到甲辰計畫名下繼續。
+  kind: org
+  evidence: plct-retire
+
+- date: 2026-02-17
+  title: 五色石工程啟動
+  desc: 丙午馬年正月初一，甲辰計畫發布 RISC-V 全球領袖人才培育工程。取女媧煉五色石補天之意，以十年為週期，從「尋找、篩選人才」升級為「系統性、長期性培育人才」。
+  kind: program
+  evidence: jiachen-wucai-shi
+
+- date: 2026-09
+  title: 職缺編號進入 K18x
+  desc: open-internships.md 裡出現 K181 openEuler 機器人軟體套件維護、K182 openKylin 具身智慧、K183 RT-Thread、K184 FlagOS RISC-V、K185 RISC-V 機器人 —— 全部標註「屬於五色石工程的一部分」。
+  kind: repo
+  evidence: 4915bc5 · 589cbf3 · eb14c8f · 53cfa10
+
+- date: 2026-09-26
+  title: 到目前為止的最後一次提交
+  desc: 83b5f4a「update K182」。779 個提交之後，這個儲存庫還在原地，等下一位實習生寄來電子郵件。
+  kind: repo
+  evidence: 83b5f4a

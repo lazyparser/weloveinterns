@@ -1,0 +1,173 @@
+# Люди: наставники сообщества + выдающиеся стажёры
+# avatar — прямая ссылка на аватар GitHub (числовой ID с avatars.githubusercontent.com, без лишнего редиректа, в репозиторий не кладётся);
+# handle — имя пользователя GitHub (для ссылки на профиль); при отсутствии публичного handle поле пустое, карточка рисует значок с первой буквой.
+# endorse — номер поручительства талантов Цзячэнь или пояснение; включено только то, что в репозитории опубликовано с согласия человека или по его собственному PR.
+
+mentors:
+  - name: Wu Wei
+    handle: lazyparser
+    avatar: https://avatars.githubusercontent.com/u/1802104?v=4
+    alias: lazyparser
+    role: "Основатель и руководитель Проекта Цзячэнь"
+    tags: [RISC-V, компиляторы, работа с сообществом]
+    bio: "Основатель и руководитель Проекта Цзячэнь, создатель PLCT Lab, соучредитель Kubuds. Член технического руководящего комитета (TSC) Фонда RISC-V International, председатель ISA Infra HC, член совета Фонда LLVM, и. о. председателя руководящего комитета RISC-V China Summit."
+    history: "Хэфэйский политехнический университет (бакалавриат по математике) | Институт программного обеспечения Китайской академии наук (аспирантура не завершена); опыт работы: Институт программного обеспечения КАН | Zhongke Chongde | PLCT Lab | Kubuds"
+    contact: wuwei@rv2036.org
+    note: "Из 779 коммитов в этом репозитории 500 принадлежат ему — включая почти все объявления о наборе, обновления уровней и чистки отчётов стажёров."
+    links:
+      - label: Проект Цзячэнь
+        url: https://rv2036.org
+        note: "Основатель и руководитель"
+      - label: "Минималистичное управление проектами"
+        url: https://github.com/lazyparser/minimalist-team-leader
+        note: "Метод управления"
+      - label: weloveinterns
+        url: https://github.com/lazyparser/weloveinterns
+        note: "Этот репозиторий"
+  - name: U2FsdGVkX1
+    handle: U2FsdGVkX1
+    avatar: https://avatars.githubusercontent.com/u/11484206?v=4
+    role: "Наставник · программная экосистема RISC-V Linux"
+    tags: [RISC-V, Fedora, RuyiSDK]
+    bio: "Во время стажировки — мейнтейнер Fedora RISC-V, Fedora RVA23 и Fedora 64ILP32, в основном участвует в развитии программной экосистемы RISC-V Linux; также наставник RuyiSDK IDE и участник работы сообществ deepin DE SIG и openGauss RISC-V SIG."
+    links:
+      - label: RuyiSDK IDE
+        url: https://github.com/ruyisdk/ruyisdk-vscode-extension
+        note: "Наставник"
+      - label: 64ILP32 on K230D
+        url: https://github.com/ruyisdk/k230_linux_sdk
+        note: "Поддержка"
+      - label: openGauss RISC-V
+        url: https://gitee.com/opengauss/riscv
+        note: "Работа в SIG"
+      - label: Fedora everything
+        url: https://openkoji.iscas.ac.cn
+        note: "Сборка и поддержка"
+
+interns:
+  - name: Ren Pengfei
+    alias: kxxt
+    handle: kxxt
+    avatar: https://avatars.githubusercontent.com/u/18085551?v=4
+    level: LV5
+    org: "Китайский научно-технический университет · Школа кибербезопасности (магистратура)"
+    work: "поддержка и адаптация большого числа пакетов Arch Linux RISC-V; руководил портированием, оптимизацией и долгосрочной поддержкой крупных проектов вроде Electron и Chromium для RISC-V либо участвовал в них (серия riscv-forks)"
+    endorse: "поручительство талантов Цзячэнь № 018"
+    link: https://github.com/rv2036/jiachen-builders-network/blob/main/pool/018-REN-Pengfei.md
+  - name: Wang Bingzhen
+    level: LV4+
+    org: "Южный научно-технический университет (бакалавриат)"
+    work: "мейнтейнер RISC-V port LuaJIT; заметные способности к обучению в области компиляторов, выступал публично о работе над портом"
+    endorse: "поручительство талантов Цзячэнь № 008"
+  - name: Jiang Zhouqi
+    alias: Luo Jia
+    handle: luojia65
+    avatar: https://avatars.githubusercontent.com/u/40385009?v=4
+    level: LV4
+    org: "Хуачжунский научно-технический университет (магистратура, системная безопасность)"
+    work: "руководитель проекта RustSBI, ведёт развитие его подпроектов; подготовил для Bouffalo BL808 полный пакет поддержки на Rust от bare-metal до ядра; исправил места в спецификации RISC-V SBI с нестрогими определениями"
+    endorse: "поручительство талантов Цзячэнь № 012"
+    link: https://github.com/rv2036/jiachen-builders-network/blob/main/pool/012-JIANG-Zhouqi.md
+  - name: Chen Yangyu
+    alias: cyy
+    level: LV4
+    org: "Чунцинский университет (аспирантура, архитектура ЭВМ)"
+    work: "отправлял патчи по RISC-V в Linux Kernel, GCC, QEMU, gem5, FireSim, OpenSSL, XiangShan, Rocket-Chip; подготовил поддержку K230 от Canaan в mainline-ядре Linux; исправил 2 неоднозначных места в руководстве RISC-V ISA"
+    endorse: "поручительство талантов Цзячэнь № 010"
+    link: https://github.com/rv2036/jiachen-builders-network/blob/main/pool/010-CHEN-Yangyu.md
+  - name: Zheng Yingwei
+    alias: dtcxzyw
+    handle: dtcxzyw
+    avatar: https://avatars.githubusercontent.com/u/15650457?v=4
+    level: LV4
+    org: "стал LV4 в ноябре 2023 года"
+    work: "в основном контрибьютит в middle-end LLVM и бэкенд RISC-V"
+    endorse: "поручительство талантов Цзячэнь № 007"
+    link: https://github.com/rv2036/jiachen-builders-network/blob/main/pool/007-ZHENG-Yingwei.md
+  - name: Zheng Yusheng
+    alias: Yunwei
+    handle: yunwei37
+    avatar: https://avatars.githubusercontent.com/u/34985212?v=4
+    level: LV4
+    org: "стал LV4 в январе 2023 года"
+    work: "поддерживает проекты сообщества eunomia-bpf; вместе с командой eBPF сделал первую среду выполнения и инструментарий, позволяющие собирать, публиковать и запускать универсальные eBPF-программы на Wasm, и продвигает переход экосистемы bcc на libbpf"
+  - name: dram
+    handle: dramforever
+    avatar: https://avatars.githubusercontent.com/u/2818072?v=4
+    level: LV5
+    org: "отдел ITEM, PLCT Lab"
+    work: "опыт и знания в программной и аппаратной части RISC-V выше среднего уровня сотрудников PLCT; вошёл в ITEM как эксперт-консультант"
+    endorse: "поручительство талантов Цзячэнь № 009"
+    link: https://github.com/rv2036/jiachen-builders-network/blob/main/pool/009-dram.md
+  - name: Hongren
+    level: LV5
+    org: "PLCT Lab"
+    work: "глубокий вклад и в программную, и в аппаратную часть RISC-V; самостоятельно проводил «развёртывание области» в нескольких направлениях — Chisel/RocketChip, RISC-V Linux Distros и других"
+  - name: Pan Ruizhe
+    alias: XieJiSS
+    handle: XieJiSS
+    avatar: https://avatars.githubusercontent.com/u/24671280?v=4
+    level: LV5
+    org: "команда Arch"
+    work: "стал LV5 в 2022-04; «выдающаяся способность договариваться с самыми разными upstream-сообществами (ненасильственное общение)», после решения глубоко запутанных багов объясняет и исправляет их ясно и последовательно"
+    link: https://blog.jiejiss.com
+  - name: Lin Sinan
+    level: LV4+
+    org: "команда GNU GCC"
+    work: "реализовал поддержку нескольких новых расширений RISC-V в GCC и Binutils"
+  - name: Wang Yiqiao
+    level: LV4
+    org: "период TARSIER"
+    work: "самостоятельно создал и поддерживает производный дистрибутив openEuler RISC-V — Eulaceura"
+    endorse: "поручительство талантов Цзячэнь № 016"
+    link: https://github.com/rv2036/jiachen-builders-network/blob/main/pool/016-WANG-Yiqiao.md
+  - name: Lu Yan
+    alias: Robin
+    level: LV4
+    org: "период TARSIER"
+    work: "выполнил адаптацию и отладку ряда открытых программ на новых платах RISC-V и представил результат на RISC-V China Summit; производный дистрибутив назван RobinOS и поддерживается долгосрочно"
+  - name: Fan Qixuan
+    level: LV4
+    org: "команда Gentoo, команда LLVM"
+    work: "LV4 с 2021-12-01; среди товарищей известен как «LV4, который вытащил rm -rf»; в команде берёт на себя наставничество и взаимопомощь"
+  - name: Kiva
+    handle: imkiva
+    avatar: https://avatars.githubusercontent.com/u/9902643?v=4
+    level: senior
+    org: "команда Aya (стажировка завершена)"
+    work: "участвовал в реализации языка программирования Aya и доказателя теорем"
+  - name: Glavo
+    handle: Glavo
+    avatar: https://avatars.githubusercontent.com/u/20694662?v=4
+    level: senior
+    org: "команда Aya"
+    work: "автор колонки «JVM News Digest» на Zhihu"
+    link: https://www.zhihu.com/column/c_1359548809383686144
+  - name: MikuNotFoundException
+    handle: Officeyutong
+    avatar: https://avatars.githubusercontent.com/u/9004058?v=4
+    org: "сообщество eunomia-bpf (eBPF / Wasm)"
+    work: "участвовал в разработке нескольких проектов сообщества eunomia-bpf, включая bpftime, eunomia-bpf, wasm-bpf и другие."
+    link: https://github.com/Officeyutong
+  - name: Chen Moushun
+    handle: cms19859230182-lang
+    avatar: https://avatars.githubusercontent.com/u/276597748?v=4
+    level: LV3+
+    org: "стажировка в open source от openEuler · sig-ROS"
+    work: "отвечает за исправление сборки и поддержку пакетов ROS 2 Humble — около 60+ PR, из них смержено 40+; в основном устраняет сбои сборки, вызванные мультиархитектурностью и новыми версиями, достраивает цепочки зависимостей, делает бэкпорты в ветки релизов; также контрибьютил в upstream RT-Thread по части BSP и симуляторов. Специализация — встраиваемые системы, адаптация под RISC-V, починка сборки пакетов дистрибутива."
+    link: https://github.com/cms19859230182-lang
+  - name: Yu Hongwei
+    handle: hongwei-2026
+    avatar: https://avatars.githubusercontent.com/u/239529835?v=4
+    level: LV2
+    org: "стажировка в open source от Huawei · экосистема Ascend NPU"
+    work: "на стажировке в open source от Huawei признан лучшим стажёром. Участвовал в развитии экосистемы Ascend NPU: адаптация фреймворков, настройка и развёртывание больших моделей, разработка аппаратных модулей; ряд результатов вошёл в открытое сообщество. Хорошо работает в связке с AI-инструментами: сам находит материалы для решения задач, вовремя сообщает о ходе проекта и обратной связи, доводит задачи до результата."
+    link: https://github.com/hongwei-2026
+  - name: Sun Yixuan
+    alias: Lampese
+    handle: Lampese
+    avatar: https://avatars.githubusercontent.com/u/43312495?v=4
+    level: LV5
+    org: "команда PLCT J139 · сообщество MoonBit"
+    work: "опыт стажировки: руководил командой PLCT J139 в разработке экосистемы сообщества MoonBit, организовал Demo Day и сайт сообщества; один из заметных голосов раннего сообщества MoonBit. Специализация: компиляторы и формальные доказательства."
+    link: https://github.com/Lampese

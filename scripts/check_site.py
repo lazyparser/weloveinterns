@@ -83,7 +83,9 @@ def main():
             html = fh.read()
         if 'http-equiv="refresh"' in html or 'http-equiv=refresh' in html:
             continue  # Hugo 的 alias 跳转页，不参与 hreflang 检查
-        codes = set(re.findall(r'hreflang="([A-Za-z-]+)"', html))
+        codes = set()
+        for m in re.finditer(r'hreflang=(?:"([A-Za-z-]+)"|([A-Za-z-]+))', html):
+            codes.add(m.group(1) or m.group(2))
         if not codes:
             hreflang_bad.append((os.path.relpath(path, root), "没有 hreflang"))
             continue

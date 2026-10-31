@@ -1,0 +1,131 @@
+# 引用來源登記：站點上出現的每一個外部事實都必須在這裡有一行。
+# id 用於正文 shortcode：{{< cite "stanford-canaries" >}}
+# usage 說明本站怎麼用（資料引用 / 短引 / 僅連結），license 說明可複核的著作權狀態。
+- id: repo
+  title: weloveinterns 仓库
+  author: 吴伟（lazyparser）及贡献者
+  url: https://github.com/lazyparser/weloveinterns
+  date: 2017-05-02 至今
+  license: CC BY-SA 4.0
+  usage: 本站故事、時間線與數字的原始來源（git 歷史、各 md 檔案）；本站內容同樣以 CC BY-SA 4.0 發布。
+  note: 儲存庫 LICENSE 檔案為「Attribution-ShareAlike 4.0 International」。
+
+- id: jiachen-wucai-shi
+  title: 甲辰计划「五色石工程」启动：十年育匠，打造 RISC-V 全球开源领袖梯队
+  author: 甲辰计划（吴伟）
+  url: https://mp.weixin.qq.com/s/l2oxeuTLbci7ws-xK0U9FQ
+  date: 2026-02-17（丙午马年正月初一）
+  license: 版权归甲辰计划所有；本站仅作要点转述与短引，标注出处并链接原文，不转载全文与版式。
+  usage: 五色石工程初衷、三大目標、四階段里程碑、准入標準的唯一權威來源。
+
+- id: jiachen-site
+  title: Jiachen Project 官网（RISC-V Prosperity 2036）
+  author: 甲辰计划
+  url: https://rv2036.org
+  date: 持续更新
+  license: 站点内容版权归甲辰计划；本站仅引用其公开表述并链接。
+  usage: 甲辰計畫願景、使命、組織方式的引用來源。
+
+- id: jiachen-blog
+  title: 甲辰计划 Blog（项目与活动公告索引）
+  author: 甲辰计划
+  url: https://rv2036.org/blog
+  date: 持续更新
+  license: 同上；仅链接与转述标题。
+  usage: 開發板漂流、職缺發布、成員加入等時間軸事件的索引來源。
+
+- id: builders-network
+  title: 甲辰计划顶尖人才识别互认体系（jiachen-builders-network）
+  author: 甲辰计划
+  url: https://github.com/rv2036/jiachen-builders-network
+  date: 2024 至今
+  license: 仓库公开可查；背书编号 0 由主理人自签。
+  usage: 優秀實習生條目中的「甲辰人才背書」編號與連結。
+
+- id: board-wandering
+  title: RISC-V 闲置开发板随缘漂流活动
+  author: 甲辰计划
+  url: https://github.com/rv2036/riscv-board-wandering
+  date: 2024 至今
+  license: 仓库公开可查；规则与积分机制以仓库说明为准。
+  usage: 支撐體系中「開發板漂流」一節的說明。
+
+- id: ccf-deck
+  title: 甲辰计划：为了 RISC-V 软件生态的繁荣（CCF 开源软件大会演讲，56 页）
+  author: 吴伟（甲辰计划）
+  url: 演讲 PDF，2026-08-16
+  date: 2026-08-16
+  license: 作者自有材料，由作者提供本站使用。
+  usage: 「人才培育支撐體系：逐步成型」五件套的結構、甲辰計畫目標數字（成員單位、職缺與實習規模）來自這份演講。
+
+- id: gotc-deck
+  title: 这是最坏的时代，这是最好的时代（2026 QEMU 训练营开营仪式发言，55 页）
+  author: 吴伟（甲辰计划）
+  url: 演讲 PDF，2026-04-05
+  date: 2026-04-05
+  license: 作者自有材料，由作者提供本站使用。
+  usage: 「缺少第一個機會、第一塊墊腳石」的表述、五色石工程定位與目標頁。
+
+- id: stanford-canaries
+  title: "Canaries in the Coal Mine? Six Facts about the Recent Employment Effects of Artificial Intelligence（2026 年 8 月更新版）"
+  author: Erik Brynjolfsson, Bharat Chandar, Ruyu Chen（Stanford Digital Economy Lab）
+  url: https://digitaleconomy.stanford.edu/app/uploads/2026/08/Canaries_August2026.pdf
+  date: 2026-08
+  license: 论文版权归作者；本站仅引用其公开摘要中的统计结论并给出链接，不复用图表。
+  usage: 22–25 歲在 AI 高暴露職業中的就業缺口的量化依據（19%、-11% 與 +10%、以放緩招募為主）。
+
+- id: anthropic-labor
+  title: "Labor market impacts of AI: a new measure and early evidence"
+  author: Anthropic
+  url: https://www.anthropic.com/research/labor-market-impacts
+  date: 2026
+  license: Anthropic 研究页面版权归 Anthropic；本站转述结论并链接。
+  usage: 「高暴露職業未出現系統性失業率上升，但年輕勞動力招募放緩」這一更謹慎的判斷。
+
+- id: so-survey-2025
+  title: 2025 Stack Overflow Developer Survey — AI
+  author: Stack Overflow
+  url: https://survey.stackoverflow.co/2025/ai
+  date: 2025-07
+  license: 调查数据由 Stack Overflow 公开发布；本站引用百分比数字并链接。
+  usage: 84% 受訪者正在或計畫使用 AI 工具、51% 專業開發者每天使用。
+
+- id: moe-1270
+  title: 2026 届全国普通高校毕业生规模预计 1270 万人（教育部数据）
+  author: 新华社 / 中国教育新闻网
+  url: http://m.jyb.cn/rmtzcg/xwy/wzxw/202511/t20251120_2111416145_wap.html
+  date: 2025-11-20
+  license: 新闻稿版权归原媒体；本站引用数字并链接。
+  usage: 「同齡人的競爭規模」背景資料，同比增加 48 萬人。
+
+- id: hwchase17
+  title: Harrison Chase（LangChain）关于编程 AI 改变产品开发流程的公开帖
+  author: Harrison Chase
+  url: https://x.com/hwchase17/status/2031051115169808685
+  date: 2026
+  license: 社交媒体帖文版权归作者；本站仅转述观点并链接，不复制原文。
+  usage: 「程式碼變廉價、瓶頸從實作轉向評審」的行業觀察。
+
+- id: plct-retire
+  title: 关于「PLCT 实验室」品牌退役的说明
+  author: PLCT 实验室（吴伟）
+  url: https://www.bilibili.com/opus/1186013918448844803
+  date: 2025-12
+  license: 版权归作者；本站仅引用事实并链接。
+  usage: 2025 年 12 月 PLCT 品牌退役這一時間軸事件。
+
+- id: wechat-jd
+  title: 甲辰计划主理人发起开源实习生联合招聘培养项目（启动通告）
+  author: 甲辰计划（吴伟）
+  url: https://mp.weixin.qq.com/s/TenVAVzaWuUWGIWodGaFKA
+  date: 正文写「2024 年 6 月 8 日」发布；甲辰计划新闻索引记为 2024-06-09
+  license: 版权归甲辰计划所有；**全文转载已获作者授权**（作者即本仓库主理人）。转载保留原文文字，不搬运原文图片与排版。
+  usage: 聯合招募培育專案的啟動通告。本站部落格《甲辰計畫主理人發起開源實習生聯合招募培養專案》為其全文轉載 + 三年後的註。
+
+- id: rv2036-news-index
+  title: 甲辰计划公众号文章索引（rv2036-website 的 third-party-news.md）
+  author: 甲辰计划
+  url: https://github.com/rv2036/rv2036-website/blob/main/_includes/third-party-news.md
+  date: 持续更新（截至 2026-10 共 268 行）
+  license: 仓库内容版权归甲辰计划；本站仅用其作为文章日期与标题的核对依据，并链接。
+  usage: 核對某篇公眾號文章的發布日期與正式標題（例如啟動通告被記在 2024-06-09）。

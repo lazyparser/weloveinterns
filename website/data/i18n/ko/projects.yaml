@@ -1,0 +1,62 @@
+# 오픈소스 프로젝트: 두 그룹 — 지아천 프로젝트가 발의/공동 구축한 것, 그리고 인턴에게 추천하는 것.
+# url 은 모두 2026-10-31 기준 접근 가능한 공개 저장소 또는 사이트입니다.
+
+jiachen:
+  - name: 오픈소스 인턴 공동 모집·양성
+    url: https://github.com/lazyparser/weloveinterns
+    desc: 이 사이트 뒤에 있는 저장소입니다. 누적 포지션 3000+, 누적 인턴 1000+, 이 인재 양성 체계의 주 진입점입니다.
+    tag: 인재 양성
+  - name: 지아천 프로젝트 인재 보증 상호인정
+    url: https://github.com/rv2036/jiachen-builders-network
+    desc: 개인이 보증하는 신뢰 네트워크입니다. 보증 번호 0은 대표가 직접 서명하며 전부 GitHub에서 공개 확인할 수 있고, PLCT 인턴 등급 체계와 호응합니다.
+    tag: 인재 식별
+  - name: RISC-V 유휴 개발보드 인연 따라 표류
+    url: https://github.com/rv2036/riscv-board-wandering
+    desc: 「모든 RISC-V 개발보드는 전원이 꽂히고 사랑받을 가치가 있다」. 기증과 수령 모두 표류 포인트로 하고, 모든 기증은 낙관적으로 인연을 따릅니다.
+    tag: 하드웨어
+  - name: RuyiSDK
+    url: https://github.com/ruyisdk/ruyisdk
+    desc: RISC-V 개발자를 위한 통합 개발 환경과 패키지 관리자(ruyi)로, 툴체인·시뮬레이터·시스템 이미지의 획득과 설정을 몇 개의 명령으로 모읍니다.
+    tag: 개발자 도구
+  - name: RISC-V 문서 백과 프로젝트
+    url: https://rv2036.org
+    desc: 지아천 프로젝트 멤버 조직이 발의한 문서 프로젝트로, RISC-V 중국어 기술 자료가 더 이상 흩어지지 않게 하는 것이 목표입니다.
+    tag: 문서
+  - name: RVSPOC / RV 신 32비트
+    url: https://rv2036.org/blog
+    desc: RISC-V 소프트웨어 생태계를 둘러싼 두 가지 특별 계획입니다. 세부 내용과 진행 상황은 지아천 프로젝트 공고를 보십시오.
+    tag: 생태계
+  - name: RISC-V 칩 보안 챌린지
+    url: https://rv2036.org/blog
+    desc: RISC-V 칩 보안 방향을 겨냥한 대회로, 인재 식별 체계와 연동됩니다.
+    tag: 경진대회
+  - name: 투산 프로젝트
+    url: https://rv2036.org/blog
+    desc: AI로 노트북에 적합한 고성능 RISC-V 프로세서를 설계합니다. CPU/GPU 성능·전력은 Apple M1을 기준으로 하고, 세 지역 Foundry에서 테이프아웃하며, 2029 기유년 설 전까지 1000대를 납품합니다.
+    tag: 칩
+
+community:
+  - name: PicoClaw
+    url: https://github.com/sipeed/picoclaw
+    desc: Sipeed의 극도로 간결한 AI 어시스턴트 프레임워크로, 「작고, 빠르고, 어디에나 배포 가능」을 내세웁니다. 임베디드와 엣지 AI의 첫 실제 업스트림 과제로 아주 적합합니다.
+    tag: AI Agent · Go
+  - name: RT-Claw
+    url: https://github.com/zevorn/rt-claw
+    desc: "AI 어시스턴트를 싸게 만들기: RT-Thread 생태계 안에서 C로 쓴 소형 agent 구현으로, 코드량이 감당 가능해 임베디드 방향의 입문 기여에 적합합니다."
+    tag: AI Agent · C
+  - name: LoongClaw
+    url: https://github.com/loongclaw-ai/loongclaw
+    desc: 가볍고 명확하고 확장 가능한 AI agent 기반 시설입니다. Rust 구현이며 「배우기 쉽고 무엇이든 바꿀 수 있다」를 강조합니다.
+    tag: AI Agent · Rust
+  - name: Buddy Compiler / Buddy MLIR
+    url: https://github.com/buddy-compiler/buddy-mlir
+    desc: MLIR 기반 컴파일 프레임워크로, DSL을 DSA로 연결합니다. MLIR 방향 인턴의 주요 실습장 중 하나입니다.
+    tag: 컴파일러 · MLIR
+  - name: FlagTree
+    url: https://github.com/flagos-ai/FlagTree
+    desc: 여러 AI 칩 백엔드를 지원하는 통합 컴파일러로, 사용자 정의 딥러닝 연산자를 겨냥합니다. FlagOS 체계의 RISC-V 백엔드 작업이 여기서 일어납니다.
+    tag: 컴파일러 · AI Infra
+  - name: TileLang
+    url: https://github.com/tile-ai/tilelang
+    desc: 고성능 GPU/CPU/가속기 kernel 개발을 위한 도메인 특화 언어로, 연산자 작성이 Python 쓰듯 직접적입니다.
+    tag: DSL · Kernel

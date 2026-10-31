@@ -1,0 +1,159 @@
+# Timeline: every entry can be pointed to a specific commit or file in the repository's history.
+# kind: repo (the repository itself) / org (organisation) / program (training programme) / people (people)
+- date: 2017-05-02
+  title: First commit
+  desc: >-
+    b558384 "Initial commit", followed by "Initial Home page" and "Created _Sidebar" — at that point it was still a
+    GitHub wiki, not a recruitment page.
+  kind: repo
+  evidence: b558384
+
+- date: 2017
+  title: A library for the robotics era
+  desc: >-
+    254 commits in one year, the peak of the repository's history. The content was all robotics, AI and ROS: MACE,
+    GluonCV, opencv.js, YOLO-in-Android, TensorRT, PocketSphinx speech recognition, deep-learning model compression.
+    The coding-conventions directory was called droid_coding_norm.
+  kind: repo
+  evidence: MACE/ · gluoncv_0.2/ · opencv.js/ · droid_coding_norm/
+
+- date: 2018-2019
+  title: The first batch of intern reviews
+  desc: >-
+    Full-length internship reports begin to appear: speech synthesis integrated on Android, interaction between a ROS
+    server and an Android client, ScanNet data, CNNdroid deployment. Today's "externally visible delivery" system began
+    as these reports.
+  kind: repo
+  evidence: Reports/ · reports/
+
+- date: 2019
+  title: PLCT Lab is founded
+  desc: >-
+    The Programming Language and Compilation Technology Laboratory (PLCT) was founded at the Institute of Software,
+    Chinese Academy of Sciences. The repository gradually became PLCT's official recruitment page, and plct-interns.md
+    appeared.
+  kind: org
+  evidence: plct-interns.md
+
+- date: 2019-03-14
+  title: First public version of the LV0–LV5 capability grading
+  desc: >-
+    Borrowing the "espers" setting of Tokiwadai Middle School, it split interns into six levels from LV0 to LV5,
+    assessed by the lead as a "benevolent dictator".
+  kind: program
+  evidence: how-do-we-rank-interns.md file revision history
+
+- date: 2020-06-01
+  title: The LV3 entry bar becomes "can debug"
+  desc: >-
+    The third revision wrote "able to analyse a bug or crash independently" in as the hard bar for LV3 — the one rule
+    in this system that looks least like a credential and most like ability.
+  kind: program
+  evidence: how-do-we-rank-interns.md
+
+- date: 2021-01-10
+  title: The wiki leaves, the README takes over
+  desc: >-
+    After the "reorganize" and "Remove Home.md" commits, the repository moved from wiki form to a single README
+    entrance, which it still uses today.
+  kind: repo
+  evidence: 9bb3b23 · 066ef35
+
+- date: 2022-03-27
+  title: The senior interns category is published
+  desc: >-
+    The first reason given for creating it was "let glory fall on the blade's edge". At the same time, invisible output
+    such as peer mentoring and cross-team help was brought into the assessment system.
+  kind: program
+  evidence: outstanding-interns.md
+
+- date: 2022-09
+  title: TARSIER and its first LV4s
+  desc: >-
+    During the TARSIER operating system team period, Wang Yiqiao independently created and maintained Eulaceura, an
+    openEuler RISC-V derivative distribution; Lu Yan (Robin) completed development board adaptation and had RobinOS
+    named after him.
+  kind: people
+  evidence: outstanding-interns.md
+
+- date: 2023-06
+  title: The first big layoff, and the birth of Kubuds
+  desc: >-
+    PLCT Lab entered financial contraction. Co-founder Li Weiwei came from the simulator team, Wang Junqiang from
+    TARSIER — where the teams went after disbanding became the starting point of a new company.
+  kind: org
+  evidence: employers.md
+
+- date: 2023-06 to 2023-08
+  title: TARSIER disbands
+  desc: >-
+    A team that took LV4s and several team leads with it scattered within two months. The repository did not delete
+    their names.
+  kind: org
+  evidence: employers.md · outstanding-interns.md
+
+- date: 2023-09-15
+  title: Non-PLCT content removed
+  desc: >-
+    A single commit, b7f25eb, pulled the repository back to a single main line, and the README and internship process
+    were simplified together. This is a seam that "teams and organisations constantly forming and disbanding" left in
+    the repository.
+  kind: repo
+  evidence: b7f25eb
+
+- date: 2024-06-08
+  title: Project Jiachen's joint open-source internship programme is announced
+  desc: >-
+    A new project announced to member organisations: the smallest possible spend of money and management, in exchange
+    for accelerating the RISC-V ecosystem work that matters to their own business, with 2,000+ internship places a year.
+  kind: program
+  evidence: README · employers.md
+
+- date: 2024-07-19
+  title: The repository formally joins Project Jiachen
+  desc: >-
+    a2a18f4 "update and add Project Jiachen introduction". After this, weloveinterns went from PLCT's recruitment page
+    to the main entrance of Project Jiachen.
+  kind: repo
+  evidence: a2a18f4
+
+- date: 2024-10-12
+  title: 253 files deleted in one commit
+  desc: >-
+    Intern reports from 2021 and earlier were moved out wholesale (b9c43ed, 253 files changed), including a whole
+    archives/ from the Zhongke Chongde period. A forwarding address was left in the README: git checkout 664048d.
+  kind: repo
+  evidence: b9c43ed · 664048d
+
+- date: 2025-12
+  title: The PLCT Lab brand is retired
+  desc: >-
+    A name used for six years left the stage. Recruitment and training did not stop, but continued under Project
+    Jiachen.
+  kind: org
+  evidence: plct-retire
+
+- date: 2026-02-17
+  title: The Five-Colour Stone Project starts
+  desc: >-
+    On the first day of the Bingwu Horse year, Project Jiachen announced the RISC-V Global Leadership Training
+    Programme. Taking its meaning from Nüwa smelting five-colour stones to mend the sky, it works on a ten-year cycle,
+    upgrading from "finding and screening talent" to "training talent systematically and over the long term".
+  kind: program
+  evidence: jiachen-wucai-shi
+
+- date: 2026-09
+  title: Position numbers reach K18x
+  desc: >-
+    open-internships.md now lists K181 openEuler robotics package maintenance, K182 openKylin embodied intelligence,
+    K183 RT-Thread, K184 FlagOS RISC-V and K185 RISC-V robotics — all marked "part of the Five-Colour Stone Project".
+  kind: repo
+  evidence: 4915bc5 · 589cbf3 · eb14c8f · 53cfa10
+
+- date: 2026-09-26
+  title: The most recent commit so far
+  desc: >-
+    83b5f4a "update K182". After 779 commits, the repository is still in the same place, waiting for the next intern's
+    email.
+  kind: repo
+  evidence: 83b5f4a

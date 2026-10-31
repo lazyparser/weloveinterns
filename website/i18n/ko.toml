@@ -1,0 +1,218 @@
+# 한국어
+[a11y.skip]
+other = "본문으로 건너뛰기"
+[a11y.menu]
+other = "메뉴"
+[a11y.theme]
+other = "라이트/다크 모드 전환"
+[a11y.themeRow]
+other = "라이트/다크 모드 전환"
+
+[nav.shise]
+other = "오색석"
+[nav.interns]
+other = "인턴"
+[nav.mentors]
+other = "멘토"
+[nav.program]
+other = "양성 계획"
+[nav.timeline]
+other = "타임라인"
+[nav.blog]
+other = "블로그"
+[nav.join]
+other = "지원"
+[nav.sources]
+other = "출처"
+
+[footer.tagline]
+other = "2017년부터 오늘까지 쓰여 온 인턴 저장소, 그리고 그 뒤에 있는 사람들."
+[footer.repo]
+other = "GitHub 저장소"
+[footer.jiachen]
+other = "지아천 프로젝트"
+[footer.sources]
+other = "출처와 라이선스"
+[footer.rss]
+other = "RSS"
+[footer.licenseNote]
+other = "이 사이트의 글은 CC BY-SA 4.0으로 공개되며 weloveinterns 저장소와 같습니다(저장소 LICENSE는 Attribution-ShareAlike 4.0 International). 페이지의 도표는 모두 이 사이트에서 직접 그린 SVG이며, 서드파티 이미지와 웹 폰트를 쓰지 않습니다. 인용한 외부 자료는 “출처와 라이선스”에 원본 URL, 인용 방식, 저작권 상태와 함께 한 줄씩 등록되어 있습니다. 인턴의 이름과 보증 링크는 본인이 공개에 동의한 저장소 항목에서 가져왔습니다."
+
+[crumb.home]
+other = "홈"
+
+[home.kicker]
+other = "지아천 프로젝트 · 오픈소스 인턴 공동 양성"
+[home.title]
+other = "인턴에게 영광을"
+[home.lede]
+other = "weloveinterns는 지아천 프로젝트 오픈소스 인턴 공동 모집·양성의 주 진입점이자 2017년부터 오늘까지 쓰여 온 저장소입니다. 우리가 하는 일, 그 일을 하는 사람들, 그리고 처음 시작하기 좋은 오픈소스 프로젝트를 소개합니다."
+[home.ctaJoin]
+other = "이력서 보내기 →"
+[home.ctaBlog]
+other = "9년 회고 읽기"
+
+[stat.positions]
+other = "누적 인턴 포지션"
+[stat.interns]
+other = "누적 인턴 참여 인원"
+[stat.mentors]
+other = "커뮤니티 멘토"
+[stat.maintainers]
+other = "배출한 오픈소스 메인테이너"
+[stat.orgs]
+other = "지아천 프로젝트 멤버 기관"
+
+[sec.jiachen.title]
+other = "지아천 프로젝트란"
+[sec.jiachen.lead]
+other = "지아천 프로젝트(RISC-V Prosperity 2036)는 2024년 섣달그믐에 중국 국내의 여러 RISC-V 소프트웨어·칩 팀이 공동으로 발기했습니다. 재정 실체도, 회비도, 이사회도 없고 대표 한 사람과 하나의 공동 비전만 있습니다 — 합의에 기반한 협력 네트워크입니다."
+[sec.jiachen.quote]
+other = "다음 병진년(2036년 용의 해) 전까지 RISC-V를 기반으로 데이터센터부터 데스크톱 오피스, 모바일·웨어러블부터 지능형 IoT까지 전 정보 산업을 아우르는 개방 표준 체계와 오픈소스 시스템 소프트웨어 스택을 구현하여, RISC-V 소프트웨어·하드웨어 생태계가 다른 주류 아키텍처의 생태 성숙도에 도달하거나 이를 넘어서도록 한다."
+[sec.jiachen.quoteSrc]
+other = "— 지아천 프로젝트 비전과 사명"
+[sec.jiachen.goals]
+other = "목표는 100곳 이상의 칩·솔루션 기업과 500곳 이상의 소프트웨어 기업과 연합하여 18개 이상의 기초 핵심 산업 분야에서 RISC-V 대상 적응과 최적화를 완료하고, 1000종이 넘는 주요 산업·상용 소프트웨어의 이식과 배포를 협력으로 완수하는 것입니다. 또한 RISC-V 인재 식별 체계를 세워 1만 명이 넘는 전문 인재와 연결합니다."
+[card.network.tag]
+other = "조직 방식"
+[card.network.title]
+other = "공동 비전을 공유하는 ‘친구 모임’"
+[card.network.desc]
+other = "비전에 동의하면 가입할 수 있고 언제든 빠져나갈 수 있습니다. 구성원은 평등하며 등급 구조가 없습니다. 기여가 클수록 영향력이 커집니다."
+[card.finance.tag]
+other = "재정 모델"
+[card.finance.title]
+other = "오픈소스 프로젝트식 운영"
+[card.finance.desc]
+other = "재정 실체도, 회비도, 이사회도 없습니다. 구성원이 직접 프로젝트를 발의하고 자금을 마련하며, PLCT Lab과 Kubuds가 초기 동력을 제공합니다."
+[card.eco.tag]
+other = "생태계"
+[card.eco.title]
+other = "멤버 기관"
+[card.eco.desc]
+other = "칩 제조사와 배포판 커뮤니티부터 대학·연구기관까지, 지아천 프로젝트를 기반으로 이미 여러 독립 프로젝트가 시작되었습니다."
+
+[sec.program.title]
+other = "오픈소스 인턴 공동 양성"
+[sec.program.lead]
+other = "2024년 6월 8일 발표된 프로젝트입니다. 출발점은 아주 실무적인 한 문장이었습니다 — 멤버 기관이 최소의 금전·관리 자원을 투입해 자사에 유용한 RISC-V 생태계 구축 목표의 달성을 앞당기게 하자는 것."
+[trio.vision.title]
+other = "비전"
+[trio.vision.desc]
+other = "오픈소스 세계에 들어오고 싶은 모든 학생이 실제 디딤돌을 손에 쥐게 하는 것: 멘토가 있고, 실제 업스트림 과제가 있고, merge된 PR이 있고, 인턴 수당이 있습니다."
+[trio.mission.title]
+other = "사명"
+[trio.mission.desc]
+other = "기업과 젊은 사람 사이의 인터페이스 역할을 합니다. 기업은 포지션과 멘토를 내놓고, 우리는 선발·양성·평가·보증을 맡습니다. 지아천 용의 해부터 매년 2000명 이상의 인턴 정원을 엽니다."
+[trio.achievement.title]
+other = "성과"
+[trio.achievement.desc]
+other = "누적 포지션, 누적 인턴, 커뮤니티 멘토와 메인테이너 수의 검증 가능한 숫자. 10곳이 넘는 기업과 기관이 포지션을 제공합니다."
+[sec.program.principlesTitle]
+other = "보지 않는 세 가지, 지키는 한 가지"
+[sec.program.principles]
+other = "985도 211도 보지 않고, 전공과 학년 석차도 보지 않으며, 오로지 업무 능력과 잠재력으로 선발합니다. STEM 분야에서 여성의 잠재력을 믿고, 인턴 정원의 최소 30%를 여성 지원자에게 배정합니다."
+[sec.program.grading]
+other = "평가 기준은 하나뿐입니다. 공동 양성 기관의 일상 개발 업무를 해낼 수 있는가 — 쓸 일이 없는 능력은 평가 대상이 아닙니다. 능력 등급은 LV0–LV5이며, 대표가 ‘자비로운 독재자’ 방식으로 정합니다. LV4가 기본 정규직 채용 등급입니다."
+[sec.program.gradingMore]
+other = "전체 등급과 절차 보기 →"
+
+[sec.interns.title]
+other = "뛰어난 인턴"
+[sec.interns.lead]
+other = "명단에는 ‘우수 인턴 여러 명’이 아니라 한 사람 한 사람이 있습니다. 카드 하나하나의 뒤에는 merge된 커밋 하나, 업스트림이 인정한 산출물 하나가 있습니다."
+[btn.allInterns]
+other = "전체 명단(senior interns와 소감 원문 포함) →"
+[sec.mentors.title]
+other = "커뮤니티 멘토"
+[sec.mentors.lead]
+other = "인턴십은 스승 한 사람을 따라갑니다 — 멘토 한 사람의 승인을 받아야 인턴 계약이 성립합니다. 이 절은 차차 보강합니다."
+[btn.allMentors]
+other = "전체 멘토 →"
+[sec.shise.title]
+other = "오색석 프로젝트"
+[sec.shise.lead]
+other = "2026년 병오년 음력 정월 초하루, 지아천 프로젝트는 RISC-V 글로벌 리더 인재 양성 프로젝트(약칭 오색석 프로젝트)를 발표했습니다. 여와가 오색석을 녹여 하늘을 메웠다는 뜻에서 이름을 가져왔고, 10년을 주기로 ‘인재 찾기·선별’에서 ‘체계적이고 장기적인 인재 양성’으로 올라섭니다."
+[btn.shiseMore]
+other = "오색석 프로젝트: 취지와 근거 →"
+[sec.projects.title]
+other = "오픈소스 프로젝트"
+[sec.projects.lead]
+other = "지아천 프로젝트를 기반으로 멤버 조직이 여러 프로젝트를 발의했습니다. 아래에는 인턴이 시작하기 좋은 오픈소스 저장소도 함께 묶었습니다 — 모두 실제 업스트림이라 실제 review를 받습니다."
+[projects.group1]
+other = "지아천 프로젝트와 멤버 공동 구축"
+[projects.group2]
+other = "입문 추천"
+[sec.blog.title]
+other = "블로그"
+[sec.blog.lead]
+other = "2024년 6월의 시작 공고에서 2026년의 9년 회고까지."
+[btn.allPosts]
+other = "전체 글 →"
+[sec.join.title]
+other = "다음 디딤돌"
+[sec.join.lead]
+other = "이 저장소는 매일 다음 메일을 기다립니다. 제목에 ‘포지션 번호 - 이름 - 휴대폰 번호 - 학교’를 쓰고, PDF 이력서를 첨부해 wuwei@rv2036.org로 보내면 됩니다."
+[btn.join]
+other = "지원 방법 →"
+[btn.repo]
+other = "저장소 바로 보기"
+[sec.about.title]
+other = "이 사이트에 대하여"
+
+[timeline.legendRepo]
+other = "저장소"
+[timeline.legendOrg]
+other = "조직"
+[timeline.legendProgram]
+other = "양성 체계"
+[timeline.legendPeople]
+other = "사람"
+[timeline.evidence]
+other = "근거: "
+
+[sources.usage]
+other = "사용 방식: "
+[sources.license]
+other = "라이선스: "
+
+[blog.back]
+other = "← 블로그 목록으로"
+[card.more]
+other = "더 보기 →"
+
+[a11y.lang]
+other = "언어 전환"
+[a11y.themeToLight]
+other = "라이트 모드로"
+[a11y.themeToDark]
+other = "다크 모드로"
+
+# ---------- 五色石 SVG ----------
+[stones.aria]
+other = "지아천 프로젝트 인재 양성 지원 체계: 공개 무료 교육 과정, 오픈소스 인턴 공동 양성, 개발보드 드리프트, 지아천 프로젝트 인재 인증이라는 네 기둥을 오색석 프로젝트가 하나의 순환으로 통합한 구조"
+[stones.courses]
+other = "공개 무료 교육 과정"
+[stones.coursesSub]
+other = "전 분야 RISC-V 과정"
+[stones.internship]
+other = "인턴 공동 양성"
+[stones.internshipSub]
+other = "직무 + 멘토 + 수당"
+[stones.board]
+other = "개발보드 드리프트"
+[stones.boardSub]
+other = "보드를 무료로 대여"
+[stones.endorse]
+other = "인재 인증"
+[stones.endorseSub]
+other = "공개 인증과 추천"
+[stones.project]
+other = "오색석 프로젝트"
+[stones.projectSub]
+other = "10년 · 추가 통합"
+[stones.caption]
+other = "그림: 이 사이트가 「지아천 프로젝트: RISC-V 소프트웨어 생태계의 번영을 위하여」(CCF 오픈소스 소프트웨어 대회, 2026-08-16) 44쪽의 구조를 바탕으로 직접 그린 것이며 원본 이미지는 사용하지 않았습니다."
+
+[avatar.alt]
+other = "{{ .Name }} 프로필 사진"

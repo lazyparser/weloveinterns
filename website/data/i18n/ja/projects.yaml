@@ -1,0 +1,61 @@
+# オープンソースプロジェクト：二組に分かれる —— 甲辰計画が発起／共同開発するものと、インターンに勧めるもの。
+# url はいずれも 2026-10-31 時点で実測アクセス可能な公開リポジトリまたはサイト。
+jiachen:
+  - name: 开源实习生联合招聘培养
+    url: https://github.com/lazyparser/weloveinterns
+    desc: このサイトの背後にあるリポジトリそのものです。累計枠 3000+、累計インターン 1000+ で、この人材養成体系の主な入り口にあたります。
+    tag: 人才培养
+  - name: 甲辰计划人才背书互认
+    url: https://github.com/rv2036/jiachen-builders-network
+    desc: 個人の推薦による信頼ネットワークです。推薦番号 0 は主宰者が自ら署名し、すべて GitHub で公開・確認でき、PLCT のインターン格付け体系と呼応しています。
+    tag: 人才识别
+  - name: RISC-V 闲置开发板随缘漂流
+    url: https://github.com/rv2036/riscv-board-wandering
+    desc: 「すべての RISC-V 開発ボードは、電源を挿され愛されるに値する」。寄贈も受け取りも漂流ポイント制で、寄贈はすべておおらかに、気ままに。
+    tag: 硬件
+  - name: RuyiSDK
+    url: https://github.com/ruyisdk/ruyisdk
+    desc: RISC-V 開発者向けの統合開発環境とパッケージマネージャ（ruyi）。ツールチェーン、シミュレータ、システムイメージの取得と設定を数個のコマンドにまとめます。
+    tag: 开发者工具
+  - name: RISC-V 文档百科工程
+    url: https://rv2036.org
+    desc: 甲辰計画のメンバー組織が発起したドキュメント系プロジェクトです。RISC-V の中国語技術資料が散らばったままにならないことを目標としています。
+    tag: 文档
+  - name: RVSPOC / RV 新 32 位
+    url: https://rv2036.org/blog
+    desc: RISC-V ソフトウェア生態系をめぐる二つの専項計画です。詳細と進捗は甲辰計画の告知を参照してください。
+    tag: 生态
+  - name: RISC-V 芯片安全挑战赛
+    url: https://rv2036.org/blog
+    desc: RISC-V チップセキュリティ分野に向けたコンテストで、人材識別体系と連動しています。
+    tag: 竞赛
+  - name: 涂山工程
+    url: https://rv2036.org/blog
+    desc: AI を使ってノート PC 向けの高性能 RISC-V プロセッサを設計します。CPU/GPU の性能と消費電力は Apple M1 をベンチマークとし、三つの地域の Foundry で流片し、2029 己酉の春節までに 1000 台を納品します。
+    tag: 芯片
+
+community:
+  - name: PicoClaw
+    url: https://github.com/sipeed/picoclaw
+    desc: 矽速科技（Sipeed）のミニマルな AI アシスタントフレームワーク。「小さく、速く、どこにでも配備できる」を掲げ、組み込みやエッジ AI の最初の実上流タスクとしてよく合います。
+    tag: AI Agent · Go
+  - name: RT-Claw
+    url: https://github.com/zevorn/rt-claw
+    desc: AI アシスタントを安くする：RT-Thread 生態系のなかで C で書かれた小型 agent 実装です。コード量が抑えられ、組み込み方向の入門コントリビューションに向きます。
+    tag: AI Agent · C
+  - name: LoongClaw
+    url: https://github.com/loongclaw-ai/loongclaw
+    desc: 軽量で明快、拡張しやすい AI agent 基盤です。Rust 実装で、「覚えやすく、何でも変えられる」ことを重視しています。
+    tag: AI Agent · Rust
+  - name: Buddy Compiler / Buddy MLIR
+    url: https://github.com/buddy-compiler/buddy-mlir
+    desc: MLIR ベースのコンパイルフレームワークで、DSL を DSA に橋渡しします。MLIR 方向のインターンの主要な練習場の一つです。
+    tag: 编译器 · MLIR
+  - name: FlagTree
+    url: https://github.com/flagos-ai/FlagTree
+    desc: 複数の AI チップバックエンドを支える統一コンパイラで、独自の深層学習演算子向けです。FlagOS 体系における RISC-V バックエンドの作業はここで行われています。
+    tag: 编译器 · AI Infra
+  - name: TileLang
+    url: https://github.com/tile-ai/tilelang
+    desc: 高性能な GPU/CPU/アクセラレータ向け kernel 開発のためのドメイン固有言語です。演算子を Python を書くように直接書けます。
+    tag: DSL · Kernel

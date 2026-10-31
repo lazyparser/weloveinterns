@@ -1,0 +1,190 @@
+# People: community mentors + outstanding interns
+# avatar is a direct GitHub avatar URL (the numeric-ID form on avatars.githubusercontent.com, one redirect fewer, not stored locally);
+# handle is the GitHub username (used for the profile link); leave it empty when there is no public handle, and the card falls back to an initial badge.
+# endorse is a Project Jiachen talent endorsement number or note; only material published in the repository with the person's agreement or by their own PR is included.
+
+mentors:
+  - name: Wu Wei
+    handle: lazyparser
+    avatar: https://avatars.githubusercontent.com/u/1802104?v=4
+    alias: lazyparser
+    role: Founder & lead of Project Jiachen
+    tags: [RISC-V, compilers, community operations]
+    bio: >-
+      Founder and lead of Project Jiachen, founder of PLCT Lab, co-founder of Kubuds. Member of the RISC-V International
+      Technical Steering Committee (TSC), chair of the ISA Infra HC, board member of the LLVM Foundation, acting chair of
+      the RISC-V China Summit steering committee.
+    history: "Hefei University of Technology (BSc Mathematics) | Institute of Software, Chinese Academy of Sciences (PhD, not completed); career: Institute of Software, CAS | Zhongke Chongde | PLCT Lab | Kubuds"
+    contact: wuwei@rv2036.org
+    note: 500 of this repository's 779 commits come from him — including the recruitment notices, grading updates and intern report clean-ups for most cohorts.
+    links:
+      - label: Project Jiachen
+        url: https://rv2036.org
+        note: Founder & lead
+      - label: Minimalist Team Leadership
+        url: https://github.com/lazyparser/minimalist-team-leader
+        note: How the management works
+      - label: weloveinterns
+        url: https://github.com/lazyparser/weloveinterns
+        note: This repository
+  - name: U2FsdGVkX1
+    handle: U2FsdGVkX1
+    avatar: https://avatars.githubusercontent.com/u/11484206?v=4
+    role: Mentor · RISC-V Linux software ecosystem
+    tags: [RISC-V, Fedora, RuyiSDK]
+    bio: >-
+      Maintainer of Fedora RISC-V, Fedora RVA23 and Fedora 64ILP32 during his internship, working mainly on the RISC-V
+      Linux software ecosystem; also mentors the RuyiSDK IDE and takes part in community work in the deepin DE SIG and
+      the openGauss RISC-V SIG.
+    links:
+      - label: RuyiSDK IDE
+        url: https://github.com/ruyisdk/ruyisdk-vscode-extension
+        note: Mentor
+      - label: 64ILP32 on K230D
+        url: https://github.com/ruyisdk/k230_linux_sdk
+        note: Maintenance
+      - label: openGauss RISC-V
+        url: https://gitee.com/opengauss/riscv
+        note: SIG collaboration
+      - label: Fedora everything
+        url: https://openkoji.iscas.ac.cn
+        note: Build / maintenance
+
+interns:
+  - name: Ren Pengfei
+    alias: kxxt
+    handle: kxxt
+    avatar: https://avatars.githubusercontent.com/u/18085551?v=4
+    level: LV5
+    org: University of Science and Technology of China · School of Cyber Security (Master's)
+    work: Maintains and adapts a large number of Arch Linux RISC-V packages; leads or takes part in the RISC-V port, optimisation and long-term maintenance of large projects such as Electron and Chromium (the riscv-forks series)
+    endorse: Project Jiachen endorsement no. 018
+    link: https://github.com/rv2036/jiachen-builders-network/blob/main/pool/018-REN-Pengfei.md
+  - name: Wang Bingzhen
+    level: LV4+
+    org: Southern University of Science and Technology (undergraduate)
+    work: Maintainer of the LuaJIT RISC-V port; strong learning ability in compilers, and has given a public talk on the porting work
+    endorse: Project Jiachen endorsement no. 008
+  - name: Jiang Zhouqi
+    alias: Luojia
+    handle: luojia65
+    avatar: https://avatars.githubusercontent.com/u/40385009?v=4
+    level: LV4
+    org: Huazhong University of Science and Technology (Master's, systems security)
+    work: Lead of the RustSBI project, guiding its sub-projects; provided a complete Rust bare-metal-to-kernel support package for Bouffalo BL808; fixed points defined too loosely in the RISC-V SBI specification
+    endorse: Project Jiachen endorsement no. 012
+    link: https://github.com/rv2036/jiachen-builders-network/blob/main/pool/012-JIANG-Zhouqi.md
+  - name: Chen Yangyu
+    alias: cyy
+    level: LV4
+    org: Chongqing University (PhD, computer architecture)
+    work: Contributed RISC-V patches to Linux Kernel, GCC, QEMU, gem5, FireSim, OpenSSL, XiangShan and Rocket-Chip; submitted mainline Linux kernel support for Canaan K230; fixed two ambiguous points in the RISC-V ISA manual
+    endorse: Project Jiachen endorsement no. 010
+    link: https://github.com/rv2036/jiachen-builders-network/blob/main/pool/010-CHEN-Yangyu.md
+  - name: Zheng Yingwei
+    alias: dtcxzyw
+    handle: dtcxzyw
+    avatar: https://avatars.githubusercontent.com/u/15650457?v=4
+    level: LV4
+    org: Became LV4 in November 2023
+    work: Works mainly on the LLVM middle end and the RISC-V backend
+    endorse: Project Jiachen endorsement no. 007
+    link: https://github.com/rv2036/jiachen-builders-network/blob/main/pool/007-ZHENG-Yingwei.md
+  - name: Zheng Yusheng
+    alias: Yunwei
+    handle: yunwei37
+    avatar: https://avatars.githubusercontent.com/u/34985212?v=4
+    level: LV4
+    org: Became LV4 in January 2023
+    work: Maintains the eunomia-bpf community project; with the eBPF team built the first runtime and toolchain that builds, publishes and runs general-purpose eBPF programs on Wasm, and pushed the bcc ecosystem to move to libbpf
+  - name: dram
+    handle: dramforever
+    avatar: https://avatars.githubusercontent.com/u/2818072?v=4
+    level: LV5
+    org: PLCT ITEM department
+    work: RISC-V software and hardware ability accumulation above the PLCT staff average; joined ITEM as an expert consultant
+    endorse: Project Jiachen endorsement no. 009
+    link: https://github.com/rv2036/jiachen-builders-network/blob/main/pool/009-dram.md
+  - name: Hongren
+    level: LV5
+    org: PLCT Lab
+    work: Has deep contributions on both the software and hardware sides of RISC-V, and has independently carried out a "domain expansion" in several fields including Chisel/RocketChip and RISC-V Linux distributions
+  - name: Pan Ruizhe
+    alias: XieJiSS
+    handle: XieJiSS
+    avatar: https://avatars.githubusercontent.com/u/24671280?v=4
+    level: LV5
+    org: Arch team
+    work: Became LV5 in 2022-04; "outstanding ability to engage with upstream communities of every kind (non-violent communication)", and can explain and fix deeply tangled bugs clearly and methodically
+    link: https://blog.jiejiss.com
+  - name: Lin Sinan
+    level: LV4+
+    org: GNU GCC team
+    work: Contributed GCC and Binutils implementations for several new RISC-V extensions
+  - name: Wang Yiqiao
+    level: LV4
+    org: TARSIER period
+    work: Independently created and maintains Eulaceura, an openEuler RISC-V derivative distribution
+    endorse: Project Jiachen endorsement no. 016
+    link: https://github.com/rv2036/jiachen-builders-network/blob/main/pool/016-WANG-Yiqiao.md
+  - name: Lu Yan
+    alias: Robin
+    level: LV4
+    org: TARSIER period
+    work: Adapted and debugged a series of open-source applications on new RISC-V development boards and announced the demos at the RISC-V China Summit; the derivative distribution was named RobinOS and is maintained long-term
+  - name: Fan Qixuan
+    level: LV4
+    org: Gentoo team, LLVM team
+    work: LV4 since 2021-12-01; remembered by teammates as "the LV4 who recovered the rm -rf", and also mentors and helps out within the team
+  - name: Kiva
+    handle: imkiva
+    avatar: https://avatars.githubusercontent.com/u/9902643?v=4
+    level: senior
+    org: Aya team (internship ended)
+    work: Took part in implementing the Aya programming language and theorem prover
+  - name: Glavo
+    handle: Glavo
+    avatar: https://avatars.githubusercontent.com/u/20694662?v=4
+    level: senior
+    org: Aya team
+    work: Author of the Zhihu column "JVM News Express"
+    link: https://www.zhihu.com/column/c_1359548809383686144
+  - name: MikuNotFoundException
+    handle: Officeyutong
+    avatar: https://avatars.githubusercontent.com/u/9004058?v=4
+    org: eunomia-bpf community (eBPF / Wasm)
+    work: Took part in several projects in the eunomia-bpf community, including bpftime, eunomia-bpf and wasm-bpf.
+    link: https://github.com/Officeyutong
+  - name: Chen Moushun
+    handle: cms19859230182-lang
+    avatar: https://avatars.githubusercontent.com/u/276597748?v=4
+    level: LV3+
+    org: openEuler open-source internship · sig-ROS
+    work: >-
+      Responsible for build fixes and maintenance of ROS 2 Humble packages: about 60+ PRs, 40+ merged, mainly fixing build
+      failures caused by multiple architectures and new versions, filling in dependency chains, and backporting to release
+      branches; also contributed BSP and simulator work upstream in RT-Thread. Specialises in embedded and RISC-V
+      adaptation, and in fixing distribution package builds.
+    link: https://github.com/cms19859230182-lang
+  - name: Yu Hongwei
+    handle: hongwei-2026
+    avatar: https://avatars.githubusercontent.com/u/239529835?v=4
+    level: LV2
+    org: Huawei open-source internship · Ascend NPU ecosystem
+    work: >-
+      Named an outstanding intern in Huawei's open-source internship. Worked on the Ascend NPU ecosystem, completing
+      framework adaptation, large-model tuning and deployment, and hardware module development, with several results
+      merged into the open-source community. Good at collaborative development with AI tools, proactively looks things
+      up to solve problems, and keeps project progress and feedback in sync so tasks land efficiently.
+    link: https://github.com/hongwei-2026
+  - name: Sun Yixuan
+    alias: Lampese
+    handle: Lampese
+    avatar: https://avatars.githubusercontent.com/u/43312495?v=4
+    level: LV5
+    org: PLCT Lab J139 team · MoonBit community
+    work: >-
+      Internship: led the PLCT J139 team in developing the MoonBit community ecosystem, and organised the community
+      Demo Day and community website; an important voice in MoonBit's early community. Specialises in compilers and
+      formal proofs.
+    link: https://github.com/Lampese

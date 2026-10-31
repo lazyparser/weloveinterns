@@ -1,0 +1,115 @@
+# 타임라인: 모든 항목은 저장소 이력에서 특정 커밋이나 파일을 가리킬 수 있습니다.
+# kind: repo(저장소 자체) / org(조직) / program(양성 체계) / people(사람)
+- date: 2017-05-02
+  title: 첫 커밋
+  desc: b558384 「Initial commit」, 그 뒤 몇 커밋은 「Initial Home page」「Created _Sidebar」 — 그때는 아직 GitHub wiki였고, 채용 페이지가 아니었습니다.
+  kind: repo
+  evidence: b558384
+
+- date: 2017
+  title: 로봇 시대의 자료실
+  desc: "1년에 254회 커밋, 저장소 역사의 최고점입니다. 내용은 전부 로봇·AI·ROS였습니다: MACE, GluonCV, opencv.js, YOLO-in-Android, TensorRT, PocketSphinx 음성 인식, 딥러닝 모델 압축. 코드 규범 디렉터리 이름은 droid_coding_norm이었습니다."
+  kind: repo
+  evidence: MACE/ · gluoncv_0.2/ · opencv.js/ · droid_coding_norm/
+
+- date: 2018-2019
+  title: 인턴의 첫 평가 배치
+  desc: "저장소에 본격적인 인턴 보고서가 나타나기 시작했습니다: Android 단말 음성 합성 통합, ROS Server와 Android 단말 연동, ScanNet 데이터, CNNdroid 배포. 오늘의 「외부에서 확인 가능한 산출물」 제도의 원형이 바로 이 보고서들입니다."
+  kind: repo
+  evidence: Reports/ · reports/
+
+- date: 2019
+  title: PLCT Lab 설립
+  desc: 프로그래밍 언어·컴파일 기술 연구실(PLCT)이 중국과학원 소프트웨어연구소에 설립되었습니다. 저장소는 점차 PLCT의 공식 채용 페이지가 되었고, plct-interns.md가 등장했습니다.
+  kind: org
+  evidence: plct-interns.md
+
+- date: 2019-03-14
+  title: LV0–LV5 능력 등급 첫 공개
+  desc: 토키와다이 중학교의 「능력자」 설정을 빌려 인턴을 LV0부터 LV5까지 여섯 등급으로 나누고, 대표가 「자비로운 독재자」 방식으로 정합니다.
+  kind: program
+  evidence: how-do-we-rank-interns.md 파일 갱신 기록
+
+- date: 2020-06-01
+  title: LV3의 진입 기준이 「디버깅을 할 줄 아는 것」으로
+  desc: 세 번째 버전 갱신에서 「마주친 bug나 crash를 독립적으로 분석할 수 있다」를 LV3의 단단한 기준으로 적었습니다 — 이 체계에서 가장 학력답지 않고 가장 능력다운 조항입니다.
+  kind: program
+  evidence: how-do-we-rank-interns.md
+
+- date: 2021-01-10
+  title: wiki 퇴장, README가 인계
+  desc: reorganize와 Remove Home.md 두 커밋 이후 저장소는 wiki 형태에서 단일 README 입구로 바뀌었고, 오늘까지 이어집니다.
+  kind: repo
+  evidence: 9bb3b23 · 066ef35
+
+- date: 2022-03-27
+  title: senior interns 분류 공개
+  desc: 설립 이유의 첫 줄이 바로 「영광은 칼날 위에」입니다. 동시에 「동료 지도, 팀 간 상호 지원」 같은 보이지 않는 산출물을 평가 체계에 넣었습니다.
+  kind: program
+  evidence: outstanding-interns.md
+
+- date: 2022-09
+  title: TARSIER와 그 첫 LV4들
+  desc: 운영체제 팀 TARSIER 시기에 王弈桥가 openEuler RISC-V 파생 배포판 Eulaceura를 독자적으로 만들고 유지보수했고, 陆言(Robin)은 개발보드 적응을 완료해 자기 이름을 딴 RobinOS를 만들었습니다.
+  kind: people
+  evidence: outstanding-interns.md
+
+- date: 2023-06
+  title: 첫 대규모 감원, 그리고 Kubuds의 탄생
+  desc: PLCT Lab이 재정 축소에 들어갔습니다. 공동 창업자 李威威는 시뮬레이터 팀에서, 王俊强은 TARSIER에서 왔습니다 — 팀 해체 이후의 행선지가 새 회사의 출발점이 되었습니다.
+  kind: org
+  evidence: employers.md
+
+- date: 2023-06 – 2023-08
+  title: TARSIER 해체
+  desc: LV4 한 명과 여러 소팀장을 데려간 팀이 두 달 만에 흩어졌습니다. 저장소는 그들의 이름을 지우지 않았습니다.
+  kind: org
+  evidence: employers.md · outstanding-interns.md
+
+- date: 2023-09-15
+  title: PLCT 이외 내용 제거
+  desc: b7f25eb 한 커밋으로 저장소를 단일 줄기로 다시 모으고, README와 인턴 절차를 함께 간소화했습니다. 「팀과 조직이 계속 만들어지고 해체되는」 일이 저장소에 남긴 이음매입니다.
+  kind: repo
+  evidence: b7f25eb
+
+- date: 2024-06-08
+  title: 지아천 프로젝트 오픈소스 인턴 공동 모집·양성 발표
+  desc: "멤버 기관에 새 프로젝트를 발표했습니다: 최소의 금전·관리 투입으로 자사에 유용한 RISC-V 생태계 구축을 앞당기고, 매년 2000+ 인턴 정원을 엽니다."
+  kind: program
+  evidence: README · employers.md
+
+- date: 2024-07-19
+  title: 저장소가 지아천 프로젝트에 공식 편입
+  desc: a2a18f4 「지아천 프로젝트 소개 추가 갱신」. 이후 weloveinterns는 PLCT의 채용 페이지에서 지아천 프로젝트의 주 입구가 되었습니다.
+  kind: repo
+  evidence: a2a18f4
+
+- date: 2024-10-12
+  title: 한 번에 253개 파일 삭제
+  desc: "2021년 및 그 이전 인턴 보고서가 통째로 빠졌습니다(b9c43ed, 253 files changed). Zhongke Chongde 시기의 archives/ 전체도 포함됩니다. README에는 문패를 남겼습니다: git checkout 664048d."
+  kind: repo
+  evidence: b9c43ed · 664048d
+
+- date: 2025-12
+  title: PLCT Lab 브랜드 은퇴
+  desc: 6년 쓴 이름이 퇴장했습니다. 모집과 양성은 멈추지 않고 지아천 프로젝트 이름 아래에서 계속됩니다.
+  kind: org
+  evidence: plct-retire
+
+- date: 2026-02-17
+  title: 오색석 프로젝트 시작
+  desc: 병오년(말의 해) 음력 정월 초하루, 지아천 프로젝트가 RISC-V 글로벌 리더 인재 양성 프로젝트를 발표했습니다. 여와가 오색석을 녹여 하늘을 메웠다는 뜻을 빌려, 10년을 주기로 「인재 찾기·선별」에서 「체계적이고 장기적인 인재 양성」으로 올라섭니다.
+  kind: program
+  evidence: jiachen-wucai-shi
+
+- date: 2026-09
+  title: 포지션 번호 K18x 진입
+  desc: open-internships.md에 K181 openEuler 로봇 패키지 유지보수, K182 openKylin 임바디드 AI, K183 RT-Thread, K184 FlagOS RISC-V, K185 RISC-V 로봇이 등장합니다 — 모두 「오색석 프로젝트의 일부」로 표시되어 있습니다.
+  kind: repo
+  evidence: 4915bc5 · 589cbf3 · eb14c8f · 53cfa10
+
+- date: 2026-09-26
+  title: 지금까지의 마지막 커밋
+  desc: 83b5f4a 「update K182」. 779개 커밋 이후에도 이 저장소는 제자리에서 다음 인턴의 메일을 기다립니다.
+  kind: repo
+  evidence: 83b5f4a

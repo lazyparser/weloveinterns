@@ -11,7 +11,7 @@
     <div class="tl-date">{{ .date }}</div>
     <div class="tl-title">{{ .title }}</div>
     <p class="tl-desc">{{ .desc }}</p>
-    {{ with .evidence }}<p class="tl-ev">{{ i18n "timeline.evidence" }}：{{ . }}</p>{{ end }}
+    {{ with .evidence }}<p class="tl-ev">{{ i18n "timeline.evidence" }}{{ . }}</p>{{ end }}
   </div>
   {{ end }}
 </div>

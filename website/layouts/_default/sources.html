@@ -19,8 +19,8 @@
           {{ with $s.author }}{{ . }} · {{ end }}{{ with $s.date }}{{ . }} · {{ end }}
           {{ if hasPrefix $s.url "http" }}<a href="{{ $s.url }}" target="_blank" rel="noopener">{{ $s.url }}</a>{{ else }}{{ $s.url }}{{ end }}
         </p>
-        <p class="src-usage">用法：{{ $s.usage }}</p>
-        <p class="src-lic">许可：{{ $s.license }}{{ with $s.note }}　{{ . }}{{ end }}</p>
+        <p class="src-usage">{{ i18n "sources.usage" }}{{ $s.usage }}</p>
+        <p class="src-lic">{{ i18n "sources.license" }}{{ $s.license }}{{ with $s.note }}　{{ . }}{{ end }}</p>
       </div>
     </li>
     {{ end }}

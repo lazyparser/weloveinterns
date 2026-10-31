@@ -1,0 +1,218 @@
+# 繁體中文（台灣用語）
+[a11y.skip]
+other = "跳至內文"
+[a11y.menu]
+other = "選單"
+[a11y.theme]
+other = "切換明暗配色"
+[a11y.themeRow]
+other = "切換明暗配色"
+
+[nav.shise]
+other = "五色石"
+[nav.interns]
+other = "實習生"
+[nav.mentors]
+other = "導師"
+[nav.program]
+other = "培育計畫"
+[nav.timeline]
+other = "時間軸"
+[nav.blog]
+other = "部落格"
+[nav.join]
+other = "加入"
+[nav.sources]
+other = "來源"
+
+[footer.tagline]
+other = "一個從 2017 年寫到今天的實習生儲存庫，以及它背後的那些人。"
+[footer.repo]
+other = "GitHub 儲存庫"
+[footer.jiachen]
+other = "甲辰計畫"
+[footer.sources]
+other = "來源與授權"
+[footer.rss]
+other = "RSS"
+[footer.licenseNote]
+other = "本站文字以 CC BY-SA 4.0 發布，與 weloveinterns 儲存庫一致（儲存庫的 LICENSE 為 Attribution-ShareAlike 4.0 International）。頁面上的圖表全部是本站自繪的 SVG，不使用第三方圖片與網路字型；引用到的外部材料逐條登記在「來源與授權」，含原始 URL、引用方式與著作權狀態。實習生姓名與背書連結均取自本人同意公開的儲存庫條目。"
+
+[crumb.home]
+other = "首頁"
+
+[home.kicker]
+other = "甲辰計畫 · 開源實習生聯合培養"
+[home.title]
+other = "給實習生以榮光"
+[home.lede]
+other = "weloveinterns 是甲辰計畫開源實習生聯合招募培養的主入口，也是一個從 2017 年寫到今天的儲存庫。這裡介紹我們在做的事、正在做這些事的人，以及可以讓你上手的第一批開源專案。"
+[home.ctaJoin]
+other = "投遞履歷 →"
+[home.ctaBlog]
+other = "讀九年回顧"
+
+[stat.positions]
+other = "累計開放實習職缺"
+[stat.interns]
+other = "累計實習人次"
+[stat.mentors]
+other = "社群導師"
+[stat.maintainers]
+other = "培育出的開源維護者"
+[stat.orgs]
+other = "甲辰計畫成員單位"
+
+[sec.jiachen.title]
+other = "甲辰計畫是什麼"
+[sec.jiachen.lead]
+other = "甲辰計畫（RISC-V Prosperity 2036）誕生於 2024 年除夕，由中國多家 RISC-V 軟體與晶片團隊聯合發起。它沒有財務實體、沒有會員費、沒有董事會，只有一位主理人和一份共同願景 —— 一個基於共識的合作網路。"
+[sec.jiachen.quote]
+other = "在下一個丙辰年（2036 龍年）之前，基於 RISC-V 實現從資料中心到桌面辦公、從行動穿戴到智慧物聯網、涵蓋整個資訊產業的開放標準體系及開源系統軟體堆疊，使 RISC-V 軟硬體生態達到或超過其他主流架構的生態成熟度。"
+[sec.jiachen.quoteSrc]
+other = "—— 甲辰計畫願景與使命"
+[sec.jiachen.goals]
+other = "目標是聯合 100 家以上晶片及方案廠商、500 家以上軟體企業，在 18 個以上基礎關鍵行業領域完成面向 RISC-V 的適配與最佳化，合作完成超過 1000 款重要行業及商業軟體的移植與部署；並建立 RISC-V 人才識別體系，連結超過 1 萬名專業人才。"
+[card.network.tag]
+other = "組織方式"
+[card.network.title]
+other = "基於共同願景的「朋友圈」"
+[card.network.desc]
+other = "認可願景即可加入，隨時可以退出；成員地位平等、沒有等級結構；貢獻越大，影響力越大。"
+[card.finance.tag]
+other = "財務模式"
+[card.finance.title]
+other = "開源專案式運作"
+[card.finance.desc]
+other = "沒有財務實體、沒有會員費、沒有董事會；成員自行發起專案並籌措資金，PLCT 實驗室與苦芽科技提供初始動能。"
+[card.eco.tag]
+other = "生態"
+[card.eco.title]
+other = "60+ 家成員"
+[card.eco.desc]
+other = "從晶片廠商、發行版社群到大學與研究機構，依託甲辰計畫已發起多個獨立專案。"
+
+[sec.program.title]
+other = "開源實習生聯合培養"
+[sec.program.lead]
+other = "2024 年 6 月 8 日發布的專案，出發點是一句很務實的話：讓成員單位用最少的金錢與管理資源投入，加速完成對自家企業有用的 RISC-V 生態建設目標。"
+[trio.vision.title]
+other = "願景"
+[trio.vision.desc]
+other = "讓每一個想進入開源世界的學生，都能拿到一塊真實的墊腳石：有導師、有真實的上游任務、有被 merge 的 PR、有實習津貼。"
+[trio.mission.title]
+other = "使命"
+[trio.mission.desc]
+other = "做企業與年輕人之間的介面：企業拿出職缺與 mentor，我們負責篩選、培育、評級與背書。自甲辰龍年起，每年開放 2000 名以上實習名額。"
+[trio.achievement.title]
+other = "成就"
+[trio.achievement.desc]
+other = "累計職缺、累計實習、社群導師與維護者數量的可核對數字；超過 10 家公司與機構提供職缺。"
+[sec.program.principlesTitle]
+other = "三條不看的，一條堅持的"
+[sec.program.principles]
+other = "不看 985 或 211，不看科系與年級排名，完全按照工作能力與潛力選拔；相信女性在 STEM 領域的潛力，預留至少 30% 的實習職缺給女性應徵者。"
+[sec.program.grading]
+other = "評價標準只有一條：能不能完成聯合培養單位的日常開發任務 —— 用不到的能力，不在評價範圍。能力分級是 LV0–LV5，由主理人以「仁慈獨裁者」方式評定；LV4 是預設的全職招募等級。"
+[sec.program.gradingMore]
+other = "看完整的分級與流程 →"
+
+[sec.interns.title]
+other = "傑出實習生"
+[sec.interns.lead]
+other = "名單上不是「若干名優秀實習生」，是一個個具體的人。每一張卡片背後是一次被 merge 的提交，一份能被上游認可的產出。"
+[btn.allInterns]
+other = "完整名單（含 senior interns 與寄語原文）→"
+[sec.mentors.title]
+other = "社群導師"
+[sec.mentors.lead]
+other = "實習需要跟著一位師父 —— 只有獲得一位 mentor 的認可，實習契約才成立。這一節陸續補充。"
+[btn.allMentors]
+other = "全部導師 →"
+[sec.shise.title]
+other = "五色石工程"
+[sec.shise.lead]
+other = "2026 年丙午正月初一，甲辰計畫發布 RISC-V 全球領袖人才培育工程（簡稱五色石工程）：取女媧煉五色石補天之意，以十年為週期，從「尋找、篩選人才」升級為「系統性、長期性培育人才」。"
+[btn.shiseMore]
+other = "五色石工程：初衷與佐證 →"
+[sec.projects.title]
+other = "開源專案"
+[sec.projects.lead]
+other = "依託甲辰計畫，成員組織發起了一批專案；下面另有一組推薦給實習生上手的開源儲存庫 —— 它們都是真實的上游，能拿到真實的 review。"
+[projects.group1]
+other = "甲辰計畫與成員共建"
+[projects.group2]
+other = "推薦上手"
+[sec.blog.title]
+other = "部落格"
+[sec.blog.lead]
+other = "從 2024 年 6 月那份啟動通告開始，到 2026 年的九年回顧。"
+[btn.allPosts]
+other = "全部文章 →"
+[sec.join.title]
+other = "下一個墊腳石"
+[sec.join.lead]
+other = "這個儲存庫每天都在等下一封電子郵件。標題寫「職缺編號 - 姓名 - 手機號碼 - 學校」，附上一份 PDF 履歷，寄到 wuwei@rv2036.org。"
+[btn.join]
+other = "怎麼加入 →"
+[btn.repo]
+other = "直接看儲存庫"
+[sec.about.title]
+other = "關於這個站"
+
+[timeline.legendRepo]
+other = "儲存庫"
+[timeline.legendOrg]
+other = "組織"
+[timeline.legendProgram]
+other = "培育體系"
+[timeline.legendPeople]
+other = "人"
+[timeline.evidence]
+other = "證據："
+
+[sources.usage]
+other = "用法："
+[sources.license]
+other = "授權："
+
+[blog.back]
+other = "← 回部落格列表"
+[card.more]
+other = "更多 →"
+
+[a11y.lang]
+other = "切換語言"
+[a11y.themeToLight]
+other = "切到亮色"
+[a11y.themeToDark]
+other = "切到深色"
+
+# ---------- 五色石 SVG ----------
+[stones.aria]
+other = "甲辰計畫人才培養支撐體系：公開免費培訓課程體系、開源實習生聯合培養、開發板漂流、甲辰計畫人才背書四塊基石，由五色石工程進一步整合成閉環"
+[stones.courses]
+other = "公開免費培訓課程"
+[stones.coursesSub]
+other = "全門類 RISC-V 課程"
+[stones.internship]
+other = "開源實習生聯合培養"
+[stones.internshipSub]
+other = "職缺 + 導師 + 實習津貼"
+[stones.board]
+other = "開發板漂流"
+[stones.boardSub]
+other = "免費借你一塊板子"
+[stones.endorse]
+other = "甲辰計畫人才背書"
+[stones.endorseSub]
+other = "公開背書與工作內推"
+[stones.project]
+other = "五色石工程"
+[stones.projectSub]
+other = "十年 · 進一步整合"
+[stones.caption]
+other = "圖：本站依《甲辰計畫：為了 RISC-V 軟體生態的繁榮》（CCF 開源軟體大會，2026-08-16）第 44 頁的結構自繪，未使用原圖。"
+
+[avatar.alt]
+other = "{{ .Name }} 的頭像"
