@@ -115,9 +115,17 @@
   usage: 2025 年 12 月 PLCT 品牌退役这一时间线事件。
 
 - id: wechat-jd
-  title: 甲辰计划主理人发起开源实习生联合招聘培养项目
+  title: 甲辰计划主理人发起开源实习生联合招聘培养项目（启动通告）
   author: 甲辰计划（吴伟）
   url: https://mp.weixin.qq.com/s/TenVAVzaWuUWGIWodGaFKA
-  date: 2024-06-08
-  license: 版权归甲辰计划；本站仅引用并链接。
-  usage: 联合招聘培养项目启动的公告来源（仓库 README 与 employers.md 亦引用此链接）。
+  date: 正文写「2024 年 6 月 8 日」发布；甲辰计划新闻索引记为 2024-06-09
+  license: 版权归甲辰计划；本站仅作要点转述与短引，标注出处并链接原文，不转载全文与图片。
+  usage: 联合招聘培养项目的启动通告：动机、每年 2000 名名额、外部可见交付清单与实习费结算方式、苦芽兜底、女性岗位预留比例，均以此为准。
+
+- id: rv2036-news-index
+  title: 甲辰计划公众号文章索引（rv2036-website 的 third-party-news.md）
+  author: 甲辰计划
+  url: https://github.com/rv2036/rv2036-website/blob/main/_includes/third-party-news.md
+  date: 持续更新（截至 2026-10 共 268 行）
+  license: 仓库内容版权归甲辰计划；本站仅用其作为文章日期与标题的核对依据，并链接。
+  usage: 核对某篇公众号文章的发布日期与正式标题（例如启动通告被记在 2024-06-09）。
