@@ -1,0 +1,118 @@
+# 人物：社区导师 + 杰出实习生
+# avatar 为 GitHub 头像直链（avatars.githubusercontent.com 的数字 ID 形式，少一次跳转，不落库）；
+# handle 为 GitHub 用户名（用于主页链接）；没有公开 handle 的留空，卡片用首字徽标。
+# endorse 为甲辰人才背书编号或说明；仅收录仓库中「本人同意或本人 PR」公开的内容。
+
+mentors:
+  - name: 吴伟
+    handle: lazyparser
+    avatar: https://avatars.githubusercontent.com/u/1802104?v=4
+    alias: lazyparser
+    role: 甲辰计划发起人 & 主理人
+    tags: [RISC-V, 编译器, 社区运营]
+    bio: >-
+      甲辰计划发起人与主理人，PLCT 实验室创建者，苦芽科技联合创始人。RISC-V 国际基金会技术指导委员会（TSC）委员、
+      ISA Infra HC 主席，LLVM 基金会理事，RISC-V 中国峰会指导委员会代理主席。
+    history: 合肥工业大学（数学本科）｜中国科学院软件研究所（博士肄业）；工作经历：中科院软件所｜中科重德｜PLCT 实验室｜苦芽科技
+    contact: wuwei@rv2036.org
+    note: 这个仓库里 779 个提交中有 500 个来自他 —— 包括绝大多数期的招聘信息、评级更新与实习报告清理。
+
+interns:
+  - name: 任鹏飞
+    alias: kxxt
+    handle: kxxt
+    avatar: https://avatars.githubusercontent.com/u/18085551?v=4
+    level: LV5
+    org: 中国科学技术大学 · 网络空间安全学院（硕士）
+    work: Arch Linux RISC-V 大量软件包的维护与适配；主导或参与 Electron、Chromium 等大型项目的 RISC-V 移植、优化与长期维护（riscv-forks 系列）
+    endorse: 甲辰人才背书 018 号
+    link: https://github.com/rv2036/jiachen-builders-network/blob/main/pool/018-REN-Pengfei.md
+  - name: 王炳臻
+    level: LV4+
+    org: 南方科技大学（本科）
+    work: LuaJIT 的 RISC-V port 维护者；在编译器领域学习能力突出，并就移植工作做过公开演讲
+    endorse: 甲辰人才背书 008 号
+  - name: 蒋周奇
+    alias: 洛佳
+    handle: luojia65
+    avatar: https://avatars.githubusercontent.com/u/40385009?v=4
+    level: LV4
+    org: 华中科技大学（硕士，方向系统安全）
+    work: RustSBI 项目负责人，带领各子项目发展；为博流 BL808 提供完整 Rust 裸机到内核支持包；修复 RISC-V SBI 规范中定义不严格处
+    endorse: 甲辰人才背书 012 号
+    link: https://github.com/rv2036/jiachen-builders-network/blob/main/pool/012-JIANG-Zhouqi.md
+  - name: 陈泱宇
+    alias: cyy
+    level: LV4
+    org: 重庆大学（博士，方向体系结构）
+    work: 向 Linux Kernel、GCC、QEMU、gem5、FireSim、OpenSSL、XiangShan、Rocket-Chip 贡献 RISC-V 相关补丁；为嘉楠 K230 提交 Linux 主线内核支持；修复 2 处 RISC-V ISA 手册的模棱两可处
+    endorse: 甲辰人才背书 010 号
+    link: https://github.com/rv2036/jiachen-builders-network/blob/main/pool/010-CHEN-Yangyu.md
+  - name: 郑英炜
+    alias: dtcxzyw
+    handle: dtcxzyw
+    avatar: https://avatars.githubusercontent.com/u/15650457?v=4
+    level: LV4
+    org: 2023 年 11 月成为 LV4
+    work: 主要在 LLVM 中端与 RISC-V 后端贡献代码
+    endorse: 甲辰人才背书 007 号
+    link: https://github.com/rv2036/jiachen-builders-network/blob/main/pool/007-ZHENG-Yingwei.md
+  - name: 郑昱笙
+    alias: 云微
+    handle: yunwei37
+    avatar: https://avatars.githubusercontent.com/u/34985212?v=4
+    level: LV4
+    org: 2023 年 1 月成为 LV4
+    work: 维护 eunomia-bpf 社区项目；与 eBPF 小队一起做出第一个在 Wasm 上构建、发布、运行通用 eBPF 程序的运行时与工具链，并推动 bcc 生态向 libbpf 转化
+  - name: dram
+    handle: dramforever
+    avatar: https://avatars.githubusercontent.com/u/2818072?v=4
+    level: LV5
+    org: PLCT ITEM 部门
+    work: RISC-V 软件与硬件能力积累超过 PLCT 员工平均值，以专家顾问身份进入 ITEM
+    endorse: 甲辰人才背书 009 号
+    link: https://github.com/rv2036/jiachen-builders-network/blob/main/pool/009-dram.md
+  - name: 红人
+    level: LV5
+    org: PLCT 实验室
+    work: 在 RISC-V 软件与硬件两侧都有深入贡献，在 Chisel/RocketChip 与 RISC-V Linux Distros 等多个领域独立进行过「领域展开」
+  - name: 潘瑞哲
+    alias: XieJiSS
+    handle: XieJiSS
+    avatar: https://avatars.githubusercontent.com/u/24671280?v=4
+    level: LV5
+    org: Arch 小队
+    work: 2022-04 成为 LV5；「杰出的跟各路上游社区对线（非暴力沟通）的能力」，解决缠绕很深的 bug 后能条理清晰地阐释与修复
+    link: https://blog.jiejiss.com
+  - name: 林思南
+    level: LV4+
+    org: GNU GCC 小队
+    work: 贡献了多个 RISC-V 新扩展的 GCC 与 Binutils 实现
+  - name: 王弈桥
+    level: LV4
+    org: TARSIER 时期
+    work: 独立创建并维护 openEuler RISC-V 衍生发行版 Eulaceura
+    endorse: 甲辰人才背书 016 号
+    link: https://github.com/rv2036/jiachen-builders-network/blob/main/pool/016-WANG-Yiqiao.md
+  - name: 陆言
+    alias: Robin
+    level: LV4
+    org: TARSIER 时期
+    work: 完成一系列开源软件在新款 RISC-V 开发板上的适配与调试并在 RISC-V 中国峰会公布；衍生发行版命名为 RobinOS 并长期维护
+  - name: 樊其轩
+    level: LV4
+    org: Gentoo 小队、LLVM 小队
+    work: LV4 since 2021-12-01；队友印象是「捞回 rm -rf 的 LV4」，同时在小队里承担指导与互助
+  - name: Kiva
+    handle: imkiva
+    avatar: https://avatars.githubusercontent.com/u/9902643?v=4
+    level: senior
+    org: Aya 小队（实习已结束）
+    work: 参与 Aya 编程语言与定理证明器的实现
+  - name: Glavo
+    handle: Glavo
+    avatar: https://avatars.githubusercontent.com/u/20694662?v=4
+    level: senior
+    org: Aya 小队
+    work: 知乎专栏「JVM 新闻速递」作者
+    link: https://www.zhihu.com/column/c_1359548809383686144

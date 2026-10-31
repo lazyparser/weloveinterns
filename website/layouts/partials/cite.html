@@ -1,0 +1,7 @@
+{{- /* 引用角标（layout 与 shortcode 共用）：传入 source id */ -}}
+{{- $id := . -}}
+{{- $n := 0 -}}
+{{- range $i, $s := site.Data.sources -}}
+  {{- if eq $s.id $id -}}{{- $n = add $i 1 -}}{{- end -}}
+{{- end -}}
+{{- if gt $n 0 -}}<a class="cite" href="{{ "sources/" | relURL }}#{{ $id }}" title="来源 {{ $n }}">{{ $n }}</a>{{- else -}}<span class="cite" title="未登记的来源：{{ $id }}">?</span>{{- end -}}

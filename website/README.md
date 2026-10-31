@@ -9,23 +9,26 @@ website/
 ├── hugo.toml
 ├── assets/css/main.css          # 全站样式（明暗两套 CSS 变量，系统字体栈）
 ├── data/
+│   ├── people.yaml              # 社区导师 + 杰出实习生（含 GitHub 头像直链与背书编号）
+│   ├── projects.yaml            # 开源项目：甲辰计划共建 / 推荐上手
 │   ├── sources.yaml             # 引用登记表：id / 出处 / URL / 用法 / 许可
 │   ├── timeline.yaml            # 时间线 19 个节点，每条带证据（提交号或文件名）
 │   └── stats.yaml               # 首页数字看板
 ├── content/
-│   ├── _index.md                # 首页第一段正文
-│   ├── story.md                 # 长故事（2017 → 2026，五章 + 尾声）
+│   ├── _index.md                # 首页「关于这个站」正文
+│   ├── blog/                    # 博客：_index.md + nine-years.md（一个仓库的九年）
 │   ├── history.md               # 时间线页（layout: timeline）
 │   ├── shise-stone.md           # 五色石工程：初衷、佐证、目标（站点主线）
-│   ├── interns.md               # LV4+ / LV5 / senior interns 名单
+│   ├── interns.md               # LV4+ / LV5 / senior interns 完整名单
 │   ├── program.md               # 联合培养计划怎么运转（LV 分级、mentor pick、实习费）
 │   ├── join.md                  # 怎么加入
 │   └── sources.md               # 来源与许可（layout: sources）
 ├── layouts/
-│   ├── index.html               # 首页（hero + 数字条 + 四章）
+│   ├── index.html               # 首页：甲辰计划 / 联合培养 / 实习生 / 导师 / 五色石 / 项目 / 博客 / 加入 / 关于
+│   ├── blog/{list,single}.html
 │   ├── 404.html
-│   ├── _default/{baseof,single,timeline,sources}.html
-│   ├── partials/{header,footer,stones,timeline}.html
+│   ├── _default/{baseof,single,timeline,sources,rss}.html
+│   ├── partials/{header,footer,stones,timeline,cite,avatar}.html
 │   └── shortcodes/{cite,stones}.html
 └── static/favicon.svg           # 自绘
 ```

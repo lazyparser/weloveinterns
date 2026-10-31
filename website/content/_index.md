@@ -1,6 +1,6 @@
 ---
 title: We Love Interns
-description: weloveinterns 是一个从 2017 年写到今天的仓库，也是一条关于中科重德、PLCT 实验室、甲辰计划与五色石工程的长故事。
+description: weloveinterns.org —— 甲辰计划开源实习生联合招聘培养的主入口。介绍甲辰计划、联合培养体系、杰出实习生与社区导师，以及可以上手的开源项目。
 ---
 
 2017 年 5 月 2 日，GitHub 上多了一个叫 **weloveinterns** 的仓库。它的第一批提交是「Initial commit」「Initial Home page」「Created _Sidebar」—— 那时候它还是一个 wiki，用来放实习生的资料、作业和报告，像一个实验室门口的公告板。
