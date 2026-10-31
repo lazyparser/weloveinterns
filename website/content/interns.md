@@ -22,6 +22,7 @@ description: 甲辰计划、PLCT 实验室、苦芽科技与 TARSIER 团队认�
 | **潘瑞哲（XieJiSS）** | Arch 小队 | 2022-04 成为 LV5；「杰出的跟各路上游社区对线（非暴力沟通）的能力」，解决缠绕很深的 bug 后能条理清晰地阐释和修复 |
 | **陆旭凡** | 原 LLVM 小队实习生 | 毕业后进入 PLCT 实验室 |
 | **安传旭（anchuanxu）** | 智能机器人（2019/4–2020/3） | vSLAM 实践课程、仿真无人机与多机器人项目、移动机器人激光 SLAM 算法优化、路径规划算法升级 |
+| **孙翊轩（Lampese）** | PLCT J139 小队 · [MoonBit](https://www.moonbitlang.com/) 社区 | 带领 J139 小队参与 MoonBit 社区生态的开发，筹办社区 Demo Day 与社区网站，是 MoonBit 早期社区的重要声音；特长编译器与形式化证明 |
 
 ### LV4 及以下
 
