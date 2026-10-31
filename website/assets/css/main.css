@@ -486,3 +486,28 @@ th { background: var(--bg-soft); font-weight: 700; }
 .mentor-links a { color: var(--text-soft); border: 0; font-weight: 600; }
 .mentor-links a:hover { color: var(--gold); }
 .mentor-link-note { color: var(--muted); font-family: var(--mono); font-size: .72rem; }
+
+/* ---------- 语言切换器 ---------- */
+.lang-switch { position: relative; display: inline-block; }
+.lang-btn { font-size: .82rem; font-weight: 700; letter-spacing: .02em; }
+.lang-menu {
+  position: absolute; right: 0; top: calc(100% + .45rem); z-index: 60;
+  min-width: 9.5rem; margin: 0; padding: .3rem; list-style: none;
+  background: var(--bg-soft); border: 1px solid var(--line); border-radius: 10px;
+  box-shadow: 0 12px 30px rgba(0,0,0,.28);
+  display: none;
+}
+.lang-menu.open { display: block; }
+.lang-menu li { margin: 0; }
+.lang-menu a {
+  display: block; padding: .4rem .6rem; border-radius: 7px; border: 0;
+  font-size: .86rem; color: var(--text-soft); white-space: nowrap;
+}
+.lang-menu a:hover { background: var(--bg); color: var(--gold); }
+.lang-menu a.active { color: var(--gold); font-weight: 700; }
+@media (max-width: 860px) {
+  .lang-switch { width: 100%; }
+  .lang-menu { position: static; display: block; box-shadow: none; border: 0; background: transparent; padding: 0; }
+  .lang-btn { display: none; }
+  .lang-menu a { padding: .45rem 0; }
+}

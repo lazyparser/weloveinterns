@@ -1,10 +1,15 @@
 <!DOCTYPE html>
-<html lang="zh-CN" data-theme="dark">
+<html lang="{{ site.Language.LanguageCode }}" data-theme="dark">
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>{{ if .IsHome }}{{ site.Params.siteName }} · {{ site.Params.siteNameCN }}{{ else }}{{ .Title }} · {{ site.Params.siteName }}{{ end }}</title>
   <meta name="description" content="{{ .Description | default site.Params.description }}">
+  {{ range .AllTranslations }}
+  <link rel="alternate" hreflang="{{ .Language.LanguageCode }}" href="{{ .Permalink }}">
+  {{ end }}
+  {{ range .AllTranslations }}{{ if eq .Language.Lang site.Home.Language.Lang }}  <link rel="alternate" hreflang="x-default" href="{{ .Permalink }}">
+{{ end }}{{ end }}
   <link rel="canonical" href="{{ .Permalink }}">
   <link rel="icon" href="{{ "favicon.svg" | relURL }}" type="image/svg+xml">
   {{ with .OutputFormats.Get "rss" }}
@@ -20,14 +25,36 @@
         }
         document.documentElement.setAttribute("data-theme", t);
       } catch (e) {}
+      var langBtn = document.getElementById("langToggle");
+      var langMenu = document.getElementById("langMenu");
+      if (langBtn && langMenu) {
+        langBtn.addEventListener("click", function (e) {
+          e.stopPropagation();
+          var open = langMenu.classList.toggle("open");
+          langBtn.setAttribute("aria-expanded", open ? "true" : "false");
+        });
+        document.addEventListener("click", function () { langMenu.classList.remove("open"); langBtn.setAttribute("aria-expanded", "false"); });
+        document.addEventListener("keydown", function (e) { if (e.key === "Escape") { langMenu.classList.remove("open"); langBtn.setAttribute("aria-expanded", "false"); } });
+      }
     })();
-  </script>
+        var langBtn = document.getElementById("langToggle");
+      var langMenu = document.getElementById("langMenu");
+      if (langBtn && langMenu) {
+        langBtn.addEventListener("click", function (e) {
+          e.stopPropagation();
+          var open = langMenu.classList.toggle("open");
+          langBtn.setAttribute("aria-expanded", open ? "true" : "false");
+        });
+        document.addEventListener("click", function () { langMenu.classList.remove("open"); langBtn.setAttribute("aria-expanded", "false"); });
+        document.addEventListener("keydown", function (e) { if (e.key === "Escape") { langMenu.classList.remove("open"); langBtn.setAttribute("aria-expanded", "false"); } });
+      }
+</script>
 
   {{ $css := resources.Get "css/main.css" | minify | fingerprint }}
   <link rel="stylesheet" href="{{ $css.RelPermalink }}" integrity="{{ $css.Data.Integrity }}">
 </head>
 <body>
-  <a class="skip" href="#main">跳到正文</a>
+  <a class="skip" href="#main">{{ i18n "a11y.skip" }}</a>
   {{ partial "header.html" . }}
 
   <main id="main">{{ block "main" . }}{{ end }}</main>
@@ -41,7 +68,7 @@
       function paint() {
         if (!btn) return;
         btn.textContent = root.getAttribute("data-theme") === "dark" ? "☀" : "☾";
-        btn.setAttribute("aria-label", root.getAttribute("data-theme") === "dark" ? "切到亮色" : "切到深色");
+        btn.setAttribute("aria-label", root.getAttribute("data-theme") === "dark" ? "{{ i18n "a11y.themeToLight" }}" : "{{ i18n "a11y.themeToDark" }}");
       }
       paint();
       if (btn) btn.addEventListener("click", function () {
@@ -50,6 +77,16 @@
         try { localStorage.setItem("wli-theme", next); } catch (e) {}
         paint();
       });
+      var langBtn = document.getElementById("langToggle"), langMenu = document.getElementById("langMenu");
+      if (langBtn && langMenu) {
+        langBtn.addEventListener("click", function (e) {
+          e.stopPropagation();
+          var open = langMenu.classList.toggle("open");
+          langBtn.setAttribute("aria-expanded", open ? "true" : "false");
+        });
+        document.addEventListener("click", function () { langMenu.classList.remove("open"); langBtn.setAttribute("aria-expanded", "false"); });
+        document.addEventListener("keydown", function (e) { if (e.key === "Escape") { langMenu.classList.remove("open"); langBtn.setAttribute("aria-expanded", "false"); } });
+      }
       var mt = document.getElementById("menuToggle"), nav = document.getElementById("siteNav");
       function setMenu(open) {
         if (!nav || !mt) return;
