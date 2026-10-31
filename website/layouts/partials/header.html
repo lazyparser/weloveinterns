@@ -9,6 +9,7 @@
     {{ $cur := .RelPermalink }}
     <a href="{{ "shise-stone/" | relLangURL }}" {{ if eq $cur "/shise-stone/" }}class="active"{{ end }}>{{ i18n "nav.shise" }}</a>
     <a href="{{ "interns/" | relLangURL }}" {{ if eq $cur "/interns/" }}class="active"{{ end }}>{{ i18n "nav.interns" }}</a>
+    <a href="{{ "positions/" | relLangURL }}" {{ if eq $cur "/positions/" }}class="active"{{ end }}>{{ i18n "nav.positions" }}</a>
     <a href="{{ "mentors/" | relLangURL }}" {{ if eq $cur "/mentors/" }}class="active"{{ end }}>{{ i18n "nav.mentors" }}</a>
     <a href="{{ "program/" | relLangURL }}" {{ if eq $cur "/program/" }}class="active"{{ end }}>{{ i18n "nav.program" }}</a>
     <a href="{{ "history/" | relLangURL }}" {{ if eq $cur "/history/" }}class="active"{{ end }}>{{ i18n "nav.timeline" }}</a>

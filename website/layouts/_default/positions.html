@@ -1,0 +1,67 @@
+{{ define "main" }}
+{{ $d := partial "site-data.html" . }}
+{{ $pos := $d.positions }}
+{{ $open := where $pos.positions "status" "open" }}
+{{ $tba := where $pos.positions "status" "tba" }}
+{{ $full := where $pos.positions "status" "full" }}
+
+<header class="page-head">
+  <div class="wrap-wide">
+    <div class="crumb"><a href="{{ "" | relLangURL }}">{{ i18n "crumb.home" }}</a> / {{ .Title }}</div>
+    <h1>{{ .Title }}</h1>
+    {{ with .Params.sub }}<div class="sub">{{ . }}</div>{{ end }}
+    <p class="pos-tally">
+      <span class="tally-open">{{ i18n "positions.tallyOpen" (dict "n" (add (len $open) (len $tba))) }}</span>
+      {{ with $tba }}<span class="tally-tba">{{ i18n "positions.tallyTba" (dict "n" (len .)) }}</span>{{ end }}
+      {{ with $full }}<span class="tally-full">{{ i18n "positions.tallyFull" (dict "n" (len .)) }}</span>{{ end }}
+    </p>
+  </div>
+</header>
+
+<div class="wrap-wide">
+  <div class="prose">{{ .Content }}</div>
+
+  {{ range $pos.tracks }}
+    {{ $track := . }}
+    {{ $items := where $pos.positions "track" $track.key }}
+    {{ if $items }}
+    <section class="pos-track">
+      <h2 id="track-{{ $track.key }}">{{ $track.name }}<span class="track-count">{{ len $items }}</span></h2>
+      {{ with $track.note }}<p class="track-note">{{ . }}</p>{{ end }}
+      <div class="pos-grid">
+        {{ range $items }}
+        <article class="pos" id="{{ .id }}">
+          <div class="pos-head">
+            <span class="pos-id">{{ .id }}</span>
+            <h3>{{ .title }}</h3>
+            {{ if ne .status "open" }}<span class="pos-flag pos-flag-{{ .status }}">{{ if eq .status "tba" }}{{ i18n "positions.tba" }}{{ else }}{{ i18n "positions.full" }}{{ end }}</span>{{ end }}
+          </div>
+          {{ with .badge }}<div class="pos-badge">{{ . }}</div>{{ end }}
+          {{ with .desc }}{{ range (split . "\n") }}{{ with (trim . " ") }}<p class="pos-desc">{{ . }}</p>{{ end }}{{ end }}{{ end }}
+          <dl class="pos-meta">
+            {{ with .org }}<div><dt>{{ i18n "positions.org" }}</dt><dd>{{ . }}</dd></div>{{ end }}
+            {{ with .mode }}<div><dt>{{ i18n "positions.mode" }}</dt><dd>{{ . }}</dd></div>{{ end }}
+            {{ with .location }}<div><dt>{{ i18n "positions.location" }}</dt><dd>{{ . }}</dd></div>{{ end }}
+            {{ with .level }}<div><dt>{{ i18n "positions.level" }}</dt><dd>{{ . }}</dd></div>{{ end }}
+            {{ with .slots }}<div><dt>{{ i18n "positions.slots" }}</dt><dd>{{ . }}</dd></div>{{ end }}
+            {{ with .stipend }}<div><dt>{{ i18n "positions.stipend" }}</dt><dd>{{ . }}</dd></div>{{ end }}
+          </dl>
+          {{ with .duties }}<details class="pos-more" open><summary>{{ i18n "positions.duties" }}<span>{{ len . }}</span></summary><ul>{{ range . }}<li>{{ . }}</li>{{ end }}</ul></details>{{ end }}
+          {{ with .reqs }}<details class="pos-more"><summary>{{ i18n "positions.reqs" }}<span>{{ len . }}</span></summary><ul>{{ range . }}<li>{{ . }}</li>{{ end }}</ul></details>{{ end }}
+          {{ with .bonus }}<details class="pos-more"><summary>{{ i18n "positions.bonus" }}<span>{{ len . }}</span></summary><ul>{{ range . }}<li>{{ . }}</li>{{ end }}</ul></details>{{ end }}
+          {{ with .gains }}<details class="pos-more"><summary>{{ i18n "positions.gains" }}<span>{{ len . }}</span></summary><ul>{{ range . }}<li>{{ . }}</li>{{ end }}</ul></details>{{ end }}
+          {{ with .links }}
+          <p class="pos-links">
+            {{ range . }}<a href="{{ .url }}" target="_blank" rel="noopener">{{ .label }}</a>{{ end }}
+          </p>
+          {{ end }}
+        </article>
+        {{ end }}
+      </div>
+    </section>
+    {{ end }}
+  {{ end }}
+
+  <p class="pos-foot"><a class="btn" href="{{ site.Params.repo }}/blob/master/open-internships.md" target="_blank" rel="noopener">{{ i18n "positions.source" }}</a></p>
+</div>
+{{ end }}

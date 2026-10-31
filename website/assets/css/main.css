@@ -516,3 +516,40 @@ th { background: var(--bg-soft); font-weight: 700; }
 html:lang(ru) .stones .node-label { font-size: 12.5px; }
 html:lang(ru) .stones .node-sub { font-size: 9px; }
 html:lang(en) .stones .node-label { font-size: 14px; }
+
+/* ---------- 在招岗位页 ---------- */
+.pos-tally { display: flex; flex-wrap: wrap; gap: .4rem .5rem; margin: .9rem 0 0; font-size: .82rem; }
+.pos-tally span { border: 1px solid var(--line); border-radius: 999px; padding: .16rem .6rem; color: var(--text-soft); background: var(--bg-soft); }
+.pos-tally .tally-open { color: var(--gold); border-color: color-mix(in srgb, var(--gold) 45%, var(--line)); }
+.pos-track { margin: 3rem 0 0; }
+.pos-track h2 { display: flex; align-items: baseline; gap: .6rem; font-size: 1.24rem; margin: 0 0 .5rem; }
+.track-count { font-family: var(--mono); font-size: .74rem; color: var(--muted); border: 1px solid var(--line); border-radius: 999px; padding: .05rem .45rem; }
+.track-note { color: var(--muted); font-size: .88rem; margin: 0 0 1.2rem; max-width: 62ch; }
+.pos-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(320px, 1fr)); gap: 1rem; }
+.pos { border: 1px solid var(--line); border-radius: 12px; padding: 1rem 1.05rem; background: var(--surface); }
+.pos:target { border-color: var(--gold); }
+.pos-head { display: flex; align-items: baseline; gap: .5rem; flex-wrap: wrap; }
+.pos-id { font-family: var(--mono); font-size: .74rem; color: var(--gold); border: 1px solid color-mix(in srgb, var(--gold) 40%, var(--line)); border-radius: 6px; padding: .05rem .38rem; }
+.pos-head h3 { font-size: 1.02rem; margin: 0; line-height: 1.35; }
+.pos-flag { font-size: .7rem; font-family: var(--mono); border-radius: 999px; padding: .08rem .45rem; border: 1px solid var(--line); color: var(--muted); }
+.pos-flag-full { color: var(--copper); border-color: color-mix(in srgb, var(--copper) 45%, var(--line)); }
+.pos-flag-tba { color: var(--cyan); border-color: color-mix(in srgb, var(--cyan) 45%, var(--line)); }
+.pos-badge { font-size: .74rem; color: var(--muted); margin: .35rem 0 0; }
+.pos-desc { font-size: .9rem; margin: .6rem 0; color: var(--text-soft); white-space: pre-line; }
+.pos-meta { display: grid; grid-template-columns: max-content 1fr; gap: .18rem .6rem; margin: .6rem 0 0; font-size: .82rem; }
+.pos-meta div { display: contents; }
+.pos-meta dt { color: var(--muted); }
+.pos-meta dd { margin: 0; color: var(--text-soft); }
+.pos-more { margin: .7rem 0 0; border-top: 1px dashed var(--line); padding-top: .55rem; }
+.pos-more summary { cursor: pointer; font-size: .86rem; color: var(--text-soft); display: flex; gap: .4rem; align-items: baseline; }
+.pos-more summary span { font-family: var(--mono); font-size: .72rem; color: var(--muted); }
+.pos-more ul { margin: .5rem 0 0; padding-left: 1.1rem; font-size: .85rem; color: var(--text-soft); }
+.pos-more li { margin: .22rem 0; }
+.pos-links { margin: .6rem 0 0; display: flex; flex-wrap: wrap; gap: .35rem .5rem; }
+.pos-links a { font-size: .78rem; border: 1px solid var(--line); border-radius: 999px; padding: .1rem .5rem; }
+.pos-foot { margin: 2.6rem 0 0; }
+@media (max-width: 640px) {
+  .pos-grid { grid-template-columns: 1fr; }
+  .pos-meta { grid-template-columns: 1fr; gap: .1rem; }
+  .pos-meta dt { margin-top: .35rem; font-size: .76rem; }
+}

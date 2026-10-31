@@ -216,3 +216,41 @@ other = "그림: 이 사이트가 「지아천 프로젝트: RISC-V 소프트웨
 
 [avatar.alt]
 other = "{{ .Name }} 프로필 사진"
+
+# ---------- 채용 중인 포지션 페이지 ----------
+[nav.positions]
+other = "채용 중인 포지션"
+[home.ctaPositions]
+other = "채용 중인 포지션"
+[positions.tallyOpen]
+other = "채용 중인 포지션 {{ .n }}개"
+[positions.tallyTba]
+other = "그중 {{ .n }}개는 상세 정보 보충 예정"
+[positions.tallyFull]
+other = "{{ .n }}개 마감"
+[positions.tba]
+other = "보충 예정"
+[positions.full]
+other = "마감"
+[positions.org]
+other = "제공"
+[positions.mode]
+other = "방식"
+[positions.location]
+other = "근무지"
+[positions.level]
+other = "능력 레벨"
+[positions.slots]
+other = "정원"
+[positions.stipend]
+other = "인턴 수당"
+[positions.duties]
+other = "직무"
+[positions.reqs]
+other = "자격 요건"
+[positions.bonus]
+other = "우대 사항"
+[positions.gains]
+other = "얻을 수 있는 것"
+[positions.source]
+other = "저장소의 원본 포지션 목록 보기 →"

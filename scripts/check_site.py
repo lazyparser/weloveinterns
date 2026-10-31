@@ -66,7 +66,7 @@ def main():
 
     # ---- 多语言完整性：每种语言必须各有同构的一套页面 ----
     LANGS = [("zh", ""), ("zh-Hant", "zh-hant"), ("en", "en"), ("ja", "ja"), ("ru", "ru"), ("ko", "ko")]
-    PAGES = ["", "history", "interns", "mentors", "program", "shise-stone", "sources", "join",
+    PAGES = ["", "history", "interns", "mentors", "positions", "program", "shise-stone", "sources", "join",
              "blog", "blog/nine-years", "blog/joint-recruitment-2024"]
     lang_missing = []
     for lang, prefix in LANGS:

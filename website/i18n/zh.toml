@@ -216,3 +216,41 @@ other = "图：本站依据《甲辰计划：为了 RISC-V 软件生态的繁荣
 
 [avatar.alt]
 other = "{{ .Name }} 的头像"
+
+# ---------- 在招岗位页 ----------
+[nav.positions]
+other = "在招岗位"
+[home.ctaPositions]
+other = "在招岗位"
+[positions.tallyOpen]
+other = "在招 {{ .n }} 个岗位"
+[positions.tallyTba]
+other = "其中 {{ .n }} 个详情待补充"
+[positions.tallyFull]
+other = "{{ .n }} 个已满"
+[positions.tba]
+other = "待补充"
+[positions.full]
+other = "已满"
+[positions.org]
+other = "提供方"
+[positions.mode]
+other = "方式"
+[positions.location]
+other = "地点"
+[positions.level]
+other = "能力等级"
+[positions.slots]
+other = "名额"
+[positions.stipend]
+other = "实习费"
+[positions.duties]
+other = "岗位职责"
+[positions.reqs]
+other = "任职要求"
+[positions.bonus]
+other = "加分项"
+[positions.gains]
+other = "你会获得"
+[positions.source]
+other = "看仓库里的原始岗位表 →"

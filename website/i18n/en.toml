@@ -217,3 +217,41 @@ other = "Figure: drawn by this site after the structure on slide 44 of “Projec
 
 [avatar.alt]
 other = "{{ .Name }} — avatar"
+
+# ---------- positions page ----------
+[nav.positions]
+other = "Open positions"
+[home.ctaPositions]
+other = "Open positions"
+[positions.tallyOpen]
+other = "{{ .n }} positions open"
+[positions.tallyTba]
+other = "{{ .n }} of them awaiting details"
+[positions.tallyFull]
+other = "{{ .n }} filled"
+[positions.tba]
+other = "Details to come"
+[positions.full]
+other = "Filled"
+[positions.org]
+other = "Offered by"
+[positions.mode]
+other = "Mode"
+[positions.location]
+other = "Location"
+[positions.level]
+other = "Level"
+[positions.slots]
+other = "Places"
+[positions.stipend]
+other = "Stipend"
+[positions.duties]
+other = "Responsibilities"
+[positions.reqs]
+other = "Requirements"
+[positions.bonus]
+other = "Bonus points"
+[positions.gains]
+other = "What you gain"
+[positions.source]
+other = "See the original position list in the repository →"
