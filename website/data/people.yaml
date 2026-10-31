@@ -125,6 +125,7 @@ interns:
   - name: 陈谋顺
     handle: cms19859230182-lang
     avatar: https://avatars.githubusercontent.com/u/276597748?v=4
+    level: LV3+
     org: openEuler 开源实习 · sig-ROS
     work: >-
       负责 ROS 2 Humble 软件包的构建修复与维护：约 60+ PR、合入 40+，主要修多架构与新版本带来的编译失败、

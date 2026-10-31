@@ -10,7 +10,7 @@ description: 甲辰计划、PLCT 实验室、苦芽科技与 TARSIER 团队认�
 
 门类只有两种：**LV4+（大能力者 / 超能力者）** 与 **senior interns（高级实习生）**。每条后面的「背书」链接指向甲辰计划的人才识别互认网络，背书全部在 GitHub 上公开可查。{{< cite "builders-network" >}}
 
-## 超能力者与 LV4+
+## LV 等级名单（LV5 / LV4+ / LV4 / LV3+）
 
 ### LV5
 
@@ -23,7 +23,7 @@ description: 甲辰计划、PLCT 实验室、苦芽科技与 TARSIER 团队认�
 | **陆旭凡** | 原 LLVM 小队实习生 | 毕业后进入 PLCT 实验室 |
 | **安传旭（anchuanxu）** | 智能机器人（2019/4–2020/3） | vSLAM 实践课程、仿真无人机与多机器人项目、移动机器人激光 SLAM 算法优化、路径规划算法升级 |
 
-### LV4+ / LV4
+### LV4+ / LV4 / LV3+
 
 | 名字 | 等级 | 做了什么 |
 | --- | --- | --- |
@@ -41,6 +41,7 @@ description: 甲辰计划、PLCT 实验室、苦芽科技与 TARSIER 团队认�
 | **陶立强** | LV4 | 原 V8 小队成员，从 PLCT 毕业，2022 年前后从东京大学（大概）毕业 |
 | **韩博阳** | LV4 | CAAT 小队「著名摸鱼大佬」（原文如此） |
 | **王晓云（jiuyewxy）** | LV4 | 机械臂 ROS 课程内容制作、手势识别在 XBot 上的移植测试、室内移动机器人建图定位与路径规划研究 |
+| **陈谋顺** | LV3+ | [openEuler](https://www.openeuler.org/) 开源实习（sig-ROS）：做 ROS 2 Humble 软件包的构建修复与维护，约 **60+ PR、合入 40+**，主要修多架构与新版本带来的编译失败、补依赖链、发布分支回移植。另在 [RT-Thread](https://github.com/RT-Thread/rt-thread) 上游做过 BSP 与模拟器相关贡献。特长是嵌入式与 RISC-V 相关适配、发行版软件包修构建 |
 
 ## Senior interns（高级实习生）
 
@@ -73,7 +74,6 @@ senior 不是荣誉称号，而是一份契约：技术能力达到 LV3 及以�
 | 名字 | GitHub | 社区与项目 |
 | --- | --- | --- |
 | **MikuNotFoundException** | [@Officeyutong](https://github.com/Officeyutong) | 参与 [eunomia-bpf](https://github.com/eunomia-bpf/eunomia-bpf) 社区多个项目的开发，包括 [bpftime](https://github.com/eunomia-bpf/bpftime)、eunomia-bpf、[wasm-bpf](https://github.com/eunomia-bpf/wasm-bpf) 等 |
-| **陈谋顺** | [@cms19859230182-lang](https://github.com/cms19859230182-lang) | [openEuler](https://www.openeuler.org/) 开源实习（sig-ROS）：做 ROS 2 Humble 软件包的构建修复与维护，约 **60+ PR、合入 40+**，主要修多架构与新版本带来的编译失败、补依赖链、发布分支回移植。另在 [RT-Thread](https://github.com/RT-Thread/rt-thread) 上游做过 BSP 与模拟器相关贡献。特长是嵌入式与 RISC-V 相关适配、发行版软件包修构建 |
 | **于鸿伟** | [@hongwei-2026](https://github.com/hongwei-2026) | 华为开源实习**获评优秀实习生**。参与 [昇腾 NPU](https://github.com/Ascend) 生态建设：完成框架适配、大模型调优部署与硬件模块开发，多项成果合入开源社区。擅长 AI 工具协作开发，能主动查阅资料解决问题、及时同步项目进度与反馈，保障任务高效推进落地 |
 
 ## 他们自己说的话
