@@ -94,11 +94,28 @@ def main():
         if missing:
             hreflang_bad.append((rel, "缺 x-default"))
 
+    # ---- 岗位页的撤稿闸门：withheld 的编号不能出现在任何页面 ----
+    withheld_leak = []
+    meta = os.path.join(os.path.dirname(root), "data", "positions_meta.yaml")
+    if os.path.exists(meta):
+        raw = open(meta, encoding="utf-8").read()
+        ids = re.findall(r"^\s*-\s*([A-Z]{1,3}\d+)\s*$", raw, re.M)
+        for path in htmls:
+            if "positions" not in path:
+                continue
+            html = open(path, encoding="utf-8", errors="replace").read()
+            for pid in ids:
+                if re.search(r">\s*%s\s*<" % pid, html):
+                    withheld_leak.append(f"{os.path.relpath(path, root)} 出现已撤下的 {pid}")
+
     print(f"HTML 页面: {len(htmls)}")
     print(f"  · 语言数 {len(LANGS)}，每种应有 {len(PAGES)} 页；缺失 {len(lang_missing)} 处")
     for m in lang_missing[:12]:
         print(f"  ✗ {m}")
     print(f"  · hreflang 异常: {len(hreflang_bad)} 页")
+    print(f"  · 岗位撤稿泄漏: {len(withheld_leak)} 处")
+    for m in withheld_leak[:6]:
+        print(f"  ✗ {m}")
     for page, why in hreflang_bad[:10]:
         print(f"  ✗ {page}: {why}")
     print(f"站内链接: 检查 {checked} 个，坏链 {len(broken)} 个")
@@ -109,7 +126,7 @@ def main():
         print(f"  ✗ {page} 出现未登记的来源 id")
     print(f"来源登记表: {src_n} 条")
 
-    if broken or cite_unknown or src_n == 0 or lang_missing or hreflang_bad:
+    if broken or cite_unknown or src_n == 0 or lang_missing or hreflang_bad or withheld_leak:
         sys.exit(1)
     print("全部通过")
 
