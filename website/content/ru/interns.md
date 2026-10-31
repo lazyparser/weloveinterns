@@ -76,6 +76,7 @@ senior — не почётное звание, а договор: техниче
 | Имя | GitHub | Сообщество и проект |
 | --- | --- | --- |
 | **MikuNotFoundException** | [@Officeyutong](https://github.com/Officeyutong) | участвует в разработке нескольких проектов сообщества [eunomia-bpf](https://github.com/eunomia-bpf/eunomia-bpf), включая [bpftime](https://github.com/eunomia-bpf/bpftime), eunomia-bpf, [wasm-bpf](https://github.com/eunomia-bpf/wasm-bpf) и другие |
+| **Huang Zhenyu (Rain Huang)** | [@rainhuang0220](https://github.com/rainhuang0220) | Проходил стажировку по разработке [MoonBit](https://www.moonbitlang.com/) в команде J139 [PLCT Lab](https://github.com/plctlab); сейчас активно работает над долговременной памятью и управлением контекстом для LLM |
 
 ## Что они говорят сами
 

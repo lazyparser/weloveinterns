@@ -171,3 +171,11 @@ interns:
     org: "команда PLCT J139 · сообщество MoonBit"
     work: "опыт стажировки: руководил командой PLCT J139 в разработке экосистемы сообщества MoonBit, организовал Demo Day и сайт сообщества; один из заметных голосов раннего сообщества MoonBit. Специализация: компиляторы и формальные доказательства."
     link: https://github.com/Lampese
+  - name: Huang Zhenyu
+    alias: Rain Huang
+    handle: rainhuang0220
+    avatar: https://avatars.githubusercontent.com/u/195641118?v=4
+    org: команда J139 PLCT Lab · MoonBit (стажировка завершена)
+    work: >-
+      Проходил стажировку по разработке MoonBit в команде J139 PLCT Lab; сейчас активно работает над долговременной памятью и управлением контекстом для LLM.
+    link: https://github.com/rainhuang0220

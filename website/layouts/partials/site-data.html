@@ -4,7 +4,16 @@
 */ -}}
 {{- $lang := site.Language.Lang -}}
 {{- $cur := dict -}}
-{{- with index site.Data "i18n" -}}{{- with index . $lang -}}{{- $cur = . -}}{{- end -}}{{- end -}}
+{{- with index site.Data "i18n" -}}
+  {{- with index . $lang -}}{{- $cur = . -}}{{- end -}}
+  {{- /* site.Language.Lang 是 zh-hant（小写），data 目录键却保留原始大小写；做一次不分大小写的
+         兜底匹配，否则繁中页面会静默回退成简体正文。目录本身也统一用小写。 */ -}}
+  {{- if not $cur -}}
+    {{- range $k, $v := . -}}
+      {{- if and (not $cur) (eq (lower $k) (lower $lang)) -}}{{- $cur = $v -}}{{- end -}}
+    {{- end -}}
+  {{- end -}}
+{{- end -}}
 {{- $fallback := dict -}}
 {{- with index site.Data "i18n" -}}{{- with index . "zh" -}}{{- $fallback = . -}}{{- end -}}{{- end -}}
 {{- $out := dict -}}
