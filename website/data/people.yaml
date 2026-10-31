@@ -125,6 +125,7 @@ interns:
   - name: 陈谋顺
     handle: cms19859230182-lang
     avatar: https://avatars.githubusercontent.com/u/276597748?v=4
+    level: LV3+
     org: openEuler 开源实习 · sig-ROS
     work: >-
       负责 ROS 2 Humble 软件包的构建修复与维护：约 60+ PR、合入 40+，主要修多架构与新版本带来的编译失败、
@@ -134,6 +135,7 @@ interns:
   - name: 于鸿伟
     handle: hongwei-2026
     avatar: https://avatars.githubusercontent.com/u/239529835?v=4
+    level: LV2
     org: 华为开源实习 · 昇腾 NPU 生态
     work: >-
       华为开源实习获评优秀实习生。参与昇腾 NPU 生态建设，完成框架适配、大模型调优部署与硬件模块开发，
