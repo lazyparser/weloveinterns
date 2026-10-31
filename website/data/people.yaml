@@ -122,3 +122,12 @@ interns:
     org: eunomia-bpf 社区（eBPF / Wasm）
     work: 参与了 eunomia-bpf 社区多个项目的开发，包括 bpftime、eunomia-bpf、wasm-bpf 等。
     link: https://github.com/Officeyutong
+  - name: 陈谋顺
+    handle: cms19859230182-lang
+    avatar: https://avatars.githubusercontent.com/u/276597748?v=4
+    org: openEuler 开源实习 · sig-ROS
+    work: >-
+      负责 ROS 2 Humble 软件包的构建修复与维护：约 60+ PR、合入 40+，主要修多架构与新版本带来的编译失败、
+      补依赖链、发布分支回移植；另在 RT-Thread 上游做过 BSP 与模拟器相关贡献。
+      特长是嵌入式与 RISC-V 相关适配、发行版软件包修构建。
+    link: https://github.com/cms19859230182-lang
