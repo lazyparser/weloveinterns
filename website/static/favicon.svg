@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-label="We Love Interns">
+  <rect width="64" height="64" rx="14" fill="#0b0d11"/>
+  <circle cx="20" cy="24" r="6.2" fill="none" stroke="#d8b263" stroke-width="2.4"/>
+  <circle cx="44" cy="24" r="6.2" fill="none" stroke="#6cc0da" stroke-width="2.4"/>
+  <circle cx="32" cy="44" r="6.2" fill="none" stroke="#7fb98a" stroke-width="2.4"/>
+  <path d="M25 28.5 L39 28.5 M23 30 L29 39 M41 30 L35 39" stroke="#d8b263" stroke-width="1.8" stroke-linecap="round" opacity=".75"/>
+</svg>

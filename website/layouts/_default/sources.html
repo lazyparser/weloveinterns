@@ -1,0 +1,29 @@
+{{ define "main" }}
+<header class="page-head">
+  <div class="wrap-wide">
+    <div class="crumb"><a href="{{ "" | relURL }}">首页</a> / {{ .Title }}</div>
+    <h1>{{ .Title }}</h1>
+    {{ with .Params.sub }}<div class="sub">{{ . }}</div>{{ end }}
+  </div>
+</header>
+<div class="wrap-wide">
+  <div class="prose">{{ .Content }}</div>
+
+  <ul class="src-list">
+    {{ range $i, $s := site.Data.sources }}
+    <li id="{{ $s.id }}">
+      <div class="src-idx">[{{ add $i 1 }}]</div>
+      <div>
+        <p class="src-title">{{ $s.title }}</p>
+        <p class="src-meta">
+          {{ with $s.author }}{{ . }} · {{ end }}{{ with $s.date }}{{ . }} · {{ end }}
+          {{ if hasPrefix $s.url "http" }}<a href="{{ $s.url }}" target="_blank" rel="noopener">{{ $s.url }}</a>{{ else }}{{ $s.url }}{{ end }}
+        </p>
+        <p class="src-usage">用法：{{ $s.usage }}</p>
+        <p class="src-lic">许可：{{ $s.license }}{{ with $s.note }}　{{ . }}{{ end }}</p>
+      </div>
+    </li>
+    {{ end }}
+  </ul>
+</div>
+{{ end }}

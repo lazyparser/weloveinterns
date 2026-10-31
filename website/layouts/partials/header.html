@@ -1,0 +1,19 @@
+<div class="wrap-wide header-inner">
+  <a class="brand" href="{{ "" | relURL }}">
+    {{ site.Params.siteName }}<span class="cn">{{ site.Params.siteNameCN }}</span>
+  </a>
+
+  <button class="icon-btn menu-toggle" id="menuToggle" aria-label="菜单" aria-expanded="false">☰</button>
+
+  <nav class="nav" id="siteNav">
+    {{ $cur := .RelPermalink }}
+    <a href="{{ "story/" | relURL }}" {{ if eq $cur "/story/" }}class="active"{{ end }}>故事</a>
+    <a href="{{ "history/" | relURL }}" {{ if eq $cur "/history/" }}class="active"{{ end }}>时间线</a>
+    <a href="{{ "shise-stone/" | relURL }}" {{ if eq $cur "/shise-stone/" }}class="active"{{ end }}>五色石</a>
+    <a href="{{ "interns/" | relURL }}" {{ if eq $cur "/interns/" }}class="active"{{ end }}>实习生</a>
+    <a href="{{ "program/" | relURL }}" {{ if eq $cur "/program/" }}class="active"{{ end }}>培养计划</a>
+    <a href="{{ "join/" | relURL }}" {{ if eq $cur "/join/" }}class="active"{{ end }}>加入</a>
+    <a href="{{ "sources/" | relURL }}" {{ if eq $cur "/sources/" }}class="active"{{ end }}>来源</a>
+    <button class="icon-btn" id="themeToggle" aria-label="切换明暗配色">◐</button>
+  </nav>
+</div>
