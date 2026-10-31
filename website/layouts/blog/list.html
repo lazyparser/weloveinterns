@@ -8,7 +8,7 @@
 </header>
 <div class="wrap-wide">
   <ul class="post-list post-list-page">
-    {{ range .Pages.ByDate.Reverse }}
+    {{ range .Pages.ByDate }}
     <li>
       <div class="post-date">{{ .Date.Format "2006-01-02" }}</div>
       <div>
