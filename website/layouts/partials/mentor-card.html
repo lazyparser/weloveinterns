@@ -1,0 +1,28 @@
+{{/* 导师卡片：首页与 /mentors/ 共用；除 name 外所有字段都是有才渲染 */}}
+<article class="mentor">
+  {{ partial "avatar.html" (dict "name" .name "handle" .handle "avatar" .avatar "size" 112) }}
+  <div class="mentor-body">
+    <div class="person-top">
+      <h3>{{ .name }}{{ with .alias }}<span class="alias">（{{ . }}）</span>{{ end }}</h3>
+      {{ with .role }}<span class="lvl">{{ . }}</span>{{ end }}
+    </div>
+    {{ with .bio }}<p class="work">{{ . }}</p>{{ end }}
+    {{ with .history }}<p class="who">{{ . }}</p>{{ end }}
+    {{ with .note }}<p class="mentor-note">{{ . }}</p>{{ end }}
+    <div class="person-links">
+      {{ with .handle }}<a href="https://github.com/{{ . }}" target="_blank" rel="noopener">@{{ . }}</a>{{ end }}
+      {{ with .contact }}<a href="mailto:{{ . }}">{{ . }}</a>{{ end }}
+      {{ with .tags }}{{ range . }}<span class="proj-tag">{{ . }}</span>{{ end }}{{ end }}
+    </div>
+    {{ with .links }}
+    <ul class="mentor-links">
+      {{ range . }}
+      <li>
+        <a href="{{ .url }}" target="_blank" rel="noopener">{{ .label }}</a>
+        {{ with .note }}<span class="mentor-link-note">{{ . }}</span>{{ end }}
+      </li>
+      {{ end }}
+    </ul>
+    {{ end }}
+  </div>
+</article>
