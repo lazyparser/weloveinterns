@@ -77,6 +77,7 @@ senior는 명예 칭호가 아니라 계약입니다. 기술 능력이 LV3 이�
 | --- | --- | --- |
 | **MikuNotFoundException** | [@Officeyutong](https://github.com/Officeyutong) | [eunomia-bpf](https://github.com/eunomia-bpf/eunomia-bpf) 커뮤니티의 여러 프로젝트 개발에 참여. [bpftime](https://github.com/eunomia-bpf/bpftime), eunomia-bpf, [wasm-bpf](https://github.com/eunomia-bpf/wasm-bpf) 등 포함 |
 | **黄镇雨(Rain Huang)** | [@rainhuang0220](https://github.com/rainhuang0220) | [PLCT Lab](https://github.com/plctlab) J139 팀에서 [MoonBit](https://www.moonbitlang.com/) 개발 인턴으로 참여; 현재는 LLM의 장기 기억과 컨텍스트 관리 개선에 힘쓰고 있음 |
+| **蔡嘉妮(CGaaaaaa)** | [@CGaaaaaa](https://github.com/CGaaaaaa) | [PLCT Lab](https://github.com/plctlab) J139 팀에서 [MoonBit](https://www.moonbitlang.com/) 개발 인턴으로 참여했으며, 언어 생태계 표준 라이브러리와 개발 도구를 중심으로 여러 프로젝트의 구현과 유지보수를 담당했습니다. 알고리즘, 파싱, 암호화 인코딩, 리액티브 및 비동기 프로그래밍 분야를 다뤘습니다 ([JWT](https://github.com/CGaaaaaa/JWT)、[DER](https://github.com/CGaaaaaa/DER)、[reactivex](https://github.com/CGaaaaaa/reactivex)、[moonbit-url](https://github.com/CGaaaaaa/moonbit-url) 참조) |
 
 ## 그들이 직접 한 말
 
